@@ -1,0 +1,260 @@
+[2021-10-15 16:12:04.655] WHTSB1B1080_20171017215133_LIST.txt文件已存在
+[2021-10-15 16:12:14.869] WHTSB1B1080_20180315000000_LIST.txt文件已存在
+[2021-10-15 16:12:23.595] WHTSB1B1080_20180419000000_LIST.txt文件已存在
+[2021-10-15 16:12:24.007] WHTSB1B1080_20180422000000_LIST.txt文件已存在
+[2021-10-15 16:12:24.857] WHTSB1B1080_20180428000000_LIST.txt文件已存在
+[2021-10-15 16:12:25.824] Process single file with error：远程服务器返回错误: (501) 参数或变量中有语法错误。
+   在 System.Net.FtpWebRequest.SyncRequestCallback(Object obj)
+   在 System.Net.FtpWebRequest.RequestCallback(Object obj)
+   在 System.Net.CommandStream.Dispose(Boolean disposing)
+   在 System.IO.Stream.Close()
+   在 System.IO.Stream.Dispose()
+   在 System.Net.ConnectionPool.Destroy(PooledStream pooledStream)
+   在 System.Net.ConnectionPool.PutConnection(PooledStream pooledStream, Object owningObject, Int32 creationTimeout, Boolean canReuse)
+   在 System.Net.FtpWebRequest.FinishRequestStage(RequestStage stage)
+   在 System.Net.FtpWebRequest.SyncRequestCallback(Object obj)
+   在 System.Net.FtpWebRequest.RequestCallback(Object obj)
+   在 System.Net.CommandStream.Abort(Exception e)
+   在 System.Net.CommandStream.CheckContinuePipeline()
+   在 System.Net.FtpWebRequest.DataStreamClosed(CloseExState closeState)
+   在 System.Net.FtpDataStream.System.Net.ICloseEx.CloseEx(CloseExState closeState)
+   在 System.Net.FtpDataStream.Dispose(Boolean disposing)
+   在 System.IO.Stream.Close()
+   在 System.Net.FtpDataStream.Read(Byte[] buffer, Int32 offset, Int32 size)
+   在 System.IO.StreamReader.ReadBuffer()
+   在 System.IO.StreamReader.ReadLine()
+   在 ftpd.FtpClient.ReadLines(String filePath, FtpWebResponse rsp) 位置 D:\lizw\eAgentsAdmin_source\ftpd\Program.cs:行号 806
+   在 ftpd.FtpClient.GetFtpFileContent() 位置 D:\lizw\eAgentsAdmin_source\ftpd\Program.cs:行号 783
+   在 ftpd.Program.ProcessSingleFile(String shortcutKey, FtpSalesFile file) 位置 D:\lizw\eAgentsAdmin_source\ftpd\Program.cs:行号 552
+[2021-10-15 16:12:27.521] WHTSB1B1080_20180503000000_LIST.txt文件已存在
+[2021-10-15 16:12:27.527] WHTSB1B1080_20180506000000_LIST.txt文件已存在
+[2021-10-15 16:12:27.957] WHTSB1B1080_20180510000000_LIST.txt文件已存在
+[2021-10-15 16:12:27.964] WHTSB1B1080_20180511000000_LIST.txt文件已存在
+[2021-10-15 16:12:27.970] WHTSB1B1080_20180512000000_LIST.txt文件已存在
+[2021-10-15 16:12:27.980] WHTSB1B1080_20180513000000_LIST.txt文件已存在
+[2021-10-15 16:12:27.986] WHTSB1B1080_20180514000000_LIST.txt文件已存在
+[2021-10-15 16:12:27.993] WHTSB1B1080_20180515000000_LIST.txt文件已存在
+[2021-10-15 16:12:28.000] WHTSB1B1080_20180516000000_LIST.txt文件已存在
+[2021-10-15 16:12:28.009] WHTSB1B1080_20180517000000_LIST.txt文件已存在
+[2021-10-15 16:12:28.016] WHTSB1B1080_20180518000000_LIST.txt文件已存在
+[2021-10-15 16:12:28.378] WHTSB1B1080_20180528000000_LIST.txt文件已存在
+[2021-10-15 16:12:28.384] WHTSB1B1080_20180529000000_LIST.txt文件已存在
+[2021-10-15 16:12:28.391] WHTSB1B1080_20180530000000_LIST.txt文件已存在
+[2021-10-15 16:12:28.397] WHTSB1B1080_20180531000000_LIST.txt文件已存在
+[2021-10-15 16:12:28.403] WHTSB1B1080_20180601000000_LIST.txt文件已存在
+[2021-10-15 16:12:28.408] WHTSB1B1080_20180602000000_LIST.txt文件已存在
+[2021-10-15 16:12:28.413] WHTSB1B1080_20180603000000_LIST.txt文件已存在
+[2021-10-15 16:12:28.416] WHTSB1B1080_20180604000000_LIST.txt文件已存在
+[2021-10-15 16:12:29.214] WHTSB1B1080_20180612000000_LIST.txt文件已存在
+[2021-10-15 16:12:30.951] Process single file with error：该字符串未被识别为有效的 DateTime。
+   在 System.DateTimeParse.Parse(String s, DateTimeFormatInfo dtfi, DateTimeStyles styles)
+   在 System.DateTime.Parse(String s)
+   在 ftpd.Program.ProcessSingleFile(String shortcutKey, FtpSalesFile file) 位置 D:\lizw\eAgentsAdmin_source\ftpd\Program.cs:行号 573
+[2021-10-15 16:12:31.406] Process single file with error：该字符串未被识别为有效的 DateTime。
+   在 System.DateTimeParse.Parse(String s, DateTimeFormatInfo dtfi, DateTimeStyles styles)
+   在 System.DateTime.Parse(String s)
+   在 ftpd.Program.ProcessSingleFile(String shortcutKey, FtpSalesFile file) 位置 D:\lizw\eAgentsAdmin_source\ftpd\Program.cs:行号 573
+[2021-10-15 16:12:43.893] WHTSB1B1080_20180803000000_LIST.txt文件已存在
+[2021-10-15 16:12:46.066] Process single file with error：该字符串未被识别为有效的 DateTime。
+   在 System.DateTimeParse.Parse(String s, DateTimeFormatInfo dtfi, DateTimeStyles styles)
+   在 System.DateTime.Parse(String s)
+   在 ftpd.Program.ProcessSingleFile(String shortcutKey, FtpSalesFile file) 位置 D:\lizw\eAgentsAdmin_source\ftpd\Program.cs:行号 573
+[2021-10-15 16:12:48.572] WHTSB1B1080_20180821000000_LIST.txt文件已存在
+[2021-10-15 16:12:49.039] Process single file with error：该字符串未被识别为有效的 DateTime。
+   在 System.DateTimeParse.Parse(String s, DateTimeFormatInfo dtfi, DateTimeStyles styles)
+   在 System.DateTime.Parse(String s)
+   在 ftpd.Program.ProcessSingleFile(String shortcutKey, FtpSalesFile file) 位置 D:\lizw\eAgentsAdmin_source\ftpd\Program.cs:行号 573
+[2021-10-15 16:12:49.043] WHTSB1B1080_20180824000000_LIST.txt文件已存在
+[2021-10-15 16:12:49.048] WHTSB1B1080_20180825000000_LIST.txt文件已存在
+[2021-10-15 16:12:50.356] Process single file with error：该字符串未被识别为有效的 DateTime。
+   在 System.DateTimeParse.Parse(String s, DateTimeFormatInfo dtfi, DateTimeStyles styles)
+   在 System.DateTime.Parse(String s)
+   在 ftpd.Program.ProcessSingleFile(String shortcutKey, FtpSalesFile file) 位置 D:\lizw\eAgentsAdmin_source\ftpd\Program.cs:行号 573
+[2021-10-15 16:12:50.751] Process single file with error：该字符串未被识别为有效的 DateTime。
+   在 System.DateTimeParse.Parse(String s, DateTimeFormatInfo dtfi, DateTimeStyles styles)
+   在 System.DateTime.Parse(String s)
+   在 ftpd.Program.ProcessSingleFile(String shortcutKey, FtpSalesFile file) 位置 D:\lizw\eAgentsAdmin_source\ftpd\Program.cs:行号 573
+[2021-10-15 16:12:53.031] Process single file with error：远程服务器返回错误: (501) 参数或变量中有语法错误。
+   在 System.Net.FtpWebRequest.SyncRequestCallback(Object obj)
+   在 System.Net.FtpWebRequest.RequestCallback(Object obj)
+   在 System.Net.CommandStream.Dispose(Boolean disposing)
+   在 System.IO.Stream.Close()
+   在 System.IO.Stream.Dispose()
+   在 System.Net.ConnectionPool.Destroy(PooledStream pooledStream)
+   在 System.Net.ConnectionPool.PutConnection(PooledStream pooledStream, Object owningObject, Int32 creationTimeout, Boolean canReuse)
+   在 System.Net.FtpWebRequest.FinishRequestStage(RequestStage stage)
+   在 System.Net.FtpWebRequest.SyncRequestCallback(Object obj)
+   在 System.Net.FtpWebRequest.RequestCallback(Object obj)
+   在 System.Net.CommandStream.Abort(Exception e)
+   在 System.Net.CommandStream.CheckContinuePipeline()
+   在 System.Net.FtpWebRequest.DataStreamClosed(CloseExState closeState)
+   在 System.Net.FtpDataStream.System.Net.ICloseEx.CloseEx(CloseExState closeState)
+   在 System.Net.FtpDataStream.Dispose(Boolean disposing)
+   在 System.IO.Stream.Close()
+   在 System.Net.FtpDataStream.Read(Byte[] buffer, Int32 offset, Int32 size)
+   在 System.IO.StreamReader.ReadBuffer()
+   在 System.IO.StreamReader.ReadLine()
+   在 ftpd.FtpClient.ReadLines(String filePath, FtpWebResponse rsp) 位置 D:\lizw\eAgentsAdmin_source\ftpd\Program.cs:行号 806
+   在 ftpd.FtpClient.GetFtpFileContent() 位置 D:\lizw\eAgentsAdmin_source\ftpd\Program.cs:行号 783
+   在 ftpd.Program.ProcessSingleFile(String shortcutKey, FtpSalesFile file) 位置 D:\lizw\eAgentsAdmin_source\ftpd\Program.cs:行号 552
+[2021-10-15 16:12:54.742] Process single file with error：远程服务器返回错误: (501) 参数或变量中有语法错误。
+   在 System.Net.FtpWebRequest.SyncRequestCallback(Object obj)
+   在 System.Net.FtpWebRequest.RequestCallback(Object obj)
+   在 System.Net.CommandStream.Dispose(Boolean disposing)
+   在 System.IO.Stream.Close()
+   在 System.IO.Stream.Dispose()
+   在 System.Net.ConnectionPool.Destroy(PooledStream pooledStream)
+   在 System.Net.ConnectionPool.PutConnection(PooledStream pooledStream, Object owningObject, Int32 creationTimeout, Boolean canReuse)
+   在 System.Net.FtpWebRequest.FinishRequestStage(RequestStage stage)
+   在 System.Net.FtpWebRequest.SyncRequestCallback(Object obj)
+   在 System.Net.FtpWebRequest.RequestCallback(Object obj)
+   在 System.Net.CommandStream.Abort(Exception e)
+   在 System.Net.CommandStream.CheckContinuePipeline()
+   在 System.Net.FtpWebRequest.DataStreamClosed(CloseExState closeState)
+   在 System.Net.FtpDataStream.System.Net.ICloseEx.CloseEx(CloseExState closeState)
+   在 System.Net.FtpDataStream.Dispose(Boolean disposing)
+   在 System.IO.Stream.Close()
+   在 System.Net.FtpDataStream.Read(Byte[] buffer, Int32 offset, Int32 size)
+   在 System.IO.StreamReader.ReadBuffer()
+   在 System.IO.StreamReader.ReadLine()
+   在 ftpd.FtpClient.ReadLines(String filePath, FtpWebResponse rsp) 位置 D:\lizw\eAgentsAdmin_source\ftpd\Program.cs:行号 806
+   在 ftpd.FtpClient.GetFtpFileContent() 位置 D:\lizw\eAgentsAdmin_source\ftpd\Program.cs:行号 783
+   在 ftpd.Program.ProcessSingleFile(String shortcutKey, FtpSalesFile file) 位置 D:\lizw\eAgentsAdmin_source\ftpd\Program.cs:行号 552
+[2021-10-15 18:06:48.167] WHTSB1B1080_20170811171450_LIST.txt文件已存在
+[2021-10-15 18:06:48.584] WHTSB1B1080_20170815171450_LIST.txt文件已存在
+[2021-10-15 18:06:48.991] WHTSB1B1080_20170817171450_LIST.txt文件已存在
+[2021-10-15 18:06:48.999] WHTSB1B1080_20170818215952_LIST.txt文件已存在
+[2021-10-15 18:06:49.007] WHTSB1B1080_20170820213101_LIST.txt文件已存在
+[2021-10-15 18:06:51.100] WHTSB1B1080_20170825214451_LIST.txt文件已存在
+[2021-10-15 18:06:53.220] WHTSB1B1080_20170830214904_LIST.txt文件已存在
+[2021-10-15 18:06:53.656] WHTSB1B1080_20170831221230_LIST.txt文件已存在
+[2021-10-15 18:07:07.043] WHTSB1B1080_20171017215133_LIST.txt文件已存在
+[2021-10-15 18:07:07.439] WHTSB1B1080_20171018212602_LIST.txt文件已存在
+[2021-10-15 18:07:09.282] WHTSB1B1080_20171022214317_LIST.txt文件已存在
+[2021-10-15 18:07:09.292] WHTSB1B1080_20171022214628_LIST.txt文件已存在
+[2021-10-15 18:07:09.302] WHTSB1B1080_20171022214738_LIST.txt文件已存在
+[2021-10-15 18:07:09.701] WHTSB1B1080_20171023220307_LIST.txt文件已存在
+[2021-10-15 18:07:13.933] WHTSB1B1080_20180315000000_LIST.txt文件已存在
+[2021-10-15 18:07:30.502] WHTSB1B1080_201804080000_LIST.txt文件已存在
+[2021-10-15 18:07:30.510] WHTSB1B1080_20180409000000_list.txt文件已存在
+[2021-10-15 18:07:30.516] WHTSB1B1080_20180410000000_list.txt文件已存在
+[2021-10-15 18:07:32.498] WHTSB1B1080_20180419000000_LIST.txt文件已存在
+[2021-10-15 18:07:33.535] WHTSB1B1080_20180422000000_LIST.txt文件已存在
+[2021-10-15 18:07:35.842] WHTSB1B1080_20180428000000_LIST.txt文件已存在
+[2021-10-15 18:07:37.200] Process single file with error：远程服务器返回错误: (501) 参数或变量中有语法错误。
+   在 System.Net.FtpWebRequest.SyncRequestCallback(Object obj)
+   在 System.Net.FtpWebRequest.RequestCallback(Object obj)
+   在 System.Net.CommandStream.Dispose(Boolean disposing)
+   在 System.IO.Stream.Close()
+   在 System.IO.Stream.Dispose()
+   在 System.Net.ConnectionPool.Destroy(PooledStream pooledStream)
+   在 System.Net.ConnectionPool.PutConnection(PooledStream pooledStream, Object owningObject, Int32 creationTimeout, Boolean canReuse)
+   在 System.Net.FtpWebRequest.FinishRequestStage(RequestStage stage)
+   在 System.Net.FtpWebRequest.SyncRequestCallback(Object obj)
+   在 System.Net.FtpWebRequest.RequestCallback(Object obj)
+   在 System.Net.CommandStream.Abort(Exception e)
+   在 System.Net.CommandStream.CheckContinuePipeline()
+   在 System.Net.FtpWebRequest.DataStreamClosed(CloseExState closeState)
+   在 System.Net.FtpDataStream.System.Net.ICloseEx.CloseEx(CloseExState closeState)
+   在 System.Net.FtpDataStream.Dispose(Boolean disposing)
+   在 System.IO.Stream.Close()
+   在 System.Net.FtpDataStream.Read(Byte[] buffer, Int32 offset, Int32 size)
+   在 System.IO.StreamReader.ReadBuffer()
+   在 System.IO.StreamReader.ReadLine()
+   在 ftpd.FtpClient.ReadLines(String filePath, FtpWebResponse rsp) 位置 D:\lizw\eAgentsAdmin_source\ftpd\Program.cs:行号 820
+   在 ftpd.FtpClient.GetFtpFileContent() 位置 D:\lizw\eAgentsAdmin_source\ftpd\Program.cs:行号 797
+   在 ftpd.Program.ProcessSingleFile(String shortcutKey, FtpSalesFile file) 位置 D:\lizw\eAgentsAdmin_source\ftpd\Program.cs:行号 559
+[2021-10-15 18:07:40.315] WHTSB1B1080_20180503000000_LIST.txt文件已存在
+[2021-10-15 18:07:40.323] WHTSB1B1080_20180506000000_LIST.txt文件已存在
+[2021-10-15 18:07:40.861] WHTSB1B1080_20180510000000_LIST.txt文件已存在
+[2021-10-15 18:07:40.870] WHTSB1B1080_20180511000000_LIST.txt文件已存在
+[2021-10-15 18:07:40.878] WHTSB1B1080_20180512000000_LIST.txt文件已存在
+[2021-10-15 18:07:40.887] WHTSB1B1080_20180513000000_LIST.txt文件已存在
+[2021-10-15 18:07:40.892] WHTSB1B1080_20180514000000_LIST.txt文件已存在
+[2021-10-15 18:07:40.898] WHTSB1B1080_20180515000000_LIST.txt文件已存在
+[2021-10-15 18:07:40.904] WHTSB1B1080_20180516000000_LIST.txt文件已存在
+[2021-10-15 18:07:40.910] WHTSB1B1080_20180517000000_LIST.txt文件已存在
+[2021-10-15 18:07:40.916] WHTSB1B1080_20180518000000_LIST.txt文件已存在
+[2021-10-15 18:07:44.849] WHTSB1B1080_20180528000000_LIST.txt文件已存在
+[2021-10-15 18:07:44.857] WHTSB1B1080_20180529000000_LIST.txt文件已存在
+[2021-10-15 18:07:44.865] WHTSB1B1080_20180530000000_LIST.txt文件已存在
+[2021-10-15 18:07:44.874] WHTSB1B1080_20180531000000_LIST.txt文件已存在
+[2021-10-15 18:07:44.881] WHTSB1B1080_20180601000000_LIST.txt文件已存在
+[2021-10-15 18:07:44.886] WHTSB1B1080_20180602000000_LIST.txt文件已存在
+[2021-10-15 18:07:44.891] WHTSB1B1080_20180603000000_LIST.txt文件已存在
+[2021-10-15 18:07:44.897] WHTSB1B1080_20180604000000_LIST.txt文件已存在
+[2021-10-15 18:07:47.915] WHTSB1B1080_20180612000000_LIST.txt文件已存在
+[2021-10-15 18:08:01.002] Process single file with error：该字符串未被识别为有效的 DateTime。
+   在 System.DateTimeParse.Parse(String s, DateTimeFormatInfo dtfi, DateTimeStyles styles)
+   在 System.DateTime.Parse(String s)
+   在 ftpd.Program.ProcessSingleFile(String shortcutKey, FtpSalesFile file) 位置 D:\lizw\eAgentsAdmin_source\ftpd\Program.cs:行号 582
+[2021-10-15 18:08:01.826] Process single file with error：该字符串未被识别为有效的 DateTime。
+   在 System.DateTimeParse.Parse(String s, DateTimeFormatInfo dtfi, DateTimeStyles styles)
+   在 System.DateTime.Parse(String s)
+   在 ftpd.Program.ProcessSingleFile(String shortcutKey, FtpSalesFile file) 位置 D:\lizw\eAgentsAdmin_source\ftpd\Program.cs:行号 582
+[2021-10-15 18:08:25.883] WHTSB1B1080_20180803000000_LIST.txt文件已存在
+[2021-10-15 18:08:29.305] Process single file with error：该字符串未被识别为有效的 DateTime。
+   在 System.DateTimeParse.Parse(String s, DateTimeFormatInfo dtfi, DateTimeStyles styles)
+   在 System.DateTime.Parse(String s)
+   在 ftpd.Program.ProcessSingleFile(String shortcutKey, FtpSalesFile file) 位置 D:\lizw\eAgentsAdmin_source\ftpd\Program.cs:行号 582
+[2021-10-15 18:08:33.447] WHTSB1B1080_20180821000000_LIST.txt文件已存在
+[2021-10-15 18:08:33.978] Process single file with error：该字符串未被识别为有效的 DateTime。
+   在 System.DateTimeParse.Parse(String s, DateTimeFormatInfo dtfi, DateTimeStyles styles)
+   在 System.DateTime.Parse(String s)
+   在 ftpd.Program.ProcessSingleFile(String shortcutKey, FtpSalesFile file) 位置 D:\lizw\eAgentsAdmin_source\ftpd\Program.cs:行号 582
+[2021-10-15 18:08:33.983] WHTSB1B1080_20180824000000_LIST.txt文件已存在
+[2021-10-15 18:08:33.989] WHTSB1B1080_20180825000000_LIST.txt文件已存在
+[2021-10-15 18:08:36.588] Process single file with error：该字符串未被识别为有效的 DateTime。
+   在 System.DateTimeParse.Parse(String s, DateTimeFormatInfo dtfi, DateTimeStyles styles)
+   在 System.DateTime.Parse(String s)
+   在 ftpd.Program.ProcessSingleFile(String shortcutKey, FtpSalesFile file) 位置 D:\lizw\eAgentsAdmin_source\ftpd\Program.cs:行号 582
+[2021-10-15 18:08:37.000] Process single file with error：该字符串未被识别为有效的 DateTime。
+   在 System.DateTimeParse.Parse(String s, DateTimeFormatInfo dtfi, DateTimeStyles styles)
+   在 System.DateTime.Parse(String s)
+   在 ftpd.Program.ProcessSingleFile(String shortcutKey, FtpSalesFile file) 位置 D:\lizw\eAgentsAdmin_source\ftpd\Program.cs:行号 582
+[2021-10-15 18:08:39.519] Process single file with error：远程服务器返回错误: (501) 参数或变量中有语法错误。
+   在 System.Net.FtpWebRequest.SyncRequestCallback(Object obj)
+   在 System.Net.FtpWebRequest.RequestCallback(Object obj)
+   在 System.Net.CommandStream.Dispose(Boolean disposing)
+   在 System.IO.Stream.Close()
+   在 System.IO.Stream.Dispose()
+   在 System.Net.ConnectionPool.Destroy(PooledStream pooledStream)
+   在 System.Net.ConnectionPool.PutConnection(PooledStream pooledStream, Object owningObject, Int32 creationTimeout, Boolean canReuse)
+   在 System.Net.FtpWebRequest.FinishRequestStage(RequestStage stage)
+   在 System.Net.FtpWebRequest.SyncRequestCallback(Object obj)
+   在 System.Net.FtpWebRequest.RequestCallback(Object obj)
+   在 System.Net.CommandStream.Abort(Exception e)
+   在 System.Net.CommandStream.CheckContinuePipeline()
+   在 System.Net.FtpWebRequest.DataStreamClosed(CloseExState closeState)
+   在 System.Net.FtpDataStream.System.Net.ICloseEx.CloseEx(CloseExState closeState)
+   在 System.Net.FtpDataStream.Dispose(Boolean disposing)
+   在 System.IO.Stream.Close()
+   在 System.Net.FtpDataStream.Read(Byte[] buffer, Int32 offset, Int32 size)
+   在 System.IO.StreamReader.ReadBuffer()
+   在 System.IO.StreamReader.ReadLine()
+   在 ftpd.FtpClient.ReadLines(String filePath, FtpWebResponse rsp) 位置 D:\lizw\eAgentsAdmin_source\ftpd\Program.cs:行号 820
+   在 ftpd.FtpClient.GetFtpFileContent() 位置 D:\lizw\eAgentsAdmin_source\ftpd\Program.cs:行号 797
+   在 ftpd.Program.ProcessSingleFile(String shortcutKey, FtpSalesFile file) 位置 D:\lizw\eAgentsAdmin_source\ftpd\Program.cs:行号 559
+[2021-10-15 18:08:42.816] Process single file with error：远程服务器返回错误: (501) 参数或变量中有语法错误。
+   在 System.Net.FtpWebRequest.SyncRequestCallback(Object obj)
+   在 System.Net.FtpWebRequest.RequestCallback(Object obj)
+   在 System.Net.CommandStream.Dispose(Boolean disposing)
+   在 System.IO.Stream.Close()
+   在 System.IO.Stream.Dispose()
+   在 System.Net.ConnectionPool.Destroy(PooledStream pooledStream)
+   在 System.Net.ConnectionPool.PutConnection(PooledStream pooledStream, Object owningObject, Int32 creationTimeout, Boolean canReuse)
+   在 System.Net.FtpWebRequest.FinishRequestStage(RequestStage stage)
+   在 System.Net.FtpWebRequest.SyncRequestCallback(Object obj)
+   在 System.Net.FtpWebRequest.RequestCallback(Object obj)
+   在 System.Net.CommandStream.Abort(Exception e)
+   在 System.Net.CommandStream.CheckContinuePipeline()
+   在 System.Net.FtpWebRequest.DataStreamClosed(CloseExState closeState)
+   在 System.Net.FtpDataStream.System.Net.ICloseEx.CloseEx(CloseExState closeState)
+   在 System.Net.FtpDataStream.Dispose(Boolean disposing)
+   在 System.IO.Stream.Close()
+   在 System.Net.FtpDataStream.Read(Byte[] buffer, Int32 offset, Int32 size)
+   在 System.IO.StreamReader.ReadBuffer()
+   在 System.IO.StreamReader.ReadLine()
+   在 ftpd.FtpClient.ReadLines(String filePath, FtpWebResponse rsp) 位置 D:\lizw\eAgentsAdmin_source\ftpd\Program.cs:行号 820
+   在 ftpd.FtpClient.GetFtpFileContent() 位置 D:\lizw\eAgentsAdmin_source\ftpd\Program.cs:行号 797
+   在 ftpd.Program.ProcessSingleFile(String shortcutKey, FtpSalesFile file) 位置 D:\lizw\eAgentsAdmin_source\ftpd\Program.cs:行号 559

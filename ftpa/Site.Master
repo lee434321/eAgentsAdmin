@@ -1,0 +1,101 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Site.master.cs" Inherits="ftpa.SiteMaster" %>
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en">
+<head runat="server">
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="Mark Otto, Jacob Thornton, and Bootstrap contributors">
+    <meta name="generator" content="Hugo 0.84.0">   
+
+    <script type="text/javascript" src="Scripts/jquery-3.2.1.min.js"></script>
+    <!-- Bootstrap core CSS -->
+    <link href="../assets/dist/css/bootstrap.min.css" rel="stylesheet" />
+    <!-- Bootstrap icon -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.6.1/font/bootstrap-icons.css" />
+    <style>
+      .bd-placeholder-img {
+        font-size: 1.125rem;
+        text-anchor: middle;
+        -webkit-user-select: none;
+        -moz-user-select: none;
+        user-select: none;
+      }
+
+      @media (min-width: 768px) {
+        .bd-placeholder-img-lg {
+          font-size: 3.5rem;
+        }             
+      }
+    </style>    
+    <!-- Custom styles for this template -->
+    <link href="dashboard.css" rel="stylesheet" />
+    <script type="text/javascript" src="Scripts/commons.js"></script>
+    <asp:ContentPlaceHolder ID="HeadContent" runat="server">
+
+    </asp:ContentPlaceHolder>
+    <title>Turnover from ftp</title>
+</head>
+<body>    
+    <form runat="server">
+        <header class="navbar navbar-dark sticky-top bg-dark flex-md-nowrap p-0 shadow">
+            <a class="navbar-brand col-md-3 col-lg-2 me-0 px-3" href="#">Turnover from ftp</a>
+            <button class="navbar-toggler position-absolute d-md-none collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#sidebarMenu" aria-controls="sidebarMenu" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>     
+        </header>
+    
+        <div class="container-fluid">
+            <div class="row">
+                <!-- 左侧菜单 -->
+                <nav id="sidebarMenu" class="col-md-3 col-lg-2 d-md-block bg-light sidebar collapse">
+                    <div class="position-sticky pt-3">
+                        <ul class="nav flex-column">
+                            <li class="nav-item">
+                                <a class="nav-link active" aria-current="page" href="Default.aspx">
+                                    <span class="m-2"><i class="bi bi-file-font"></i></span>文件查询
+                                </a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="Turnover.aspx">
+                                    <span class="m-2"><i class="bi bi-cash-coin"></i></span>营业额查询
+                                </a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="Trc.aspx">
+                                    <span class="m-2"><i class="bi bi-gear"></i></span>提成设定
+                                </a>
+                            </li> 
+                        </ul>
+                    </div>
+                </nav>
+                <!-- 内容页面 -->
+                <div class="col-md-9 ms-sm-auto col-lg-10 px-md-4">
+                    <div class="page">        
+                        <div class="main">
+                            <asp:ContentPlaceHolder ID="MainContent" runat="server"/>
+                        </div>
+                        <div class="clear">
+                        </div>
+                    </div>                          
+                </div>
+            </div>
+            <div class="footer">        
+            </div>
+        </div>
+        <script src="../assets/dist/js/bootstrap.bundle.min.js"></script>    
+        <script>
+            $(document).ready(function () {
+                $("#sidebarMenu .nav.flex-column li").each(function (x) {
+                    if ($(this).find(".nav-link").text().indexOf($(".page .main h1").text())>=0) {
+                        $(this).find(".nav-link").addClass("active");                        
+                    } else {
+                        $(this).find(".nav-link").removeClass("active");                        
+                    }
+                });
+            });
+        </script>     
+    </form>
+</body>
+</html>

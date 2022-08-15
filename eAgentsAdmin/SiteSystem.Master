@@ -1,0 +1,272 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="SiteSystem.master.cs" Inherits="PropertyOneAppWeb.SiteSystem" %>
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <meta http-equiv="X-UA-Compatible" content="IE=EDGE" />
+    <link rel="stylesheet" href="js/bootgrid/jquery.bootgrid.css" />
+    <link rel="stylesheet" href="js/bootstrap/css/bootstrap.css" />
+    <link rel="stylesheet" href="js/AmazeUI/assets/css/amazeui.css" />
+    <link rel="stylesheet" href="Css/Menu.css" />
+    <link rel="stylesheet" href="Css/Site.css" />
+    <link rel="stylesheet" href="js/font-awesome-4.7.0/css/font-awesome.min.css" />
+    <!--[if (gte IE 9)|!(IE)]><!-->
+    <script type="text/javascript" src="../js/jQuery/jquery-3.2.1.min.js"></script>
+    <!--<![endif]-->
+    <!--[if lte IE 8]>
+    <script src="/js/jQuery/jquery-1.11.1.min.js"></script>
+    <script src="/js/modernizr.js"></script>
+    <script src="/js/AmazeUI/assets/js/amazeui.ie8polyfill.min.js"></script>
+    <![endif]-->
+    <script type="text/javascript" src="../js/bootstrap/js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="../js/AmazeUI/assets/js/amazeui.min.js"></script>       
+    <script type="text/javascript" src="../js/bootgrid/jquery.bootgrid.min.js"></script>
+    <script type="text/javascript" src="../js/SiteJScript.js"></script>
+    <script type="text/javascript">
+        $(document).ready(function () {
+            /* 校验身份 */
+            var userid = '<% =Session["loginname"]%>';
+            if (checknotnull(userid) == false) {
+                logout();
+            }
+
+            /* 初始化菜单 */
+            var welcometext = '<%= Resources.Lang.Res_Homepage_Welcome%> ' + '<% =Session["loginname"] %>';
+            $("#label-welcome").text(welcometext);
+            $("#input-groupid-hidden").val('<% =Session["groupid"] %>');
+            $("#input-loginname-hidden").val('<% =Session["loginname"] %>');
+            $("#input-groupname-hidden").val('<% =Session["groupname"] %>');
+            $("#input-lang-hidden").val('<% =Session["lang"] %>');
+            $("#input-vpathroot-hidden").val('<% =Session["vpathroot"] %>');
+            setsysmenu();
+        });
+
+        /* 退出登录 */
+        function logout() {
+            $.ajax({
+                cache: false,
+                type: "POST",
+                url: "../LoginSystem.aspx",
+                data: {
+                    "action": "logout"
+                },
+                success: function (data) {
+                    /* 跳转到主页 */
+                    window.location.href = "../LoginSystem.aspx";
+                },
+                error: function (data) {
+                    /* 跳转到主页 */
+                    window.location.href = "../LoginSystem.aspx";
+                }
+            });
+        };
+
+        /* 设置system用户菜单,注意:此文件菜单修改后，也要同步修改'SiteSystemBootcss.Master'文件 */
+        function setsysmenu() {
+            addrootmenu(".animenu__nav", "li-homepage", "../system/Homepage.aspx", '<%= Resources.Lang.Res_Menu_Homepage %>', "");
+
+            addlistmenu(".animenu__nav", "ul-notice", '<%= Resources.Lang.Res_Hompage_Menu_Info %>', "10");
+            addrootmenu("#ul-notice", "li-notice-maintenance", "../system/NoticeMaintenance.aspx", '<%= Resources.Lang.Res_Menu_NoticeMaintenance %>', "11");
+            addrootmenu("#ul-notice", "li-notice-approve", "../system/noticeapprove.aspx", '<%= Resources.Lang.Res_Menu_NoticeApprove %>', "12");
+            addrootmenu("#ul-notice", "li-notice-pm", "../system/PropertyMgmt.aspx", '<%= Resources.Lang.Res_Menu_PropertyMgmt %>', "25");
+
+            addlistmenu(".animenu__nav", "ul-user", '<%= Resources.Lang.Res_Menu_SystemMaintenance %>', "20");
+            addrootmenu("#ul-user", "li-user", "../system/UserMaintenance.aspx", '<%= Resources.Lang.Res_Menu_UserMaintenance %>', "21");
+            addrootmenu("#ul-user", "li-user-group", "../system/UserGroupMaintenance.aspx", '<%= Resources.Lang.Res_Menu_UserGroupMaintenance %>', "22");
+            addrootmenu("#ul-user", "li-user-cutoff", "../system/statementcutoff.aspx", '<%= Resources.Lang.Res_Menu_StatementDateSetting %>', "23");
+            addrootmenu("#ul-user", "li-user-reminder", "../system/reminder.aspx", '<%= Resources.Lang.Res_Menu_Reminder_Setting %>', "26");
+            addrootmenu("#ul-user", "li-user-cc", "../system/CustomerCreation.aspx", '<%= Resources.Lang.Res_Menu_CustomerCreation %>', "24");
+            /// -- start --
+            addlistmenu(".animenu__nav", "ul-fb", '<%= Resources.Lang.Res_Menu_Feedbacks %>', '30');
+            addrootmenu("#ul-fb", "li-feedback", "../system/FeedbackMaintenance.aspx", '<%= Resources.Lang.Res_Menu_FeedbackMaintenance %>', '31'); //
+            addrootmenu("#ul-fb", "li-fbsetup", '../system/fbsetup.aspx', '<%=Resources.Lang.Res_Mail_Setup %>', '39'); //Res_Mail_Setup
+
+            addlistmenu(".animenu__nav", "ul-eforms", '<%=Resources.Lang.Res_Menu_Eforms %>', '40');
+            addrootmenu("#ul-eforms", "li-eforms", "../system/eforms.aspx", '<%=Resources.Lang.Res_Menu_Eforms_Def %>', '41'); //
+            addrootmenu("#ul-eforms", "li-eforms", "../system/eflowdef.aspx", '<%=Resources.Lang.Res_Menu_Eforms_FlowDef %>', '42'); //
+            addrootmenu("#ul-eforms", "li-eopers", "../system/eoper.aspx", "<%=Resources.Lang.Res_Menu_Eforms_Opers %>", '43');
+            addrootmenu("#ul-eforms", "li-efddef", "../system/eFormDateDef.aspx", "<%=Resources.Lang.Res_MenuItem_eForm_Date_Define %>", '44');
+            addrootmenu("#ul-eforms", "li-eftdef", "../system/eFormTimeDef.aspx", "<%=Resources.Lang.Res_MenuItem_eForm_Time_Define %>", '45'); 
+            /// --  end  --       
+        };
+
+        /* 添加普通菜单 */
+        function addrootmenu(target, addid, href, text, menuId) {
+            if (CheckAuth(menuId) == true) {
+                $(target).append('<li id="' + addid + '"><a class="animenu-font" href="' + href + '">' + text + '</a></li>');
+            }
+        };
+
+        /* 添加下拉菜单 */
+        function addlistmenu(target, addid, text, menuId) {
+            if (CheckAuth(menuId) == true) {
+                $(target).append('<li><a class="animenu-font" href="#">' + text + '</a><ul id="' + addid + '" class="animenu__nav__child"></ul></li>');
+            }
+        };
+
+        /* 校验是否有权限访问菜单 */
+        function CheckAuth(authId) {
+            try {
+                if (authId == "") {
+                    return true;
+                }
+                else {
+                    var authList = '<% =Session["authlist"]%>';
+                    var jsonData = jQuery.parseJSON(authList);
+                    var authInfo = jsonData.authInfo;
+                    var result;
+                    authInfo.forEach(function (value, index, arr) {
+                        if (authId == value.authId) {
+                            result = true;
+                            return;
+                        }
+                    });
+                    if (result == true) {
+                        return true;
+                    }
+                }
+                return false;
+            } catch (ex) {
+                return false;
+            }
+        };
+    
+    </script>
+    <title><%=this.DocumentTitle %></title>
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body>
+    <div class="am-g am-g-collapse div-homepage-top">       
+        <div class="am-u-sm-12" style="height: 5px;"></div>
+        <div class="am-u-sm-12 " style="padding-left: 30px; padding-right: 30px; min-height: 116px;">
+            <table style="width: 100%;">
+                <tr style="height: 40%;">
+                    <td rowspan="2" style="width: 25%;">
+                        <img id="img-logo" alt="" src="../Image/SystemM_logo.png" width="283" height="97" />
+                    </td>
+                    <td style="width: 75%;">
+                        <table style="float: right;">
+                            <tr>
+                                <td style="padding-top: 5px;">
+                                    <input type="hidden" id="input-loginname-hidden" />
+                                    <input type="hidden" id="input-groupid-hidden" />
+                                    <input type="hidden" id="input-groupname-hidden"/>
+                                    <input type="hidden" id="input-lang-hidden" />
+                                    <input type="hidden" id="input-vpathroot-hidden" />
+                                    <label id="label-welcome" class="label-site-welcome"></label>
+                                    <label class="label-site-welcome">(<% PropertyOneAppWeb.Model.Sys_Users_Group ety = Session["groupinfo"] as PropertyOneAppWeb.Model.Sys_Users_Group; Response.Write(ety.GroupName);%>)</label>                                    
+                                </td>
+                                <td>
+                                    <a class="label-site-welcome" href="#" onclick="logout()">[<%=Resources.Lang.Res_Menu_Logout %>]</a>
+                                </td>
+                            </tr>
+                        </table>
+                    </td>
+                </tr>
+                <tr style="height: 60%">
+                    <td style="padding-top: 10px">
+                        <nav class="animenu">
+                            <ul class="animenu__nav" style="float: right;">
+                                <%-- Menu --%>
+                            </ul>
+                        </nav>
+                    </td>
+                </tr>
+            </table>
+        </div>
+    </div>
+    <div class="am-u-sm-12" style="height: 20px">
+    </div>
+    <div class="div-main-container">
+        <div class="am-g am-g-collapse div-main-guide">
+            <div class="am-u-sm-12">
+                <table style="width: 100%;">
+                    <tr>
+                        <td style="width: 60px;">
+                            <%-- 导航栏图片 --%>
+                            <img id="img-nav" alt="" src="../Image/blankwhite.png" width="40px" height="40px" />
+                        </td>
+                        <td>
+                            <table style="width: 100%;">
+                                <tr>
+                                    <td>
+                                        <%-- 导航栏文字 --%>
+                                        <label id="label-nav">
+                                        </label>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td style="width: 100%; height: 3px; background-color: #1C578F">
+                                    </td>
+                                </tr>
+                            </table>
+                        </td>
+                    </tr>
+                </table>
+            </div>
+        </div>
+        <div style="height: 5px">
+        </div>
+        <div class="div-main-updatepanel">
+            <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+            </asp:ContentPlaceHolder>
+        </div>
+    </div>
+    <%-- 页脚 --%>
+    <div class="div-main-footer">
+        <p>
+            © Copyright 2018 CK Asset Holdings Limited. All rights reserved.
+        </p>
+        <p>
+            version 18.02.13
+        </p>
+    </div>
+    <%-- 警告模态窗口 --%>
+    <div class="am-modal am-modal-alert" tabindex="-1" id="doc-modal-alert">
+        <div class="am-modal-dialog">
+            <div class="am-modal-hd am-modal-hd-my">
+                <label id="label-alert-title">
+                </label>
+            </div>
+            <div class="am-modal-bd">
+                <div class="am-modal-bd-my">
+                    <label id="label-alert-content" style="font-weight: normal;">
+                    </label>
+                </div>
+            </div>
+            <div class="am-modal-footer">
+                <span class="am-modal-btn">OK</span>
+            </div>
+        </div>
+    </div>
+    <%-- 关闭后刷新页面的警告框 --%>
+    <div class="am-modal am-modal-alert" tabindex="-1" id="doc-modal-alert-refresh">
+        <div class="am-modal-dialog">
+            <div class="am-modal-hd am-modal-hd-my">
+                <label id="label-alert-title-refresh">
+                </label>
+            </div>
+            <div class="am-modal-bd">
+                <div class="am-modal-bd-my">
+                    <label id="label-alert-content-refresh">
+                    </label>
+                </div>
+            </div>
+            <div class="am-modal-footer">
+                <span class="am-modal-btn">OK</span>
+            </div>
+        </div>
+    </div>
+    <%-- Loading窗口 --%>
+    <div class="am-modal am-modal-loading am-modal-no-btn" tabindex="-1" id="my-modal-loading">
+        <div class="am-modal-dialog">
+            <div class="am-modal-hd">
+                Loading...</div>
+            <div class="am-modal-bd">
+                <span class="am-icon-spinner am-icon-spin"></span>
+            </div>
+        </div>
+    </div>   
+</body>
+</html>

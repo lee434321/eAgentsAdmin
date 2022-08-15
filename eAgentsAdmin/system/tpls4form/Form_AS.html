@@ -1,0 +1,700 @@
+﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta http-equiv="X-UA-Compatible" content="IE=EDGE" />    
+    <link rel="Stylesheet" href="../../js/bootstrap-4.3.1-dist/css/bootstrap.min.css" media="screen,print" />    
+    <link rel="stylesheet" href="../../js/font-awesome-4.7.0/css/font-awesome.min.css" />
+    <!--[if (gte IE 9)|!(IE)]><!-->
+    <script type="text/javascript" src="../../js/jQuery/jquery-3.2.1.min.js"></script>
+    <!--<![endif]-->
+    <!--[if lte IE 8]>
+    <script src="/js/jQuery/jquery-1.11.1.min.js"></script>
+    <script src="/js/modernizr.js"></script>
+    <script src="/js/AmazeUI/assets/js/amazeui.ie8polyfill.min.js"></script>
+    <![endif]-->    
+    <script type="text/javascript" src="../../js/bootstrap-4.3.1-dist/js/bootstrap.min.js"></script>   
+    <script src="../../js/vue.js" type="text/javascript"></script>
+    <script src="../../js/vue-resource.min.js" type="text/javascript"></script>     
+    <script src="../../js/SiteJScript.js" type="text/javascript"></script> 
+    <title>Form AS</title>
+    <style>
+        .eform-input{
+            border-top:0px;
+            border-left:0px; 
+            border-right:0px; 
+            border-color:Black;
+            border-radius : 0px;
+        }         
+        .eform-input-noborder{
+            border-top:0px;
+            border-left:0px; 
+            border-right:0px; 
+            border-bottom:0px;            
+        }
+            
+        @media print
+        {
+        	.container{
+        		width:649px;
+        		height:978px;
+        		}
+        		
+        	#cmds{
+        		display:none;
+        		}
+        }
+    </style>
+</head>
+<body>
+    <div class="container" id="vu-det">
+        <div class="row">    
+            <div class="col-12">
+                <h6 class="text-right">Form A(S)</h6>
+                <h6 class="text-right">With effective from 1st January 2019</h6>
+                <h2 class="text-center">CHEUNG KONG CENTER</h2> 
+                <h2 class="text-justify">{{dom.htmls.FORM_DESC}}</h2>            
+                <div v-html="dom.htmls.FORM_HEADER_HTML"></div>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-12">
+                <div class="custom-control custom-checkbox">
+                    <input type="checkbox" class="custom-control-input" id="chk-new-app"
+                        :checked="dom.loaded?dom.controls.New_Application.fmdt_value=='Y'?true:false:false"
+	                    :disabled="dom.loaded?isReadonly(dom.controls.New_Application.field_editctrl):false" />
+                    <label class="custom-control-label" for="chk-new-app">{{dom.loaded?dom.controls.New_Application.field_dispen:''}}</label>
+                </div>
+                <div class="custom-control custom-checkbox">
+                    <input type="checkbox" class="custom-control-input" id="chk-cancel"
+                        :checked="dom.loaded?dom.controls.Cancellation.fmdt_value=='Y'?true:false:false"
+	                    :disabled="dom.loaded?isReadonly(dom.controls.Cancellation.field_editctrl):false" />
+                    <label class="custom-control-label" for="chk-cancel">{{dom.loaded?dom.controls.Cancellation.field_dispen:''}}</label>
+                </div>
+            </div>
+        </div>
+
+        <div class="form-group row">
+            <label for="input-tenant" class="col-sm-2 col-form-label col-form-label-sm">{{dom.loaded?dom.controls.Tenant.field_dispen:''}}:</label>
+            <div class="col-sm-5">
+                <input type="text" class="form-control form-control-sm eform-input" id="input-tenant" 
+                    :value="dom.loaded?dom.controls.Tenant.fmdt_value:''" 
+                    :readonly="dom.loaded?isReadonly(dom.controls.Tenant.field_editctrl):false" />
+            </div>
+
+            <label for="txt-floor-suite" class="col-sm-1 col-form-label col-form-label-sm">{{dom.loaded?dom.controls.Floor_Suite.field_dispen:''}}:</label>
+            <div class="col-sm-4">
+                <!--<input type="text" class="form-control form-control-sm eform-input" id="input-floor-suite" 
+                    :value="dom.loaded?dom.controls.Floor_Suite.fmdt_value:''"
+                    :readonly="dom.loaded?isReadonly(dom.controls.Floor_Suite.field_editctrl):false" />-->
+                <textarea class="form-control form-control-sm eform-input" id="txt-floor-suite" rows="1" 
+                    style="overflow:hidden; resize: none;"
+                    :value="dom.loaded?dom.controls.Floor_Suite.fmdt_value:''"
+                    :readonly="dom.loaded?isReadonly(dom.controls.Floor_Suite.field_editctrl):false" >                   
+                </textarea>     
+            </div>
+        </div>
+
+        <div class="form-group row">
+            <label for="input-contact-person" class="col-sm-2 col-form-label col-form-label-sm">{{dom.loaded?dom.controls.Contac_Person.field_dispen:''}}:</label>
+            <div class="col-sm-5">
+                <input type="text" class="form-control form-control-sm eform-input" id="input-contact-person" 
+                    :value="dom.loaded?dom.controls.Contac_Person.fmdt_value:''"
+                    :readonly="dom.loaded?isReadonly(dom.controls.Contac_Person.field_editctrl):false" />
+            </div>
+            <label for="input-tel-no" class="col-sm-1 col-form-label col-form-label-sm">{{dom.loaded?dom.controls.Tel_No.field_dispen:''}}:</label>
+            <div class="col-sm-4">
+                <input type="text" class="form-control form-control-sm eform-input" id="input-tel-no" 
+                    :value="dom.loaded?dom.controls.Tel_No.fmdt_value:''"
+                    :readonly="dom.loaded?isReadonly(dom.controls.Tel_No.field_editctrl):false" />
+            </div>
+        </div>
+
+        <!-- 暂时屏蔽，后期可能启用
+        <div class="row">
+            <div class="col-sm-12">
+                <div style="overflow:hidden">
+                *************************************************************************************************************************************************************************************
+                </div> 
+            </div>
+        </div>
+
+        <div class="row small">
+            <div class="col-sm-4">
+                Normal Air-conditioning Supply Hours
+            </div>
+            <div class="col-sm-4">
+                Mondays to Fridays
+            </div>
+            <div class="col-sm-4">
+                - 08:00 hrs. &nbsp;&nbsp;&nbsp; to &nbsp;&nbsp;&nbsp; 19:30hrs.
+            </div>
+        </div>
+
+        <div class="row small">
+            <div class="offset-sm-4"></div>
+            <div class="col-sm-4">
+               Staurdays
+            </div>
+            <div class="col-sm-4">
+                - 08:00 hrs. &nbsp;&nbsp;&nbsp; to &nbsp;&nbsp;&nbsp; 14:30hrs.
+            </div>
+        </div>
+
+        <div class="row small">
+            <div class="col-sm-4">
+                Application Cut-off Time
+            </div>
+            <div class="col-sm-4">
+                Mondays to Fridays
+            </div>
+            <div class="col-sm-4">
+                - Before 16:30 hrs.
+            </div>
+        </div>
+
+        <div class="row small">
+            <div class="offset-sm-4"></div>
+            <div class="col-sm-4">
+               Staurdays,Sundays & Public Holidays
+            </div>
+            <div class="col-sm-4">
+                - One working day(Mondays - Fridays) in advance
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-sm-12">        
+                <div style="overflow:hidden">
+                *************************************************************************************************************************************************************************************
+                </div>                
+            </div>
+        </div>
+        -->   
+             
+        <div class="row">
+            <div class="col-sm-5"> 
+                Please tick the zone that extended A/C is required: 
+            </div>
+            <div class="col-sm-1">
+                <div class="custom-control custom-checkbox">
+                  <input type="checkbox" class="custom-control-input" id="input-zone-west" 
+                    :checked="dom.loaded?dom.controls.West.fmdt_value == 'Y' || dom.controls.West.fmdt_value == 'on' ?true:false:false" 
+                    :disabled="dom.loaded?isReadonly(dom.controls.West.field_editctrl):false" />
+                  <label class="custom-control-label" for="input-zone-west">{{dom.loaded?dom.controls.West.field_dispen:''}}</label>
+                </div>  
+            </div>
+            <div class="col-sm-1">
+                <div class="custom-control custom-checkbox">
+                  <input type="checkbox" class="custom-control-input" id="input-zone-east" 
+                    :checked="dom.loaded?dom.controls.East.fmdt_value == 'Y' || dom.controls.East.fmdt_value == 'on'?true:false:false" 
+                    :disabled="dom.loaded?isReadonly(dom.controls.East.field_editctrl):false" />
+                  <label class="custom-control-label" for="input-zone-east">{{dom.loaded?dom.controls.East.field_dispen:''}}</label>
+                </div>  
+            </div>
+            <div class="offset-1"></div>
+            <div class="col-sm-3">
+                <img v-bind:src="dom.htmls.FORM_PICTURE_Base64?'data:image/jpg;base64,'+dom.htmls.FORM_PICTURE_Base64:''" v-on:load="shrink"/>
+            </div>
+        </div>
+
+        <div class="form-group row mt-5">
+            <label for="input-date-req-from" class="col-sm-2 col-form-label col-form-label-sm">{{dom.loaded?dom.controls.DateFrom.field_dispen:''}}</label>
+            <div class="col-sm-2">
+                <input type="text" class="form-control form-control-sm eform-input" id="input-date-req-from" 
+                    :value="dom.loaded?dom.controls.DateFrom.fmdt_value:'' |fmtDate" 
+                    :readonly="dom.loaded?dom.controls.DateFrom.field_editctrl.indexOf('T')>=0:false" />               
+            </div>
+            <label for="input-date-req-to" class="col-sm-1 col-form-label col-form-label-sm">{{dom.loaded?dom.controls.DateTo.field_dispen:''}}</label>
+            <div class="col-sm-2">
+                 <input type="text" class="form-control form-control-sm eform-input" id="input-date-req-to" 
+                    :value="dom.loaded?dom.controls.DateTo.fmdt_value:''|fmtDate"  
+                    :readonly="dom.loaded?dom.controls.DateTo.field_editctrl.indexOf('T')>=0:false"/>
+            </div>
+            <div class="col-sm-1">
+                [{{datespan}}] day(s)
+            </div>           
+        </div>
+
+        <div class="form-group row small">
+            <label for="input-time-req-from" class="col-sm-2 col-form-label col-form-label-sm">{{dom.loaded?dom.controls.TimeFrom.field_dispen:''}}</label>
+            <div class="col-sm-2">
+                <input type="time" class="form-control form-control-sm eform-input" id="input-time-req-from" 
+                    :value="dom.loaded?dom.controls.TimeFrom.fmdt_value:''"
+                    :readonly="dom.loaded?isReadonly(dom.controls.TimeFrom.field_editctrl):false" />               
+            </div>
+            <label for="input-date-req-to" class="col-sm-1 col-form-label col-form-label-sm">{{dom.loaded?dom.controls.TimeTo.field_dispen:''}}</label>
+            <div class="col-sm-2">
+                 <input type="time" class="form-control form-control-sm eform-input" id="input-time-req-to" 
+                    :value="dom.loaded?dom.controls.TimeTo.fmdt_value:''" 
+                    :readonly="dom.loaded?isReadonly(dom.controls.TimeTo.field_editctrl):false" />
+            </div>
+            <div class="col-1">
+                [{{timespan}}] hour(s)
+            </div>
+        </div>
+
+        <div class="form-group row">
+            <label for="input-remarks" class="col-sm-2 col-form-label col-form-label-sm">{{dom.loaded?dom.controls.Remarks.field_dispen:''}}</label>
+            <div class="col-sm-6">
+                 <input type="text" class="form-control form-control-sm eform-input" id="input-remarks" 
+                    :value="dom.loaded?dom.controls.Remarks.fmdt_value:''"
+                    :readonly="dom.loaded?isReadonly(dom.controls.Remarks.field_editctrl):false" />
+            </div>
+        </div>
+
+        <!-- note-->
+        <div class="row note">
+            <div class="col-12" v-html="dom.htmls.FORM_WAIST_HTML"></div>
+        </div>
+
+        <div class="row">
+            <div class="offset-6">
+              
+            </div>
+            <div class="col-sm-5">                
+                <div class="form-group">
+                    <input type="text" class="form-control eform-input" 
+                        :value="dom.loaded?dom.controls.Sign_Person.fmdt_value:''"
+                        :readonly="dom.loaded?isReadonly(dom.controls.Sign_Person.field_editctrl):false"  />
+                    <label for="exampleInputEmail1" >{{dom.loaded?dom.controls.Sign_Person.field_dispen:''}}</label>
+                </div>               
+            </div>
+        </div>
+
+        <div class="row">            
+            <div class="col-sm-5">                         
+            </div>
+            <div class="offset-1"></div>
+            <div class="col-sm-5">
+               <div class="form-group">
+                    <input type="text" class="form-control eform-input" 
+                        :value="dom.loaded?dom.controls.Sign_Date.fmdt_value:''|fmtDate"
+                        :readonly="dom.loaded?isReadonly(dom.controls.Sign_Date.field_editctrl):false" />
+                    <label for="" >{{dom.loaded?dom.controls.Sign_Date.field_dispen:''}}</label>
+                </div>     
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-sm-12">
+                <p class=" bg-dark text-light">For Office Use</p>
+            </div>
+        </div>
+
+        <!-- Office user input-->
+        <div class="row" id="office-user">
+            <div class="col-12">
+                <table class="table table-bordered table-sm">               
+                    <thead>
+                        <tr>
+                            <th style="width:25%">Operation</th>
+                            <th style="width:15%">Last Update By</th>
+                            <th style="width:25%">Remarks</th>
+                            <th class="reject" style="width:15%" v-if="!hideReject">Reject By</th>
+                            <th class="reject" style="width:20%" v-if="!hideReject">Reject Reason</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr v-for="item in dom.flowinfo">
+                            <td>{{item.oper_curseq==item.fwde_seq?'*':'&nbsp'}}{{item.fwde_name}}</td>
+                            <td>{{item.fmfw_updateby}}/{{item.fmfw_updatedate|fmtDate('m')}}</td>                            
+                            <!-- 这里有点复杂，如果再有条件的话，则放到函数里去。-->
+                            <td><input type="text" class="form-control form-control-sm eform-input-noborder" :alt="item.fwde_id" :value="item.fmfw_remarks" :readonly="dom.privilege[0]?dom.privilege[0].oper_save=='Y'?item.oper_curseq==item.fwde_seq?false:true:true:true" /></td>
+                            <td class="reject" v-if="!hideReject">{{item.fmfw_rejectby}}/{{item.fmfw_rejectdate|fmtDate('m')}}</td>
+                            <td class="reject" v-if="!hideReject">{{item.fmfw_rejectreason}}</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>        
+        </div>
+
+        <div class=" form-group row">        
+            <div class="col-9">                
+            </div>                
+            <div class="col-3">
+                <div class="form-inline">
+                    <div class="form-group">
+                        <label for="input-ref-no" class="col-form-label col-form-label-sm">Ref.</label>
+                        <input type="text" class="form-control form-control-sm" id="Text1" v-model="paras.refno" readonly />         
+                    </div>
+                </div>  
+            </div>
+        </div>
+
+        <!-- attachments -->
+        <div class="row">
+            <div class="col-6">
+                <ul class="list-group">
+                  <li class="list-group-item" v-for="item in dom.atchs"><a :href="item.Fmat_FileUrl">{{item.Fmat_FileName}}</a></li>          
+                </ul>
+            </div>
+        </div>
+
+        <!-- footer -->
+        <div class="row mb-2">
+            <div class="col-12" v-html="dom.htmls.FORM_FOOTER_HTML"></div>
+        </div>       
+
+        <div class="row mb-5">            
+        </div>
+        
+        <!-- command -->
+        <div class="row fixed-bottom text-right bg-light" v-if="paras.from!='def'" id="cmds">
+            <div class="offset-6 mb-2">
+            </div>
+            <div class="col-sm-5 mt-2 mb-2">                
+                <a class="btn btn-secondary" :href="'../eoper.aspx?pidx='+ paras.pidx">Close</a>
+                <button class="btn btn-warning" v-on:click="html2pdf($event)">Print PDF</button>
+                <button class="btn btn-primary" v-on:click="save($event)" :disabled="dom.loaded && dom.privilege[0]?dom.privilege[0].oper_save=='N':false">Save</button>
+                <button class="btn btn-info" v-on:click="submit($event)" :disabled="dom.loaded && dom.privilege[0]?dom.privilege[0].oper_submit=='N':false">Submit</button>
+                <button class="btn btn-danger" data-toggle="modal" data-target="#modal-reject" v-on:click="preject" :disabled="dom.loaded && dom.privilege[0]?dom.privilege[0].oper_reject=='N':false">Reject</button>
+                <button class="btn btn-success" v-on:click="close($event)" :disabled="dom.loaded && dom.privilege[0]?dom.privilege[0].oper_finish=='N':false">Complete</button>
+            </div>            
+        </div>        
+
+        <!-- 驳回原因提示框 -->
+        <div class="modal" tabindex="-1" role="dialog" id="modal-reject">
+            <div class="modal-dialog" role="document">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title">Hint</h5>
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                            <span aria-hidden="true">&times;</span>
+                        </button>
+                    </div>
+                    <div class="modal-body">
+                        <div class="form-group">
+                            <label for="txt-reason">Please input a reason for rejection:</label>
+                            <textarea class="form-control" id="txt-reason" rows="3"></textarea>
+                        </div>
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                        <button type="button" class="btn btn-primary" id="btn-confirm">Confirm</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script type="text/javascript">
+        var vm = null;
+        $(document).ready(function () {
+            vm = new Vue({
+                el: "#vu-det",
+                data: {
+                    dom: {
+                        loaded: false,  // 是否已经加载完毕，加载controls对象有延迟，直接绑定会出错，所以加入此变量用来标识。                        
+                        privilege: [],  // get_eform_operations 过程返回，用于按钮权限操作控制（根据derek的设计，始终只有一条数据）
+                        flowinfo: [],   // get_eflow_info 过程返回 
+                        controls: { Floor_Suite: "" },   // 控件列表里有个field_editctrl字段，值定义如下， T:前台用户；S：staff; B:both ； N:disabled
+                        atchs: [],
+                        htmls: {}       // v-html值绑定，用于header，content，footer
+                    },
+                    lang: "",
+                    paras: {
+                        fmtbid: 120000,         //常量
+                        fmtbcode: "Form_AS",    //常量
+                        formid: 0,
+                        operid: 0,
+                        fwdeseq: 0,
+                        loginname: "",
+                        groupname: "",
+                        refno: "",
+                        pidx: 0,        //跳转源当前页(eoper.aspx)，用户返回源时带出页码
+                        from: ""        //来源。 “def”表示定义页
+                    }
+                },
+                watch: {
+                    'dom.htmls.FORM_WAIST_HTML': function (n, o) { //监视contents，格式调整（修正v-html指令完成后dom内容格式）
+                        if (n) {
+                            this.$nextTick(function () {
+                                $(".row.note table tbody td").removeAttr("width");
+                                $(".row.note table").css("width", "100%");
+                            });
+                        }
+                    }
+                },
+                computed: {
+                    hideReject: function () {
+                        for (var i = 0; i < this.dom.flowinfo.length; i++) {
+                            if (this.dom.flowinfo[i].fmfw_rejectby) {
+                                return false;
+                            }
+                        }
+                        return true;
+                    },
+                    datespan: function () {
+                        if (this.dom.loaded) {
+                            if (!vm.dom.controls.DateFrom.fmdt_value || !vm.dom.controls.DateTo.fmdt_value) {
+                                return 0;
+                            }
+                            var d1 = new Date(vm.dom.controls.DateFrom.fmdt_value);
+                            var d2 = new Date(vm.dom.controls.DateTo.fmdt_value);
+                            var diff = d2.valueOf() - d1.valueOf();
+                            if (diff == 0) {
+                                return 1;
+                            } else
+                                return Math.ceil(diff / 1000 / 86400);
+                        } else
+                            return 0;
+                    },
+                    timespan: function () {
+                        if (this.dom.loaded) {
+                            if (!vm.dom.controls.TimeFrom.fmdt_value || !vm.dom.controls.TimeTo.fmdt_value) {
+                                return 0;
+                            }
+                            var t1 = new Date("2021-01-01T" + vm.dom.controls.TimeFrom.fmdt_value);
+                            var t2 = new Date("2021-01-01T" + vm.dom.controls.TimeTo.fmdt_value);
+                            var diff = t2.valueOf() - t1.valueOf()
+                            return Math.ceil(diff / 1000 / 3600);
+                        }
+                        else
+                            return 0;
+                    }
+                },
+                filters: {
+                    fmtDate: function (v, m) {     //“日期”过滤器，字符串形式
+                        if (m) {
+                            return this.vm ? df(v, "yyyy-mm-dd hh:mi") : "";
+                        } else
+                            return this.vm ? df(v, "yyyy-mm-dd") : "";
+                    }
+                },
+                created: function () {
+                    this.paras.operid = qs(window.location.href, 'operid');
+                    this.paras.formid = qs(window.location.href, 'formid');
+                    this.paras.loginname = qs(window.location.href, 'loginname');
+                    this.paras.groupname = qs(window.location.href, 'groupname');
+                    this.paras.from = qs(window.location.href, 'from');
+                    this.paras.refno = qs(window.location.href, 'refno');
+                    this.paras.fwdeseq = qs(window.location.href, 'fwdeseq');
+                    this.paras.pidx = qs(window.location.href, 'pidx');
+                    this.lang = qs(window.location.href, 'lang');
+                    this.load();
+                },
+                methods: {
+                    init: function () {
+                        this.paras.operid = qs(window.location.href, 'operid');
+                        this.paras.formid = qs(window.location.href, 'formid');
+                        this.paras.loginname = qs(window.location.href, 'loginname');
+                        this.paras.groupname = qs(window.location.href, 'groupname');
+                        this.paras.from = qs(window.location.href, 'from');
+                        this.paras.refno = qs(window.location.href, 'refno');
+                        this.paras.fwdeseq = qs(window.location.href, 'fwdeseq');
+                        this.paras.pidx = qs(window.location.href, 'pidx');
+                        this.lang = qs(window.location.href, 'lang');
+                        this.load();
+                    },
+                    timeout: function () {
+                        window.location.href = "../../98.html";
+                    },
+                    load: function () {
+                        var that = this;
+                        this.$http.post("../ajax.ashx?act=load", this.paras, { emulateJSON: true }).then(function (res) {
+                            if (res.body.err_code != 0) {
+                                if (res.body.err_code == -98) {
+                                    that.timeout();
+                                } else
+                                    alert(res.body.err_msg);
+                            } else {
+                                //这里需要把fields数组转换成哈希列表。注意：告知derek这里的“field_code”必须唯一。
+                                for (var i = 0; i < res.body.result.fields.length; i++) {
+                                    that.dom.controls[res.body.result.fields[i].field_code] = res.body.result.fields[i];
+                                }
+                                that.dom.htmls = res.body.result.defs[0];
+                                that.dom.flowinfo = res.body.result.flowinfo;
+                                that.dom.privilege = res.body.result.privilege;
+                                that.dom.atchs = res.body.result.atchs;
+                                that.dom.loaded = true;
+                                that.wrap();
+                            }
+                        }, function (err) {
+                            console.log(err);
+                        });
+
+                        //清除一次行数，避免重复加载时计算错误。
+                        $("#txt-floor-suite").attr("rows", 1);
+                    },
+                    wrap: function () {
+                        var that = this;
+                        //这里处理floor/suit折行的问题（应该还有更好的办法，暂时先这样了）
+                        var $e = $("#txt-floor-suite");
+                        $de = $("<div></div>").css("font-size", $e.css("font-size"));
+                        $(".mb-5").append($de);
+                        $de.css("width", $e.width() + "px");
+                        that.$nextTick(function () {
+                            $de.text(that.dom.controls.Floor_Suite.fmdt_value);
+                            var q = Math.floor($de.height() / $e.height());
+                            setTimeout(function () {
+                                if (q <= 1) {
+                                    $e.attr("rows", 1);
+                                } else {
+                                    $e.attr("rows", q);
+                                }
+                            }, 350);
+                            $de.remove();
+                            $e.focus();
+                            $e.blur();
+                        });
+                    },
+                    save: function (e) {
+                        mask(".fixed-bottom", "on");
+                        e.target.disabled = true;
+
+                        var that = this;
+                        this.paras['remark'] = $("#office-user input[readonly!='readonly']").val();
+                        this.paras['fwdeid'] = $("#office-user input[readonly!='readonly']").attr('alt');
+                        this.$http.post("../ajax.ashx?act=save_120000", this.paras, { emulateJSON: true }).then(function (res) {
+                            if (res.body.err_code != 0) {
+                                if (res.body.err_code == -98) {
+                                    that.timeout();
+                                } else
+                                    alert(res.body.err_msg);
+                            } else {
+                                if (res.body.result) {
+                                    alert('Save success');
+                                    that.load();
+                                } else {
+                                    alert('Save failure');
+                                }
+                            }
+                            e.target.disabled = false;
+                            mask(".fixed-bottom", "off");
+                        }, function (err) {
+                            console.log(err);
+                            e.target.disabled = false;
+                            mask(".fixed-bottom", "off");
+                        });
+                    },
+                    submit: function (e) {
+                        mask(".fixed-bottom", "on");
+                        e.target.disabled = true;
+                        var that = this;
+                        this.paras['remark'] = $("#office-user input[readonly!='readonly']").val();
+                        this.paras['fwdeid'] = $("#office-user input[readonly!='readonly']").attr('alt');
+                        this.$http.post("../ajax.ashx?act=submit_processed_eform", this.paras, { emulateJSON: true }).then(function (res) {
+                            if (res.body.err_code != 0) {
+                                if (res.body.err_code == -98) {
+                                    that.timeout();
+                                } else
+                                    alert(res.body.err_msg);
+                            } else {
+                                if (res.body.result) {
+                                    alert('Approval success');
+                                    that.load();
+                                } else {
+                                    alert('Submit failure');
+                                }
+                            }
+                            e.target.disabled = false;
+                            mask(".fixed-bottom", "off");
+                        }, function (err) {
+                            console.log(err);
+                            e.target.disabled = false;
+                            mask(".fixed-bottom", "off");
+                        });
+                    },
+                    preject: function () {
+                        var that = this;
+                        $("#btn-confirm").off('click');
+                        $("#btn-confirm").on('click', function (e) {
+                            e.target.disabled = true;
+                            that.paras["reason"] = $("#txt-reason").val();
+                            that.$http.post("../ajax.ashx?act=reject_processed_eform", that.paras, { emulateJSON: true }).then(function (res) {
+                                if (res.body.err_code != 0) {
+                                    if (res.body.err_code == -98) {
+                                        //that.timeout();
+                                    } else
+                                        alert(res.body.err_msg);
+                                } else {
+                                    if (res.body.result) {
+                                        alert('Reject success');
+                                        that.cleanup();
+                                        that.load();
+                                    } else {
+                                        alert('Reject failure');
+                                    }
+                                }
+                                e.target.disabled = false;
+                            }, function (err) {
+                                console.log(err);
+                            });
+                        });
+                    },
+                    cleanup: function () {
+                        $("#modal-reject").modal('hide');
+                        $("#txt-reason").val("");
+                    },
+                    close: function (e) {
+                        mask(".fixed-bottom", "on");
+                        e.target.disabled = true;
+                        var that = this;
+                        this.paras['remark'] = $("#office-user input[readonly!='readonly']").val();
+                        this.paras['fwdeid'] = $("#office-user input[readonly!='readonly']").attr('alt');
+                        this.$http.post("../ajax.ashx?act=close_processed_eform", this.paras, { emulateJSON: true }).then(function (res) {
+                            if (res.body.err_code != 0) {
+                                if (typeof (res.body.err_code) == "undefined" || res.body.err_code == -98) {
+                                    that.timeout();
+                                } else
+                                    alert(res.body.err_msg);
+                            } else {
+                                if (res.body.result) {
+                                    alert('Completed');
+                                    that.cleanup();
+                                    that.load();
+                                } else {
+                                    alert('Can not complete');
+                                }
+                            }
+                            e.target.disabled = false;
+                            mask(".fixed-bottom", "off");
+                        }, function (err) {
+                            console.log(err);
+                            e.target.disabled = false;
+                            mask(".fixed-bottom", "off");
+                        });
+                    },
+                    shrink: function () { //收缩图片                        
+                        var $p = $("img");
+                        var w = parseInt($p.css("width"));
+                        var h = parseInt($p.css("height"));
+
+                        var ratio = 0.55;
+                        $p.css("width", Math.floor(w * ratio).toString() + "px");
+                        $p.css("height", Math.floor(h * ratio).toString() + "px");
+                        $p.css("position", "absolute");
+                    },
+                    isReadonly: function (v) {
+                        if (!v) return true;
+
+                        if (v.indexOf('T') >= 0 || v.indexOf('N') >= 0) {
+                            return true;
+                        } else
+                            return false;
+                    },
+                    html2pdf: function (e) {
+                        var that = this;
+                        e.target.disabled = true;
+                        this.$http.post("../ajax.ashx?act=html2pdf", this.paras, { emulateJSON: true }).then(function (res) {
+                            if (res.body.err_code != 0) {
+                                if (typeof (res.body.err_code) == "undefined" || res.body.err_code == -98) {
+                                    that.timeout();
+                                } else
+                                    alert("[html2pdf] with error:\r\n" + res.body.err_msg);
+                            } else {
+                                if (res.body.result.vPath) {
+                                    window.open(res.body.result.vPath);
+                                }
+                            }
+                            e.target.disabled = false;
+                        });
+                    }
+                }
+            });
+            //vm.init();
+        });
+    </script>
+</body>
+</html>

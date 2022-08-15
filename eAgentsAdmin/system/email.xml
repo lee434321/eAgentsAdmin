@@ -1,0 +1,190 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<emails>
+  <template id="1" name="CustomerCreation">
+    <content type="hk" phone1="2128 0066" phone2="2128 7500">      
+      Dear Tenant,&lt;br/&gt;
+      &lt;br/&gt;
+      The Electronic Services of HutchisonAgent have been launched.&lt;br/&gt;
+      &lt;br/&gt;
+      Please via the following link to finish the user registration:
+      &lt;a href="{website}/Account/NewUser?{qs_en}"&gt;finish registration&lt;/a&gt;&lt;br/&gt;&lt;br/&gt;
+      After registration,you can logon to use HutchisonAgent application..&lt;br/&gt;
+      Login name：{leasenum}&lt;br/&gt;
+      &lt;br/&gt;
+      If you have more than one lease, you can link up into one account.&lt;br/&gt;
+      &lt;br/&gt;
+      Please ignore this email if you have completed the registration. &lt;br/&gt;
+      &lt;br/&gt;
+      This e-mail serves as notification only, please do not reply to this email.If you change your email address, please notify us immediately by changing it through the application.&lt;br/&gt;
+      If you have any enquiries on managing eStatement, please contact us at {phone1} during office hours. For other enquires and feedback, please contact us at {phone2}&lt;br/&gt;
+      &lt;br/&gt;
+      Thank you for your cooperation!&lt;br/&gt;
+      Yours faithfully&lt;br/&gt;
+      &lt;br/&gt;
+      Hutchison Estate Agents Limited&lt;br/&gt;
+      &lt;br/&gt;
+      
+      親愛的租戶:&lt;br/&gt;
+      &lt;br/&gt;
+      我們現已推出HutchisonAgent 電子服務。&lt;br/&gt;
+      您需要登錄如下鏈接完成用戶註冊：
+      &lt;a href="{website}/Account/NewUser?{qs_cn}"&gt;前去完成&lt;/a&gt;&lt;br/&gt;
+      完成后您可以登錄 HutchisonAgent 網站查看各項業務。&lt;br/&gt;
+      登录用户编号：{leasenum}&lt;br/&gt;
+      &lt;br/&gt;
+      如您需要連接多張租約號碼，請參照連接租約號碼的步驟。&lt;br/&gt;
+      &lt;br/&gt;
+      如您已完成註冊，請不用理會此電郵。&lt;br/&gt;
+      &lt;br/&gt;
+      這只是通告電郵，請不要回覆此電郵。如果您更改您的電子郵件地址，請即時透過我們的系統更改，以便知悉。如有關電子賬單問題，請在辦公時間致電{phone1}給我們。其他查詢及意見,請在辦公時間致電{phone2}&lt;br/&gt;
+      &lt;br/&gt;
+      感謝您的配合！&lt;br/&gt;
+      &lt;br/&gt;
+      和記地產代理有限公司謹啟&lt;br/&gt;
+    </content>
+    <content type="zh" phone1="3333 4444" phone2="5555 6666">
+      亲爱的租户:&lt;br/&gt;
+      &lt;br/&gt;
+      我们现已推出HutchisonAgent 电子服务。&lt;br/&gt;
+      您需要登录如下链接完成用户注册:   
+      &lt;a href="{website}/Account/NewUser?{qs_cn}" &gt;前去完成&lt;/a&gt;&lt;br/&gt;
+      完成后您可以登录 HutchisonAgent 网站查看各项业务。&lt;br/&gt;
+      登录用户编号：{leasenum}&lt;br/&gt;
+      &lt;br/&gt;
+      如您需要连接多张租约号码，请参照连接租约号码的步骤。&lt;br/&gt;
+      &lt;br/&gt;
+      如您已完成注册，请不用理会此电邮。&lt;br/&gt;
+      &lt;br/&gt;
+      这只是通告电邮，请不要回复此电邮。如果您更改您的电子邮件地址，请即时透过我们的系统更改，以便知悉。如有关电子账单问题，请在办公时间致电{phone1}给我们。其他查询及意见,请在办公时间致电{phone2}&lt;br/&gt;
+      &lt;br/&gt;
+      感谢您的配合！&lt;br/&gt;
+      &lt;br/&gt;
+      和记地产代理有限公司谨启&lt;br/&gt;
+    </content>    
+  </template>
+  <template id="2" name="forgetpassword">
+    <content type="hk">
+      Dear User, &lt;br/&gt;
+      &lt;br/&gt;
+      Please find below the verification code for password reset in our application:{website} &lt;br/&gt;
+      &lt;br/&gt;
+      Verification code:{vCode} &lt;br/&gt;
+      &lt;br/&gt;
+      Yours faithfully, &lt;br/&gt;
+      &lt;br/&gt;
+      Hutchison Estate Agents Limited &lt;br/&gt;
+      &lt;br/&gt;
+      &lt;br/&gt;
+      親愛的租戶: &lt;br/&gt;
+      &lt;br/&gt;
+      請在系統使用以下驗證碼重新設定密碼:{website} &lt;br/&gt;
+      &lt;br/&gt;
+      驗證碼:{vCode} &lt;br/&gt;
+      &lt;br/&gt;      
+      和記地產代理有限公司謹啟 &lt;br/&gt;
+      &lt;br/&gt;      
+    </content>
+    <content type="zh">      
+      亲爱的租户: &lt;br/&gt;
+      &lt;br/&gt;
+      请在系统使用以下验证码重新设定密码:{website} &lt;br/&gt;
+      &lt;br/&gt;
+      验证码:{vCode} &lt;br/&gt;
+      &lt;br/&gt;
+      和记地产代理有限公司谨启 &lt;br/&gt;
+      &lt;br/&gt;
+    </content>
+  </template>
+  <template id="3" name="FeedbackMaintenance2CustomerUser">
+    <content type="hk">
+      Dear Tenant,&lt;br/&gt;
+      &lt;br/&gt;
+      You have a new message on HutchisonAgent. &lt;br/&gt;
+      Please view the message via following {link} &lt;br/&gt;
+      &lt;br/&gt;
+      This e-mail serves as notification only, please do not reply to this email. If you change your email address, please notify us immediately by changing it through the website.&lt;br/&gt;
+      Thank you for using our HutchisonAgent. &lt;br/&gt;
+      &lt;br/&gt;
+      Yours faithfully &lt;br/&gt;
+      Hutchison Estate Agents Limited &lt;br/&gt;
+      &lt;br/&gt; &lt;br/&gt;
+
+      親愛的租戶: &lt;br/&gt;
+      &lt;br/&gt;
+      您有一條新的HutchisonAgent訊息。 &lt;br/&gt;
+      請透過以下連結檢視訊息:{link} 
+      &lt;br/&gt;&lt;br/&gt;
+      這只是通告電郵，請不要回覆此電郵。如果您更改您的電子郵件地址，請即時透過我們的網站更改，以便知悉。&lt;br/&gt;
+      &lt;br/&gt;
+      感謝您使用我們的HutchisonAgent。&lt;br/&gt;
+      &lt;br/&gt;
+      和記地產代理有限公司 謹啟&lt;br/&gt;          
+    </content>
+    <content type="zh">
+      亲爱的租户: &lt;br/&gt;
+      &lt;br/&gt;
+      您有一条新的HutchisonAgent讯息。 &lt;br/&gt;
+      请透过以下链接检视讯息:{link}
+      &lt;br/&gt;&lt;br/&gt;
+      这只是通告电邮，请不要回复此电邮。如果您更改您的电子邮件地址，请即时透过我们的网站更改，以便知悉。&lt;br/&gt;
+      &lt;br/&gt;
+      感谢您使用我们的HutchisonAgent。&lt;br/&gt;
+      &lt;br/&gt;
+      和记地产代理有限公司 谨启&lt;br/&gt;
+    </content>
+  </template>
+  <template id="4" name="FeedbackMaintenance2Approver">
+    
+  </template>
+  <template id="5" name="NoticeMaintenance2Approver">
+    
+  </template>
+  <template id="6" name="statementcutoff">
+    <content type="hk" phone1="2128 0066">
+      Dear Tenant,&lt;br/&gt;
+      &lt;br/&gt;
+      The latest eStatement and monthly gross turnover submission (if applicable) for your account is now available.&lt;br/&gt;
+      Please logon to {link} to view your eStatement and record monthly gross turnover (if applicable) for future reference.&lt;br/&gt;
+      Please check your eStatement carefully and report to us if there are any errors or discrepancies.&lt;br/&gt;
+      &lt;br/&gt;
+      If you haven’t finished the user registration of our electronic services, please complete it at the earliest.&lt;br/&gt;
+      &lt;br/&gt;
+      This e-mail serves as notification only, please do not reply to this email. If you change your email address, please notify us immediately by changing it through the website. If you have any enquiries on managing eStatement, please call us at {phone1} during office hours.&lt;br/&gt;
+      &lt;br/&gt;
+      Thank you for using HutchisonAgent. &lt;br/&gt;
+      &lt;br/&gt;
+      Yours faithfully, &lt;br/&gt;
+      &lt;br/&gt;
+      Hutchison Estate Agents Limited &lt;br/&gt;
+      &lt;br/&gt;
+      &lt;br/&gt;
+      親愛的租戶: &lt;br/&gt;
+      &lt;br/&gt;
+      您的最新電子月結單和最新營業額報告欄(如適用)已經上載至我們的網站。 &lt;br/&gt;
+      請即登錄{link}查看您的最新電子月結單和填報營業額(如適用)。 &lt;br/&gt;
+      請仔細檢查您的電子月結單，如果有任何錯誤或差異，請告知我們。 &lt;br/&gt;
+      &lt;br/&gt;
+      如果您尚未完成登記電子服務，請儘快完成。 &lt;br/&gt;
+      &lt;br/&gt;
+      這只是通告電郵，請不要回覆此電郵。如果您更改您的電子郵件地址，請即時透過我們的網站更改，以便知悉。如您有任何疑問，請在辦公時間致電{phone1}給我們。 &lt;br/&gt;
+      &lt;br/&gt;
+      感謝您使用我們的電子服務。 &lt;br/&gt;
+      &lt;br/&gt;
+      和記地產代理有限公司 謹啟 &lt;br/&gt;
+    </content>
+    <content type="zh" phone1="3333 4444">
+      亲爱的租户: &lt;br/&gt;
+      &lt;br/&gt;
+      您的最新电子月结单已经上载至我们的网站。请即登录{link}查看。 &lt;br/&gt;
+      请仔细检查您的电子月结单，如果有任何错误或差异，请告知我们。 &lt;br/&gt;
+      &lt;br/&gt;
+      如果您尚未完成登记电子月结单服务，请尽快完成。 &lt;br/&gt;
+      &lt;br/&gt;
+      这只是通告电邮，请不要回复此电邮。如果您更改您的电子邮件地址，请即时透过我们的网站更改，以便知悉。如您有任何疑问，请在办公室时间致电{phone1}给我们。 &lt;br/&gt;
+      &lt;br/&gt;
+      感谢您使用我们的电子月结单服务。 &lt;br/&gt;
+      &lt;br/&gt;
+      和记地产代理有限公司 谨启 &lt;br/&gt;
+    </content>
+  </template>
+</emails>

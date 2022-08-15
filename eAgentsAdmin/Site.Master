@@ -1,0 +1,410 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Site.master.cs" Inherits="PropertyOneAppWeb.Site" %>
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <meta http-equiv="X-UA-Compatible" content="IE=EDGE" />
+    <link rel="stylesheet" href="/js/bootgrid/jquery.bootgrid.css" />
+    <link rel="stylesheet" href="/js/bootstrap/css/bootstrap.css" />
+    <link rel="stylesheet" href="/js/AmazeUI/assets/css/amazeui.css" />
+    <link rel="stylesheet" href="/Css/Menu.css" />
+    <link rel="stylesheet" href="/Css/Site.css" />
+    <link rel="stylesheet" href="/js/font-awesome-4.7.0/css/font-awesome.min.css" />
+    <!--[if (gte IE 9)|!(IE)]><!-->
+    <script type="text/javascript" src="/js/jQuery/jquery-3.2.1.min.js"></script>
+    <!--<![endif]-->
+    <!--[if lte IE 8]>
+    <script src="/js/jQuery/jquery-1.11.1.min.js"></script>
+    <script src="/js/modernizr.js"></script>
+    <script src="/js/AmazeUI/assets/js/amazeui.ie8polyfill.min.js"></script>
+    <![endif]-->
+    <script type="text/javascript" src="/js/bootstrap/js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="/js/AmazeUI/assets/js/amazeui.min.js"></script>
+    <script type="text/javascript" src="/js/bootgrid/jquery.bootgrid.min.js"></script>
+    <script type="text/javascript" src="/js/SiteJScript.js"></script>
+    <script type="text/javascript">
+        /* 初始化全局变量 */
+        var globaltotaloutstanding = 0;
+        var disclaimerUrl = "/Public/disclaimer.aspx";
+
+        $(document).ready(function () {
+            GetDefaultLang();
+
+            /* 初始化welcome */
+            var welcomeleasenum = '<% =Session["leasenumber"]%>';
+            if (checknotnull(welcomeleasenum) && welcomeleasenum == "blank") {
+                var welcomeloginname = '<% =Session["loginname"]%>';
+                $("#label-welcome").text("Welcome!" + welcomeloginname);
+            }
+            else {
+                $("#label-welcome").text("Welcome!" + welcomeleasenum);
+            }
+
+            /* 校验身份 */
+            var userid = '<% =Session["userid"]%>';
+            if (checknotnull(userid) == false) {
+                logout();
+            }
+
+            /* 初始化菜单 */
+            $("#img-logo").attr("src", "/Image/HEAL-master2017.png");
+            $("#dropdown-change-lease").show(); /* 显示下拉框 */
+            $("#label-welcome").text('<%= Resources.Lang.Res_Menu_Welcome %>');
+            setloginmenu();
+            setleftmenu();
+        });
+
+        /* 切换当前lease number */
+        function changelease(leasenum) {
+            $.ajax({
+                cache: false,
+                type: "POST",
+                url: "/Web/Homepage.aspx",
+                data: {
+                    "action": "changelease",
+                    "leasenum": leasenum
+                },
+                success: function (data) {
+                    if (data == "ok") {
+                        location.reload();
+                    }
+                    else {
+                        alert('<%= Resources.Error.ERR_LEASE_CHANGE %>');
+                    }
+                },
+                error: function (data) {
+                    alert('<%= Resources.Error.ERR_NETWORK_ERR %>');
+                }
+            });
+        };
+
+        /* 退出登录 */
+        function logout() {
+            $.ajax({
+                cache: false,
+                type: "POST",
+                url: "/Login.aspx",
+                data: {
+                    "action": "logout"
+                },
+                success: function (data) {
+                    if (data == "ok") {
+                        /* 跳转到主页 */
+                        window.location.href = "/Login.aspx";
+                    }
+                },
+                error: function (data) {
+                    /* 跳转到主页 */
+                    window.location.href = "/Login.aspx";
+                }
+            });
+        };
+
+        /* 设置Login ID用户菜单 */
+        function setloginmenu() {
+            addrootmenu(".animenu__nav", "li-homepage", "/Web/Homepage.aspx", '<%= Resources.Lang.Res_Menu_Homepage %>');
+            /* addrootmenu(".animenu__nav", "li-onlinepay", "/Web/Onlinepay.aspx", '<%= Resources.Lang.Res_Menu_Onlinepay %>'); */
+            addrootmenu(".animenu__nav", "li-statement", "/Web/Statement.aspx", '<%= Resources.Lang.Res_Menu_Statement %>');
+            addrootmenu(".animenu__nav", "li-myprofile", "/Web/MyProfile.aspx", '<%= Resources.Lang.Res_Menu_Profile %>');
+            addlistmenu(".animenu__nav", "ul-sysinfo", '<%= Resources.Lang.Res_Menu_SystemInfo %>');
+            addrootmenu("#ul-sysinfo", "li-contactus", "/Web/ContactUs.aspx", '<%= Resources.Lang.Res_Menu_ContactUs%>');
+            addrootmenu("#ul-sysinfo", "li-changepsw", "/Web/ChangePassword.aspx", '<%= Resources.Lang.Res_Menu_ChangePsw%>');
+            /* addrootmenu("#ul-sysinfo", "li-accountinfo", "/Web/AccountInfo.aspx", '<%= Resources.Lang.Res_Menu_AccountInfo%>'); */
+            addrootmenu("#ul-sysinfo", "li-leaselink", "/Web/Leaselink.aspx", '<%= Resources.Lang.Res_Menu_LinkLease%>');
+            addrootmenu("#ul-sysinfo", "li-emailsetting", "/Web/changemail.aspx", '<%= Resources.Lang.Res_Menu_EmailSetting%>');
+        };
+
+        /* 添加一级菜单 */
+        function addrootmenu(target, addid, href, text) {
+            $(target).append('<li id="' + addid + '"><a class="animenu-font" href="' + href + '">' + text + '</a></li>');
+        };
+
+        /* 添加下拉菜单 */
+        function addlistmenu(target, addid, text) {
+            $(target).append('<li><a class="animenu-font" href="#">' + text + '</a><ul id="' + addid + '" class="animenu__nav__child"></ul></li>');
+        };
+
+        /* 添加左侧设置菜单 */
+        function addleftmenu(target, leasenum, outstanding, selected) {
+            var currenturl = '<% =Session["currenturl"]%>';
+            outstanding = formatMoney(outstanding, 2, "")
+
+            if (selected == true) {
+                $(target).append('<li class="am-active"><a onclick="changelease(\'' + leasenum + '\')" href="javascript:void(0)">' + leasenum + ' | ($' + outstanding + ')</a></li>');
+            }
+            else {
+                $(target).append('<li><a onclick="changelease(\'' + leasenum + '\')" href="javascript:void(0)">' + leasenum + ' | ($' + outstanding + ')</a></li>');
+            }
+        };
+
+        /* 设置左侧Lease Group菜单 */
+        function setleftmenu() {
+            var leasenum = '<% =Session["leasenumber"]%>';
+            if (checknotnull(leasenum)) {   /* 如果租约号存在，且账号对应有至少一个租约号 */
+                var leasegroupjson = '<% =Session["leasegroupjson"]%>';
+                var jsondata = jQuery.parseJSON(leasegroupjson);
+                if (checknotnull(jsondata) && jsondata.length > 0) {
+                    for (var i = 0; i < jsondata.length; i++) {
+                        globaltotaloutstanding += Number(jsondata[i].outstanding);
+                        if (leasenum == jsondata[i].leasenum) {
+                            addleftmenu("#ul-change-lease", jsondata[i].leasenum, jsondata[i].outstanding, true);
+                        }
+                        else {
+                            addleftmenu("#ul-change-lease", jsondata[i].leasenum, jsondata[i].outstanding, false);
+                        }
+                    }
+                }
+            }
+        };
+
+        /* 设置Lease Change按钮是否有效 */
+        function setbuttonenabel(setbool) {
+            if (setbool == true) {
+                $("#button-change-lease").show();
+            }
+            else {
+                $("#button-change-lease").hide();
+            }
+        };
+
+        /* 获取默认语言 */
+        function GetDefaultLang() {
+            var lang = '<%=Session["preferredculture"] %>';
+            if (lang == "en-US") {
+                disclaimerUrl = "/Public/disclaimer.aspx";
+                AddLangMenu("ul-change-lang", "English", true);
+                AddLangMenu("ul-change-lang", "繁體中文", false);
+                AddLangMenu("ul-change-lang", "简体中文", false);
+                $("#dropdown-change-lang").text("English");
+            }
+            else if (lang == "zh-CHT") {
+                disclaimerUrl = "/Public/disclaimer-cht.aspx";
+                AddLangMenu("ul-change-lang", "English", false);
+                AddLangMenu("ul-change-lang", "繁體中文", true);
+                AddLangMenu("ul-change-lang", "简体中文", false);
+                $("#dropdown-change-lang").text("繁體中文");
+            }
+            else if (lang == "zh-CHS") {
+                disclaimerUrl = "/Public/disclaimer-cht.aspx";
+                AddLangMenu("ul-change-lang", "English", false);
+                AddLangMenu("ul-change-lang", "繁體中文", false);
+                AddLangMenu("ul-change-lang", "简体中文", true);
+                $("#dropdown-change-lang").text("简体中文");
+            }
+
+            /* 初始化免责声明 */
+            $("#a-terms").prop("href", disclaimerUrl);
+
+            /* 添加小三角 */
+            $("#dropdown-change-lang").append('<span class="am-icon-caret-down"></span>');
+        };
+
+        /* 添加语言菜单 */
+        function AddLangMenu(target, lang, selected) {
+            if (selected == true) {
+                $("#" + target).append('<li class="am-active"><a onclick="ChangeLang(\'' + lang + '\')" href="javascript:void(0)">' + lang + '</a></li>');
+            }
+            else {
+                $("#" + target).append('<li><a onclick="ChangeLang(\'' + lang + '\')" href="javascript:void(0)">' + lang + '</a></li>');
+            }
+        };
+
+        /* 切换语言 */
+        function ChangeLang(lang) {
+            if (lang == "English") {
+                lang = "en-US";
+            }
+            else if (lang == "繁體中文") {
+                lang = "zh-CHT";
+            }
+            else if (lang == "简体中文") {
+                lang = "zh-CHS";
+            }
+
+            $.ajax({
+                cache: false,
+                type: "POST",
+                url: "/Login.aspx",
+                data: {
+                    "action": "changelang",
+                    "lang": lang
+                },
+                success: function (data) {
+                    if (data == "ok") {
+                        location.reload();
+                    }
+                    else {
+                        showAlert("Notice", '<%= Resources.Error.ERR_LANG_CHANGE %>');
+                    }
+                },
+                error: function (data) {
+                    showAlert("Notice", '<%= Resources.Error.ERR_NETWORK_ERR %>');
+                }
+            });
+        }
+
+    </script>
+    <title>PropertyOne Onlinepay</title>
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body>
+    <div class="div-homepage-top">
+        <div style="height: 5px;">
+        </div>
+        <div style="padding-left: 30px; padding-right: 30px; min-height: 116px;">
+            <table style="width: 100%;">
+                <tr style="height: 40%;">
+                    <td rowspan="2" style="width: 25%;">
+                        <img id="img-logo" alt="" src="/Image/HEAL-master2017.png" width="209px" height="60px" />
+                    </td>
+                    <td style="width: 75%;">
+                        <table style="float: right;">
+                            <tr>
+                                <td>
+                                    <!-- 语言下拉列表 -->
+                                    <div class="am-dropdown" data-am-dropdown>
+                                        <button id="dropdown-change-lang" style="background-color: transparent; border-style: hidden;
+                                            color: #586369;" class="am-btn am-btn-primary am-dropdown-toggle" data-am-dropdown-toggle>
+                                            English<span class="am-icon-caret-down"></span>
+                                        </button>
+                                        <ul id="ul-change-lang" class="am-dropdown-content">
+                                        </ul>
+                                    </div>
+                                </td>
+                                <td style="width: 20px;">
+                                </td>
+                                <td style="padding-top: 5px;">
+                                    <label id="label-welcome" class="label-site-welcome">
+                                    </label>
+                                </td>
+                                <td>
+                                    <!-- 下拉列表 -->
+                                    <div class="am-dropdown" data-am-dropdown>
+                                        <button id="dropdown-change-lease" style="background-color: transparent; border-style: hidden;
+                                            color: #586369;" class="am-btn am-btn-primary am-dropdown-toggle" data-am-dropdown-toggle>
+                                            <% =Session["leasenumber"]%><span class="am-icon-caret-down"></span>
+                                        </button>
+                                        <ul id="ul-change-lease" class="am-dropdown-content">
+                                        </ul>
+                                    </div>
+                                </td>
+                                <td>
+                                    <a class="label-site-welcome" href="#" onclick="logout()">[<%= Resources.Lang.Res_Menu_Logout%>]</a>
+                                </td>
+                            </tr>
+                        </table>
+                    </td>
+                </tr>
+                <tr style="height: 60%">
+                    <td style="padding-top: 10px">
+                        <nav class="animenu">
+                            <ul class="animenu__nav" style="float: right;">
+                                <%-- Menu --%>
+                            </ul>
+                        </nav>
+                    </td>
+                </tr>
+            </table>
+        </div>
+    </div>
+    <div style="height: 20px">
+    </div>
+    <div class="div-main-container">
+        <div class="div-main-guide">
+            <table style="width: 100%;">
+                <tr>
+                    <td style="width: 60px;">
+                        <%-- 导航栏图片 --%>
+                        <img id="img-nav" alt="" src="/Image/blankwhite.png" width="40px" height="40px" />
+                    </td>
+                    <td>
+                        <table style="width: 100%;">
+                            <tr>
+                                <td>
+                                    <%-- 导航栏文字 --%>
+                                    <label id="label-nav">
+                                    </label>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td style="width: 100%; height: 3px; background-color: #1C578F">
+                                </td>
+                            </tr>
+                        </table>
+                    </td>
+                </tr>
+            </table>
+        </div>
+        <div style="height: 5px">
+        </div>
+        <div class="div-main-updatepanel">
+            <%-- 深色标题 --%>
+            <div id="div-title" class="global_table_head" hidden="hidden">
+                <p id="p-title">
+                </p>
+            </div>
+            <%-- 内容 --%>
+            <div id="div-content" class="global_table_body" style="height: auto;">
+                <%-- 边距内内容 --%>
+                <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+                </asp:ContentPlaceHolder>
+            </div>
+        </div>
+    </div>
+    <%-- 页脚 --%>
+    <div class="div-main-footer">
+        <p>
+            © Copyright 2018 Hutchison Estate Agents Limited. All rights reserved. | <a id="a-terms"
+                href="/Public/disclaimer.aspx" target="_blank">disclaimer</a> | <a href="/Public/privacy-policy.aspx"
+                    target="_blank">privacy Policy</a>
+        </p>
+    </div>
+    <%-- 警告模态窗口 --%>
+    <div class="am-modal am-modal-alert" tabindex="-1" id="doc-modal-alert">
+        <div class="am-modal-dialog">
+            <div class="am-modal-hd am-modal-hd-my">
+                <label id="label-alert-title">
+                </label>
+            </div>
+            <div class="am-modal-bd">
+                <div class="am-modal-bd-my">
+                    <label id="label-alert-content" style="font-weight: normal;">
+                    </label>
+                </div>
+            </div>
+            <div class="am-modal-footer">
+                <span class="am-modal-btn">OK</span>
+            </div>
+        </div>
+    </div>
+    <%-- 关闭后刷新页面的警告框 --%>
+    <div class="am-modal am-modal-alert" tabindex="-1" id="doc-modal-alert-refresh">
+        <div class="am-modal-dialog">
+            <div class="am-modal-hd am-modal-hd-my">
+                <label id="label-alert-title-refresh">
+                </label>
+            </div>
+            <div class="am-modal-bd">
+                <div class="am-modal-bd-my">
+                    <label id="label-alert-content-refresh">
+                    </label>
+                </div>
+            </div>
+            <div class="am-modal-footer">
+                <span class="am-modal-btn">OK</span>
+            </div>
+        </div>
+    </div>
+    <%-- Loading窗口 --%>
+    <div class="am-modal am-modal-loading am-modal-no-btn" tabindex="-1" id="my-modal-loading">
+        <div class="am-modal-dialog">
+            <div class="am-modal-hd">
+                Loading...</div>
+            <div class="am-modal-bd">
+                <span class="am-icon-spinner am-icon-spin"></span>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

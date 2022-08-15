@@ -1,0 +1,396 @@
+﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta http-equiv="X-UA-Compatible" content="IE=EDGE" />    
+    <title>Form B</title>
+    <style type="text/css">
+        .eform-input{
+		    border-top:0px;
+		    border-left:0px; 
+		    border-right:0px; 
+		    border-color:Black;
+		    border-radius:0px;
+	    }         
+	    .eform-input-noborder{
+		    border-top:0px;
+		    border-left:0px; 
+		    border-right:0px; 
+		    border-bottom:0px;            
+	    }
+	    .container {
+		    max-width: 1140px;
+	    }
+	    h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
+		    margin-bottom: 0.5rem;
+		    font-weight: 500;
+		    line-height: 1.2;
+	    }
+	    h1, h2, h3, h4, h5, h6 {
+		    margin-top: 0;
+		    margin-bottom: 0.5rem;
+	    }
+	    h2 {
+		    font-size: 2rem;
+	    }
+	    .h4, h4 {
+		    font-size: 1.5rem;
+	    }
+	    .h5, h5 {
+		    font-size: 1.25rem;
+	    }
+	    h6 {
+		     /*margin: 0;*/
+		    font-size: 1rem;
+		    font-weight: 500;
+	    }
+	    *, *::before, *::after {
+		    box-sizing: border-box;
+	    }
+	    body {
+		    padding:0;
+		    margin: 0;
+		    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+		    font-size: 1rem;
+		    font-weight: 400;
+		    line-height: 1.5;
+		    color: #212529;
+		    text-align: left;
+		    background-color: #fff;
+	    }
+	    .container {
+		    width: 100%;
+		    padding-right: 15px;
+		    padding-left: 15px;
+		    margin-right: auto;
+		    margin-left: auto;
+	    }
+	    .text-right {
+		    text-align: right!important;
+	    }
+	    .text-center {
+		    text-align: center!important;
+	    }
+	    .text-justify {
+		    text-align: justify!important;
+	    }
+	    .form-group {
+		    margin-bottom: 1rem;
+	    }
+	    .row {
+		    display: -webkit-box; /* wkhtmltopdf uses this one */
+		    display: -webkit-flex;
+		    display: -ms-flexbox;
+		    display: flex;
+		    -ms-flex-wrap: wrap;
+		    flex-wrap: wrap;
+		    margin-right: -15px;
+		    margin-left: -15px;
+	    }
+	    .col-12 {
+		    width: 100%;
+		    max-width: 100%;
+	    }
+	    .col-form-label-sm {
+		    padding-top: calc(0.25rem + 1px);
+		    padding-bottom: calc(0.25rem + 1px);
+		    font-size: 0.875rem;
+		    line-height: 1.5;
+	    }
+	    .col-sm-5 {
+		    width: 41.666667%;
+		    max-width: 41.666667%;
+	    }
+	    .col-sm-4 {
+		    width: 33.333333%;
+		    max-width: 33.333333%;
+	    }
+	    .col-sm-3 {
+		    width: 25%;
+		    max-width: 25%;
+	    }
+	    .col-sm-2 {
+		    width: 16.666667%;
+		    max-width: 16.666667%;
+		    margin-right:5px;
+	    }
+	    .col-sm-1 {
+		    width: 8.333333%;
+		    max-width: 8.333333%;
+		    margin-right:5px;
+	    }
+	    .col-1 {
+		    width: 100%;
+		    max-width: 8.333333%;
+	    }  
+
+	    .offset-6 {
+		    margin-left: 50%;
+	    }
+	    .offset-sm-4 {
+		    margin-left: 33.333333%;
+	    }
+	    .offset-1 {
+		    margin-left: 8.333333%;
+	    }
+
+	    small, .small {
+		    font-size: 80%;
+		    font-weight: 400;
+	    }    
+	    .mt-5, .my-5 {
+		    margin-top: 3rem !important;
+	    }
+	    .mt-4, .my-4 {
+		    margin-top: 1.5rem !important;
+	    }
+	    .mb-2, .my-2 {
+		    margin-bottom: 0.5rem !important;
+	    }     
+	    .bg-yellow {
+		    background-color: #FFFF66;
+	    }
+	    .table {
+		    width: 100%;
+		    margin-bottom: 1rem;
+		    color: #212529;
+	    }
+	    table {
+		    border-collapse: collapse;
+	    }
+	    .table-bordered {
+		    border: 1px solid #dee2e6;
+	    }
+	    .sub-tbl {
+		    font-size: small;
+	    }
+	    .sub-tbl tr th {
+		    border-bottom-width: 0.125rem;
+		    border-bottom-color: black;
+		    border-right-width: 0.125rem;
+		    border-right-color: black;
+	    }
+	    .table thead th {
+		    vertical-align: bottom;
+		    border-bottom: 2px solid black;
+	    }
+	    .table-sm td, .table-sm th {
+		    padding: .3rem;
+	    }
+	    .table-bordered td, .table-bordered th {
+		    border: 2px solid black;
+	    }
+    </style>
+</head>
+<body>
+    <div class="container" id="vu-det">
+        <div class="row">
+            <div class="col-12">
+                <h6 class="text-right">Form B</h6>                
+                <h4 class="text-center">CHEUNG KONG CENTER</h4> 
+                <h5 class=" text-justify">APPLICATION FOR TURNSTILE SYSTEM, PASSENGER LIFT & TOILET SECURITY ACCESS CARDS</h5>            
+                <div>{FORM_HEADER_HTML}</div>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-sm-3">
+                <div class="custom-control custom-checkbox">
+                    <input type="checkbox" {New_Application.fmdt_value} /><span>{New_Application.field_dispen}</span>                    
+                </div>
+            </div>
+            <div class="col-sm-3">
+                <div class="custom-control custom-checkbox">
+                    <input type="checkbox" {Change_Access.fmdt_value} /><span>{Change_Access.field_dispen}</span>                                   
+                </div>
+            </div>
+            <div class="col-sm-2">
+                <div class="custom-control custom-checkbox">
+                    <input type="checkbox" {Deactivation.fmdt_value} /><span>{Deactivation.field_dispen}</span>                     
+                </div>
+            </div>
+            <div class="col-sm-4">
+                <div class="custom-control custom-checkbox">
+                    <input type="checkbox" {Others.fmdt_value} /><span>{Others.field_dispen}</span> &nbsp;<span>{Others_Content.fmdt_value}</span>                  
+                </div>                
+            </div>
+        </div>  
+        
+        <div class="form-group row">
+            <div for="input-tenant" class="col-sm-2 col-form-label col-form-label-sm">{Tenant.field_dispen}:</div>
+            <div class="col-sm-5">
+                {Tenant.fmdt_value}                
+            </div>
+
+            <div for="input-floor-suite" class="col-sm-2 col-form-label col-form-label-sm">{Floor_Suite.field_dispen}:</div>
+            <div class="col-sm-3">                
+                {Floor_Suite.fmdt_value}
+            </div>
+        </div>
+
+        <div class="form-group row">
+            <div for="input-contact-person" class="col-sm-2 col-form-label col-form-label-sm">{Contac_Person.field_dispen}:</div>
+            <div class="col-sm-5">
+                {Contac_Person.fmdt_value}
+            </div>
+            <div for="input-tel-no" class="col-sm-2 col-form-label col-form-label-sm">{Tel_No.field_dispen}:</div>
+            <div class="col-sm-3">
+                {Tel_No.fmdt_value}
+            </div>
+        </div>     
+
+        <!-- 表格 -->
+        <div class="row">
+            <div class="col-12">
+                 <table class="table table-bordered table-sm sub-tbl" style="border:0.13rem solid black; overflow:hidden;" >
+                    <thead class="text-center"  >
+                        <tr class="text-sm-center sub-title" style="background-color:#990000;color:#FFFFFF;" >
+                            <th  colspan="12" style="border-bottom-width: 0.13rem; border-bottom-color:black">
+                                {Sub_Tilte.field_dispen}
+                            </th>
+                        </tr>
+                        <tr class="bg-yellow">
+                            <th rowspan="2" class="align-middle" style="width:10%">
+                                {No_Card.field_dispen}                        
+                            </th>
+                            <th rowspan="2" class="align-middle" style="width:12%">
+                                {Card_No.field_dispen}           
+                            </th>
+                            <th rowspan="2" class="align-middle"> 
+                                {Floor.field_dispen}     
+                            </th>
+                            <th colspan="8">
+                               {Access_Profile.field_dispen}       
+                            </th>
+                            <th rowspan="2" class="align-middle" style="width:20%">
+                                {Office_Use.field_dispen}    
+                            </th>                   
+                        </tr>
+                        <tr class="bg-yellow">
+                            <th style="width:5%">
+                                {Male_Exec.field_dispen}
+                            </th>
+                            <th style="width:5%">
+                                {Male.field_dispen}
+                            </th>
+                            <th>
+                                {Female_Exec.field_dispen}
+                            </th>
+                            <th>
+                                {Female.field_dispen}
+                            </th>
+                            <th>
+                                {Disable.field_dispen}
+                            </th>
+                            <th>
+                                {Turnstile_Gate.field_dispen}
+                            </th>
+                             <th>
+                                {Passenger_Lift.field_dispen}
+                            </th>
+                             <th style="width:15%">
+                                {Access_Others.field_dispen}    
+                            </th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr v-for="row in dom.subdata.rows">
+                            <td>{{row.cols.No_Card.fmdt_value}}</td>
+                            <td>{{row.cols.Card_No.fmdt_value}}</td>
+                            <td>{{row.cols.Floor.fmdt_value}}</td>
+                            <td>{{row.cols.Male_Exec.fmdt_value}}</td>
+                            <td>{{row.cols.Male.fmdt_value}}</td>
+
+                            <td>{{row.cols.Female_Exec.fmdt_value}}</td>
+                            <td>{{row.cols.Female.fmdt_value}}</td>
+                            <td>{{row.cols.Disable.fmdt_value}}</td>
+                            <td>{{row.cols.Turnstile_Gate.fmdt_value}}</td>
+                            <td>{{row.cols.Passenger_Lift.fmdt_value}}</td>
+                            <td>{{row.cols.Access_Others.fmdt_value}}</td>
+                            <td>{{row.cols.Office_Use.fmdt_value}}</td>          
+                        </tr>
+                    </tbody>           
+                </table>
+            </div>
+            
+        </div>        
+        <!-- note-->
+        <div class="row" style="margin-top:20px">
+            <div class="col-12">{FORM_WAIST_HTML}</div>
+        </div>
+
+        <div class="row">
+            <div class="col-3">
+                {Request_By.field_dispen}
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="offset-6"></div>
+            <div class="col-6">
+                <div class="form-group">
+                    <div class="form-control eform-input">{RBSign_Person.fmdt_value}</div>
+                    <div><strong>{RBSign_Person.field_dispen}</strong></div>
+                </div>      
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="offset-6"></div>
+            <div class="col-6">
+                <div class="form-group">
+                    <div class="form-control eform-input">{RBSign_Date.fmdt_value}</div>
+                    <div><strong>{RBSign_Date.field_dispen}</strong></div>
+                </div>      
+            </div>
+        </div>          
+        <br />
+
+        <!-- footer -->
+        <div class="row mb-2">
+            <div class="col-12">{FORM_FOOTER_HTML}</div>
+        </div>
+    </div>
+
+    <script type="text/javascript">
+        var dom;
+
+        function hashing(arr, key) {
+            var hashed = {}
+            for (var i = 0; i < arr.length; i++) {
+                if (arr[i][key]) {
+                    hashed[arr[i][key]] = arr[i];
+                }
+            }
+            return hashed;
+        }
+
+        document.onreadystatechange = function () {
+            if (document.readyState === "complete") {
+                if (dom) {
+                    var ie = document.querySelector("[v-for]"); //iteration element for template
+                    var iec = ie.children;
+                    var iep = ie.parentElement;                 //iteration element's parent 
+
+                    for (var i = 0; i < dom.subdata.rows.length; i++) {
+                        dom.subdata.rows[i].cols = hashing(dom.subdata.rows[i].cols, "field_code");
+                    }
+
+                    for (var i = 0; i < dom.subdata.rows.length; i++) {
+                        var ntr = document.createElement("tr"); //new tr
+                        var row = dom.subdata.rows[i];
+                        for (var j = 0; j < ie.children.length; j++) {
+                            var v = eval(ie.children[j].innerText.replace("{", "").replace("}", ""));
+                            var t = document.createElement("td");
+                            t.innerText = v;
+                            ntr.appendChild(t);
+                        }
+                        iep.appendChild(ntr);
+                    }
+                    document.querySelector("[v-for]").style.display = "none"; //"√"
+                }
+            }
+        }
+        
+    </script>
+</body>
+</html>

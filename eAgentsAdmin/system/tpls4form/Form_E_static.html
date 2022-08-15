@@ -1,0 +1,513 @@
+﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta http-equiv="X-UA-Compatible" content="IE=EDGE" />    
+    <title>Form E</title>
+    <style type="text/css">
+        .eform-input{
+            border-top:0px;
+            border-left:0px; 
+            border-right:0px; 
+            border-color:Black;
+            border-radius:0px;
+        }                 
+        .eform-input-noborder{
+            border-top:0px;
+            border-left:0px; 
+            border-right:0px; 
+            border-bottom:0px;            
+        }                
+        .container {
+            max-width: 1140px;   
+        }        
+        .container {
+            width: 100%;
+            padding-right: 15px;
+            padding-left: 15px;
+            margin-right: auto;
+            margin-left: auto;
+            height:978px;
+        }
+        h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
+            margin-bottom: 0.5rem;
+            font-weight: 500;
+            line-height: 1.2;
+        }
+        h1, h2, h3, h4, h5, h6 {
+            margin-top: 0;
+            margin-bottom: 0.5rem;
+        }
+        h2 {
+            font-size: 2rem;
+        }
+        h6 {
+	         /*margin: 0;*/
+            font-size: 1rem;
+            font-weight: 500;
+        }
+        *, *::before, *::after {
+            box-sizing: border-box;
+        }
+        body {
+	        padding:0;
+            margin: 0;
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+            font-size: 1rem;
+            font-weight: 400;
+            line-height: 1.5;
+            color: #212529;
+            text-align: left;
+            background-color: #fff;            
+        }
+        .container {
+            width: 100%;
+            padding-right: 15px;
+            padding-left: 15px;
+            margin-right: auto;
+            margin-left: auto;
+        }
+        .text-right {
+            text-align: right!important;
+        }
+        .text-center {
+            text-align: center!important;
+        }
+        .text-justify {
+            text-align: justify!important;
+        }
+        .form-group {
+            margin-bottom: 0.55rem;
+        }
+
+        .row {
+	        display: -webkit-box; /* wkhtmltopdf uses this one */
+            display: -webkit-flex;
+            display: -ms-flexbox;
+            display: flex;
+            -ms-flex-wrap: wrap;
+            flex-wrap: wrap;
+            margin-right: -15px;
+            margin-left: -15px;
+        }
+        .col-12 {
+            width: 100%;
+            max-width: 100%;
+        }
+        .col-form-label-sm {
+            padding-top: calc(0.25rem + 1px);
+            padding-bottom: calc(0.25rem + 1px);
+            font-size: 0.875rem;
+            line-height: 1.5;
+        }
+        .col-sm-8 {
+            -ms-flex: 0 0 66.666667%;
+            flex: 0 0 66.666667%;
+            max-width: 66.666667%;
+        }
+        .col-sm-6 {
+            width: 50%;
+            max-width: 50%;
+        }
+        .col-sm-5 {
+            width: 41.666667%;
+            max-width: 41.666667%;
+        }
+        .col-sm-4 {
+            width: 33.333333%;
+            max-width: 33.333333%;
+        }
+        .col-sm-3 {
+            width: 25%;
+            max-width: 25%;
+           
+        }
+        .col-sm-2 {
+            width: 16.666667%;
+            max-width: 16.666667%;	       
+        }
+
+        .col-sm-1 {
+            width: 8.333333%;
+            max-width: 8.333333%;
+        }
+        .col-1 {
+            width: 100%;
+            max-width: 8.333333%;
+        }  
+
+        .offset-6 {
+            margin-left: 50%;
+        }
+        .offset-sm-4 {
+            margin-left: 33.333333%;
+        }
+        .offset-1 {
+            margin-left: 8.333333%;
+        }       
+       
+        small, .small {
+            font-size: 80%;
+            font-weight: 400;
+        }    
+        .mt-5, .my-5 {
+            margin-top: 3rem !important;
+        }
+        .mt-4, .my-4 {
+            margin-top: 1.5rem !important;
+        }
+        .mb-2, .my-2 {
+            margin-bottom: 0.5rem !important;
+        }             
+        .col, .col-1, .col-10, .col-11, .col-12, .col-2, .col-3, .col-4, .col-5, .col-6, .col-7, .col-8, .col-9, .col-auto, .col-lg, .col-lg-1, .col-lg-10, .col-lg-11, .col-lg-12, .col-lg-2, .col-lg-3, .col-lg-4, .col-lg-5, .col-lg-6, .col-lg-7, .col-lg-8, .col-lg-9, .col-lg-auto, .col-md, .col-md-1, .col-md-10, .col-md-11, .col-md-12, .col-md-2, .col-md-3, .col-md-4, .col-md-5, .col-md-6, .col-md-7, .col-md-8, .col-md-9, .col-md-auto, .col-sm, .col-sm-1, .col-sm-10, .col-sm-11, .col-sm-12, .col-sm-2, .col-sm-3, .col-sm-4, .col-sm-5, .col-sm-6, .col-sm-7, .col-sm-8, .col-sm-9, .col-sm-auto, .col-xl, .col-xl-1, .col-xl-10, .col-xl-11, .col-xl-12, .col-xl-2, .col-xl-3, .col-xl-4, .col-xl-5, .col-xl-6, .col-xl-7, .col-xl-8, .col-xl-9, .col-xl-auto {
+            position: relative;
+            width: 100%;
+            padding-right: 15px;
+            padding-left: 15px;
+        }
+        .bb {
+            border-bottom: 1px solid;
+        }
+        .justify-content-center {
+            -ms-flex-pack: center!important;
+            justify-content: center!important;
+        }
+        .ls-2 {
+            letter-spacing: 0.30rem;
+        }
+        .w-100 {
+            width: 100%!important;
+        }
+        .table {
+		    width: 100%;
+		    margin-bottom: 1rem;
+		    color: #212529;
+	    }
+	    table {
+		    border-collapse: collapse;
+	    }
+	    .table-bordered {
+		    border: 1px solid #dee2e6;
+	    }
+	    .sub-tbl {
+		    font-size: small;
+	    }
+	    .sub-tbl tr th {
+		    border-bottom-width: 0.125rem;
+		    border-bottom-color:#dee2e6;
+		    border-right-width: 0.125rem;
+		    border-right-color: #dee2e6;
+	    }
+	    .table thead th {
+		    vertical-align: bottom;
+		    border-bottom: 2px solid #dee2e6;
+	    }
+	    .table-sm td, .table-sm th {
+		    padding: .3rem;
+	    }
+	    .table-bordered td, .table-bordered th {
+		    border: 1px solid #dee2e6;
+	    }
+    </style>
+</head>
+<body>
+    <div class="container" id="vu-det">
+        <div class="row">    
+            <div class="col-12">  
+                <h2 class="text-center ls-5">CHEUNG KONG CENTER</h2> 
+                <h4 class="text-center ls-2">[公眾範圍]工程許可證申請表</h4>
+                <h4 class="text-center ls-1" style=" border-bottom:1px solid black;">APPLICATION FOR WORK COMMENCEMENT PERMIT [COMMON AREA]</h4>                
+                <div>{FORM_HEADER_HTML}</div>
+            </div>
+        </div>
+        
+        
+        <!-- border box 1-->
+        <div style="border:1px solid black; padding:0.2rem;">            
+            <div class="row">
+                <div class="col-12 text-center">
+                    <span class="ls-2">申请人</span>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-12 text-center">
+                    <span class="bb">REQUISTION</span>
+                </div>
+            </div>
+            <!-- Name of Contractor -->
+            <div class="form-group row">
+                <div class="col-sm-4 col-form-label">
+                    {Contractor_Name.field_dispcn}
+                    <br />  
+                    {Contractor_Name.field_dispen}
+                </div>
+	            <div class="col-sm-8 align-self-center ">
+                    {Contractor_Name.fmdt_value}	                
+	            </div>
+            </div>            
+            
+            <!-- 子表表格 -->
+            <div class="row">
+                <div class="col-12">
+                    <table class="table table-bordered table-sm sub-tbl">
+                        <thead>
+                            <tr>
+                                <th colspan="3" class="text-center">
+                                    {Sub_Tilte.field_dispcn}({Sub_Tilte.field_dispen})
+                                </th>                        
+                            </tr>
+                            <tr>
+                                <th rowspan="2">
+                                    {Contactor.field_dispcn}<br/>{Contactor.field_dispen}
+                                </th>
+                                <th colspan="2" class="text-center">{TelNo.field_dispcn}({TelNo.field_dispen})</th>                        
+                            </tr>
+                            <tr>
+                                <th>{MobileNo.field_dispcn}({MobileNo.field_dispen})</th>
+                                <th>{OfficeNo.field_dispcn}({OfficeNo.field_dispen})</th>                                            
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr v-for="row in dom.subdata.rows">
+                                <td>{{row.cols.Contactor.fmdt_value}}</td>
+                                <td>{{row.cols.MobileNo.fmdt_value}}</td>
+                                <td>{{row.cols.OfficeNo.fmdt_value}}</td>
+                            </tr>                            
+                        </tbody>
+                    </table>
+                </div>
+            </div>          
+
+            <div class="form-group row">
+                <div class="col-sm-4 col-form-label">
+                    {Work_Location.field_dispcn}
+                    <br />  
+                    {Work_Location.field_dispen}
+                </div>
+	            <div class="col-sm-8 align-self-center ">
+                    <div class="form-control eform-input">                         
+                         {Work_Location.fmdt_value}
+                    </div>	               
+	            </div>
+            </div>
+
+            <div class="form-group row">
+                <div class="col-sm-4 col-form-label">
+                    {Work_Description.field_dispcn}
+                    <br />  
+                    {Work_Description.field_dispen}
+                </div>
+	            <div class="col-sm-8 align-self-center ">
+                    <div class="form-control eform-input">                         
+                         {Work_Description.fmdt_value}
+                    </div>	  	               
+	            </div>
+            </div>
+        
+            <div class="form-group row">
+                <div class="col-sm-4 col-form-label">
+                    {Reason_Plans.field_dispcn}
+                    <br />  
+                    {Reason_Plans.field_dispen}
+                </div>
+	            <div class="col-sm-8 align-self-center ">
+                    <div class="form-control eform-input">                         
+                         {Reason_Plans.fmdt_value}
+                    </div>
+	            </div>
+            </div>
+       
+            <div class="form-group row">
+                <div class="col-sm-4 col-form-label">
+                    {Work_CommenceDate.field_dispcn}
+                    <br />  
+                    {Work_CommenceDate.field_dispen}
+                </div>
+	            <div class="col-sm-8 align-self-center ">
+                    <div class="form-control eform-input">                         
+                         {Work_CommenceDate.fmdt_value}
+                    </div>	                
+	            </div>
+            </div>
+
+            <div class="form-group row">
+                <div class="col-sm-4 col-form-label">
+                    {Work_Duration.field_dispcn}
+                    <br />  
+                    {Work_Duration.field_dispen}
+                </div>
+                <div class="col-sm-1 col-form-label col-form-label-sm">
+                    {Work_DateFrom.field_dispcn}
+                    <br />  
+                    {Work_DateFrom.field_dispen}
+                </div>            
+	            <div class="col-sm-2 align-self-center ">
+	                <div class="form-control eform-input form-control-sm" id="input-work-datefrom">                         
+                         {Work_DateFrom.fmdt_value}
+                    </div>
+	            </div>
+                <div class="col-sm-1 align-self-center">
+	                <div class="form-control eform-input form-control-sm">
+                         {Work_TimeFrom.fmdt_value}
+                    </div>
+	            </div>
+                <div class="col-sm-1 col-form-label col-form-label-sm">
+                    {Work_DateTo.field_dispcn}
+                    <br />  
+                    {Work_DateTo.field_dispen}
+                </div>  
+                <div class="col-sm-2 align-self-center ">
+                    <div class="form-control eform-input form-control-sm">
+                         {Work_DateTo.fmdt_value}
+                    </div>	                
+	            </div>
+                <div class="col-sm-1 align-self-center ">
+                    <div class="form-control eform-input form-control-sm">
+                         {Work_TimeTo.fmdt_value}
+                    </div>	                
+	            </div>
+            </div>
+        
+            <div class="form-group row">
+                <div for="input-workers" class="col-sm-4 col-form-label">
+                    {Workers_Number.field_dispcn}
+                    <br />  
+                    {Workers_Number.field_dispen}
+                </div>
+	            <div class="col-sm-8 align-self-center ">
+                    <div class="form-control eform-input form-control-sm">
+                         {Workers_Number.fmdt_value}
+                    </div>		               
+	            </div>
+            </div>
+         </div>
+        <br />
+        
+        <!-- border box 2 -->
+        <div style="border:1px solid black; padding:0.5rem;">
+            <div class="row">
+                <div class="col-sm-4">
+                    {Tenant_Contactor.field_dispen}
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col-sm-4">
+                    <div class="form-control eform-input">
+                        {TenC_AuthorPerson.fmdt_value}
+                    </div>                     
+                </div>
+                <div class="col-sm-4">                           
+                </div>
+                <div class="col-sm-4">
+                    <div class="form-control eform-input">
+                        {TenC_AuthorDate.fmdt_value}
+                    </div>                     
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col-sm-4 text-center">
+                    {TenC_AuthorPerson.field_dispcn}<br/>
+                    {TenC_AuthorPerson.field_dispen}
+                </div>
+                <div class="col-sm-4">
+                   
+                </div>
+                <div class="col-sm-4 text-center">
+                    {TenC_AuthorDate.field_dispcn}<br/>
+                    {TenC_AuthorDate.field_dispen}
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col-sm-4">
+                    {Tenant.field_dispcn} <br/>
+                    {Tenant.field_dispen} 
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col-sm-4">
+                    <div class="form-control eform-input">
+                        {Ten_AuthorPerson.fmdt_value}
+                    </div>                     
+                </div>
+                <div class="col-sm-4">                     
+                </div>
+                <div class="col-sm-4">
+                    <div class="form-control eform-input">
+                        {Ten_AuthorDate.fmdt_value}
+                    </div>                     
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col-sm-4 text-center">
+                    {Ten_AuthorPerson.field_dispcn}<br/>
+                    {Ten_AuthorPerson.field_dispen}
+                </div>
+                <div class="col-sm-4">                  
+                </div>
+                <div class="col-sm-4 text-center">
+                    {Ten_AuthorDate.field_dispcn}<br/>
+                    {Ten_AuthorDate.field_dispen}
+                </div>
+            </div>
+        </div>
+        <br />
+
+       
+        
+        <!-- footer -->
+        <div class="row mb-2">
+            <div class="col-12">{FORM_FOOTER_HTML}</div>
+        </div>     
+         
+    </div>
+
+    <script type="text/javascript">
+        var dom;
+
+        function one(id) {
+            return document.getElementById(id);
+        }
+
+        function hashing(arr, key) {
+            var hashed = {}
+            for (var i = 0; i < arr.length; i++) {
+                if (arr[i][key]) {
+                    hashed[arr[i][key]] = arr[i];
+                }
+            }
+            return hashed;
+        }
+
+        document.onreadystatechange = function () {
+            if (document.readyState === "complete") {
+                if (dom) {
+                    var ie = document.querySelector("[v-for]"); //iteration element for template
+                    var iec = ie.children;
+                    var iep = ie.parentElement;                 //iteration element's parent 
+
+                    for (var i = 0; i < dom.subdata.rows.length; i++) {
+                        dom.subdata.rows[i].cols = hashing(dom.subdata.rows[i].cols, "field_code");
+                    }
+
+                    for (var i = 0; i < dom.subdata.rows.length; i++) {
+                        var ntr = document.createElement("tr"); //new tr
+                        var row = dom.subdata.rows[i];
+                        for (var j = 0; j < ie.children.length; j++) {
+                            var v = eval(ie.children[j].innerText.replace("{", "").replace("}", ""));
+                            var t = document.createElement("td");
+                            t.innerText = v;
+                            ntr.appendChild(t);
+                        }
+                        iep.appendChild(ntr);
+                    }
+                    document.querySelector("[v-for]").style.display = "none"; //"√"
+                }
+            }
+        }
+    </script>
+</body>
+</html>

@@ -1,0 +1,8 @@
+D:\lizw\eAgentsAdmin_source\ftpa\bin\ftpa.dll
+D:\lizw\eAgentsAdmin_source\ftpa\bin\ftpa.pdb
+D:\lizw\eAgentsAdmin_source\ftpa\obj\Debug\ftpa.dll
+D:\lizw\eAgentsAdmin_source\ftpa\obj\Debug\ftpa.pdb
+D:\lizw\eAgentsAdmin_source\ftpa\obj\Debug\ftpa.csprojResolveAssemblyReference.cache
+D:\lizw\eAgentsAdmin_source\ftpa\bin\Helper.dll
+D:\lizw\eAgentsAdmin_source\ftpa\bin\Helper.pdb
+D:\lizw\eAgentsAdmin_source\ftpa\bin\Newtonsoft.Json.dll

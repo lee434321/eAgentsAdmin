@@ -1,0 +1,834 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="Res_ChangePsw_Button" xml:space="preserve">
+    <value>更改密码</value>
+  </data>
+  <data name="Res_ChangePsw_CurrentPsw" xml:space="preserve">
+    <value>当前密码</value>
+  </data>
+  <data name="Res_ChangePsw_Error" xml:space="preserve">
+    <value>输入的密码不正确</value>
+  </data>
+  <data name="Res_ChangePsw_NewPsw1" xml:space="preserve">
+    <value>新密码</value>
+  </data>
+  <data name="Res_ChangePsw_NewPsw2" xml:space="preserve">
+    <value>确认新密码</value>
+  </data>
+  <data name="Res_ChangePsw_UserName" xml:space="preserve">
+    <value>租约号</value>
+  </data>
+  <data name="Res_LinkLease_Button" xml:space="preserve">
+    <value>关联租约号</value>
+  </data>
+  <data name="Res_LinkLease_Button_Delete" xml:space="preserve">
+    <value>删除</value>
+  </data>
+  <data name="Res_LinkLease_Edit" xml:space="preserve">
+    <value>编辑</value>
+  </data>
+  <data name="Res_LinkLease_LeaseNumber" xml:space="preserve">
+    <value>租约号</value>
+  </data>
+  <data name="Res_LinkLease_LinkedLease" xml:space="preserve">
+    <value>已关联租约号</value>
+  </data>
+  <data name="Res_LinkLease_LinkNewLease" xml:space="preserve">
+    <value>绑定租约</value>
+  </data>
+  <data name="Res_LinkLease_Modal_DeleteLease" xml:space="preserve">
+    <value>刪除已綁定租約</value>
+  </data>
+  <data name="Res_LinkLease_Password" xml:space="preserve">
+    <value>密码</value>
+  </data>
+  <data name="Res_LinkLease_Premises" xml:space="preserve">
+    <value>地址</value>
+  </data>
+  <data name="Res_Menu_ChangePsw" xml:space="preserve">
+    <value>更改密码</value>
+  </data>
+  <data name="Res_Menu_ContactUs" xml:space="preserve">
+    <value>联系我们</value>
+  </data>
+  <data name="Res_Menu_Homepage" xml:space="preserve">
+    <value>主页</value>
+  </data>
+  <data name="Res_Menu_LinkLease" xml:space="preserve">
+    <value>关联租约</value>
+  </data>
+  <data name="Res_Menu_Logout" xml:space="preserve">
+    <value>退出</value>
+  </data>
+  <data name="Res_Menu_Onlinepay" xml:space="preserve">
+    <value>在线支付</value>
+  </data>
+  <data name="Res_Menu_Profile" xml:space="preserve">
+    <value>个人信息</value>
+  </data>
+  <data name="Res_Menu_Statement" xml:space="preserve">
+    <value>我的账单</value>
+  </data>
+  <data name="Res_Menu_SystemInfo" xml:space="preserve">
+    <value>系统信息</value>
+  </data>
+  <data name="Res_Menu_Welcome" xml:space="preserve">
+    <value>欢迎</value>
+  </data>
+  <data name="Res_Profile_BasicInfo" xml:space="preserve">
+    <value>基本信息</value>
+  </data>
+  <data name="Res_Profile_BillAddr" xml:space="preserve">
+    <value>账单地址</value>
+  </data>
+  <data name="Res_Profile_Contact" xml:space="preserve">
+    <value>联系方式</value>
+  </data>
+  <data name="Res_Profile_ContactNum" xml:space="preserve">
+    <value>电话</value>
+  </data>
+  <data name="Res_Profile_ContactPerson" xml:space="preserve">
+    <value>联系人</value>
+  </data>
+  <data name="Res_Profile_CustName" xml:space="preserve">
+    <value>客户名字</value>
+  </data>
+  <data name="Res_Profile_CustNum" xml:space="preserve">
+    <value>客户号</value>
+  </data>
+  <data name="Res_Profile_Email" xml:space="preserve">
+    <value>邮件地址</value>
+  </data>
+  <data name="Res_Profile_LeaseInfo" xml:space="preserve">
+    <value>租约信息</value>
+  </data>
+  <data name="Res_Profile_LeaseNum" xml:space="preserve">
+    <value>租约号</value>
+  </data>
+  <data name="Res_Profile_LeasePeriod" xml:space="preserve">
+    <value>租约期间</value>
+  </data>
+  <data name="Res_Profile_Others" xml:space="preserve">
+    <value>其他</value>
+  </data>
+  <data name="Res_Profile_Premises" xml:space="preserve">
+    <value>名称</value>
+  </data>
+  <data name="Res_Profile_TradeName" xml:space="preserve">
+    <value>商号</value>
+  </data>
+  <data name="Res_Statement_Detail" xml:space="preserve">
+    <value>详细内容</value>
+  </data>
+  <data name="Res_Statement_PaymentDueDate" xml:space="preserve">
+    <value>到期日</value>
+  </data>
+  <data name="Res_Statement_StatementAmount" xml:space="preserve">
+    <value>账单总额</value>
+  </data>
+  <data name="Res_Statement_StatementDate" xml:space="preserve">
+    <value>账单日期</value>
+  </data>
+  <data name="Res_Statement_StatementNumber" xml:space="preserve">
+    <value>账单号</value>
+  </data>
+  <data name="Res_Login_Button_Login" xml:space="preserve">
+    <value>登录</value>
+  </data>
+  <data name="Res_ChangeEmail_NewEmail" xml:space="preserve">
+    <value>新邮箱地址</value>
+  </data>
+  <data name="Res_ChangeEmail_Password" xml:space="preserve">
+    <value>密码</value>
+  </data>
+  <data name="Res_ChangeEmail_Success" xml:space="preserve">
+    <value>更新成功</value>
+  </data>
+  <data name="Res_ChangeEmail_UpdateEmail" xml:space="preserve">
+    <value>更新邮箱</value>
+  </data>
+  <data name="Res_ContactUs_Billing" xml:space="preserve">
+    <value>账单</value>
+  </data>
+  <data name="Res_ContactUs_EstateManagement" xml:space="preserve">
+    <value>物业</value>
+  </data>
+  <data name="Res_ContactUs_Leasing" xml:space="preserve">
+    <value>租赁</value>
+  </data>
+  <data name="Res_ForgetPassword_ChangePsw" xml:space="preserve">
+    <value>更改密码</value>
+  </data>
+  <data name="Res_ForgetPassword_ConfirmPsw" xml:space="preserve">
+    <value>确认新密码</value>
+  </data>
+  <data name="Res_ForgetPassword_GetCode" xml:space="preserve">
+    <value>获取验证码</value>
+  </data>
+  <data name="Res_ForgetPassword_LeaseNumber" xml:space="preserve">
+    <value>租约号</value>
+  </data>
+  <data name="Res_ForgetPassword_NewPsw" xml:space="preserve">
+    <value>新密码</value>
+  </data>
+  <data name="Res_ForgetPassword_YourCode" xml:space="preserve">
+    <value>你的验证码</value>
+  </data>
+  <data name="Res_Homepage_LastLogin" xml:space="preserve">
+    <value>上次登录时间:</value>
+  </data>
+  <data name="Res_Homepage_NewMessage" xml:space="preserve">
+    <value>条通知。</value>
+  </data>
+  <data name="Res_Homepage_Summary" xml:space="preserve">
+    <value>简明摘要</value>
+  </data>
+  <data name="Res_Homepage_TotalOutstanding" xml:space="preserve">
+    <value>本期账单结余:</value>
+  </data>
+  <data name="Res_Homepage_Welcome" xml:space="preserve">
+    <value>欢迎</value>
+  </data>
+  <data name="Res_Homepage_YouHave" xml:space="preserve">
+    <value>你有</value>
+  </data>
+  <data name="Res_LinkLease_CurrentBalance" xml:space="preserve">
+    <value>当期账单结余</value>
+  </data>
+  <data name="Res_LinkLease_ExpiryDate" xml:space="preserve">
+    <value>到期日</value>
+  </data>
+  <data name="Res_LinkLease_StatementNumber" xml:space="preserve">
+    <value>账单号</value>
+  </data>
+  <data name="Res_Login_Button_Term" xml:space="preserve">
+    <value>免责申明</value>
+  </data>
+  <data name="Res_Login_ForgetPassword" xml:space="preserve">
+    <value>忘记密码?</value>
+  </data>
+  <data name="Res_Login_Label_Password" xml:space="preserve">
+    <value>密码</value>
+  </data>
+  <data name="Res_Login_Label_UserName" xml:space="preserve">
+    <value>租约号</value>
+  </data>
+  <data name="Res_Login_Register" xml:space="preserve">
+    <value>注册</value>
+  </data>
+  <data name="Res_Login_Title" xml:space="preserve">
+    <value>使用账号登录</value>
+  </data>
+  <data name="Res_Menu_EmailSetting" xml:space="preserve">
+    <value>邮箱设置</value>
+  </data>
+  <data name="Res_Menu_ForgetPassword" xml:space="preserve">
+    <value>忘记密码</value>
+  </data>
+  <data name="Res_Menu_Register" xml:space="preserve">
+    <value>注册</value>
+  </data>
+  <data name="Res_Register_CurrentBalance" xml:space="preserve">
+    <value>当期账单结余</value>
+  </data>
+  <data name="Res_Register_Email" xml:space="preserve">
+    <value>邮箱地址</value>
+  </data>
+  <data name="Res_Register_ExpiryDate" xml:space="preserve">
+    <value>租约到期日</value>
+  </data>
+  <data name="Res_Register_LeaseNumber" xml:space="preserve">
+    <value>租约号</value>
+  </data>
+  <data name="Res_Register_Register" xml:space="preserve">
+    <value>注册</value>
+  </data>
+  <data name="Res_Register_StatementNumber" xml:space="preserve">
+    <value>账单号(三个月以内)</value>
+  </data>
+  <data name="Res_Register_Success" xml:space="preserve">
+    <value>注册成功</value>
+  </data>
+  <data name="Res_StatementViewer_Download" xml:space="preserve">
+    <value>下载PDF</value>
+  </data>
+  <data name="Res_Statement_ButtonDetail" xml:space="preserve">
+    <value>明细</value>
+  </data>
+  <data name="Res_Register_CheckBox" xml:space="preserve">
+    <value>我已阅读上述重要事项 (如适用)及上述综合条款并同意受其约束。</value>
+  </data>
+  <data name="Res_Register_CheckBox_ClickHere" xml:space="preserve">
+    <value>按此</value>
+  </data>
+  <data name="Res_Register_CheckBox_Please" xml:space="preserve">
+    <value>请</value>
+  </data>
+  <data name="Res_Register_CheckBox_ReadTerms" xml:space="preserve">
+    <value>详阅电子结单服务安排的重要事项(如适用)及以上综合条款。</value>
+  </data>
+  <data name="Res_Register_Cancel" xml:space="preserve">
+    <value>取消</value>
+  </data>
+  <data name="Res_Register_ButtonCancel" xml:space="preserve">
+    <value>放弃注册</value>
+  </data>
+  <data name="Res_Register_ButtonContinue" xml:space="preserve">
+    <value>继续注册</value>
+  </data>
+  <data name="Res_Register_CancelProcess" xml:space="preserve">
+    <value>是否放弃注册</value>
+  </data>
+  <data name="Res_Profile_ChangeEmail" xml:space="preserve">
+    <value>变更</value>
+  </data>
+  <data name="Res_Register_SecurityQuestion1" xml:space="preserve">
+    <value>安全问题1</value>
+  </data>
+  <data name="Res_Register_SecurityQuestion2" xml:space="preserve">
+    <value>安全问题2</value>
+  </data>
+  <data name="Res_Register_MonthlyRental" xml:space="preserve">
+    <value>月租金</value>
+  </data>
+  <data name="Res_Global_Cancel" xml:space="preserve">
+    <value>取消</value>
+  </data>
+  <data name="Res_Global_OK" xml:space="preserve">
+    <value>确认</value>
+  </data>
+  <data name="Res_Login_FirstTimeConfirmPsw" xml:space="preserve">
+    <value>确认新密码</value>
+  </data>
+  <data name="Res_Login_FirstTimeLogin" xml:space="preserve">
+    <value>首次登录请修改密码</value>
+  </data>
+  <data name="Res_Login_FirstTimeNewPsw" xml:space="preserve">
+    <value>新密码</value>
+  </data>
+  <data name="Res_ForgetPassword_Mail_0" xml:space="preserve">
+    <value>重置密码</value>
+  </data>
+  <data name="Res_ForgetPassword_Mail_1" xml:space="preserve">
+    <value>亲爱的租户 :</value>
+  </data>
+  <data name="Res_ForgetPassword_Mail_2" xml:space="preserve">
+    <value>请使用以下验证码重新设定密码。(网站: www.heal.com.hk)</value>
+  </data>
+  <data name="Res_ForgetPassword_Mail_3" xml:space="preserve">
+    <value>验证码:</value>
+  </data>
+  <data name="Res_ForgetPassword_Mail_4" xml:space="preserve">
+    <value>和记地产代理有限公司 谨启</value>
+  </data>
+  <data name="Res_ForgetPassword_Mail_5" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Res_ForgetPassword_Send_Success" xml:space="preserve">
+    <value>验证码已发送至您的邮箱</value>
+  </data>
+  <data name="Res_Login_Err_1" xml:space="preserve">
+    <value>请输入租约号</value>
+  </data>
+  <data name="Res_Login_Err_2" xml:space="preserve">
+    <value>请输入密码</value>
+  </data>
+  <data name="Res_Global_Agree" xml:space="preserve">
+    <value>同意</value>
+  </data>
+  <data name="Res_ChangePsw_Success" xml:space="preserve">
+    <value>密码修改成功</value>
+  </data>
+  <data name="Res_ChangeEmail_CheckUser" xml:space="preserve">
+    <value>校验</value>
+  </data>
+  <data name="Res_ChangeEmail_ContactName" xml:space="preserve">
+    <value>联系人</value>
+  </data>
+  <data name="Res_ChangeEmail_PhoneNumber" xml:space="preserve">
+    <value>电话号码</value>
+  </data>
+  <data name="Res_ChangePsw_Changed" xml:space="preserve">
+    <value>密码已更新</value>
+  </data>
+  <data name="Res_Rider" xml:space="preserve">
+    <value>阁下于本网站提供之个人资料仅供和记地产代理有限公司(“HEAL”)用作提供电子月结单服务及其他相关用途之用。阁下有权要求查阅及修正阁下之个人资料，有关负责任何相关要求之人员的资料以及HEAL的私隐政策，请参阅本网站内的《私隐政策》。</value>
+  </data>
+  <data name="Res_Privacy_Policy" xml:space="preserve">
+    <value>隐私政策</value>
+  </data>
+  <data name="Res_ChangeEmail" xml:space="preserve">
+    <value>变更电子邮件地址</value>
+  </data>
+  <data name="Res_Alert_Approve_0" xml:space="preserve">
+    <value>审批成功</value>
+  </data>
+  <data name="Res_Alert_Approve_1" xml:space="preserve">
+    <value>请选择需要审批的条目</value>
+  </data>
+  <data name="Res_Alert_Approve_2" xml:space="preserve">
+    <value>审批错误</value>
+  </data>
+  <data name="Res_Approve" xml:space="preserve">
+    <value>审批</value>
+  </data>
+  <data name="Res_Approver" xml:space="preserve">
+    <value>审批者</value>
+  </data>
+  <data name="Res_Authority" xml:space="preserve">
+    <value>权限</value>
+  </data>
+  <data name="Res_Authority_Id" xml:space="preserve">
+    <value>权限编号</value>
+  </data>
+  <data name="Res_Authority_Type" xml:space="preserve">
+    <value>权限类型</value>
+  </data>
+  <data name="Res_Contact_Name" xml:space="preserve">
+    <value>联系人</value>
+  </data>
+  <data name="Res_Contact_Number" xml:space="preserve">
+    <value>联系人电话</value>
+  </data>
+  <data name="Res_Customer_Creation" xml:space="preserve">
+    <value>前台用户创建</value>
+  </data>
+  <data name="Res_Customer_Name" xml:space="preserve">
+    <value>客户名称</value>
+  </data>
+  <data name="Res_Department" xml:space="preserve">
+    <value>部门</value>
+  </data>
+  <data name="Res_Detail" xml:space="preserve">
+    <value>内容明细</value>
+  </data>
+  <data name="Res_Edit" xml:space="preserve">
+    <value>编辑</value>
+  </data>
+  <data name="Res_Edit_Cust_User" xml:space="preserve">
+    <value>编辑前台用户</value>
+  </data>
+  <data name="Res_Email" xml:space="preserve">
+    <value>邮箱</value>
+  </data>
+  <data name="Res_Em_Phone_Number" xml:space="preserve">
+    <value>物业电话</value>
+  </data>
+  <data name="Res_End_Date" xml:space="preserve">
+    <value>结束日期</value>
+  </data>
+  <data name="Res_Feedback_ApproveStatus" xml:space="preserve">
+    <value>审批状态</value>
+  </data>
+  <data name="Res_Feedback_Date" xml:space="preserve">
+    <value>日期</value>
+  </data>
+  <data name="Res_Feedback_Detail" xml:space="preserve">
+    <value>内容</value>
+  </data>
+  <data name="Res_Feedback_Id" xml:space="preserve">
+    <value>编号</value>
+  </data>
+  <data name="Res_Feedback_Search_From" xml:space="preserve">
+    <value>日期:</value>
+  </data>
+  <data name="Res_Feedback_Search_Status" xml:space="preserve">
+    <value>状态:</value>
+  </data>
+  <data name="Res_Feedback_Search_Type" xml:space="preserve">
+    <value>类型:</value>
+  </data>
+  <data name="Res_Feedback_Status" xml:space="preserve">
+    <value>回复状态</value>
+  </data>
+  <data name="Res_Feedback_Title" xml:space="preserve">
+    <value>主题</value>
+  </data>
+  <data name="Res_Feedback_Type" xml:space="preserve">
+    <value>类型</value>
+  </data>
+  <data name="Res_Group_Name" xml:space="preserve">
+    <value>组名称</value>
+  </data>
+  <data name="Res_Hompage_Menu_Info" xml:space="preserve">
+    <value>信息处理</value>
+  </data>
+  <data name="Res_Image" xml:space="preserve">
+    <value>图片</value>
+  </data>
+  <data name="Res_Lease_List" xml:space="preserve">
+    <value>租约列表</value>
+  </data>
+  <data name="Res_Lease_Number" xml:space="preserve">
+    <value>租约号</value>
+  </data>
+  <data name="Res_LoginSystem_Password" xml:space="preserve">
+    <value>密码</value>
+  </data>
+  <data name="Res_LoginSystem_Username" xml:space="preserve">
+    <value>用户名</value>
+  </data>
+  <data name="Res_Login_Name" xml:space="preserve">
+    <value>登录名</value>
+  </data>
+  <data name="Res_Menu_CustomerCreation" xml:space="preserve">
+    <value>前台用户创建</value>
+  </data>
+  <data name="Res_Menu_Feedbacks" xml:space="preserve">
+    <value>反馈维护</value>
+  </data>
+  <data name="Res_Menu_FeedbackMaintenance" xml:space="preserve">
+    <value>反馈信息</value>
+  </data>
+  <data name="Res_Menu_NoticeApprove" xml:space="preserve">
+    <value>通知审批</value>
+  </data>
+  <data name="Res_Menu_NoticeMaintenance" xml:space="preserve">
+    <value>通知维护</value>
+  </data>
+  <data name="Res_Menu_PropertyMgmt" xml:space="preserve">
+    <value>物业设定</value>
+  </data>
+  <data name="Res_Menu_StatementDateSetting" xml:space="preserve">
+    <value>账单日设定</value>
+  </data>
+  <data name="Res_Menu_SystemMaintenance" xml:space="preserve">
+    <value>系统设定</value>
+  </data>
+  <data name="Res_Menu_UserGroupMaintenance" xml:space="preserve">
+    <value>用户组设定</value>
+  </data>
+  <data name="Res_Menu_UserMaintenance" xml:space="preserve">
+    <value>用户设定</value>
+  </data>
+  <data name="Res_New_Creation" xml:space="preserve">
+    <value>新建</value>
+  </data>
+  <data name="Res_New_Group" xml:space="preserve">
+    <value>新组</value>
+  </data>
+  <data name="Res_New_User" xml:space="preserve">
+    <value>新用户</value>
+  </data>
+  <data name="Res_NoticeApprove" xml:space="preserve">
+    <value>通知审批</value>
+  </data>
+  <data name="Res_NoticeMaintenance" xml:space="preserve">
+    <value>通知维护</value>
+  </data>
+  <data name="Res_Notice_ApproveBy" xml:space="preserve">
+    <value>审批人</value>
+  </data>
+  <data name="Res_Notice_Attachment" xml:space="preserve">
+    <value>附件</value>
+  </data>
+  <data name="Res_Notice_Btn_Edit" xml:space="preserve">
+    <value>编辑通知</value>
+  </data>
+  <data name="Res_Notice_Btn_New" xml:space="preserve">
+    <value>新建通知</value>
+  </data>
+  <data name="Res_Notice_ChooseUploadFile" xml:space="preserve">
+    <value>选择上传文件</value>
+  </data>
+  <data name="Res_Notice_ChooseUploadImage" xml:space="preserve">
+    <value>选择上传图片</value>
+  </data>
+  <data name="Res_Notice_Content" xml:space="preserve">
+    <value>内容</value>
+  </data>
+  <data name="Res_Notice_CreateBy" xml:space="preserve">
+    <value>创建人</value>
+  </data>
+  <data name="Res_Notice_Grid_Approve" xml:space="preserve">
+    <value>审批</value>
+  </data>
+  <data name="Res_Notice_Grid_Edit" xml:space="preserve">
+    <value>编辑</value>
+  </data>
+  <data name="Res_Notice_Grid_End" xml:space="preserve">
+    <value>截止日期</value>
+  </data>
+  <data name="Res_Notice_Grid_Image" xml:space="preserve">
+    <value>图片</value>
+  </data>
+  <data name="Res_Notice_Grid_Property" xml:space="preserve">
+    <value>物业</value>
+  </data>
+  <data name="Res_Notice_Grid_Start" xml:space="preserve">
+    <value>开始日期</value>
+  </data>
+  <data name="Res_Notice_Grid_Subject" xml:space="preserve">
+    <value>主题</value>
+  </data>
+  <data name="Res_Notice_Grid_Type" xml:space="preserve">
+    <value>类型</value>
+  </data>
+  <data name="Res_Notice_ImageResolutionIs" xml:space="preserve">
+    <value>图片分辨率为</value>
+  </data>
+  <data name="Res_Notice_SaveEdit" xml:space="preserve">
+    <value>编辑保存</value>
+  </data>
+  <data name="Res_Notice_SaveNew" xml:space="preserve">
+    <value>新建保存</value>
+  </data>
+  <data name="Res_Notice_SelectProperty" xml:space="preserve">
+    <value>选择物业</value>
+  </data>
+  <data name="Res_Notice_UpdateBy" xml:space="preserve">
+    <value>更新人</value>
+  </data>
+  <data name="Res_Operation" xml:space="preserve">
+    <value>操作</value>
+  </data>
+  <data name="Res_Phone" xml:space="preserve">
+    <value>电话</value>
+  </data>
+  <data name="Res_Position" xml:space="preserve">
+    <value>职位</value>
+  </data>
+  <data name="Res_Preview" xml:space="preserve">
+    <value>预览</value>
+  </data>
+  <data name="Res_Primary" xml:space="preserve">
+    <value>主要</value>
+  </data>
+  <data name="Res_Property" xml:space="preserve">
+    <value>物业</value>
+  </data>
+  <data name="Res_Property_Billing_Email" xml:space="preserve">
+    <value>账单邮箱</value>
+  </data>
+  <data name="Res_Property_Billing_Phone" xml:space="preserve">
+    <value>账单电话</value>
+  </data>
+  <data name="Res_Property_Code" xml:space="preserve">
+    <value>物业编码</value>
+  </data>
+  <data name="Res_Property_Editor" xml:space="preserve">
+    <value>物业编辑</value>
+  </data>
+  <data name="Res_Property_EM_Email" xml:space="preserve">
+    <value>物业邮箱</value>
+  </data>
+  <data name="Res_Property_Leasing_Email" xml:space="preserve">
+    <value>租赁邮箱</value>
+  </data>
+  <data name="Res_Property_Leasing_Phone" xml:space="preserve">
+    <value>租赁电话</value>
+  </data>
+  <data name="Res_Property_Maintenance" xml:space="preserve">
+    <value>物业管理</value>
+  </data>
+  <data name="Res_Property_Name" xml:space="preserve">
+    <value>物业名称</value>
+  </data>
+  <data name="Res_Role" xml:space="preserve">
+    <value>角色</value>
+  </data>
+  <data name="Res_Save" xml:space="preserve">
+    <value>保存</value>
+  </data>
+  <data name="Res_Save_Edit_Customer_User" xml:space="preserve">
+    <value>保存编辑用户</value>
+  </data>
+  <data name="Res_Save_Edit_Group" xml:space="preserve">
+    <value>保存编辑</value>
+  </data>
+  <data name="Res_Save_Edit_User" xml:space="preserve">
+    <value>保存编辑用户</value>
+  </data>
+  <data name="Res_Save_New_Customer_User" xml:space="preserve">
+    <value>保存新用户</value>
+  </data>
+  <data name="Res_Save_New_Group" xml:space="preserve">
+    <value>保存新组</value>
+  </data>
+  <data name="Res_Save_New_User" xml:space="preserve">
+    <value>保存新用户</value>
+  </data>
+  <data name="Res_Select_Group" xml:space="preserve">
+    <value>选择组</value>
+  </data>
+  <data name="Res_Send_Mail" xml:space="preserve">
+    <value>发送邮件</value>
+  </data>
+  <data name="Res_Send_Mail_Batch" xml:space="preserve">
+    <value>发送邮件(批量)</value>
+  </data>
+  <data name="Res_Site_Search" xml:space="preserve">
+    <value>查找</value>
+  </data>
+  <data name="Res_Start_Date" xml:space="preserve">  
+    <value>开始日期</value>
+  </data>
+  <data name="Res_Status" xml:space="preserve">
+    <value>状态</value>
+  </data>
+  <data name="Res_Status1" xml:space="preserve">
+    <value>状态</value>
+  </data>
+  <data name="Res_Subject" xml:space="preserve">
+    <value>标题</value>
+  </data>
+  <data name="Res_User_Group" xml:space="preserve">
+    <value>用户组</value>
+  </data>
+  <data name="Res_User_Group_Maintenance" xml:space="preserve">
+    <value>用户组管理</value>
+  </data>
+  <data name="Res_User_Id" xml:space="preserve">
+    <value>用户ID</value>
+  </data>
+  <data name="Res_User_Maintenance" xml:space="preserve">
+    <value>用户设定</value>
+  </data>
+  <data name="Res_Select_A_Group" xml:space="preserve">
+    <value>选择组</value>
+  </data>
+  <data name="Res_Menu_Eforms" xml:space="preserve">
+    <value>电子申请表单</value>
+  </data>
+  <data name="Res_Menu_Eforms_Def" xml:space="preserve">
+    <value>申请单定义</value>
+  </data>
+  <data name="Res_Menu_Eforms_FlowDef" xml:space="preserve">
+    <value>流程定义</value>
+  </data>
+  <data name="Res_Menu_Eforms_Opers" xml:space="preserve">
+    <value>申请单列表</value>
+  </data>
+  <data name="Res_Menu_Reminder_Setting" xml:space="preserve">
+    <value>催款日期设置</value>
+  </data>
+  <data name="Res_Mail_Setup" xml:space="preserve">
+    <value>邮件接收设置</value>
+  </data>
+  <data name="Res_Users" xml:space="preserve">
+    <value>用户列表</value>
+  </data>
+  <data name="Res_MenuItem_eForm_Date_Define" xml:space="preserve">
+    <value>申请单日期定义</value>
+  </data>
+  <data name="Res_MenuItem_eForm_Time_Define" xml:space="preserve">
+    <value>申请单时间定义</value>
+  </data>
+</root>

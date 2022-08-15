@@ -1,0 +1,315 @@
+[2021-10-11 15:36:58.597] ORA-12899: 列 "PMSFTP"."FTP_SALES_FILES"."MEMO" 的值太大 (实际值: 86, 最大值: 50)
+
+   在 System.Data.OracleClient.OracleConnection.CheckError(OciErrorHandle errorHandle, Int32 rc)
+   在 System.Data.OracleClient.OracleCommand.Execute(OciStatementHandle statementHandle, CommandBehavior behavior, Boolean needRowid, OciRowidDescriptor& rowidDescriptor, ArrayList& resultParameterOrdinals)
+   在 System.Data.OracleClient.OracleCommand.ExecuteNonQueryInternal(Boolean needRowid, OciRowidDescriptor& rowidDescriptor)
+   在 System.Data.OracleClient.OracleCommand.ExecuteNonQuery()
+   在 cn.magix.Helper.DbTx.ExecuteNonQuery(String sql, IDataParameter[] parameters) 位置 D:\lizw\eAgentsAdmin_source\ftpd\DbConsole.cs:行号 522
+   在 cn.magix.Helper.DbConsole.Create[T](T ety) 位置 D:\lizw\eAgentsAdmin_source\ftpd\DbConsole.cs:行号 834
+   在 ftpd.Program.WriteSingleFtpError(String fileName, String lease_number, Exception err) 位置 D:\lizw\eAgentsAdmin_source\ftpd\Program.cs:行号 239
+[2021-10-11 15:37:00.779] ORA-12899: 列 "PMSFTP"."FTP_SALES_FILES"."MEMO" 的值太大 (实际值: 86, 最大值: 50)
+
+   在 System.Data.OracleClient.OracleConnection.CheckError(OciErrorHandle errorHandle, Int32 rc)
+   在 System.Data.OracleClient.OracleCommand.Execute(OciStatementHandle statementHandle, CommandBehavior behavior, Boolean needRowid, OciRowidDescriptor& rowidDescriptor, ArrayList& resultParameterOrdinals)
+   在 System.Data.OracleClient.OracleCommand.ExecuteNonQueryInternal(Boolean needRowid, OciRowidDescriptor& rowidDescriptor)
+   在 System.Data.OracleClient.OracleCommand.ExecuteNonQuery()
+   在 cn.magix.Helper.DbTx.ExecuteNonQuery(String sql, IDataParameter[] parameters) 位置 D:\lizw\eAgentsAdmin_source\ftpd\DbConsole.cs:行号 522
+   在 cn.magix.Helper.DbConsole.Create[T](T ety) 位置 D:\lizw\eAgentsAdmin_source\ftpd\DbConsole.cs:行号 834
+   在 ftpd.Program.WriteSingleFtpError(String fileName, String lease_number, Exception err) 位置 D:\lizw\eAgentsAdmin_source\ftpd\Program.cs:行号 239
+[2021-10-11 15:40:37.164] ORA-12899: 列 "PMSFTP"."FTP_SALES_FILES"."MEMO" 的值太大 (实际值: 86, 最大值: 50)
+
+   在 System.Data.OracleClient.OracleConnection.CheckError(OciErrorHandle errorHandle, Int32 rc)
+   在 System.Data.OracleClient.OracleCommand.Execute(OciStatementHandle statementHandle, CommandBehavior behavior, Boolean needRowid, OciRowidDescriptor& rowidDescriptor, ArrayList& resultParameterOrdinals)
+   在 System.Data.OracleClient.OracleCommand.ExecuteNonQueryInternal(Boolean needRowid, OciRowidDescriptor& rowidDescriptor)
+   在 System.Data.OracleClient.OracleCommand.ExecuteNonQuery()
+   在 cn.magix.Helper.DbTx.ExecuteNonQuery(String sql, IDataParameter[] parameters) 位置 D:\lizw\eAgentsAdmin_source\ftpd\DbConsole.cs:行号 522
+   在 cn.magix.Helper.DbConsole.Create[T](T ety) 位置 D:\lizw\eAgentsAdmin_source\ftpd\DbConsole.cs:行号 834
+   在 ftpd.Program.WriteSingleFtpError(String fileName, String lease_number, Exception err) 位置 D:\lizw\eAgentsAdmin_source\ftpd\Program.cs:行号 239
+[2021-10-11 15:40:38.490] ORA-12899: 列 "PMSFTP"."FTP_SALES_FILES"."MEMO" 的值太大 (实际值: 86, 最大值: 50)
+
+   在 System.Data.OracleClient.OracleConnection.CheckError(OciErrorHandle errorHandle, Int32 rc)
+   在 System.Data.OracleClient.OracleCommand.Execute(OciStatementHandle statementHandle, CommandBehavior behavior, Boolean needRowid, OciRowidDescriptor& rowidDescriptor, ArrayList& resultParameterOrdinals)
+   在 System.Data.OracleClient.OracleCommand.ExecuteNonQueryInternal(Boolean needRowid, OciRowidDescriptor& rowidDescriptor)
+   在 System.Data.OracleClient.OracleCommand.ExecuteNonQuery()
+   在 cn.magix.Helper.DbTx.ExecuteNonQuery(String sql, IDataParameter[] parameters) 位置 D:\lizw\eAgentsAdmin_source\ftpd\DbConsole.cs:行号 522
+   在 cn.magix.Helper.DbConsole.Create[T](T ety) 位置 D:\lizw\eAgentsAdmin_source\ftpd\DbConsole.cs:行号 834
+   在 ftpd.Program.WriteSingleFtpError(String fileName, String lease_number, Exception err) 位置 D:\lizw\eAgentsAdmin_source\ftpd\Program.cs:行号 239
+[2021-10-11 15:45:33.873] ORA-12899: 列 "PMSFTP"."FTP_SALES_FILES"."MEMO" 的值太大 (实际值: 86, 最大值: 50)
+
+   在 System.Data.OracleClient.OracleConnection.CheckError(OciErrorHandle errorHandle, Int32 rc)
+   在 System.Data.OracleClient.OracleCommand.Execute(OciStatementHandle statementHandle, CommandBehavior behavior, Boolean needRowid, OciRowidDescriptor& rowidDescriptor, ArrayList& resultParameterOrdinals)
+   在 System.Data.OracleClient.OracleCommand.ExecuteNonQueryInternal(Boolean needRowid, OciRowidDescriptor& rowidDescriptor)
+   在 System.Data.OracleClient.OracleCommand.ExecuteNonQuery()
+   在 cn.magix.Helper.DbTx.ExecuteNonQuery(String sql, IDataParameter[] parameters) 位置 D:\lizw\eAgentsAdmin_source\ftpd\DbConsole.cs:行号 522
+   在 cn.magix.Helper.DbConsole.Create[T](T ety) 位置 D:\lizw\eAgentsAdmin_source\ftpd\DbConsole.cs:行号 834
+   在 ftpd.Program.WriteSingleFtpError(String fileName, String lease_number, Exception err) 位置 D:\lizw\eAgentsAdmin_source\ftpd\Program.cs:行号 240
+[2021-10-11 15:45:35.228] ORA-12899: 列 "PMSFTP"."FTP_SALES_FILES"."MEMO" 的值太大 (实际值: 86, 最大值: 50)
+
+   在 System.Data.OracleClient.OracleConnection.CheckError(OciErrorHandle errorHandle, Int32 rc)
+   在 System.Data.OracleClient.OracleCommand.Execute(OciStatementHandle statementHandle, CommandBehavior behavior, Boolean needRowid, OciRowidDescriptor& rowidDescriptor, ArrayList& resultParameterOrdinals)
+   在 System.Data.OracleClient.OracleCommand.ExecuteNonQueryInternal(Boolean needRowid, OciRowidDescriptor& rowidDescriptor)
+   在 System.Data.OracleClient.OracleCommand.ExecuteNonQuery()
+   在 cn.magix.Helper.DbTx.ExecuteNonQuery(String sql, IDataParameter[] parameters) 位置 D:\lizw\eAgentsAdmin_source\ftpd\DbConsole.cs:行号 522
+   在 cn.magix.Helper.DbConsole.Create[T](T ety) 位置 D:\lizw\eAgentsAdmin_source\ftpd\DbConsole.cs:行号 834
+   在 ftpd.Program.WriteSingleFtpError(String fileName, String lease_number, Exception err) 位置 D:\lizw\eAgentsAdmin_source\ftpd\Program.cs:行号 240
+[2021-10-11 15:48:33.163] ORA-12899: 列 "PMSFTP"."FTP_SALES_FILES"."MEMO" 的值太大 (实际值: 86, 最大值: 50)
+
+   在 System.Data.OracleClient.OracleConnection.CheckError(OciErrorHandle errorHandle, Int32 rc)
+   在 System.Data.OracleClient.OracleCommand.Execute(OciStatementHandle statementHandle, CommandBehavior behavior, Boolean needRowid, OciRowidDescriptor& rowidDescriptor, ArrayList& resultParameterOrdinals)
+   在 System.Data.OracleClient.OracleCommand.ExecuteNonQueryInternal(Boolean needRowid, OciRowidDescriptor& rowidDescriptor)
+   在 System.Data.OracleClient.OracleCommand.ExecuteNonQuery()
+   在 cn.magix.Helper.DbTx.ExecuteNonQuery(String sql, IDataParameter[] parameters) 位置 D:\lizw\eAgentsAdmin_source\ftpd\DbConsole.cs:行号 522
+   在 cn.magix.Helper.DbConsole.Create[T](T ety) 位置 D:\lizw\eAgentsAdmin_source\ftpd\DbConsole.cs:行号 834
+   在 ftpd.Program.WriteSingleFtpError(String fileName, String lease_number, Exception err) 位置 D:\lizw\eAgentsAdmin_source\ftpd\Program.cs:行号 241
+[2021-10-11 15:48:34.474] ORA-12899: 列 "PMSFTP"."FTP_SALES_FILES"."MEMO" 的值太大 (实际值: 86, 最大值: 50)
+
+   在 System.Data.OracleClient.OracleConnection.CheckError(OciErrorHandle errorHandle, Int32 rc)
+   在 System.Data.OracleClient.OracleCommand.Execute(OciStatementHandle statementHandle, CommandBehavior behavior, Boolean needRowid, OciRowidDescriptor& rowidDescriptor, ArrayList& resultParameterOrdinals)
+   在 System.Data.OracleClient.OracleCommand.ExecuteNonQueryInternal(Boolean needRowid, OciRowidDescriptor& rowidDescriptor)
+   在 System.Data.OracleClient.OracleCommand.ExecuteNonQuery()
+   在 cn.magix.Helper.DbTx.ExecuteNonQuery(String sql, IDataParameter[] parameters) 位置 D:\lizw\eAgentsAdmin_source\ftpd\DbConsole.cs:行号 522
+   在 cn.magix.Helper.DbConsole.Create[T](T ety) 位置 D:\lizw\eAgentsAdmin_source\ftpd\DbConsole.cs:行号 834
+   在 ftpd.Program.WriteSingleFtpError(String fileName, String lease_number, Exception err) 位置 D:\lizw\eAgentsAdmin_source\ftpd\Program.cs:行号 241
+[2021-10-11 15:49:52.560] ORA-12899: 列 "PMSFTP"."FTP_SALES_FILES"."MEMO" 的值太大 (实际值: 86, 最大值: 50)
+
+   在 System.Data.OracleClient.OracleConnection.CheckError(OciErrorHandle errorHandle, Int32 rc)
+   在 System.Data.OracleClient.OracleCommand.Execute(OciStatementHandle statementHandle, CommandBehavior behavior, Boolean needRowid, OciRowidDescriptor& rowidDescriptor, ArrayList& resultParameterOrdinals)
+   在 System.Data.OracleClient.OracleCommand.ExecuteNonQueryInternal(Boolean needRowid, OciRowidDescriptor& rowidDescriptor)
+   在 System.Data.OracleClient.OracleCommand.ExecuteNonQuery()
+   在 cn.magix.Helper.DbTx.ExecuteNonQuery(String sql, IDataParameter[] parameters) 位置 D:\lizw\eAgentsAdmin_source\ftpd\DbConsole.cs:行号 522
+   在 cn.magix.Helper.DbConsole.Create[T](T ety) 位置 D:\lizw\eAgentsAdmin_source\ftpd\DbConsole.cs:行号 834
+   在 ftpd.Program.WriteSingleFtpError(String fileName, String lease_number, Exception err) 位置 D:\lizw\eAgentsAdmin_source\ftpd\Program.cs:行号 241
+[2021-10-11 15:49:53.859] ORA-12899: 列 "PMSFTP"."FTP_SALES_FILES"."MEMO" 的值太大 (实际值: 86, 最大值: 50)
+
+   在 System.Data.OracleClient.OracleConnection.CheckError(OciErrorHandle errorHandle, Int32 rc)
+   在 System.Data.OracleClient.OracleCommand.Execute(OciStatementHandle statementHandle, CommandBehavior behavior, Boolean needRowid, OciRowidDescriptor& rowidDescriptor, ArrayList& resultParameterOrdinals)
+   在 System.Data.OracleClient.OracleCommand.ExecuteNonQueryInternal(Boolean needRowid, OciRowidDescriptor& rowidDescriptor)
+   在 System.Data.OracleClient.OracleCommand.ExecuteNonQuery()
+   在 cn.magix.Helper.DbTx.ExecuteNonQuery(String sql, IDataParameter[] parameters) 位置 D:\lizw\eAgentsAdmin_source\ftpd\DbConsole.cs:行号 522
+   在 cn.magix.Helper.DbConsole.Create[T](T ety) 位置 D:\lizw\eAgentsAdmin_source\ftpd\DbConsole.cs:行号 834
+   在 ftpd.Program.WriteSingleFtpError(String fileName, String lease_number, Exception err) 位置 D:\lizw\eAgentsAdmin_source\ftpd\Program.cs:行号 241
+[2021-10-11 15:51:46.660] ORA-12899: 列 "PMSFTP"."FTP_SALES_FILES"."MEMO" 的值太大 (实际值: 86, 最大值: 50)
+
+   在 System.Data.OracleClient.OracleConnection.CheckError(OciErrorHandle errorHandle, Int32 rc)
+   在 System.Data.OracleClient.OracleCommand.Execute(OciStatementHandle statementHandle, CommandBehavior behavior, Boolean needRowid, OciRowidDescriptor& rowidDescriptor, ArrayList& resultParameterOrdinals)
+   在 System.Data.OracleClient.OracleCommand.ExecuteNonQueryInternal(Boolean needRowid, OciRowidDescriptor& rowidDescriptor)
+   在 System.Data.OracleClient.OracleCommand.ExecuteNonQuery()
+   在 cn.magix.Helper.DbTx.ExecuteNonQuery(String sql, IDataParameter[] parameters) 位置 D:\lizw\eAgentsAdmin_source\ftpd\DbConsole.cs:行号 522
+   在 cn.magix.Helper.DbConsole.Create[T](T ety) 位置 D:\lizw\eAgentsAdmin_source\ftpd\DbConsole.cs:行号 834
+   在 ftpd.Program.WriteSingleFtpError(String fileName, String lease_number, Exception err) 位置 D:\lizw\eAgentsAdmin_source\ftpd\Program.cs:行号 235
+[2021-10-11 15:51:47.890] ORA-12899: 列 "PMSFTP"."FTP_SALES_FILES"."MEMO" 的值太大 (实际值: 86, 最大值: 50)
+
+   在 System.Data.OracleClient.OracleConnection.CheckError(OciErrorHandle errorHandle, Int32 rc)
+   在 System.Data.OracleClient.OracleCommand.Execute(OciStatementHandle statementHandle, CommandBehavior behavior, Boolean needRowid, OciRowidDescriptor& rowidDescriptor, ArrayList& resultParameterOrdinals)
+   在 System.Data.OracleClient.OracleCommand.ExecuteNonQueryInternal(Boolean needRowid, OciRowidDescriptor& rowidDescriptor)
+   在 System.Data.OracleClient.OracleCommand.ExecuteNonQuery()
+   在 cn.magix.Helper.DbTx.ExecuteNonQuery(String sql, IDataParameter[] parameters) 位置 D:\lizw\eAgentsAdmin_source\ftpd\DbConsole.cs:行号 522
+   在 cn.magix.Helper.DbConsole.Create[T](T ety) 位置 D:\lizw\eAgentsAdmin_source\ftpd\DbConsole.cs:行号 834
+   在 ftpd.Program.WriteSingleFtpError(String fileName, String lease_number, Exception err) 位置 D:\lizw\eAgentsAdmin_source\ftpd\Program.cs:行号 235
+[2021-10-11 15:51:49.058] ORA-12899: 列 "PMSFTP"."FTP_SALES_FILES"."MEMO" 的值太大 (实际值: 86, 最大值: 50)
+
+   在 System.Data.OracleClient.OracleConnection.CheckError(OciErrorHandle errorHandle, Int32 rc)
+   在 System.Data.OracleClient.OracleCommand.Execute(OciStatementHandle statementHandle, CommandBehavior behavior, Boolean needRowid, OciRowidDescriptor& rowidDescriptor, ArrayList& resultParameterOrdinals)
+   在 System.Data.OracleClient.OracleCommand.ExecuteNonQueryInternal(Boolean needRowid, OciRowidDescriptor& rowidDescriptor)
+   在 System.Data.OracleClient.OracleCommand.ExecuteNonQuery()
+   在 cn.magix.Helper.DbTx.ExecuteNonQuery(String sql, IDataParameter[] parameters) 位置 D:\lizw\eAgentsAdmin_source\ftpd\DbConsole.cs:行号 522
+   在 cn.magix.Helper.DbConsole.Create[T](T ety) 位置 D:\lizw\eAgentsAdmin_source\ftpd\DbConsole.cs:行号 834
+   在 ftpd.Program.WriteSingleFtpError(String fileName, String lease_number, Exception err) 位置 D:\lizw\eAgentsAdmin_source\ftpd\Program.cs:行号 235
+[2021-10-11 15:51:50.273] ORA-12899: 列 "PMSFTP"."FTP_SALES_FILES"."MEMO" 的值太大 (实际值: 86, 最大值: 50)
+
+   在 System.Data.OracleClient.OracleConnection.CheckError(OciErrorHandle errorHandle, Int32 rc)
+   在 System.Data.OracleClient.OracleCommand.Execute(OciStatementHandle statementHandle, CommandBehavior behavior, Boolean needRowid, OciRowidDescriptor& rowidDescriptor, ArrayList& resultParameterOrdinals)
+   在 System.Data.OracleClient.OracleCommand.ExecuteNonQueryInternal(Boolean needRowid, OciRowidDescriptor& rowidDescriptor)
+   在 System.Data.OracleClient.OracleCommand.ExecuteNonQuery()
+   在 cn.magix.Helper.DbTx.ExecuteNonQuery(String sql, IDataParameter[] parameters) 位置 D:\lizw\eAgentsAdmin_source\ftpd\DbConsole.cs:行号 522
+   在 cn.magix.Helper.DbConsole.Create[T](T ety) 位置 D:\lizw\eAgentsAdmin_source\ftpd\DbConsole.cs:行号 834
+   在 ftpd.Program.WriteSingleFtpError(String fileName, String lease_number, Exception err) 位置 D:\lizw\eAgentsAdmin_source\ftpd\Program.cs:行号 235
+[2021-10-11 15:51:51.494] ORA-12899: 列 "PMSFTP"."FTP_SALES_FILES"."MEMO" 的值太大 (实际值: 86, 最大值: 50)
+
+   在 System.Data.OracleClient.OracleConnection.CheckError(OciErrorHandle errorHandle, Int32 rc)
+   在 System.Data.OracleClient.OracleCommand.Execute(OciStatementHandle statementHandle, CommandBehavior behavior, Boolean needRowid, OciRowidDescriptor& rowidDescriptor, ArrayList& resultParameterOrdinals)
+   在 System.Data.OracleClient.OracleCommand.ExecuteNonQueryInternal(Boolean needRowid, OciRowidDescriptor& rowidDescriptor)
+   在 System.Data.OracleClient.OracleCommand.ExecuteNonQuery()
+   在 cn.magix.Helper.DbTx.ExecuteNonQuery(String sql, IDataParameter[] parameters) 位置 D:\lizw\eAgentsAdmin_source\ftpd\DbConsole.cs:行号 522
+   在 cn.magix.Helper.DbConsole.Create[T](T ety) 位置 D:\lizw\eAgentsAdmin_source\ftpd\DbConsole.cs:行号 834
+   在 ftpd.Program.WriteSingleFtpError(String fileName, String lease_number, Exception err) 位置 D:\lizw\eAgentsAdmin_source\ftpd\Program.cs:行号 235
+[2021-10-11 15:51:52.728] ORA-12899: 列 "PMSFTP"."FTP_SALES_FILES"."MEMO" 的值太大 (实际值: 86, 最大值: 50)
+
+   在 System.Data.OracleClient.OracleConnection.CheckError(OciErrorHandle errorHandle, Int32 rc)
+   在 System.Data.OracleClient.OracleCommand.Execute(OciStatementHandle statementHandle, CommandBehavior behavior, Boolean needRowid, OciRowidDescriptor& rowidDescriptor, ArrayList& resultParameterOrdinals)
+   在 System.Data.OracleClient.OracleCommand.ExecuteNonQueryInternal(Boolean needRowid, OciRowidDescriptor& rowidDescriptor)
+   在 System.Data.OracleClient.OracleCommand.ExecuteNonQuery()
+   在 cn.magix.Helper.DbTx.ExecuteNonQuery(String sql, IDataParameter[] parameters) 位置 D:\lizw\eAgentsAdmin_source\ftpd\DbConsole.cs:行号 522
+   在 cn.magix.Helper.DbConsole.Create[T](T ety) 位置 D:\lizw\eAgentsAdmin_source\ftpd\DbConsole.cs:行号 834
+   在 ftpd.Program.WriteSingleFtpError(String fileName, String lease_number, Exception err) 位置 D:\lizw\eAgentsAdmin_source\ftpd\Program.cs:行号 235
+[2021-10-11 15:51:54.054] ORA-12899: 列 "PMSFTP"."FTP_SALES_FILES"."MEMO" 的值太大 (实际值: 86, 最大值: 50)
+
+   在 System.Data.OracleClient.OracleConnection.CheckError(OciErrorHandle errorHandle, Int32 rc)
+   在 System.Data.OracleClient.OracleCommand.Execute(OciStatementHandle statementHandle, CommandBehavior behavior, Boolean needRowid, OciRowidDescriptor& rowidDescriptor, ArrayList& resultParameterOrdinals)
+   在 System.Data.OracleClient.OracleCommand.ExecuteNonQueryInternal(Boolean needRowid, OciRowidDescriptor& rowidDescriptor)
+   在 System.Data.OracleClient.OracleCommand.ExecuteNonQuery()
+   在 cn.magix.Helper.DbTx.ExecuteNonQuery(String sql, IDataParameter[] parameters) 位置 D:\lizw\eAgentsAdmin_source\ftpd\DbConsole.cs:行号 522
+   在 cn.magix.Helper.DbConsole.Create[T](T ety) 位置 D:\lizw\eAgentsAdmin_source\ftpd\DbConsole.cs:行号 834
+   在 ftpd.Program.WriteSingleFtpError(String fileName, String lease_number, Exception err) 位置 D:\lizw\eAgentsAdmin_source\ftpd\Program.cs:行号 235
+[2021-10-11 15:51:55.569] ORA-12899: 列 "PMSFTP"."FTP_SALES_FILES"."MEMO" 的值太大 (实际值: 86, 最大值: 50)
+
+   在 System.Data.OracleClient.OracleConnection.CheckError(OciErrorHandle errorHandle, Int32 rc)
+   在 System.Data.OracleClient.OracleCommand.Execute(OciStatementHandle statementHandle, CommandBehavior behavior, Boolean needRowid, OciRowidDescriptor& rowidDescriptor, ArrayList& resultParameterOrdinals)
+   在 System.Data.OracleClient.OracleCommand.ExecuteNonQueryInternal(Boolean needRowid, OciRowidDescriptor& rowidDescriptor)
+   在 System.Data.OracleClient.OracleCommand.ExecuteNonQuery()
+   在 cn.magix.Helper.DbTx.ExecuteNonQuery(String sql, IDataParameter[] parameters) 位置 D:\lizw\eAgentsAdmin_source\ftpd\DbConsole.cs:行号 522
+   在 cn.magix.Helper.DbConsole.Create[T](T ety) 位置 D:\lizw\eAgentsAdmin_source\ftpd\DbConsole.cs:行号 834
+   在 ftpd.Program.WriteSingleFtpError(String fileName, String lease_number, Exception err) 位置 D:\lizw\eAgentsAdmin_source\ftpd\Program.cs:行号 235
+[2021-10-11 15:51:57.200] ORA-12899: 列 "PMSFTP"."FTP_SALES_FILES"."MEMO" 的值太大 (实际值: 86, 最大值: 50)
+
+   在 System.Data.OracleClient.OracleConnection.CheckError(OciErrorHandle errorHandle, Int32 rc)
+   在 System.Data.OracleClient.OracleCommand.Execute(OciStatementHandle statementHandle, CommandBehavior behavior, Boolean needRowid, OciRowidDescriptor& rowidDescriptor, ArrayList& resultParameterOrdinals)
+   在 System.Data.OracleClient.OracleCommand.ExecuteNonQueryInternal(Boolean needRowid, OciRowidDescriptor& rowidDescriptor)
+   在 System.Data.OracleClient.OracleCommand.ExecuteNonQuery()
+   在 cn.magix.Helper.DbTx.ExecuteNonQuery(String sql, IDataParameter[] parameters) 位置 D:\lizw\eAgentsAdmin_source\ftpd\DbConsole.cs:行号 522
+   在 cn.magix.Helper.DbConsole.Create[T](T ety) 位置 D:\lizw\eAgentsAdmin_source\ftpd\DbConsole.cs:行号 834
+   在 ftpd.Program.WriteSingleFtpError(String fileName, String lease_number, Exception err) 位置 D:\lizw\eAgentsAdmin_source\ftpd\Program.cs:行号 235
+[2021-10-11 15:51:58.437] ORA-12899: 列 "PMSFTP"."FTP_SALES_FILES"."MEMO" 的值太大 (实际值: 86, 最大值: 50)
+
+   在 System.Data.OracleClient.OracleConnection.CheckError(OciErrorHandle errorHandle, Int32 rc)
+   在 System.Data.OracleClient.OracleCommand.Execute(OciStatementHandle statementHandle, CommandBehavior behavior, Boolean needRowid, OciRowidDescriptor& rowidDescriptor, ArrayList& resultParameterOrdinals)
+   在 System.Data.OracleClient.OracleCommand.ExecuteNonQueryInternal(Boolean needRowid, OciRowidDescriptor& rowidDescriptor)
+   在 System.Data.OracleClient.OracleCommand.ExecuteNonQuery()
+   在 cn.magix.Helper.DbTx.ExecuteNonQuery(String sql, IDataParameter[] parameters) 位置 D:\lizw\eAgentsAdmin_source\ftpd\DbConsole.cs:行号 522
+   在 cn.magix.Helper.DbConsole.Create[T](T ety) 位置 D:\lizw\eAgentsAdmin_source\ftpd\DbConsole.cs:行号 834
+   在 ftpd.Program.WriteSingleFtpError(String fileName, String lease_number, Exception err) 位置 D:\lizw\eAgentsAdmin_source\ftpd\Program.cs:行号 235
+[2021-10-11 15:51:59.931] ORA-12899: 列 "PMSFTP"."FTP_SALES_FILES"."MEMO" 的值太大 (实际值: 86, 最大值: 50)
+
+   在 System.Data.OracleClient.OracleConnection.CheckError(OciErrorHandle errorHandle, Int32 rc)
+   在 System.Data.OracleClient.OracleCommand.Execute(OciStatementHandle statementHandle, CommandBehavior behavior, Boolean needRowid, OciRowidDescriptor& rowidDescriptor, ArrayList& resultParameterOrdinals)
+   在 System.Data.OracleClient.OracleCommand.ExecuteNonQueryInternal(Boolean needRowid, OciRowidDescriptor& rowidDescriptor)
+   在 System.Data.OracleClient.OracleCommand.ExecuteNonQuery()
+   在 cn.magix.Helper.DbTx.ExecuteNonQuery(String sql, IDataParameter[] parameters) 位置 D:\lizw\eAgentsAdmin_source\ftpd\DbConsole.cs:行号 522
+   在 cn.magix.Helper.DbConsole.Create[T](T ety) 位置 D:\lizw\eAgentsAdmin_source\ftpd\DbConsole.cs:行号 834
+   在 ftpd.Program.WriteSingleFtpError(String fileName, String lease_number, Exception err) 位置 D:\lizw\eAgentsAdmin_source\ftpd\Program.cs:行号 235
+[2021-10-11 15:52:01.170] ORA-12899: 列 "PMSFTP"."FTP_SALES_FILES"."MEMO" 的值太大 (实际值: 86, 最大值: 50)
+
+   在 System.Data.OracleClient.OracleConnection.CheckError(OciErrorHandle errorHandle, Int32 rc)
+   在 System.Data.OracleClient.OracleCommand.Execute(OciStatementHandle statementHandle, CommandBehavior behavior, Boolean needRowid, OciRowidDescriptor& rowidDescriptor, ArrayList& resultParameterOrdinals)
+   在 System.Data.OracleClient.OracleCommand.ExecuteNonQueryInternal(Boolean needRowid, OciRowidDescriptor& rowidDescriptor)
+   在 System.Data.OracleClient.OracleCommand.ExecuteNonQuery()
+   在 cn.magix.Helper.DbTx.ExecuteNonQuery(String sql, IDataParameter[] parameters) 位置 D:\lizw\eAgentsAdmin_source\ftpd\DbConsole.cs:行号 522
+   在 cn.magix.Helper.DbConsole.Create[T](T ety) 位置 D:\lizw\eAgentsAdmin_source\ftpd\DbConsole.cs:行号 834
+   在 ftpd.Program.WriteSingleFtpError(String fileName, String lease_number, Exception err) 位置 D:\lizw\eAgentsAdmin_source\ftpd\Program.cs:行号 235
+[2021-10-11 15:52:05.478] ORA-12899: 列 "PMSFTP"."FTP_SALES_FILES"."MEMO" 的值太大 (实际值: 86, 最大值: 50)
+
+   在 System.Data.OracleClient.OracleConnection.CheckError(OciErrorHandle errorHandle, Int32 rc)
+   在 System.Data.OracleClient.OracleCommand.Execute(OciStatementHandle statementHandle, CommandBehavior behavior, Boolean needRowid, OciRowidDescriptor& rowidDescriptor, ArrayList& resultParameterOrdinals)
+   在 System.Data.OracleClient.OracleCommand.ExecuteNonQueryInternal(Boolean needRowid, OciRowidDescriptor& rowidDescriptor)
+   在 System.Data.OracleClient.OracleCommand.ExecuteNonQuery()
+   在 cn.magix.Helper.DbTx.ExecuteNonQuery(String sql, IDataParameter[] parameters) 位置 D:\lizw\eAgentsAdmin_source\ftpd\DbConsole.cs:行号 522
+   在 cn.magix.Helper.DbConsole.Create[T](T ety) 位置 D:\lizw\eAgentsAdmin_source\ftpd\DbConsole.cs:行号 834
+   在 ftpd.Program.WriteSingleFtpError(String fileName, String lease_number, Exception err) 位置 D:\lizw\eAgentsAdmin_source\ftpd\Program.cs:行号 235
+[2021-10-11 15:52:06.686] ORA-12899: 列 "PMSFTP"."FTP_SALES_FILES"."MEMO" 的值太大 (实际值: 86, 最大值: 50)
+
+   在 System.Data.OracleClient.OracleConnection.CheckError(OciErrorHandle errorHandle, Int32 rc)
+   在 System.Data.OracleClient.OracleCommand.Execute(OciStatementHandle statementHandle, CommandBehavior behavior, Boolean needRowid, OciRowidDescriptor& rowidDescriptor, ArrayList& resultParameterOrdinals)
+   在 System.Data.OracleClient.OracleCommand.ExecuteNonQueryInternal(Boolean needRowid, OciRowidDescriptor& rowidDescriptor)
+   在 System.Data.OracleClient.OracleCommand.ExecuteNonQuery()
+   在 cn.magix.Helper.DbTx.ExecuteNonQuery(String sql, IDataParameter[] parameters) 位置 D:\lizw\eAgentsAdmin_source\ftpd\DbConsole.cs:行号 522
+   在 cn.magix.Helper.DbConsole.Create[T](T ety) 位置 D:\lizw\eAgentsAdmin_source\ftpd\DbConsole.cs:行号 834
+   在 ftpd.Program.WriteSingleFtpError(String fileName, String lease_number, Exception err) 位置 D:\lizw\eAgentsAdmin_source\ftpd\Program.cs:行号 235
+[2021-10-11 15:52:07.987] ORA-12899: 列 "PMSFTP"."FTP_SALES_FILES"."MEMO" 的值太大 (实际值: 86, 最大值: 50)
+
+   在 System.Data.OracleClient.OracleConnection.CheckError(OciErrorHandle errorHandle, Int32 rc)
+   在 System.Data.OracleClient.OracleCommand.Execute(OciStatementHandle statementHandle, CommandBehavior behavior, Boolean needRowid, OciRowidDescriptor& rowidDescriptor, ArrayList& resultParameterOrdinals)
+   在 System.Data.OracleClient.OracleCommand.ExecuteNonQueryInternal(Boolean needRowid, OciRowidDescriptor& rowidDescriptor)
+   在 System.Data.OracleClient.OracleCommand.ExecuteNonQuery()
+   在 cn.magix.Helper.DbTx.ExecuteNonQuery(String sql, IDataParameter[] parameters) 位置 D:\lizw\eAgentsAdmin_source\ftpd\DbConsole.cs:行号 522
+   在 cn.magix.Helper.DbConsole.Create[T](T ety) 位置 D:\lizw\eAgentsAdmin_source\ftpd\DbConsole.cs:行号 834
+   在 ftpd.Program.WriteSingleFtpError(String fileName, String lease_number, Exception err) 位置 D:\lizw\eAgentsAdmin_source\ftpd\Program.cs:行号 235
+[2021-10-11 15:52:09.222] ORA-12899: 列 "PMSFTP"."FTP_SALES_FILES"."MEMO" 的值太大 (实际值: 86, 最大值: 50)
+
+   在 System.Data.OracleClient.OracleConnection.CheckError(OciErrorHandle errorHandle, Int32 rc)
+   在 System.Data.OracleClient.OracleCommand.Execute(OciStatementHandle statementHandle, CommandBehavior behavior, Boolean needRowid, OciRowidDescriptor& rowidDescriptor, ArrayList& resultParameterOrdinals)
+   在 System.Data.OracleClient.OracleCommand.ExecuteNonQueryInternal(Boolean needRowid, OciRowidDescriptor& rowidDescriptor)
+   在 System.Data.OracleClient.OracleCommand.ExecuteNonQuery()
+   在 cn.magix.Helper.DbTx.ExecuteNonQuery(String sql, IDataParameter[] parameters) 位置 D:\lizw\eAgentsAdmin_source\ftpd\DbConsole.cs:行号 522
+   在 cn.magix.Helper.DbConsole.Create[T](T ety) 位置 D:\lizw\eAgentsAdmin_source\ftpd\DbConsole.cs:行号 834
+   在 ftpd.Program.WriteSingleFtpError(String fileName, String lease_number, Exception err) 位置 D:\lizw\eAgentsAdmin_source\ftpd\Program.cs:行号 235
+[2021-10-11 15:52:10.532] ORA-12899: 列 "PMSFTP"."FTP_SALES_FILES"."MEMO" 的值太大 (实际值: 86, 最大值: 50)
+
+   在 System.Data.OracleClient.OracleConnection.CheckError(OciErrorHandle errorHandle, Int32 rc)
+   在 System.Data.OracleClient.OracleCommand.Execute(OciStatementHandle statementHandle, CommandBehavior behavior, Boolean needRowid, OciRowidDescriptor& rowidDescriptor, ArrayList& resultParameterOrdinals)
+   在 System.Data.OracleClient.OracleCommand.ExecuteNonQueryInternal(Boolean needRowid, OciRowidDescriptor& rowidDescriptor)
+   在 System.Data.OracleClient.OracleCommand.ExecuteNonQuery()
+   在 cn.magix.Helper.DbTx.ExecuteNonQuery(String sql, IDataParameter[] parameters) 位置 D:\lizw\eAgentsAdmin_source\ftpd\DbConsole.cs:行号 522
+   在 cn.magix.Helper.DbConsole.Create[T](T ety) 位置 D:\lizw\eAgentsAdmin_source\ftpd\DbConsole.cs:行号 834
+   在 ftpd.Program.WriteSingleFtpError(String fileName, String lease_number, Exception err) 位置 D:\lizw\eAgentsAdmin_source\ftpd\Program.cs:行号 235
+[2021-10-11 15:52:11.738] ORA-12899: 列 "PMSFTP"."FTP_SALES_FILES"."MEMO" 的值太大 (实际值: 86, 最大值: 50)
+
+   在 System.Data.OracleClient.OracleConnection.CheckError(OciErrorHandle errorHandle, Int32 rc)
+   在 System.Data.OracleClient.OracleCommand.Execute(OciStatementHandle statementHandle, CommandBehavior behavior, Boolean needRowid, OciRowidDescriptor& rowidDescriptor, ArrayList& resultParameterOrdinals)
+   在 System.Data.OracleClient.OracleCommand.ExecuteNonQueryInternal(Boolean needRowid, OciRowidDescriptor& rowidDescriptor)
+   在 System.Data.OracleClient.OracleCommand.ExecuteNonQuery()
+   在 cn.magix.Helper.DbTx.ExecuteNonQuery(String sql, IDataParameter[] parameters) 位置 D:\lizw\eAgentsAdmin_source\ftpd\DbConsole.cs:行号 522
+   在 cn.magix.Helper.DbConsole.Create[T](T ety) 位置 D:\lizw\eAgentsAdmin_source\ftpd\DbConsole.cs:行号 834
+   在 ftpd.Program.WriteSingleFtpError(String fileName, String lease_number, Exception err) 位置 D:\lizw\eAgentsAdmin_source\ftpd\Program.cs:行号 235
+[2021-10-11 15:52:13.050] ORA-12899: 列 "PMSFTP"."FTP_SALES_FILES"."MEMO" 的值太大 (实际值: 86, 最大值: 50)
+
+   在 System.Data.OracleClient.OracleConnection.CheckError(OciErrorHandle errorHandle, Int32 rc)
+   在 System.Data.OracleClient.OracleCommand.Execute(OciStatementHandle statementHandle, CommandBehavior behavior, Boolean needRowid, OciRowidDescriptor& rowidDescriptor, ArrayList& resultParameterOrdinals)
+   在 System.Data.OracleClient.OracleCommand.ExecuteNonQueryInternal(Boolean needRowid, OciRowidDescriptor& rowidDescriptor)
+   在 System.Data.OracleClient.OracleCommand.ExecuteNonQuery()
+   在 cn.magix.Helper.DbTx.ExecuteNonQuery(String sql, IDataParameter[] parameters) 位置 D:\lizw\eAgentsAdmin_source\ftpd\DbConsole.cs:行号 522
+   在 cn.magix.Helper.DbConsole.Create[T](T ety) 位置 D:\lizw\eAgentsAdmin_source\ftpd\DbConsole.cs:行号 834
+   在 ftpd.Program.WriteSingleFtpError(String fileName, String lease_number, Exception err) 位置 D:\lizw\eAgentsAdmin_source\ftpd\Program.cs:行号 235
+[2021-10-11 15:52:14.281] ORA-12899: 列 "PMSFTP"."FTP_SALES_FILES"."MEMO" 的值太大 (实际值: 86, 最大值: 50)
+
+   在 System.Data.OracleClient.OracleConnection.CheckError(OciErrorHandle errorHandle, Int32 rc)
+   在 System.Data.OracleClient.OracleCommand.Execute(OciStatementHandle statementHandle, CommandBehavior behavior, Boolean needRowid, OciRowidDescriptor& rowidDescriptor, ArrayList& resultParameterOrdinals)
+   在 System.Data.OracleClient.OracleCommand.ExecuteNonQueryInternal(Boolean needRowid, OciRowidDescriptor& rowidDescriptor)
+   在 System.Data.OracleClient.OracleCommand.ExecuteNonQuery()
+   在 cn.magix.Helper.DbTx.ExecuteNonQuery(String sql, IDataParameter[] parameters) 位置 D:\lizw\eAgentsAdmin_source\ftpd\DbConsole.cs:行号 522
+   在 cn.magix.Helper.DbConsole.Create[T](T ety) 位置 D:\lizw\eAgentsAdmin_source\ftpd\DbConsole.cs:行号 834
+   在 ftpd.Program.WriteSingleFtpError(String fileName, String lease_number, Exception err) 位置 D:\lizw\eAgentsAdmin_source\ftpd\Program.cs:行号 235
+[2021-10-11 15:52:15.670] ORA-12899: 列 "PMSFTP"."FTP_SALES_FILES"."MEMO" 的值太大 (实际值: 86, 最大值: 50)
+
+   在 System.Data.OracleClient.OracleConnection.CheckError(OciErrorHandle errorHandle, Int32 rc)
+   在 System.Data.OracleClient.OracleCommand.Execute(OciStatementHandle statementHandle, CommandBehavior behavior, Boolean needRowid, OciRowidDescriptor& rowidDescriptor, ArrayList& resultParameterOrdinals)
+   在 System.Data.OracleClient.OracleCommand.ExecuteNonQueryInternal(Boolean needRowid, OciRowidDescriptor& rowidDescriptor)
+   在 System.Data.OracleClient.OracleCommand.ExecuteNonQuery()
+   在 cn.magix.Helper.DbTx.ExecuteNonQuery(String sql, IDataParameter[] parameters) 位置 D:\lizw\eAgentsAdmin_source\ftpd\DbConsole.cs:行号 522
+   在 cn.magix.Helper.DbConsole.Create[T](T ety) 位置 D:\lizw\eAgentsAdmin_source\ftpd\DbConsole.cs:行号 834
+   在 ftpd.Program.WriteSingleFtpError(String fileName, String lease_number, Exception err) 位置 D:\lizw\eAgentsAdmin_source\ftpd\Program.cs:行号 235
+[2021-10-11 15:52:16.888] ORA-12899: 列 "PMSFTP"."FTP_SALES_FILES"."MEMO" 的值太大 (实际值: 86, 最大值: 50)
+
+   在 System.Data.OracleClient.OracleConnection.CheckError(OciErrorHandle errorHandle, Int32 rc)
+   在 System.Data.OracleClient.OracleCommand.Execute(OciStatementHandle statementHandle, CommandBehavior behavior, Boolean needRowid, OciRowidDescriptor& rowidDescriptor, ArrayList& resultParameterOrdinals)
+   在 System.Data.OracleClient.OracleCommand.ExecuteNonQueryInternal(Boolean needRowid, OciRowidDescriptor& rowidDescriptor)
+   在 System.Data.OracleClient.OracleCommand.ExecuteNonQuery()
+   在 cn.magix.Helper.DbTx.ExecuteNonQuery(String sql, IDataParameter[] parameters) 位置 D:\lizw\eAgentsAdmin_source\ftpd\DbConsole.cs:行号 522
+   在 cn.magix.Helper.DbConsole.Create[T](T ety) 位置 D:\lizw\eAgentsAdmin_source\ftpd\DbConsole.cs:行号 834
+   在 ftpd.Program.WriteSingleFtpError(String fileName, String lease_number, Exception err) 位置 D:\lizw\eAgentsAdmin_source\ftpd\Program.cs:行号 235
+[2021-10-11 15:52:18.209] ORA-12899: 列 "PMSFTP"."FTP_SALES_FILES"."MEMO" 的值太大 (实际值: 86, 最大值: 50)
+
+   在 System.Data.OracleClient.OracleConnection.CheckError(OciErrorHandle errorHandle, Int32 rc)
+   在 System.Data.OracleClient.OracleCommand.Execute(OciStatementHandle statementHandle, CommandBehavior behavior, Boolean needRowid, OciRowidDescriptor& rowidDescriptor, ArrayList& resultParameterOrdinals)
+   在 System.Data.OracleClient.OracleCommand.ExecuteNonQueryInternal(Boolean needRowid, OciRowidDescriptor& rowidDescriptor)
+   在 System.Data.OracleClient.OracleCommand.ExecuteNonQuery()
+   在 cn.magix.Helper.DbTx.ExecuteNonQuery(String sql, IDataParameter[] parameters) 位置 D:\lizw\eAgentsAdmin_source\ftpd\DbConsole.cs:行号 522
+   在 cn.magix.Helper.DbConsole.Create[T](T ety) 位置 D:\lizw\eAgentsAdmin_source\ftpd\DbConsole.cs:行号 834
+   在 ftpd.Program.WriteSingleFtpError(String fileName, String lease_number, Exception err) 位置 D:\lizw\eAgentsAdmin_source\ftpd\Program.cs:行号 235
+[2021-10-11 15:52:19.402] ORA-12899: 列 "PMSFTP"."FTP_SALES_FILES"."MEMO" 的值太大 (实际值: 86, 最大值: 50)
+
+   在 System.Data.OracleClient.OracleConnection.CheckError(OciErrorHandle errorHandle, Int32 rc)
+   在 System.Data.OracleClient.OracleCommand.Execute(OciStatementHandle statementHandle, CommandBehavior behavior, Boolean needRowid, OciRowidDescriptor& rowidDescriptor, ArrayList& resultParameterOrdinals)
+   在 System.Data.OracleClient.OracleCommand.ExecuteNonQueryInternal(Boolean needRowid, OciRowidDescriptor& rowidDescriptor)
+   在 System.Data.OracleClient.OracleCommand.ExecuteNonQuery()
+   在 cn.magix.Helper.DbTx.ExecuteNonQuery(String sql, IDataParameter[] parameters) 位置 D:\lizw\eAgentsAdmin_source\ftpd\DbConsole.cs:行号 522
+   在 cn.magix.Helper.DbConsole.Create[T](T ety) 位置 D:\lizw\eAgentsAdmin_source\ftpd\DbConsole.cs:行号 834
+   在 ftpd.Program.WriteSingleFtpError(String fileName, String lease_number, Exception err) 位置 D:\lizw\eAgentsAdmin_source\ftpd\Program.cs:行号 235
+[2021-10-11 15:52:49.765] ORA-12899: 列 "PMSFTP"."FTP_SALES_FILES"."MEMO" 的值太大 (实际值: 86, 最大值: 50)
+
+   在 System.Data.OracleClient.OracleConnection.CheckError(OciErrorHandle errorHandle, Int32 rc)
+   在 System.Data.OracleClient.OracleCommand.Execute(OciStatementHandle statementHandle, CommandBehavior behavior, Boolean needRowid, OciRowidDescriptor& rowidDescriptor, ArrayList& resultParameterOrdinals)
+   在 System.Data.OracleClient.OracleCommand.ExecuteNonQueryInternal(Boolean needRowid, OciRowidDescriptor& rowidDescriptor)
+   在 System.Data.OracleClient.OracleCommand.ExecuteNonQuery()
+   在 cn.magix.Helper.DbTx.ExecuteNonQuery(String sql, IDataParameter[] parameters) 位置 D:\lizw\eAgentsAdmin_source\ftpd\DbConsole.cs:行号 522
+   在 cn.magix.Helper.DbConsole.Create[T](T ety) 位置 D:\lizw\eAgentsAdmin_source\ftpd\DbConsole.cs:行号 834
+   在 ftpd.Program.WriteSingleFtpError(String fileName, String lease_number, Exception err) 位置 D:\lizw\eAgentsAdmin_source\ftpd\Program.cs:行号 235

@@ -1,0 +1,4 @@
+D:\lizw\eAgentsAdmin_source\Helper\bin\Debug\Helper.dll
+D:\lizw\eAgentsAdmin_source\Helper\bin\Debug\Helper.pdb
+D:\lizw\eAgentsAdmin_source\Helper\obj\Debug\Helper.dll
+D:\lizw\eAgentsAdmin_source\Helper\obj\Debug\Helper.pdb

@@ -1,0 +1,37 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<publishData>
+  <publishProfile publishUrl="D:\rwx\ftpa_publish" deleteExistingFiles="True" ftpAnonymousLogin="False" ftpPassiveMode="True" msdeploySite="" msdeploySiteID="" msdeployRemoteSitePhysicalPath="" msdeployAllowUntrustedCertificate="False" msdeploySkipExtraFilesOnServer="True" msdeployMarkAsApp="False" profileName="配置文件1" publishMethod="FileSystem" replaceMatchingFiles="False" userName="" savePWD="False" userPWD="" SelectedForPublish="True">
+    <file relUrl="bin/ftpa.pdb" publishTime="11/10/2021 09:29:25" />
+    <file relUrl="Trc.aspx" publishTime="11/01/2021 11:31:50" />
+    <file relUrl="Global.asax" publishTime="10/28/2021 14:58:15" />
+    <file relUrl="Site.Master" publishTime="11/01/2021 14:38:05" />
+    <file relUrl="Styles/Site.css" publishTime="10/28/2021 14:58:15" />
+    <file relUrl="bin/Newtonsoft.Json.dll" publishTime="01/06/2021 10:32:06" />
+    <file relUrl="Scripts/jquery-1.4.1.js" publishTime="10/28/2021 14:58:15" />
+    <file relUrl="bin/Helper.pdb" publishTime="11/05/2021 14:33:11" />
+    <file relUrl="assets/vue.js" publishTime="02/21/2019 14:06:20" />
+    <file relUrl="Scripts/commons.js" publishTime="11/01/2021 13:57:40" />
+    <file relUrl="dashboard.css" publishTime="06/22/2021 21:25:36" />
+    <file relUrl="Account/Web.config" publishTime="10/28/2021 14:58:15" />
+    <file relUrl="Account/Register.aspx" publishTime="10/28/2021 14:58:15" />
+    <file relUrl="Scripts/jquery-3.2.1.min.js" publishTime="10/29/2021 10:05:48" />
+    <file relUrl="Account/Login.aspx" publishTime="10/28/2021 14:58:15" />
+    <file relUrl="Scripts/jquery-1.4.1.min.js" publishTime="10/28/2021 14:58:15" />
+    <file relUrl="assets/dist/css/bootstrap.rtl.min.css" publishTime="06/22/2021 21:25:38" />
+    <file relUrl="Default.aspx" publishTime="11/05/2021 15:06:56" />
+    <file relUrl="Account/ChangePasswordSuccess.aspx" publishTime="10/28/2021 14:58:15" />
+    <file relUrl="engine.ashx" publishTime="10/29/2021 10:16:47" />
+    <file relUrl="assets/dist/css/bootstrap.min.css" publishTime="06/22/2021 21:25:38" />
+    <file relUrl="Account/ChangePassword.aspx" publishTime="10/28/2021 14:58:15" />
+    <file relUrl="Turnover.aspx" publishTime="10/29/2021 16:12:39" />
+    <file relUrl="Web.config" publishTime="11/10/2021 15:13:07" />
+    <file relUrl="assets/vue.min.js" publishTime="04/15/2021 11:10:56" />
+    <file relUrl="assets/vue-resource.min.js" publishTime="01/06/2021 10:32:08" />
+    <file relUrl="bin/Helper.dll" publishTime="11/05/2021 14:33:11" />
+    <file relUrl="bin/ftpa.dll" publishTime="11/10/2021 09:29:26" />
+    <file relUrl="assets/dist/js/bootstrap.bundle.min.js" publishTime="06/22/2021 21:25:38" />
+    <file relUrl="assets/brand/bootstrap-logo-white.svg" publishTime="06/22/2021 21:25:38" />
+    <file relUrl="assets/brand/bootstrap-logo.svg" publishTime="06/22/2021 21:25:38" />
+    <file relUrl="Scripts/jquery-1.4.1-vsdoc.js" publishTime="10/28/2021 14:58:15" />
+  </publishProfile>
+</publishData>

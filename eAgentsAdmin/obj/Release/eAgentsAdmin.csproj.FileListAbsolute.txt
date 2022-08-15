@@ -1,0 +1,6 @@
+D:\lizw\eAgentsAdmin_source\eAgentsAdmin\bin\PropertyOneAppWeb.dll
+D:\lizw\eAgentsAdmin_source\eAgentsAdmin\bin\PropertyOneAppWeb.pdb
+D:\lizw\eAgentsAdmin_source\eAgentsAdmin\obj\Release\Interop.ADODB.dll
+D:\lizw\eAgentsAdmin_source\eAgentsAdmin\obj\Release\eAgentsAdmin.csproj.ResolveComReference.cache
+D:\lizw\eAgentsAdmin_source\eAgentsAdmin\obj\Release\PropertyOneAppWeb.dll
+D:\lizw\eAgentsAdmin_source\eAgentsAdmin\obj\Release\PropertyOneAppWeb.pdb

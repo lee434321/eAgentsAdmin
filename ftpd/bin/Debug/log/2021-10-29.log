@@ -1,0 +1,2107 @@
+[2021-10-29 17:12:43.994] ORA-04098: 触发器 'PMSFTP.TRI_FSF_ID' 无效且未通过重新验证
+
+   在 System.Data.OracleClient.OracleConnection.CheckError(OciErrorHandle errorHandle, Int32 rc)
+   在 System.Data.OracleClient.OracleCommand.Execute(OciStatementHandle statementHandle, CommandBehavior behavior, Boolean needRowid, OciRowidDescriptor& rowidDescriptor, ArrayList& resultParameterOrdinals)
+   在 System.Data.OracleClient.OracleCommand.ExecuteNonQueryInternal(Boolean needRowid, OciRowidDescriptor& rowidDescriptor)
+   在 System.Data.OracleClient.OracleCommand.ExecuteNonQuery()
+   在 cn.magix.Helper.DbTx.ExecuteNonQuery(String sql, IDataParameter[] parameters) 位置 D:\lizw\eAgentsAdmin_source\ftpd\DbConsole.cs:行号 522
+   在 cn.magix.Helper.DbConsole.Create[T](T ety) 位置 D:\lizw\eAgentsAdmin_source\ftpd\DbConsole.cs:行号 833
+   在 ftpd.Program.GetFtpFiles(String unitKey, Int32 days) 位置 D:\lizw\eAgentsAdmin_source\ftpd\Program.cs:行号 226
+[2021-10-29 17:12:47.277] ORA-04098: 触发器 'PMSFTP.TRI_FSF_ID' 无效且未通过重新验证
+
+   在 System.Data.OracleClient.OracleConnection.CheckError(OciErrorHandle errorHandle, Int32 rc)
+   在 System.Data.OracleClient.OracleCommand.Execute(OciStatementHandle statementHandle, CommandBehavior behavior, Boolean needRowid, OciRowidDescriptor& rowidDescriptor, ArrayList& resultParameterOrdinals)
+   在 System.Data.OracleClient.OracleCommand.ExecuteNonQueryInternal(Boolean needRowid, OciRowidDescriptor& rowidDescriptor)
+   在 System.Data.OracleClient.OracleCommand.ExecuteNonQuery()
+   在 cn.magix.Helper.DbTx.ExecuteNonQuery(String sql, IDataParameter[] parameters) 位置 D:\lizw\eAgentsAdmin_source\ftpd\DbConsole.cs:行号 522
+   在 cn.magix.Helper.DbConsole.Create[T](T ety) 位置 D:\lizw\eAgentsAdmin_source\ftpd\DbConsole.cs:行号 833
+   在 ftpd.Program.GetFtpFiles(String unitKey, Int32 days) 位置 D:\lizw\eAgentsAdmin_source\ftpd\Program.cs:行号 226
+[2021-10-29 17:12:52.141] ORA-04098: 触发器 'PMSFTP.TRI_FSF_ID' 无效且未通过重新验证
+
+   在 System.Data.OracleClient.OracleConnection.CheckError(OciErrorHandle errorHandle, Int32 rc)
+   在 System.Data.OracleClient.OracleCommand.Execute(OciStatementHandle statementHandle, CommandBehavior behavior, Boolean needRowid, OciRowidDescriptor& rowidDescriptor, ArrayList& resultParameterOrdinals)
+   在 System.Data.OracleClient.OracleCommand.ExecuteNonQueryInternal(Boolean needRowid, OciRowidDescriptor& rowidDescriptor)
+   在 System.Data.OracleClient.OracleCommand.ExecuteNonQuery()
+   在 cn.magix.Helper.DbTx.ExecuteNonQuery(String sql, IDataParameter[] parameters) 位置 D:\lizw\eAgentsAdmin_source\ftpd\DbConsole.cs:行号 522
+   在 cn.magix.Helper.DbConsole.Create[T](T ety) 位置 D:\lizw\eAgentsAdmin_source\ftpd\DbConsole.cs:行号 833
+   在 ftpd.Program.GetFtpFiles(String unitKey, Int32 days) 位置 D:\lizw\eAgentsAdmin_source\ftpd\Program.cs:行号 226
+[2021-10-29 17:12:55.116] ORA-04098: 触发器 'PMSFTP.TRI_FSF_ID' 无效且未通过重新验证
+
+   在 System.Data.OracleClient.OracleConnection.CheckError(OciErrorHandle errorHandle, Int32 rc)
+   在 System.Data.OracleClient.OracleCommand.Execute(OciStatementHandle statementHandle, CommandBehavior behavior, Boolean needRowid, OciRowidDescriptor& rowidDescriptor, ArrayList& resultParameterOrdinals)
+   在 System.Data.OracleClient.OracleCommand.ExecuteNonQueryInternal(Boolean needRowid, OciRowidDescriptor& rowidDescriptor)
+   在 System.Data.OracleClient.OracleCommand.ExecuteNonQuery()
+   在 cn.magix.Helper.DbTx.ExecuteNonQuery(String sql, IDataParameter[] parameters) 位置 D:\lizw\eAgentsAdmin_source\ftpd\DbConsole.cs:行号 522
+   在 cn.magix.Helper.DbConsole.Create[T](T ety) 位置 D:\lizw\eAgentsAdmin_source\ftpd\DbConsole.cs:行号 833
+   在 ftpd.Program.GetFtpFiles(String unitKey, Int32 days) 位置 D:\lizw\eAgentsAdmin_source\ftpd\Program.cs:行号 226
+[2021-10-29 17:13:02.135] ORA-04098: 触发器 'PMSFTP.TRI_FSF_ID' 无效且未通过重新验证
+
+   在 System.Data.OracleClient.OracleConnection.CheckError(OciErrorHandle errorHandle, Int32 rc)
+   在 System.Data.OracleClient.OracleCommand.Execute(OciStatementHandle statementHandle, CommandBehavior behavior, Boolean needRowid, OciRowidDescriptor& rowidDescriptor, ArrayList& resultParameterOrdinals)
+   在 System.Data.OracleClient.OracleCommand.ExecuteNonQueryInternal(Boolean needRowid, OciRowidDescriptor& rowidDescriptor)
+   在 System.Data.OracleClient.OracleCommand.ExecuteNonQuery()
+   在 cn.magix.Helper.DbTx.ExecuteNonQuery(String sql, IDataParameter[] parameters) 位置 D:\lizw\eAgentsAdmin_source\ftpd\DbConsole.cs:行号 522
+   在 cn.magix.Helper.DbConsole.Create[T](T ety) 位置 D:\lizw\eAgentsAdmin_source\ftpd\DbConsole.cs:行号 833
+   在 ftpd.Program.GetFtpFiles(String unitKey, Int32 days) 位置 D:\lizw\eAgentsAdmin_source\ftpd\Program.cs:行号 226
+[2021-10-29 17:13:03.274] ORA-04098: 触发器 'PMSFTP.TRI_FSF_ID' 无效且未通过重新验证
+
+   在 System.Data.OracleClient.OracleConnection.CheckError(OciErrorHandle errorHandle, Int32 rc)
+   在 System.Data.OracleClient.OracleCommand.Execute(OciStatementHandle statementHandle, CommandBehavior behavior, Boolean needRowid, OciRowidDescriptor& rowidDescriptor, ArrayList& resultParameterOrdinals)
+   在 System.Data.OracleClient.OracleCommand.ExecuteNonQueryInternal(Boolean needRowid, OciRowidDescriptor& rowidDescriptor)
+   在 System.Data.OracleClient.OracleCommand.ExecuteNonQuery()
+   在 cn.magix.Helper.DbTx.ExecuteNonQuery(String sql, IDataParameter[] parameters) 位置 D:\lizw\eAgentsAdmin_source\ftpd\DbConsole.cs:行号 522
+   在 cn.magix.Helper.DbConsole.Create[T](T ety) 位置 D:\lizw\eAgentsAdmin_source\ftpd\DbConsole.cs:行号 833
+   在 ftpd.Program.WriteSingleFtpError(String fileName, String lease_number, Exception err) 位置 D:\lizw\eAgentsAdmin_source\ftpd\Program.cs:行号 88
+[2021-10-29 17:13:03.828] ORA-04098: 触发器 'PMSFTP.TRI_FSF_ID' 无效且未通过重新验证
+
+   在 System.Data.OracleClient.OracleConnection.CheckError(OciErrorHandle errorHandle, Int32 rc)
+   在 System.Data.OracleClient.OracleCommand.Execute(OciStatementHandle statementHandle, CommandBehavior behavior, Boolean needRowid, OciRowidDescriptor& rowidDescriptor, ArrayList& resultParameterOrdinals)
+   在 System.Data.OracleClient.OracleCommand.ExecuteNonQueryInternal(Boolean needRowid, OciRowidDescriptor& rowidDescriptor)
+   在 System.Data.OracleClient.OracleCommand.ExecuteNonQuery()
+   在 cn.magix.Helper.DbTx.ExecuteNonQuery(String sql, IDataParameter[] parameters) 位置 D:\lizw\eAgentsAdmin_source\ftpd\DbConsole.cs:行号 522
+   在 cn.magix.Helper.DbConsole.Create[T](T ety) 位置 D:\lizw\eAgentsAdmin_source\ftpd\DbConsole.cs:行号 833
+   在 ftpd.Program.WriteSingleFtpError(String fileName, String lease_number, Exception err) 位置 D:\lizw\eAgentsAdmin_source\ftpd\Program.cs:行号 88
+[2021-10-29 17:13:04.479] ORA-04098: 触发器 'PMSFTP.TRI_FSF_ID' 无效且未通过重新验证
+
+   在 System.Data.OracleClient.OracleConnection.CheckError(OciErrorHandle errorHandle, Int32 rc)
+   在 System.Data.OracleClient.OracleCommand.Execute(OciStatementHandle statementHandle, CommandBehavior behavior, Boolean needRowid, OciRowidDescriptor& rowidDescriptor, ArrayList& resultParameterOrdinals)
+   在 System.Data.OracleClient.OracleCommand.ExecuteNonQueryInternal(Boolean needRowid, OciRowidDescriptor& rowidDescriptor)
+   在 System.Data.OracleClient.OracleCommand.ExecuteNonQuery()
+   在 cn.magix.Helper.DbTx.ExecuteNonQuery(String sql, IDataParameter[] parameters) 位置 D:\lizw\eAgentsAdmin_source\ftpd\DbConsole.cs:行号 522
+   在 cn.magix.Helper.DbConsole.Create[T](T ety) 位置 D:\lizw\eAgentsAdmin_source\ftpd\DbConsole.cs:行号 833
+   在 ftpd.Program.WriteSingleFtpError(String fileName, String lease_number, Exception err) 位置 D:\lizw\eAgentsAdmin_source\ftpd\Program.cs:行号 88
+[2021-10-29 17:13:05.110] ORA-04098: 触发器 'PMSFTP.TRI_FSF_ID' 无效且未通过重新验证
+
+   在 System.Data.OracleClient.OracleConnection.CheckError(OciErrorHandle errorHandle, Int32 rc)
+   在 System.Data.OracleClient.OracleCommand.Execute(OciStatementHandle statementHandle, CommandBehavior behavior, Boolean needRowid, OciRowidDescriptor& rowidDescriptor, ArrayList& resultParameterOrdinals)
+   在 System.Data.OracleClient.OracleCommand.ExecuteNonQueryInternal(Boolean needRowid, OciRowidDescriptor& rowidDescriptor)
+   在 System.Data.OracleClient.OracleCommand.ExecuteNonQuery()
+   在 cn.magix.Helper.DbTx.ExecuteNonQuery(String sql, IDataParameter[] parameters) 位置 D:\lizw\eAgentsAdmin_source\ftpd\DbConsole.cs:行号 522
+   在 cn.magix.Helper.DbConsole.Create[T](T ety) 位置 D:\lizw\eAgentsAdmin_source\ftpd\DbConsole.cs:行号 833
+   在 ftpd.Program.WriteSingleFtpError(String fileName, String lease_number, Exception err) 位置 D:\lizw\eAgentsAdmin_source\ftpd\Program.cs:行号 88
+[2021-10-29 17:13:05.822] ORA-04098: 触发器 'PMSFTP.TRI_FSF_ID' 无效且未通过重新验证
+
+   在 System.Data.OracleClient.OracleConnection.CheckError(OciErrorHandle errorHandle, Int32 rc)
+   在 System.Data.OracleClient.OracleCommand.Execute(OciStatementHandle statementHandle, CommandBehavior behavior, Boolean needRowid, OciRowidDescriptor& rowidDescriptor, ArrayList& resultParameterOrdinals)
+   在 System.Data.OracleClient.OracleCommand.ExecuteNonQueryInternal(Boolean needRowid, OciRowidDescriptor& rowidDescriptor)
+   在 System.Data.OracleClient.OracleCommand.ExecuteNonQuery()
+   在 cn.magix.Helper.DbTx.ExecuteNonQuery(String sql, IDataParameter[] parameters) 位置 D:\lizw\eAgentsAdmin_source\ftpd\DbConsole.cs:行号 522
+   在 cn.magix.Helper.DbConsole.Create[T](T ety) 位置 D:\lizw\eAgentsAdmin_source\ftpd\DbConsole.cs:行号 833
+   在 ftpd.Program.WriteSingleFtpError(String fileName, String lease_number, Exception err) 位置 D:\lizw\eAgentsAdmin_source\ftpd\Program.cs:行号 88
+[2021-10-29 17:13:10.815] ORA-04098: 触发器 'PMSFTP.TRI_FSF_ID' 无效且未通过重新验证
+
+   在 System.Data.OracleClient.OracleConnection.CheckError(OciErrorHandle errorHandle, Int32 rc)
+   在 System.Data.OracleClient.OracleCommand.Execute(OciStatementHandle statementHandle, CommandBehavior behavior, Boolean needRowid, OciRowidDescriptor& rowidDescriptor, ArrayList& resultParameterOrdinals)
+   在 System.Data.OracleClient.OracleCommand.ExecuteNonQueryInternal(Boolean needRowid, OciRowidDescriptor& rowidDescriptor)
+   在 System.Data.OracleClient.OracleCommand.ExecuteNonQuery()
+   在 cn.magix.Helper.DbTx.ExecuteNonQuery(String sql, IDataParameter[] parameters) 位置 D:\lizw\eAgentsAdmin_source\ftpd\DbConsole.cs:行号 522
+   在 cn.magix.Helper.DbConsole.Create[T](T ety) 位置 D:\lizw\eAgentsAdmin_source\ftpd\DbConsole.cs:行号 833
+   在 ftpd.Program.GetFtpFiles(String unitKey, Int32 days) 位置 D:\lizw\eAgentsAdmin_source\ftpd\Program.cs:行号 226
+[2021-10-29 17:13:31.454] ORA-04098: 触发器 'PMSFTP.TRI_FSF_ID' 无效且未通过重新验证
+
+   在 System.Data.OracleClient.OracleConnection.CheckError(OciErrorHandle errorHandle, Int32 rc)
+   在 System.Data.OracleClient.OracleCommand.Execute(OciStatementHandle statementHandle, CommandBehavior behavior, Boolean needRowid, OciRowidDescriptor& rowidDescriptor, ArrayList& resultParameterOrdinals)
+   在 System.Data.OracleClient.OracleCommand.ExecuteNonQueryInternal(Boolean needRowid, OciRowidDescriptor& rowidDescriptor)
+   在 System.Data.OracleClient.OracleCommand.ExecuteNonQuery()
+   在 cn.magix.Helper.DbTx.ExecuteNonQuery(String sql, IDataParameter[] parameters) 位置 D:\lizw\eAgentsAdmin_source\ftpd\DbConsole.cs:行号 522
+   在 cn.magix.Helper.DbConsole.Create[T](T ety) 位置 D:\lizw\eAgentsAdmin_source\ftpd\DbConsole.cs:行号 833
+   在 ftpd.Program.GetFtpFiles(String unitKey, Int32 days) 位置 D:\lizw\eAgentsAdmin_source\ftpd\Program.cs:行号 226
+[2021-10-29 17:13:34.886] ORA-04098: 触发器 'PMSFTP.TRI_FSF_ID' 无效且未通过重新验证
+
+   在 System.Data.OracleClient.OracleConnection.CheckError(OciErrorHandle errorHandle, Int32 rc)
+   在 System.Data.OracleClient.OracleCommand.Execute(OciStatementHandle statementHandle, CommandBehavior behavior, Boolean needRowid, OciRowidDescriptor& rowidDescriptor, ArrayList& resultParameterOrdinals)
+   在 System.Data.OracleClient.OracleCommand.ExecuteNonQueryInternal(Boolean needRowid, OciRowidDescriptor& rowidDescriptor)
+   在 System.Data.OracleClient.OracleCommand.ExecuteNonQuery()
+   在 cn.magix.Helper.DbTx.ExecuteNonQuery(String sql, IDataParameter[] parameters) 位置 D:\lizw\eAgentsAdmin_source\ftpd\DbConsole.cs:行号 522
+   在 cn.magix.Helper.DbConsole.Create[T](T ety) 位置 D:\lizw\eAgentsAdmin_source\ftpd\DbConsole.cs:行号 833
+   在 ftpd.Program.GetFtpFiles(String unitKey, Int32 days) 位置 D:\lizw\eAgentsAdmin_source\ftpd\Program.cs:行号 226
+[2021-10-29 17:13:38.697] ORA-04098: 触发器 'PMSFTP.TRI_FSF_ID' 无效且未通过重新验证
+
+   在 System.Data.OracleClient.OracleConnection.CheckError(OciErrorHandle errorHandle, Int32 rc)
+   在 System.Data.OracleClient.OracleCommand.Execute(OciStatementHandle statementHandle, CommandBehavior behavior, Boolean needRowid, OciRowidDescriptor& rowidDescriptor, ArrayList& resultParameterOrdinals)
+   在 System.Data.OracleClient.OracleCommand.ExecuteNonQueryInternal(Boolean needRowid, OciRowidDescriptor& rowidDescriptor)
+   在 System.Data.OracleClient.OracleCommand.ExecuteNonQuery()
+   在 cn.magix.Helper.DbTx.ExecuteNonQuery(String sql, IDataParameter[] parameters) 位置 D:\lizw\eAgentsAdmin_source\ftpd\DbConsole.cs:行号 522
+   在 cn.magix.Helper.DbConsole.Create[T](T ety) 位置 D:\lizw\eAgentsAdmin_source\ftpd\DbConsole.cs:行号 833
+   在 ftpd.Program.GetFtpFiles(String unitKey, Int32 days) 位置 D:\lizw\eAgentsAdmin_source\ftpd\Program.cs:行号 226
+[2021-10-29 17:13:43.603] ORA-04098: 触发器 'PMSFTP.TRI_FSF_ID' 无效且未通过重新验证
+
+   在 System.Data.OracleClient.OracleConnection.CheckError(OciErrorHandle errorHandle, Int32 rc)
+   在 System.Data.OracleClient.OracleCommand.Execute(OciStatementHandle statementHandle, CommandBehavior behavior, Boolean needRowid, OciRowidDescriptor& rowidDescriptor, ArrayList& resultParameterOrdinals)
+   在 System.Data.OracleClient.OracleCommand.ExecuteNonQueryInternal(Boolean needRowid, OciRowidDescriptor& rowidDescriptor)
+   在 System.Data.OracleClient.OracleCommand.ExecuteNonQuery()
+   在 cn.magix.Helper.DbTx.ExecuteNonQuery(String sql, IDataParameter[] parameters) 位置 D:\lizw\eAgentsAdmin_source\ftpd\DbConsole.cs:行号 522
+   在 cn.magix.Helper.DbConsole.Create[T](T ety) 位置 D:\lizw\eAgentsAdmin_source\ftpd\DbConsole.cs:行号 833
+   在 ftpd.Program.GetFtpFiles(String unitKey, Int32 days) 位置 D:\lizw\eAgentsAdmin_source\ftpd\Program.cs:行号 226
+[2021-10-29 17:13:54.716] ORA-04098: 触发器 'PMSFTP.TRI_FSF_ID' 无效且未通过重新验证
+
+   在 System.Data.OracleClient.OracleConnection.CheckError(OciErrorHandle errorHandle, Int32 rc)
+   在 System.Data.OracleClient.OracleCommand.Execute(OciStatementHandle statementHandle, CommandBehavior behavior, Boolean needRowid, OciRowidDescriptor& rowidDescriptor, ArrayList& resultParameterOrdinals)
+   在 System.Data.OracleClient.OracleCommand.ExecuteNonQueryInternal(Boolean needRowid, OciRowidDescriptor& rowidDescriptor)
+   在 System.Data.OracleClient.OracleCommand.ExecuteNonQuery()
+   在 cn.magix.Helper.DbTx.ExecuteNonQuery(String sql, IDataParameter[] parameters) 位置 D:\lizw\eAgentsAdmin_source\ftpd\DbConsole.cs:行号 522
+   在 cn.magix.Helper.DbConsole.Create[T](T ety) 位置 D:\lizw\eAgentsAdmin_source\ftpd\DbConsole.cs:行号 833
+   在 ftpd.Program.GetFtpFiles(String unitKey, Int32 days) 位置 D:\lizw\eAgentsAdmin_source\ftpd\Program.cs:行号 226
+[2021-10-29 17:14:30.696] ORA-04098: 触发器 'PMSFTP.TRI_FSF_ID' 无效且未通过重新验证
+
+   在 System.Data.OracleClient.OracleConnection.CheckError(OciErrorHandle errorHandle, Int32 rc)
+   在 System.Data.OracleClient.OracleCommand.Execute(OciStatementHandle statementHandle, CommandBehavior behavior, Boolean needRowid, OciRowidDescriptor& rowidDescriptor, ArrayList& resultParameterOrdinals)
+   在 System.Data.OracleClient.OracleCommand.ExecuteNonQueryInternal(Boolean needRowid, OciRowidDescriptor& rowidDescriptor)
+   在 System.Data.OracleClient.OracleCommand.ExecuteNonQuery()
+   在 cn.magix.Helper.DbTx.ExecuteNonQuery(String sql, IDataParameter[] parameters) 位置 D:\lizw\eAgentsAdmin_source\ftpd\DbConsole.cs:行号 522
+   在 cn.magix.Helper.DbConsole.Create[T](T ety) 位置 D:\lizw\eAgentsAdmin_source\ftpd\DbConsole.cs:行号 833
+   在 ftpd.Program.WriteSingleFtpError(String fileName, String lease_number, Exception err) 位置 D:\lizw\eAgentsAdmin_source\ftpd\Program.cs:行号 88
+[2021-10-29 17:15:14.854] 索引和长度必须引用该字符串内的位置。
+参数名: length
+   在 System.String.Substring(Int32 startIndex, Int32 length)
+   在 ftpd.Program.GetFtpFiles(String unitKey, Int32 days) 位置 D:\lizw\eAgentsAdmin_source\ftpd\Program.cs:行号 186
+[2021-10-29 17:15:50.677] WHTSB1B1007_20211028213256_LIST.txt文件已存在
+[2021-10-29 17:16:02.043] 索引和长度必须引用该字符串内的位置。
+参数名: length
+   在 System.String.Substring(Int32 startIndex, Int32 length)
+   在 ftpd.Program.GetFtpFiles(String unitKey, Int32 days) 位置 D:\lizw\eAgentsAdmin_source\ftpd\Program.cs:行号 186
+[2021-10-29 17:16:30.765] 索引和长度必须引用该字符串内的位置。
+参数名: length
+   在 System.String.Substring(Int32 startIndex, Int32 length)
+   在 ftpd.Program.GetFtpFiles(String unitKey, Int32 days) 位置 D:\lizw\eAgentsAdmin_source\ftpd\Program.cs:行号 188
+[2021-10-29 17:16:56.330] 年、月和日参数描述无法表示的 DateTime。
+   在 System.DateTime.DateToTicks(Int32 year, Int32 month, Int32 day)
+   在 System.DateTime..ctor(Int32 year, Int32 month, Int32 day)
+   在 ftpd.Program.GetFtpFiles(String unitKey, Int32 days) 位置 D:\lizw\eAgentsAdmin_source\ftpd\Program.cs:行号 200
+[2021-10-29 17:18:13.758] 索引和长度必须引用该字符串内的位置。
+参数名: length
+   在 System.String.Substring(Int32 startIndex, Int32 length)
+   在 ftpd.Program.GetFtpFiles(String unitKey, Int32 days) 位置 D:\lizw\eAgentsAdmin_source\ftpd\Program.cs:行号 188
+[2021-10-29 17:18:14.436] 远程服务器返回错误: (550) 文件不可用(例如，未找到文件，无法访问文件)。
+   在 System.Net.FtpWebRequest.SyncRequestCallback(Object obj)
+   在 System.Net.FtpWebRequest.RequestCallback(Object obj)
+   在 System.Net.CommandStream.Dispose(Boolean disposing)
+   在 System.IO.Stream.Close()
+   在 System.IO.Stream.Dispose()
+   在 System.Net.ConnectionPool.Destroy(PooledStream pooledStream)
+   在 System.Net.ConnectionPool.PutConnection(PooledStream pooledStream, Object owningObject, Int32 creationTimeout, Boolean canReuse)
+   在 System.Net.FtpWebRequest.FinishRequestStage(RequestStage stage)
+   在 System.Net.FtpWebRequest.GetResponse()
+   在 ftpd.FtpClient.FtpCmd(String method) 位置 D:\lizw\eAgentsAdmin_source\ftpd\Program.cs:行号 834
+   在 ftpd.FtpClient.ListDir(String path) 位置 D:\lizw\eAgentsAdmin_source\ftpd\Program.cs:行号 789
+   在 ftpd.Program.GetFtpFiles(String unitKey, Int32 days) 位置 D:\lizw\eAgentsAdmin_source\ftpd\Program.cs:行号 158
+[2021-10-29 17:18:20.601] 远程服务器返回错误: (550) 文件不可用(例如，未找到文件，无法访问文件)。
+   在 System.Net.FtpWebRequest.SyncRequestCallback(Object obj)
+   在 System.Net.FtpWebRequest.RequestCallback(Object obj)
+   在 System.Net.CommandStream.Dispose(Boolean disposing)
+   在 System.IO.Stream.Close()
+   在 System.IO.Stream.Dispose()
+   在 System.Net.ConnectionPool.Destroy(PooledStream pooledStream)
+   在 System.Net.ConnectionPool.PutConnection(PooledStream pooledStream, Object owningObject, Int32 creationTimeout, Boolean canReuse)
+   在 System.Net.FtpWebRequest.FinishRequestStage(RequestStage stage)
+   在 System.Net.FtpWebRequest.GetResponse()
+   在 ftpd.FtpClient.FtpCmd(String method) 位置 D:\lizw\eAgentsAdmin_source\ftpd\Program.cs:行号 834
+   在 ftpd.FtpClient.ListDir(String path) 位置 D:\lizw\eAgentsAdmin_source\ftpd\Program.cs:行号 789
+   在 ftpd.Program.GetFtpFiles(String unitKey, Int32 days) 位置 D:\lizw\eAgentsAdmin_source\ftpd\Program.cs:行号 158
+[2021-10-29 17:18:37.870] 索引和长度必须引用该字符串内的位置。
+参数名: length
+   在 System.String.Substring(Int32 startIndex, Int32 length)
+   在 ftpd.Program.GetFtpFiles(String unitKey, Int32 days) 位置 D:\lizw\eAgentsAdmin_source\ftpd\Program.cs:行号 188
+[2021-10-29 17:18:44.416] WHTS6FL6013X_20211024210944_LIST.txt文件已存在
+[2021-10-29 17:18:45.031] WHTS6FL6013X_20211025195833_LIST.txt文件已存在
+[2021-10-29 17:18:45.040] WHTS6FL6013X_20211026195240_LIST.txt文件已存在
+[2021-10-29 17:18:45.049] WHTS6FL6013X_20211027142403_LIST.txt文件已存在
+[2021-10-29 17:18:45.057] WHTS6FL6013X_20211028192352_LIST.txt文件已存在
+[2021-10-29 17:19:45.214] 索引和长度必须引用该字符串内的位置。
+参数名: length
+   在 System.String.Substring(Int32 startIndex, Int32 length)
+   在 ftpd.Program.GetFtpFiles(String unitKey, Int32 days) 位置 D:\lizw\eAgentsAdmin_source\ftpd\Program.cs:行号 186
+[2021-10-29 17:19:57.079] 远程服务器返回错误: (550) 文件不可用(例如，未找到文件，无法访问文件)。
+   在 System.Net.FtpWebRequest.SyncRequestCallback(Object obj)
+   在 System.Net.FtpWebRequest.RequestCallback(Object obj)
+   在 System.Net.CommandStream.Dispose(Boolean disposing)
+   在 System.IO.Stream.Close()
+   在 System.IO.Stream.Dispose()
+   在 System.Net.ConnectionPool.Destroy(PooledStream pooledStream)
+   在 System.Net.ConnectionPool.PutConnection(PooledStream pooledStream, Object owningObject, Int32 creationTimeout, Boolean canReuse)
+   在 System.Net.FtpWebRequest.FinishRequestStage(RequestStage stage)
+   在 System.Net.FtpWebRequest.GetResponse()
+   在 ftpd.FtpClient.FtpCmd(String method) 位置 D:\lizw\eAgentsAdmin_source\ftpd\Program.cs:行号 834
+   在 ftpd.FtpClient.ListDir(String path) 位置 D:\lizw\eAgentsAdmin_source\ftpd\Program.cs:行号 789
+   在 ftpd.Program.GetFtpFiles(String unitKey, Int32 days) 位置 D:\lizw\eAgentsAdmin_source\ftpd\Program.cs:行号 158
+[2021-10-29 17:21:14.145] WHTSB1B1010_20211024120000_LIST.txt文件已存在
+[2021-10-29 17:21:14.153] WHTSB1B1010_20211025120000_LIST.txt文件已存在
+[2021-10-29 17:21:14.871] WHTSB1B1010_20211027120000_LIST.txt文件已存在
+[2021-10-29 17:21:14.879] WHTSB1B1010_20211028120000_LIST.txt文件已存在
+[2021-10-29 17:21:33.500] 远程服务器返回错误: (550) 文件不可用(例如，未找到文件，无法访问文件)。
+   在 System.Net.FtpWebRequest.SyncRequestCallback(Object obj)
+   在 System.Net.FtpWebRequest.RequestCallback(Object obj)
+   在 System.Net.CommandStream.Dispose(Boolean disposing)
+   在 System.IO.Stream.Close()
+   在 System.IO.Stream.Dispose()
+   在 System.Net.ConnectionPool.Destroy(PooledStream pooledStream)
+   在 System.Net.ConnectionPool.PutConnection(PooledStream pooledStream, Object owningObject, Int32 creationTimeout, Boolean canReuse)
+   在 System.Net.FtpWebRequest.FinishRequestStage(RequestStage stage)
+   在 System.Net.FtpWebRequest.GetResponse()
+   在 ftpd.FtpClient.FtpCmd(String method) 位置 D:\lizw\eAgentsAdmin_source\ftpd\Program.cs:行号 834
+   在 ftpd.FtpClient.ListDir(String path) 位置 D:\lizw\eAgentsAdmin_source\ftpd\Program.cs:行号 789
+   在 ftpd.Program.GetFtpFiles(String unitKey, Int32 days) 位置 D:\lizw\eAgentsAdmin_source\ftpd\Program.cs:行号 158
+[2021-10-29 17:21:50.834] 索引和长度必须引用该字符串内的位置。
+参数名: length
+   在 System.String.Substring(Int32 startIndex, Int32 length)
+   在 ftpd.Program.GetFtpFiles(String unitKey, Int32 days) 位置 D:\lizw\eAgentsAdmin_source\ftpd\Program.cs:行号 188
+[2021-10-29 17:21:54.098] 年、月和日参数描述无法表示的 DateTime。
+   在 System.DateTime.DateToTicks(Int32 year, Int32 month, Int32 day)
+   在 System.DateTime..ctor(Int32 year, Int32 month, Int32 day)
+   在 ftpd.Program.GetFtpFiles(String unitKey, Int32 days) 位置 D:\lizw\eAgentsAdmin_source\ftpd\Program.cs:行号 200
+[2021-10-29 17:22:14.642] WHTSB1B1022_20211024111111_LIST.txt文件已存在
+[2021-10-29 17:22:15.662] WHTSB1B1022_20211025111111_LIST.txt文件已存在
+[2021-10-29 17:22:16.086] WHTSB1B1022_20211026111111_LIST.txt文件已存在
+[2021-10-29 17:22:16.719] WHTSB1B1022_20211027111111_LIST.txt文件已存在
+[2021-10-29 17:22:17.202] WHTSB1B1022_20211028111111_LIST.txt文件已存在
+[2021-10-29 17:22:20.791] 远程服务器返回错误: (550) 文件不可用(例如，未找到文件，无法访问文件)。
+   在 System.Net.FtpWebRequest.SyncRequestCallback(Object obj)
+   在 System.Net.FtpWebRequest.RequestCallback(Object obj)
+   在 System.Net.CommandStream.Dispose(Boolean disposing)
+   在 System.IO.Stream.Close()
+   在 System.IO.Stream.Dispose()
+   在 System.Net.ConnectionPool.Destroy(PooledStream pooledStream)
+   在 System.Net.ConnectionPool.PutConnection(PooledStream pooledStream, Object owningObject, Int32 creationTimeout, Boolean canReuse)
+   在 System.Net.FtpWebRequest.FinishRequestStage(RequestStage stage)
+   在 System.Net.FtpWebRequest.GetResponse()
+   在 ftpd.FtpClient.FtpCmd(String method) 位置 D:\lizw\eAgentsAdmin_source\ftpd\Program.cs:行号 834
+   在 ftpd.FtpClient.ListDir(String path) 位置 D:\lizw\eAgentsAdmin_source\ftpd\Program.cs:行号 789
+   在 ftpd.Program.GetFtpFiles(String unitKey, Int32 days) 位置 D:\lizw\eAgentsAdmin_source\ftpd\Program.cs:行号 164
+[2021-10-29 17:22:23.358] 远程服务器返回错误: (550) 文件不可用(例如，未找到文件，无法访问文件)。
+   在 System.Net.FtpWebRequest.SyncRequestCallback(Object obj)
+   在 System.Net.FtpWebRequest.RequestCallback(Object obj)
+   在 System.Net.CommandStream.Dispose(Boolean disposing)
+   在 System.IO.Stream.Close()
+   在 System.IO.Stream.Dispose()
+   在 System.Net.ConnectionPool.Destroy(PooledStream pooledStream)
+   在 System.Net.ConnectionPool.PutConnection(PooledStream pooledStream, Object owningObject, Int32 creationTimeout, Boolean canReuse)
+   在 System.Net.FtpWebRequest.FinishRequestStage(RequestStage stage)
+   在 System.Net.FtpWebRequest.GetResponse()
+   在 ftpd.FtpClient.FtpCmd(String method) 位置 D:\lizw\eAgentsAdmin_source\ftpd\Program.cs:行号 834
+   在 ftpd.FtpClient.ListDir(String path) 位置 D:\lizw\eAgentsAdmin_source\ftpd\Program.cs:行号 789
+   在 ftpd.Program.GetFtpFiles(String unitKey, Int32 days) 位置 D:\lizw\eAgentsAdmin_source\ftpd\Program.cs:行号 158
+[2021-10-29 17:22:26.845] 远程服务器返回错误: (550) 文件不可用(例如，未找到文件，无法访问文件)。
+   在 System.Net.FtpWebRequest.SyncRequestCallback(Object obj)
+   在 System.Net.FtpWebRequest.RequestCallback(Object obj)
+   在 System.Net.CommandStream.Dispose(Boolean disposing)
+   在 System.IO.Stream.Close()
+   在 System.IO.Stream.Dispose()
+   在 System.Net.ConnectionPool.Destroy(PooledStream pooledStream)
+   在 System.Net.ConnectionPool.PutConnection(PooledStream pooledStream, Object owningObject, Int32 creationTimeout, Boolean canReuse)
+   在 System.Net.FtpWebRequest.FinishRequestStage(RequestStage stage)
+   在 System.Net.FtpWebRequest.GetResponse()
+   在 ftpd.FtpClient.FtpCmd(String method) 位置 D:\lizw\eAgentsAdmin_source\ftpd\Program.cs:行号 834
+   在 ftpd.FtpClient.ListDir(String path) 位置 D:\lizw\eAgentsAdmin_source\ftpd\Program.cs:行号 789
+   在 ftpd.Program.GetFtpFiles(String unitKey, Int32 days) 位置 D:\lizw\eAgentsAdmin_source\ftpd\Program.cs:行号 158
+[2021-10-29 17:22:31.286] 远程服务器返回错误: (550) 文件不可用(例如，未找到文件，无法访问文件)。
+   在 System.Net.FtpWebRequest.SyncRequestCallback(Object obj)
+   在 System.Net.FtpWebRequest.RequestCallback(Object obj)
+   在 System.Net.CommandStream.Dispose(Boolean disposing)
+   在 System.IO.Stream.Close()
+   在 System.IO.Stream.Dispose()
+   在 System.Net.ConnectionPool.Destroy(PooledStream pooledStream)
+   在 System.Net.ConnectionPool.PutConnection(PooledStream pooledStream, Object owningObject, Int32 creationTimeout, Boolean canReuse)
+   在 System.Net.FtpWebRequest.FinishRequestStage(RequestStage stage)
+   在 System.Net.FtpWebRequest.GetResponse()
+   在 ftpd.FtpClient.FtpCmd(String method) 位置 D:\lizw\eAgentsAdmin_source\ftpd\Program.cs:行号 834
+   在 ftpd.FtpClient.ListDir(String path) 位置 D:\lizw\eAgentsAdmin_source\ftpd\Program.cs:行号 789
+   在 ftpd.Program.GetFtpFiles(String unitKey, Int32 days) 位置 D:\lizw\eAgentsAdmin_source\ftpd\Program.cs:行号 164
+[2021-10-29 17:22:37.246] 索引和长度必须引用该字符串内的位置。
+参数名: length
+   在 System.String.Substring(Int32 startIndex, Int32 length)
+   在 ftpd.Program.GetFtpFiles(String unitKey, Int32 days) 位置 D:\lizw\eAgentsAdmin_source\ftpd\Program.cs:行号 186
+[2021-10-29 17:22:45.206] 远程服务器返回错误: (550) 文件不可用(例如，未找到文件，无法访问文件)。
+   在 System.Net.FtpWebRequest.SyncRequestCallback(Object obj)
+   在 System.Net.FtpWebRequest.RequestCallback(Object obj)
+   在 System.Net.CommandStream.Dispose(Boolean disposing)
+   在 System.IO.Stream.Close()
+   在 System.IO.Stream.Dispose()
+   在 System.Net.ConnectionPool.Destroy(PooledStream pooledStream)
+   在 System.Net.ConnectionPool.PutConnection(PooledStream pooledStream, Object owningObject, Int32 creationTimeout, Boolean canReuse)
+   在 System.Net.FtpWebRequest.FinishRequestStage(RequestStage stage)
+   在 System.Net.FtpWebRequest.GetResponse()
+   在 ftpd.FtpClient.FtpCmd(String method) 位置 D:\lizw\eAgentsAdmin_source\ftpd\Program.cs:行号 834
+   在 ftpd.FtpClient.ListDir(String path) 位置 D:\lizw\eAgentsAdmin_source\ftpd\Program.cs:行号 789
+   在 ftpd.Program.GetFtpFiles(String unitKey, Int32 days) 位置 D:\lizw\eAgentsAdmin_source\ftpd\Program.cs:行号 158
+[2021-10-29 17:22:54.064] 索引和长度必须引用该字符串内的位置。
+参数名: length
+   在 System.String.Substring(Int32 startIndex, Int32 length)
+   在 ftpd.Program.GetFtpFiles(String unitKey, Int32 days) 位置 D:\lizw\eAgentsAdmin_source\ftpd\Program.cs:行号 186
+[2021-10-29 17:23:07.109] WHTS3FL3024X_20211024092227_LIST.txt文件已存在
+[2021-10-29 17:23:07.307] 远程服务器返回错误: (550) 文件不可用(例如，未找到文件，无法访问文件)。
+   在 System.Net.FtpWebRequest.SyncRequestCallback(Object obj)
+   在 System.Net.FtpWebRequest.RequestCallback(Object obj)
+   在 System.Net.CommandStream.Dispose(Boolean disposing)
+   在 System.IO.Stream.Close()
+   在 System.IO.Stream.Dispose()
+   在 System.Net.ConnectionPool.Destroy(PooledStream pooledStream)
+   在 System.Net.ConnectionPool.PutConnection(PooledStream pooledStream, Object owningObject, Int32 creationTimeout, Boolean canReuse)
+   在 System.Net.FtpWebRequest.FinishRequestStage(RequestStage stage)
+   在 System.Net.FtpWebRequest.GetResponse()
+   在 ftpd.FtpClient.FtpCmd(String method) 位置 D:\lizw\eAgentsAdmin_source\ftpd\Program.cs:行号 834
+   在 ftpd.FtpClient.ListDir(String path) 位置 D:\lizw\eAgentsAdmin_source\ftpd\Program.cs:行号 789
+   在 ftpd.Program.GetFtpFiles(String unitKey, Int32 days) 位置 D:\lizw\eAgentsAdmin_source\ftpd\Program.cs:行号 158
+[2021-10-29 17:23:09.110] 远程服务器返回错误: (550) 文件不可用(例如，未找到文件，无法访问文件)。
+   在 System.Net.FtpWebRequest.SyncRequestCallback(Object obj)
+   在 System.Net.FtpWebRequest.RequestCallback(Object obj)
+   在 System.Net.CommandStream.Dispose(Boolean disposing)
+   在 System.IO.Stream.Close()
+   在 System.IO.Stream.Dispose()
+   在 System.Net.ConnectionPool.Destroy(PooledStream pooledStream)
+   在 System.Net.ConnectionPool.PutConnection(PooledStream pooledStream, Object owningObject, Int32 creationTimeout, Boolean canReuse)
+   在 System.Net.FtpWebRequest.FinishRequestStage(RequestStage stage)
+   在 System.Net.FtpWebRequest.GetResponse()
+   在 ftpd.FtpClient.FtpCmd(String method) 位置 D:\lizw\eAgentsAdmin_source\ftpd\Program.cs:行号 834
+   在 ftpd.FtpClient.ListDir(String path) 位置 D:\lizw\eAgentsAdmin_source\ftpd\Program.cs:行号 789
+   在 ftpd.Program.GetFtpFiles(String unitKey, Int32 days) 位置 D:\lizw\eAgentsAdmin_source\ftpd\Program.cs:行号 164
+[2021-10-29 17:23:19.437] 远程服务器返回错误: (550) 文件不可用(例如，未找到文件，无法访问文件)。
+   在 System.Net.FtpWebRequest.SyncRequestCallback(Object obj)
+   在 System.Net.FtpWebRequest.RequestCallback(Object obj)
+   在 System.Net.CommandStream.Dispose(Boolean disposing)
+   在 System.IO.Stream.Close()
+   在 System.IO.Stream.Dispose()
+   在 System.Net.ConnectionPool.Destroy(PooledStream pooledStream)
+   在 System.Net.ConnectionPool.PutConnection(PooledStream pooledStream, Object owningObject, Int32 creationTimeout, Boolean canReuse)
+   在 System.Net.FtpWebRequest.FinishRequestStage(RequestStage stage)
+   在 System.Net.FtpWebRequest.GetResponse()
+   在 ftpd.FtpClient.FtpCmd(String method) 位置 D:\lizw\eAgentsAdmin_source\ftpd\Program.cs:行号 834
+   在 ftpd.FtpClient.ListDir(String path) 位置 D:\lizw\eAgentsAdmin_source\ftpd\Program.cs:行号 789
+   在 ftpd.Program.GetFtpFiles(String unitKey, Int32 days) 位置 D:\lizw\eAgentsAdmin_source\ftpd\Program.cs:行号 158
+[2021-10-29 17:23:35.212] 远程服务器返回错误: (550) 文件不可用(例如，未找到文件，无法访问文件)。
+   在 System.Net.FtpWebRequest.SyncRequestCallback(Object obj)
+   在 System.Net.FtpWebRequest.RequestCallback(Object obj)
+   在 System.Net.CommandStream.Dispose(Boolean disposing)
+   在 System.IO.Stream.Close()
+   在 System.IO.Stream.Dispose()
+   在 System.Net.ConnectionPool.Destroy(PooledStream pooledStream)
+   在 System.Net.ConnectionPool.PutConnection(PooledStream pooledStream, Object owningObject, Int32 creationTimeout, Boolean canReuse)
+   在 System.Net.FtpWebRequest.FinishRequestStage(RequestStage stage)
+   在 System.Net.FtpWebRequest.GetResponse()
+   在 ftpd.FtpClient.FtpCmd(String method) 位置 D:\lizw\eAgentsAdmin_source\ftpd\Program.cs:行号 834
+   在 ftpd.FtpClient.ListDir(String path) 位置 D:\lizw\eAgentsAdmin_source\ftpd\Program.cs:行号 789
+   在 ftpd.Program.GetFtpFiles(String unitKey, Int32 days) 位置 D:\lizw\eAgentsAdmin_source\ftpd\Program.cs:行号 158
+[2021-10-29 17:23:54.245] 远程服务器返回错误: (550) 文件不可用(例如，未找到文件，无法访问文件)。
+   在 System.Net.FtpWebRequest.SyncRequestCallback(Object obj)
+   在 System.Net.FtpWebRequest.RequestCallback(Object obj)
+   在 System.Net.CommandStream.Dispose(Boolean disposing)
+   在 System.IO.Stream.Close()
+   在 System.IO.Stream.Dispose()
+   在 System.Net.ConnectionPool.Destroy(PooledStream pooledStream)
+   在 System.Net.ConnectionPool.PutConnection(PooledStream pooledStream, Object owningObject, Int32 creationTimeout, Boolean canReuse)
+   在 System.Net.FtpWebRequest.FinishRequestStage(RequestStage stage)
+   在 System.Net.FtpWebRequest.GetResponse()
+   在 ftpd.FtpClient.FtpCmd(String method) 位置 D:\lizw\eAgentsAdmin_source\ftpd\Program.cs:行号 834
+   在 ftpd.FtpClient.ListDir(String path) 位置 D:\lizw\eAgentsAdmin_source\ftpd\Program.cs:行号 789
+   在 ftpd.Program.GetFtpFiles(String unitKey, Int32 days) 位置 D:\lizw\eAgentsAdmin_source\ftpd\Program.cs:行号 164
+[2021-10-29 17:23:56.693] 远程服务器返回错误: (550) 文件不可用(例如，未找到文件，无法访问文件)。
+   在 System.Net.FtpWebRequest.SyncRequestCallback(Object obj)
+   在 System.Net.FtpWebRequest.RequestCallback(Object obj)
+   在 System.Net.CommandStream.Dispose(Boolean disposing)
+   在 System.IO.Stream.Close()
+   在 System.IO.Stream.Dispose()
+   在 System.Net.ConnectionPool.Destroy(PooledStream pooledStream)
+   在 System.Net.ConnectionPool.PutConnection(PooledStream pooledStream, Object owningObject, Int32 creationTimeout, Boolean canReuse)
+   在 System.Net.FtpWebRequest.FinishRequestStage(RequestStage stage)
+   在 System.Net.FtpWebRequest.GetResponse()
+   在 ftpd.FtpClient.FtpCmd(String method) 位置 D:\lizw\eAgentsAdmin_source\ftpd\Program.cs:行号 834
+   在 ftpd.FtpClient.ListDir(String path) 位置 D:\lizw\eAgentsAdmin_source\ftpd\Program.cs:行号 789
+   在 ftpd.Program.GetFtpFiles(String unitKey, Int32 days) 位置 D:\lizw\eAgentsAdmin_source\ftpd\Program.cs:行号 158
+[2021-10-29 17:23:57.719] 远程服务器返回错误: (550) 文件不可用(例如，未找到文件，无法访问文件)。
+   在 System.Net.FtpWebRequest.SyncRequestCallback(Object obj)
+   在 System.Net.FtpWebRequest.RequestCallback(Object obj)
+   在 System.Net.CommandStream.Dispose(Boolean disposing)
+   在 System.IO.Stream.Close()
+   在 System.IO.Stream.Dispose()
+   在 System.Net.ConnectionPool.Destroy(PooledStream pooledStream)
+   在 System.Net.ConnectionPool.PutConnection(PooledStream pooledStream, Object owningObject, Int32 creationTimeout, Boolean canReuse)
+   在 System.Net.FtpWebRequest.FinishRequestStage(RequestStage stage)
+   在 System.Net.FtpWebRequest.GetResponse()
+   在 ftpd.FtpClient.FtpCmd(String method) 位置 D:\lizw\eAgentsAdmin_source\ftpd\Program.cs:行号 834
+   在 ftpd.FtpClient.ListDir(String path) 位置 D:\lizw\eAgentsAdmin_source\ftpd\Program.cs:行号 789
+   在 ftpd.Program.GetFtpFiles(String unitKey, Int32 days) 位置 D:\lizw\eAgentsAdmin_source\ftpd\Program.cs:行号 158
+[2021-10-29 17:24:04.247] WHTS2FL2052X_20211024200000_LIST.txt文件已存在
+[2021-10-29 17:24:04.927] WHTS2FL2052X_20211026200000_LIST.txt文件已存在
+[2021-10-29 17:24:06.463] 远程服务器返回错误: (550) 文件不可用(例如，未找到文件，无法访问文件)。
+   在 System.Net.FtpWebRequest.SyncRequestCallback(Object obj)
+   在 System.Net.FtpWebRequest.RequestCallback(Object obj)
+   在 System.Net.CommandStream.Dispose(Boolean disposing)
+   在 System.IO.Stream.Close()
+   在 System.IO.Stream.Dispose()
+   在 System.Net.ConnectionPool.Destroy(PooledStream pooledStream)
+   在 System.Net.ConnectionPool.PutConnection(PooledStream pooledStream, Object owningObject, Int32 creationTimeout, Boolean canReuse)
+   在 System.Net.FtpWebRequest.FinishRequestStage(RequestStage stage)
+   在 System.Net.FtpWebRequest.GetResponse()
+   在 ftpd.FtpClient.FtpCmd(String method) 位置 D:\lizw\eAgentsAdmin_source\ftpd\Program.cs:行号 834
+   在 ftpd.FtpClient.ListDir(String path) 位置 D:\lizw\eAgentsAdmin_source\ftpd\Program.cs:行号 789
+   在 ftpd.Program.GetFtpFiles(String unitKey, Int32 days) 位置 D:\lizw\eAgentsAdmin_source\ftpd\Program.cs:行号 158
+[2021-10-29 17:24:07.582] 远程服务器返回错误: (550) 文件不可用(例如，未找到文件，无法访问文件)。
+   在 System.Net.FtpWebRequest.SyncRequestCallback(Object obj)
+   在 System.Net.FtpWebRequest.RequestCallback(Object obj)
+   在 System.Net.CommandStream.Dispose(Boolean disposing)
+   在 System.IO.Stream.Close()
+   在 System.IO.Stream.Dispose()
+   在 System.Net.ConnectionPool.Destroy(PooledStream pooledStream)
+   在 System.Net.ConnectionPool.PutConnection(PooledStream pooledStream, Object owningObject, Int32 creationTimeout, Boolean canReuse)
+   在 System.Net.FtpWebRequest.FinishRequestStage(RequestStage stage)
+   在 System.Net.FtpWebRequest.GetResponse()
+   在 ftpd.FtpClient.FtpCmd(String method) 位置 D:\lizw\eAgentsAdmin_source\ftpd\Program.cs:行号 834
+   在 ftpd.FtpClient.ListDir(String path) 位置 D:\lizw\eAgentsAdmin_source\ftpd\Program.cs:行号 789
+   在 ftpd.Program.GetFtpFiles(String unitKey, Int32 days) 位置 D:\lizw\eAgentsAdmin_source\ftpd\Program.cs:行号 158
+[2021-10-29 17:24:12.279] 远程服务器返回错误: (550) 文件不可用(例如，未找到文件，无法访问文件)。
+   在 System.Net.FtpWebRequest.SyncRequestCallback(Object obj)
+   在 System.Net.FtpWebRequest.RequestCallback(Object obj)
+   在 System.Net.CommandStream.Dispose(Boolean disposing)
+   在 System.IO.Stream.Close()
+   在 System.IO.Stream.Dispose()
+   在 System.Net.ConnectionPool.Destroy(PooledStream pooledStream)
+   在 System.Net.ConnectionPool.PutConnection(PooledStream pooledStream, Object owningObject, Int32 creationTimeout, Boolean canReuse)
+   在 System.Net.FtpWebRequest.FinishRequestStage(RequestStage stage)
+   在 System.Net.FtpWebRequest.GetResponse()
+   在 ftpd.FtpClient.FtpCmd(String method) 位置 D:\lizw\eAgentsAdmin_source\ftpd\Program.cs:行号 834
+   在 ftpd.FtpClient.ListDir(String path) 位置 D:\lizw\eAgentsAdmin_source\ftpd\Program.cs:行号 789
+   在 ftpd.Program.GetFtpFiles(String unitKey, Int32 days) 位置 D:\lizw\eAgentsAdmin_source\ftpd\Program.cs:行号 158
+[2021-10-29 17:24:13.643] 远程服务器返回错误: (550) 文件不可用(例如，未找到文件，无法访问文件)。
+   在 System.Net.FtpWebRequest.SyncRequestCallback(Object obj)
+   在 System.Net.FtpWebRequest.RequestCallback(Object obj)
+   在 System.Net.CommandStream.Dispose(Boolean disposing)
+   在 System.IO.Stream.Close()
+   在 System.IO.Stream.Dispose()
+   在 System.Net.ConnectionPool.Destroy(PooledStream pooledStream)
+   在 System.Net.ConnectionPool.PutConnection(PooledStream pooledStream, Object owningObject, Int32 creationTimeout, Boolean canReuse)
+   在 System.Net.FtpWebRequest.FinishRequestStage(RequestStage stage)
+   在 System.Net.FtpWebRequest.GetResponse()
+   在 ftpd.FtpClient.FtpCmd(String method) 位置 D:\lizw\eAgentsAdmin_source\ftpd\Program.cs:行号 834
+   在 ftpd.FtpClient.ListDir(String path) 位置 D:\lizw\eAgentsAdmin_source\ftpd\Program.cs:行号 789
+   在 ftpd.Program.GetFtpFiles(String unitKey, Int32 days) 位置 D:\lizw\eAgentsAdmin_source\ftpd\Program.cs:行号 158
+[2021-10-29 17:24:15.491] 远程服务器返回错误: (550) 文件不可用(例如，未找到文件，无法访问文件)。
+   在 System.Net.FtpWebRequest.SyncRequestCallback(Object obj)
+   在 System.Net.FtpWebRequest.RequestCallback(Object obj)
+   在 System.Net.CommandStream.Dispose(Boolean disposing)
+   在 System.IO.Stream.Close()
+   在 System.IO.Stream.Dispose()
+   在 System.Net.ConnectionPool.Destroy(PooledStream pooledStream)
+   在 System.Net.ConnectionPool.PutConnection(PooledStream pooledStream, Object owningObject, Int32 creationTimeout, Boolean canReuse)
+   在 System.Net.FtpWebRequest.FinishRequestStage(RequestStage stage)
+   在 System.Net.FtpWebRequest.GetResponse()
+   在 ftpd.FtpClient.FtpCmd(String method) 位置 D:\lizw\eAgentsAdmin_source\ftpd\Program.cs:行号 834
+   在 ftpd.FtpClient.ListDir(String path) 位置 D:\lizw\eAgentsAdmin_source\ftpd\Program.cs:行号 789
+   在 ftpd.Program.GetFtpFiles(String unitKey, Int32 days) 位置 D:\lizw\eAgentsAdmin_source\ftpd\Program.cs:行号 158
+[2021-10-29 17:24:17.480] 远程服务器返回错误: (550) 文件不可用(例如，未找到文件，无法访问文件)。
+   在 System.Net.FtpWebRequest.SyncRequestCallback(Object obj)
+   在 System.Net.FtpWebRequest.RequestCallback(Object obj)
+   在 System.Net.CommandStream.Dispose(Boolean disposing)
+   在 System.IO.Stream.Close()
+   在 System.IO.Stream.Dispose()
+   在 System.Net.ConnectionPool.Destroy(PooledStream pooledStream)
+   在 System.Net.ConnectionPool.PutConnection(PooledStream pooledStream, Object owningObject, Int32 creationTimeout, Boolean canReuse)
+   在 System.Net.FtpWebRequest.FinishRequestStage(RequestStage stage)
+   在 System.Net.FtpWebRequest.GetResponse()
+   在 ftpd.FtpClient.FtpCmd(String method) 位置 D:\lizw\eAgentsAdmin_source\ftpd\Program.cs:行号 834
+   在 ftpd.FtpClient.ListDir(String path) 位置 D:\lizw\eAgentsAdmin_source\ftpd\Program.cs:行号 789
+   在 ftpd.Program.GetFtpFiles(String unitKey, Int32 days) 位置 D:\lizw\eAgentsAdmin_source\ftpd\Program.cs:行号 158
+[2021-10-29 17:24:25.014] 远程服务器返回错误: (550) 文件不可用(例如，未找到文件，无法访问文件)。
+   在 System.Net.FtpWebRequest.SyncRequestCallback(Object obj)
+   在 System.Net.FtpWebRequest.RequestCallback(Object obj)
+   在 System.Net.CommandStream.Dispose(Boolean disposing)
+   在 System.IO.Stream.Close()
+   在 System.IO.Stream.Dispose()
+   在 System.Net.ConnectionPool.Destroy(PooledStream pooledStream)
+   在 System.Net.ConnectionPool.PutConnection(PooledStream pooledStream, Object owningObject, Int32 creationTimeout, Boolean canReuse)
+   在 System.Net.FtpWebRequest.FinishRequestStage(RequestStage stage)
+   在 System.Net.FtpWebRequest.GetResponse()
+   在 ftpd.FtpClient.FtpCmd(String method) 位置 D:\lizw\eAgentsAdmin_source\ftpd\Program.cs:行号 834
+   在 ftpd.FtpClient.ListDir(String path) 位置 D:\lizw\eAgentsAdmin_source\ftpd\Program.cs:行号 789
+   在 ftpd.Program.GetFtpFiles(String unitKey, Int32 days) 位置 D:\lizw\eAgentsAdmin_source\ftpd\Program.cs:行号 158
+[2021-10-29 17:24:47.926] 索引和长度必须引用该字符串内的位置。
+参数名: length
+   在 System.String.Substring(Int32 startIndex, Int32 length)
+   在 ftpd.Program.GetFtpFiles(String unitKey, Int32 days) 位置 D:\lizw\eAgentsAdmin_source\ftpd\Program.cs:行号 186
+[2021-10-29 17:24:48.307] 远程服务器返回错误: (550) 文件不可用(例如，未找到文件，无法访问文件)。
+   在 System.Net.FtpWebRequest.SyncRequestCallback(Object obj)
+   在 System.Net.FtpWebRequest.RequestCallback(Object obj)
+   在 System.Net.CommandStream.Dispose(Boolean disposing)
+   在 System.IO.Stream.Close()
+   在 System.IO.Stream.Dispose()
+   在 System.Net.ConnectionPool.Destroy(PooledStream pooledStream)
+   在 System.Net.ConnectionPool.PutConnection(PooledStream pooledStream, Object owningObject, Int32 creationTimeout, Boolean canReuse)
+   在 System.Net.FtpWebRequest.FinishRequestStage(RequestStage stage)
+   在 System.Net.FtpWebRequest.GetResponse()
+   在 ftpd.FtpClient.FtpCmd(String method) 位置 D:\lizw\eAgentsAdmin_source\ftpd\Program.cs:行号 834
+   在 ftpd.FtpClient.ListDir(String path) 位置 D:\lizw\eAgentsAdmin_source\ftpd\Program.cs:行号 789
+   在 ftpd.Program.GetFtpFiles(String unitKey, Int32 days) 位置 D:\lizw\eAgentsAdmin_source\ftpd\Program.cs:行号 158
+[2021-10-29 17:24:52.052] 远程服务器返回错误: (550) 文件不可用(例如，未找到文件，无法访问文件)。
+   在 System.Net.FtpWebRequest.SyncRequestCallback(Object obj)
+   在 System.Net.FtpWebRequest.RequestCallback(Object obj)
+   在 System.Net.CommandStream.Dispose(Boolean disposing)
+   在 System.IO.Stream.Close()
+   在 System.IO.Stream.Dispose()
+   在 System.Net.ConnectionPool.Destroy(PooledStream pooledStream)
+   在 System.Net.ConnectionPool.PutConnection(PooledStream pooledStream, Object owningObject, Int32 creationTimeout, Boolean canReuse)
+   在 System.Net.FtpWebRequest.FinishRequestStage(RequestStage stage)
+   在 System.Net.FtpWebRequest.GetResponse()
+   在 ftpd.FtpClient.FtpCmd(String method) 位置 D:\lizw\eAgentsAdmin_source\ftpd\Program.cs:行号 834
+   在 ftpd.FtpClient.ListDir(String path) 位置 D:\lizw\eAgentsAdmin_source\ftpd\Program.cs:行号 789
+   在 ftpd.Program.GetFtpFiles(String unitKey, Int32 days) 位置 D:\lizw\eAgentsAdmin_source\ftpd\Program.cs:行号 158
+[2021-10-29 17:24:53.036] 远程服务器返回错误: (550) 文件不可用(例如，未找到文件，无法访问文件)。
+   在 System.Net.FtpWebRequest.SyncRequestCallback(Object obj)
+   在 System.Net.FtpWebRequest.RequestCallback(Object obj)
+   在 System.Net.CommandStream.Dispose(Boolean disposing)
+   在 System.IO.Stream.Close()
+   在 System.IO.Stream.Dispose()
+   在 System.Net.ConnectionPool.Destroy(PooledStream pooledStream)
+   在 System.Net.ConnectionPool.PutConnection(PooledStream pooledStream, Object owningObject, Int32 creationTimeout, Boolean canReuse)
+   在 System.Net.FtpWebRequest.FinishRequestStage(RequestStage stage)
+   在 System.Net.FtpWebRequest.GetResponse()
+   在 ftpd.FtpClient.FtpCmd(String method) 位置 D:\lizw\eAgentsAdmin_source\ftpd\Program.cs:行号 834
+   在 ftpd.FtpClient.ListDir(String path) 位置 D:\lizw\eAgentsAdmin_source\ftpd\Program.cs:行号 789
+   在 ftpd.Program.GetFtpFiles(String unitKey, Int32 days) 位置 D:\lizw\eAgentsAdmin_source\ftpd\Program.cs:行号 158
+[2021-10-29 17:24:56.025] 远程服务器返回错误: (550) 文件不可用(例如，未找到文件，无法访问文件)。
+   在 System.Net.FtpWebRequest.SyncRequestCallback(Object obj)
+   在 System.Net.FtpWebRequest.RequestCallback(Object obj)
+   在 System.Net.CommandStream.Dispose(Boolean disposing)
+   在 System.IO.Stream.Close()
+   在 System.IO.Stream.Dispose()
+   在 System.Net.ConnectionPool.Destroy(PooledStream pooledStream)
+   在 System.Net.ConnectionPool.PutConnection(PooledStream pooledStream, Object owningObject, Int32 creationTimeout, Boolean canReuse)
+   在 System.Net.FtpWebRequest.FinishRequestStage(RequestStage stage)
+   在 System.Net.FtpWebRequest.GetResponse()
+   在 ftpd.FtpClient.FtpCmd(String method) 位置 D:\lizw\eAgentsAdmin_source\ftpd\Program.cs:行号 834
+   在 ftpd.FtpClient.ListDir(String path) 位置 D:\lizw\eAgentsAdmin_source\ftpd\Program.cs:行号 789
+   在 ftpd.Program.GetFtpFiles(String unitKey, Int32 days) 位置 D:\lizw\eAgentsAdmin_source\ftpd\Program.cs:行号 158
+[2021-10-29 17:25:02.718] 远程服务器返回错误: (550) 文件不可用(例如，未找到文件，无法访问文件)。
+   在 System.Net.FtpWebRequest.SyncRequestCallback(Object obj)
+   在 System.Net.FtpWebRequest.RequestCallback(Object obj)
+   在 System.Net.CommandStream.Dispose(Boolean disposing)
+   在 System.IO.Stream.Close()
+   在 System.IO.Stream.Dispose()
+   在 System.Net.ConnectionPool.Destroy(PooledStream pooledStream)
+   在 System.Net.ConnectionPool.PutConnection(PooledStream pooledStream, Object owningObject, Int32 creationTimeout, Boolean canReuse)
+   在 System.Net.FtpWebRequest.FinishRequestStage(RequestStage stage)
+   在 System.Net.FtpWebRequest.GetResponse()
+   在 ftpd.FtpClient.FtpCmd(String method) 位置 D:\lizw\eAgentsAdmin_source\ftpd\Program.cs:行号 834
+   在 ftpd.FtpClient.ListDir(String path) 位置 D:\lizw\eAgentsAdmin_source\ftpd\Program.cs:行号 789
+   在 ftpd.Program.GetFtpFiles(String unitKey, Int32 days) 位置 D:\lizw\eAgentsAdmin_source\ftpd\Program.cs:行号 164
+[2021-10-29 17:25:05.183] 索引和长度必须引用该字符串内的位置。
+参数名: length
+   在 System.String.Substring(Int32 startIndex, Int32 length)
+   在 ftpd.Program.GetFtpFiles(String unitKey, Int32 days) 位置 D:\lizw\eAgentsAdmin_source\ftpd\Program.cs:行号 188
+[2021-10-29 17:25:05.620] 远程服务器返回错误: (550) 文件不可用(例如，未找到文件，无法访问文件)。
+   在 System.Net.FtpWebRequest.SyncRequestCallback(Object obj)
+   在 System.Net.FtpWebRequest.RequestCallback(Object obj)
+   在 System.Net.CommandStream.Dispose(Boolean disposing)
+   在 System.IO.Stream.Close()
+   在 System.IO.Stream.Dispose()
+   在 System.Net.ConnectionPool.Destroy(PooledStream pooledStream)
+   在 System.Net.ConnectionPool.PutConnection(PooledStream pooledStream, Object owningObject, Int32 creationTimeout, Boolean canReuse)
+   在 System.Net.FtpWebRequest.FinishRequestStage(RequestStage stage)
+   在 System.Net.FtpWebRequest.GetResponse()
+   在 ftpd.FtpClient.FtpCmd(String method) 位置 D:\lizw\eAgentsAdmin_source\ftpd\Program.cs:行号 834
+   在 ftpd.FtpClient.ListDir(String path) 位置 D:\lizw\eAgentsAdmin_source\ftpd\Program.cs:行号 789
+   在 ftpd.Program.GetFtpFiles(String unitKey, Int32 days) 位置 D:\lizw\eAgentsAdmin_source\ftpd\Program.cs:行号 158
+[2021-10-29 17:25:06.666] 远程服务器返回错误: (550) 文件不可用(例如，未找到文件，无法访问文件)。
+   在 System.Net.FtpWebRequest.SyncRequestCallback(Object obj)
+   在 System.Net.FtpWebRequest.RequestCallback(Object obj)
+   在 System.Net.CommandStream.Dispose(Boolean disposing)
+   在 System.IO.Stream.Close()
+   在 System.IO.Stream.Dispose()
+   在 System.Net.ConnectionPool.Destroy(PooledStream pooledStream)
+   在 System.Net.ConnectionPool.PutConnection(PooledStream pooledStream, Object owningObject, Int32 creationTimeout, Boolean canReuse)
+   在 System.Net.FtpWebRequest.FinishRequestStage(RequestStage stage)
+   在 System.Net.FtpWebRequest.GetResponse()
+   在 ftpd.FtpClient.FtpCmd(String method) 位置 D:\lizw\eAgentsAdmin_source\ftpd\Program.cs:行号 834
+   在 ftpd.FtpClient.ListDir(String path) 位置 D:\lizw\eAgentsAdmin_source\ftpd\Program.cs:行号 789
+   在 ftpd.Program.GetFtpFiles(String unitKey, Int32 days) 位置 D:\lizw\eAgentsAdmin_source\ftpd\Program.cs:行号 158
+[2021-10-29 17:25:07.837] 远程服务器返回错误: (550) 文件不可用(例如，未找到文件，无法访问文件)。
+   在 System.Net.FtpWebRequest.SyncRequestCallback(Object obj)
+   在 System.Net.FtpWebRequest.RequestCallback(Object obj)
+   在 System.Net.CommandStream.Dispose(Boolean disposing)
+   在 System.IO.Stream.Close()
+   在 System.IO.Stream.Dispose()
+   在 System.Net.ConnectionPool.Destroy(PooledStream pooledStream)
+   在 System.Net.ConnectionPool.PutConnection(PooledStream pooledStream, Object owningObject, Int32 creationTimeout, Boolean canReuse)
+   在 System.Net.FtpWebRequest.FinishRequestStage(RequestStage stage)
+   在 System.Net.FtpWebRequest.GetResponse()
+   在 ftpd.FtpClient.FtpCmd(String method) 位置 D:\lizw\eAgentsAdmin_source\ftpd\Program.cs:行号 834
+   在 ftpd.FtpClient.ListDir(String path) 位置 D:\lizw\eAgentsAdmin_source\ftpd\Program.cs:行号 789
+   在 ftpd.Program.GetFtpFiles(String unitKey, Int32 days) 位置 D:\lizw\eAgentsAdmin_source\ftpd\Program.cs:行号 158
+[2021-10-29 17:25:09.316] 远程服务器返回错误: (550) 文件不可用(例如，未找到文件，无法访问文件)。
+   在 System.Net.FtpWebRequest.SyncRequestCallback(Object obj)
+   在 System.Net.FtpWebRequest.RequestCallback(Object obj)
+   在 System.Net.CommandStream.Dispose(Boolean disposing)
+   在 System.IO.Stream.Close()
+   在 System.IO.Stream.Dispose()
+   在 System.Net.ConnectionPool.Destroy(PooledStream pooledStream)
+   在 System.Net.ConnectionPool.PutConnection(PooledStream pooledStream, Object owningObject, Int32 creationTimeout, Boolean canReuse)
+   在 System.Net.FtpWebRequest.FinishRequestStage(RequestStage stage)
+   在 System.Net.FtpWebRequest.GetResponse()
+   在 ftpd.FtpClient.FtpCmd(String method) 位置 D:\lizw\eAgentsAdmin_source\ftpd\Program.cs:行号 834
+   在 ftpd.FtpClient.ListDir(String path) 位置 D:\lizw\eAgentsAdmin_source\ftpd\Program.cs:行号 789
+   在 ftpd.Program.GetFtpFiles(String unitKey, Int32 days) 位置 D:\lizw\eAgentsAdmin_source\ftpd\Program.cs:行号 158
+[2021-10-29 17:25:10.301] 远程服务器返回错误: (550) 文件不可用(例如，未找到文件，无法访问文件)。
+   在 System.Net.FtpWebRequest.SyncRequestCallback(Object obj)
+   在 System.Net.FtpWebRequest.RequestCallback(Object obj)
+   在 System.Net.CommandStream.Dispose(Boolean disposing)
+   在 System.IO.Stream.Close()
+   在 System.IO.Stream.Dispose()
+   在 System.Net.ConnectionPool.Destroy(PooledStream pooledStream)
+   在 System.Net.ConnectionPool.PutConnection(PooledStream pooledStream, Object owningObject, Int32 creationTimeout, Boolean canReuse)
+   在 System.Net.FtpWebRequest.FinishRequestStage(RequestStage stage)
+   在 System.Net.FtpWebRequest.GetResponse()
+   在 ftpd.FtpClient.FtpCmd(String method) 位置 D:\lizw\eAgentsAdmin_source\ftpd\Program.cs:行号 834
+   在 ftpd.FtpClient.ListDir(String path) 位置 D:\lizw\eAgentsAdmin_source\ftpd\Program.cs:行号 789
+   在 ftpd.Program.GetFtpFiles(String unitKey, Int32 days) 位置 D:\lizw\eAgentsAdmin_source\ftpd\Program.cs:行号 158
+[2021-10-29 17:25:11.761] 远程服务器返回错误: (550) 文件不可用(例如，未找到文件，无法访问文件)。
+   在 System.Net.FtpWebRequest.SyncRequestCallback(Object obj)
+   在 System.Net.FtpWebRequest.RequestCallback(Object obj)
+   在 System.Net.CommandStream.Dispose(Boolean disposing)
+   在 System.IO.Stream.Close()
+   在 System.IO.Stream.Dispose()
+   在 System.Net.ConnectionPool.Destroy(PooledStream pooledStream)
+   在 System.Net.ConnectionPool.PutConnection(PooledStream pooledStream, Object owningObject, Int32 creationTimeout, Boolean canReuse)
+   在 System.Net.FtpWebRequest.FinishRequestStage(RequestStage stage)
+   在 System.Net.FtpWebRequest.GetResponse()
+   在 ftpd.FtpClient.FtpCmd(String method) 位置 D:\lizw\eAgentsAdmin_source\ftpd\Program.cs:行号 834
+   在 ftpd.FtpClient.ListDir(String path) 位置 D:\lizw\eAgentsAdmin_source\ftpd\Program.cs:行号 789
+   在 ftpd.Program.GetFtpFiles(String unitKey, Int32 days) 位置 D:\lizw\eAgentsAdmin_source\ftpd\Program.cs:行号 158
+[2021-10-29 17:25:12.999] 远程服务器返回错误: (550) 文件不可用(例如，未找到文件，无法访问文件)。
+   在 System.Net.FtpWebRequest.SyncRequestCallback(Object obj)
+   在 System.Net.FtpWebRequest.RequestCallback(Object obj)
+   在 System.Net.CommandStream.Dispose(Boolean disposing)
+   在 System.IO.Stream.Close()
+   在 System.IO.Stream.Dispose()
+   在 System.Net.ConnectionPool.Destroy(PooledStream pooledStream)
+   在 System.Net.ConnectionPool.PutConnection(PooledStream pooledStream, Object owningObject, Int32 creationTimeout, Boolean canReuse)
+   在 System.Net.FtpWebRequest.FinishRequestStage(RequestStage stage)
+   在 System.Net.FtpWebRequest.GetResponse()
+   在 ftpd.FtpClient.FtpCmd(String method) 位置 D:\lizw\eAgentsAdmin_source\ftpd\Program.cs:行号 834
+   在 ftpd.FtpClient.ListDir(String path) 位置 D:\lizw\eAgentsAdmin_source\ftpd\Program.cs:行号 789
+   在 ftpd.Program.GetFtpFiles(String unitKey, Int32 days) 位置 D:\lizw\eAgentsAdmin_source\ftpd\Program.cs:行号 158
+[2021-10-29 17:25:15.494] 远程服务器返回错误: (550) 文件不可用(例如，未找到文件，无法访问文件)。
+   在 System.Net.FtpWebRequest.SyncRequestCallback(Object obj)
+   在 System.Net.FtpWebRequest.RequestCallback(Object obj)
+   在 System.Net.CommandStream.Dispose(Boolean disposing)
+   在 System.IO.Stream.Close()
+   在 System.IO.Stream.Dispose()
+   在 System.Net.ConnectionPool.Destroy(PooledStream pooledStream)
+   在 System.Net.ConnectionPool.PutConnection(PooledStream pooledStream, Object owningObject, Int32 creationTimeout, Boolean canReuse)
+   在 System.Net.FtpWebRequest.FinishRequestStage(RequestStage stage)
+   在 System.Net.FtpWebRequest.GetResponse()
+   在 ftpd.FtpClient.FtpCmd(String method) 位置 D:\lizw\eAgentsAdmin_source\ftpd\Program.cs:行号 834
+   在 ftpd.FtpClient.ListDir(String path) 位置 D:\lizw\eAgentsAdmin_source\ftpd\Program.cs:行号 789
+   在 ftpd.Program.GetFtpFiles(String unitKey, Int32 days) 位置 D:\lizw\eAgentsAdmin_source\ftpd\Program.cs:行号 164
+[2021-10-29 17:25:17.969] 索引和长度必须引用该字符串内的位置。
+参数名: length
+   在 System.String.Substring(Int32 startIndex, Int32 length)
+   在 ftpd.Program.GetFtpFiles(String unitKey, Int32 days) 位置 D:\lizw\eAgentsAdmin_source\ftpd\Program.cs:行号 186
+[2021-10-29 17:25:18.359] 远程服务器返回错误: (550) 文件不可用(例如，未找到文件，无法访问文件)。
+   在 System.Net.FtpWebRequest.SyncRequestCallback(Object obj)
+   在 System.Net.FtpWebRequest.RequestCallback(Object obj)
+   在 System.Net.CommandStream.Dispose(Boolean disposing)
+   在 System.IO.Stream.Close()
+   在 System.IO.Stream.Dispose()
+   在 System.Net.ConnectionPool.Destroy(PooledStream pooledStream)
+   在 System.Net.ConnectionPool.PutConnection(PooledStream pooledStream, Object owningObject, Int32 creationTimeout, Boolean canReuse)
+   在 System.Net.FtpWebRequest.FinishRequestStage(RequestStage stage)
+   在 System.Net.FtpWebRequest.GetResponse()
+   在 ftpd.FtpClient.FtpCmd(String method) 位置 D:\lizw\eAgentsAdmin_source\ftpd\Program.cs:行号 834
+   在 ftpd.FtpClient.ListDir(String path) 位置 D:\lizw\eAgentsAdmin_source\ftpd\Program.cs:行号 789
+   在 ftpd.Program.GetFtpFiles(String unitKey, Int32 days) 位置 D:\lizw\eAgentsAdmin_source\ftpd\Program.cs:行号 158
+[2021-10-29 17:25:19.926] 远程服务器返回错误: (550) 文件不可用(例如，未找到文件，无法访问文件)。
+   在 System.Net.FtpWebRequest.SyncRequestCallback(Object obj)
+   在 System.Net.FtpWebRequest.RequestCallback(Object obj)
+   在 System.Net.CommandStream.Dispose(Boolean disposing)
+   在 System.IO.Stream.Close()
+   在 System.IO.Stream.Dispose()
+   在 System.Net.ConnectionPool.Destroy(PooledStream pooledStream)
+   在 System.Net.ConnectionPool.PutConnection(PooledStream pooledStream, Object owningObject, Int32 creationTimeout, Boolean canReuse)
+   在 System.Net.FtpWebRequest.FinishRequestStage(RequestStage stage)
+   在 System.Net.FtpWebRequest.GetResponse()
+   在 ftpd.FtpClient.FtpCmd(String method) 位置 D:\lizw\eAgentsAdmin_source\ftpd\Program.cs:行号 834
+   在 ftpd.FtpClient.ListDir(String path) 位置 D:\lizw\eAgentsAdmin_source\ftpd\Program.cs:行号 789
+   在 ftpd.Program.GetFtpFiles(String unitKey, Int32 days) 位置 D:\lizw\eAgentsAdmin_source\ftpd\Program.cs:行号 158
+[2021-10-29 17:25:21.414] 远程服务器返回错误: (550) 文件不可用(例如，未找到文件，无法访问文件)。
+   在 System.Net.FtpWebRequest.SyncRequestCallback(Object obj)
+   在 System.Net.FtpWebRequest.RequestCallback(Object obj)
+   在 System.Net.CommandStream.Dispose(Boolean disposing)
+   在 System.IO.Stream.Close()
+   在 System.IO.Stream.Dispose()
+   在 System.Net.ConnectionPool.Destroy(PooledStream pooledStream)
+   在 System.Net.ConnectionPool.PutConnection(PooledStream pooledStream, Object owningObject, Int32 creationTimeout, Boolean canReuse)
+   在 System.Net.FtpWebRequest.FinishRequestStage(RequestStage stage)
+   在 System.Net.FtpWebRequest.GetResponse()
+   在 ftpd.FtpClient.FtpCmd(String method) 位置 D:\lizw\eAgentsAdmin_source\ftpd\Program.cs:行号 834
+   在 ftpd.FtpClient.ListDir(String path) 位置 D:\lizw\eAgentsAdmin_source\ftpd\Program.cs:行号 789
+   在 ftpd.Program.GetFtpFiles(String unitKey, Int32 days) 位置 D:\lizw\eAgentsAdmin_source\ftpd\Program.cs:行号 158
+[2021-10-29 17:25:40.924] WHTS3FL3007X_20211029155427_LIST.txt文件已存在
+[2021-10-29 17:25:41.146] 远程服务器返回错误: (550) 文件不可用(例如，未找到文件，无法访问文件)。
+   在 System.Net.FtpWebRequest.SyncRequestCallback(Object obj)
+   在 System.Net.FtpWebRequest.RequestCallback(Object obj)
+   在 System.Net.CommandStream.Dispose(Boolean disposing)
+   在 System.IO.Stream.Close()
+   在 System.IO.Stream.Dispose()
+   在 System.Net.ConnectionPool.Destroy(PooledStream pooledStream)
+   在 System.Net.ConnectionPool.PutConnection(PooledStream pooledStream, Object owningObject, Int32 creationTimeout, Boolean canReuse)
+   在 System.Net.FtpWebRequest.FinishRequestStage(RequestStage stage)
+   在 System.Net.FtpWebRequest.GetResponse()
+   在 ftpd.FtpClient.FtpCmd(String method) 位置 D:\lizw\eAgentsAdmin_source\ftpd\Program.cs:行号 834
+   在 ftpd.FtpClient.ListDir(String path) 位置 D:\lizw\eAgentsAdmin_source\ftpd\Program.cs:行号 789
+   在 ftpd.Program.GetFtpFiles(String unitKey, Int32 days) 位置 D:\lizw\eAgentsAdmin_source\ftpd\Program.cs:行号 158
+[2021-10-29 17:25:42.493] 远程服务器返回错误: (550) 文件不可用(例如，未找到文件，无法访问文件)。
+   在 System.Net.FtpWebRequest.SyncRequestCallback(Object obj)
+   在 System.Net.FtpWebRequest.RequestCallback(Object obj)
+   在 System.Net.CommandStream.Dispose(Boolean disposing)
+   在 System.IO.Stream.Close()
+   在 System.IO.Stream.Dispose()
+   在 System.Net.ConnectionPool.Destroy(PooledStream pooledStream)
+   在 System.Net.ConnectionPool.PutConnection(PooledStream pooledStream, Object owningObject, Int32 creationTimeout, Boolean canReuse)
+   在 System.Net.FtpWebRequest.FinishRequestStage(RequestStage stage)
+   在 System.Net.FtpWebRequest.GetResponse()
+   在 ftpd.FtpClient.FtpCmd(String method) 位置 D:\lizw\eAgentsAdmin_source\ftpd\Program.cs:行号 834
+   在 ftpd.FtpClient.ListDir(String path) 位置 D:\lizw\eAgentsAdmin_source\ftpd\Program.cs:行号 789
+   在 ftpd.Program.GetFtpFiles(String unitKey, Int32 days) 位置 D:\lizw\eAgentsAdmin_source\ftpd\Program.cs:行号 158
+[2021-10-29 17:25:43.845] 远程服务器返回错误: (550) 文件不可用(例如，未找到文件，无法访问文件)。
+   在 System.Net.FtpWebRequest.SyncRequestCallback(Object obj)
+   在 System.Net.FtpWebRequest.RequestCallback(Object obj)
+   在 System.Net.CommandStream.Dispose(Boolean disposing)
+   在 System.IO.Stream.Close()
+   在 System.IO.Stream.Dispose()
+   在 System.Net.ConnectionPool.Destroy(PooledStream pooledStream)
+   在 System.Net.ConnectionPool.PutConnection(PooledStream pooledStream, Object owningObject, Int32 creationTimeout, Boolean canReuse)
+   在 System.Net.FtpWebRequest.FinishRequestStage(RequestStage stage)
+   在 System.Net.FtpWebRequest.GetResponse()
+   在 ftpd.FtpClient.FtpCmd(String method) 位置 D:\lizw\eAgentsAdmin_source\ftpd\Program.cs:行号 834
+   在 ftpd.FtpClient.ListDir(String path) 位置 D:\lizw\eAgentsAdmin_source\ftpd\Program.cs:行号 789
+   在 ftpd.Program.GetFtpFiles(String unitKey, Int32 days) 位置 D:\lizw\eAgentsAdmin_source\ftpd\Program.cs:行号 158
+[2021-10-29 17:25:45.613] 远程服务器返回错误: (550) 文件不可用(例如，未找到文件，无法访问文件)。
+   在 System.Net.FtpWebRequest.SyncRequestCallback(Object obj)
+   在 System.Net.FtpWebRequest.RequestCallback(Object obj)
+   在 System.Net.CommandStream.Dispose(Boolean disposing)
+   在 System.IO.Stream.Close()
+   在 System.IO.Stream.Dispose()
+   在 System.Net.ConnectionPool.Destroy(PooledStream pooledStream)
+   在 System.Net.ConnectionPool.PutConnection(PooledStream pooledStream, Object owningObject, Int32 creationTimeout, Boolean canReuse)
+   在 System.Net.FtpWebRequest.FinishRequestStage(RequestStage stage)
+   在 System.Net.FtpWebRequest.GetResponse()
+   在 ftpd.FtpClient.FtpCmd(String method) 位置 D:\lizw\eAgentsAdmin_source\ftpd\Program.cs:行号 834
+   在 ftpd.FtpClient.ListDir(String path) 位置 D:\lizw\eAgentsAdmin_source\ftpd\Program.cs:行号 789
+   在 ftpd.Program.GetFtpFiles(String unitKey, Int32 days) 位置 D:\lizw\eAgentsAdmin_source\ftpd\Program.cs:行号 158
+[2021-10-29 17:25:52.320] 远程服务器返回错误: (550) 文件不可用(例如，未找到文件，无法访问文件)。
+   在 System.Net.FtpWebRequest.SyncRequestCallback(Object obj)
+   在 System.Net.FtpWebRequest.RequestCallback(Object obj)
+   在 System.Net.CommandStream.Dispose(Boolean disposing)
+   在 System.IO.Stream.Close()
+   在 System.IO.Stream.Dispose()
+   在 System.Net.ConnectionPool.Destroy(PooledStream pooledStream)
+   在 System.Net.ConnectionPool.PutConnection(PooledStream pooledStream, Object owningObject, Int32 creationTimeout, Boolean canReuse)
+   在 System.Net.FtpWebRequest.FinishRequestStage(RequestStage stage)
+   在 System.Net.FtpWebRequest.GetResponse()
+   在 ftpd.FtpClient.FtpCmd(String method) 位置 D:\lizw\eAgentsAdmin_source\ftpd\Program.cs:行号 834
+   在 ftpd.FtpClient.ListDir(String path) 位置 D:\lizw\eAgentsAdmin_source\ftpd\Program.cs:行号 789
+   在 ftpd.Program.GetFtpFiles(String unitKey, Int32 days) 位置 D:\lizw\eAgentsAdmin_source\ftpd\Program.cs:行号 158
+[2021-10-29 17:26:05.077] 远程服务器返回错误: (550) 文件不可用(例如，未找到文件，无法访问文件)。
+   在 System.Net.FtpWebRequest.SyncRequestCallback(Object obj)
+   在 System.Net.FtpWebRequest.RequestCallback(Object obj)
+   在 System.Net.CommandStream.Dispose(Boolean disposing)
+   在 System.IO.Stream.Close()
+   在 System.IO.Stream.Dispose()
+   在 System.Net.ConnectionPool.Destroy(PooledStream pooledStream)
+   在 System.Net.ConnectionPool.PutConnection(PooledStream pooledStream, Object owningObject, Int32 creationTimeout, Boolean canReuse)
+   在 System.Net.FtpWebRequest.FinishRequestStage(RequestStage stage)
+   在 System.Net.FtpWebRequest.GetResponse()
+   在 ftpd.FtpClient.FtpCmd(String method) 位置 D:\lizw\eAgentsAdmin_source\ftpd\Program.cs:行号 834
+   在 ftpd.FtpClient.ListDir(String path) 位置 D:\lizw\eAgentsAdmin_source\ftpd\Program.cs:行号 789
+   在 ftpd.Program.GetFtpFiles(String unitKey, Int32 days) 位置 D:\lizw\eAgentsAdmin_source\ftpd\Program.cs:行号 158
+[2021-10-29 17:26:06.218] 远程服务器返回错误: (550) 文件不可用(例如，未找到文件，无法访问文件)。
+   在 System.Net.FtpWebRequest.SyncRequestCallback(Object obj)
+   在 System.Net.FtpWebRequest.RequestCallback(Object obj)
+   在 System.Net.CommandStream.Dispose(Boolean disposing)
+   在 System.IO.Stream.Close()
+   在 System.IO.Stream.Dispose()
+   在 System.Net.ConnectionPool.Destroy(PooledStream pooledStream)
+   在 System.Net.ConnectionPool.PutConnection(PooledStream pooledStream, Object owningObject, Int32 creationTimeout, Boolean canReuse)
+   在 System.Net.FtpWebRequest.FinishRequestStage(RequestStage stage)
+   在 System.Net.FtpWebRequest.GetResponse()
+   在 ftpd.FtpClient.FtpCmd(String method) 位置 D:\lizw\eAgentsAdmin_source\ftpd\Program.cs:行号 834
+   在 ftpd.FtpClient.ListDir(String path) 位置 D:\lizw\eAgentsAdmin_source\ftpd\Program.cs:行号 789
+   在 ftpd.Program.GetFtpFiles(String unitKey, Int32 days) 位置 D:\lizw\eAgentsAdmin_source\ftpd\Program.cs:行号 158
+[2021-10-29 17:26:07.465] 远程服务器返回错误: (550) 文件不可用(例如，未找到文件，无法访问文件)。
+   在 System.Net.FtpWebRequest.SyncRequestCallback(Object obj)
+   在 System.Net.FtpWebRequest.RequestCallback(Object obj)
+   在 System.Net.CommandStream.Dispose(Boolean disposing)
+   在 System.IO.Stream.Close()
+   在 System.IO.Stream.Dispose()
+   在 System.Net.ConnectionPool.Destroy(PooledStream pooledStream)
+   在 System.Net.ConnectionPool.PutConnection(PooledStream pooledStream, Object owningObject, Int32 creationTimeout, Boolean canReuse)
+   在 System.Net.FtpWebRequest.FinishRequestStage(RequestStage stage)
+   在 System.Net.FtpWebRequest.GetResponse()
+   在 ftpd.FtpClient.FtpCmd(String method) 位置 D:\lizw\eAgentsAdmin_source\ftpd\Program.cs:行号 834
+   在 ftpd.FtpClient.ListDir(String path) 位置 D:\lizw\eAgentsAdmin_source\ftpd\Program.cs:行号 789
+   在 ftpd.Program.GetFtpFiles(String unitKey, Int32 days) 位置 D:\lizw\eAgentsAdmin_source\ftpd\Program.cs:行号 158
+[2021-10-29 17:26:08.757] 远程服务器返回错误: (550) 文件不可用(例如，未找到文件，无法访问文件)。
+   在 System.Net.FtpWebRequest.SyncRequestCallback(Object obj)
+   在 System.Net.FtpWebRequest.RequestCallback(Object obj)
+   在 System.Net.CommandStream.Dispose(Boolean disposing)
+   在 System.IO.Stream.Close()
+   在 System.IO.Stream.Dispose()
+   在 System.Net.ConnectionPool.Destroy(PooledStream pooledStream)
+   在 System.Net.ConnectionPool.PutConnection(PooledStream pooledStream, Object owningObject, Int32 creationTimeout, Boolean canReuse)
+   在 System.Net.FtpWebRequest.FinishRequestStage(RequestStage stage)
+   在 System.Net.FtpWebRequest.GetResponse()
+   在 ftpd.FtpClient.FtpCmd(String method) 位置 D:\lizw\eAgentsAdmin_source\ftpd\Program.cs:行号 834
+   在 ftpd.FtpClient.ListDir(String path) 位置 D:\lizw\eAgentsAdmin_source\ftpd\Program.cs:行号 789
+   在 ftpd.Program.GetFtpFiles(String unitKey, Int32 days) 位置 D:\lizw\eAgentsAdmin_source\ftpd\Program.cs:行号 158
+[2021-10-29 17:26:10.121] 远程服务器返回错误: (550) 文件不可用(例如，未找到文件，无法访问文件)。
+   在 System.Net.FtpWebRequest.SyncRequestCallback(Object obj)
+   在 System.Net.FtpWebRequest.RequestCallback(Object obj)
+   在 System.Net.CommandStream.Dispose(Boolean disposing)
+   在 System.IO.Stream.Close()
+   在 System.IO.Stream.Dispose()
+   在 System.Net.ConnectionPool.Destroy(PooledStream pooledStream)
+   在 System.Net.ConnectionPool.PutConnection(PooledStream pooledStream, Object owningObject, Int32 creationTimeout, Boolean canReuse)
+   在 System.Net.FtpWebRequest.FinishRequestStage(RequestStage stage)
+   在 System.Net.FtpWebRequest.GetResponse()
+   在 ftpd.FtpClient.FtpCmd(String method) 位置 D:\lizw\eAgentsAdmin_source\ftpd\Program.cs:行号 834
+   在 ftpd.FtpClient.ListDir(String path) 位置 D:\lizw\eAgentsAdmin_source\ftpd\Program.cs:行号 789
+   在 ftpd.Program.GetFtpFiles(String unitKey, Int32 days) 位置 D:\lizw\eAgentsAdmin_source\ftpd\Program.cs:行号 158
+[2021-10-29 17:26:14.444] 索引和长度必须引用该字符串内的位置。
+参数名: length
+   在 System.String.Substring(Int32 startIndex, Int32 length)
+   在 ftpd.Program.GetFtpFiles(String unitKey, Int32 days) 位置 D:\lizw\eAgentsAdmin_source\ftpd\Program.cs:行号 186
+[2021-10-29 17:26:14.828] 远程服务器返回错误: (550) 文件不可用(例如，未找到文件，无法访问文件)。
+   在 System.Net.FtpWebRequest.SyncRequestCallback(Object obj)
+   在 System.Net.FtpWebRequest.RequestCallback(Object obj)
+   在 System.Net.CommandStream.Dispose(Boolean disposing)
+   在 System.IO.Stream.Close()
+   在 System.IO.Stream.Dispose()
+   在 System.Net.ConnectionPool.Destroy(PooledStream pooledStream)
+   在 System.Net.ConnectionPool.PutConnection(PooledStream pooledStream, Object owningObject, Int32 creationTimeout, Boolean canReuse)
+   在 System.Net.FtpWebRequest.FinishRequestStage(RequestStage stage)
+   在 System.Net.FtpWebRequest.GetResponse()
+   在 ftpd.FtpClient.FtpCmd(String method) 位置 D:\lizw\eAgentsAdmin_source\ftpd\Program.cs:行号 834
+   在 ftpd.FtpClient.ListDir(String path) 位置 D:\lizw\eAgentsAdmin_source\ftpd\Program.cs:行号 789
+   在 ftpd.Program.GetFtpFiles(String unitKey, Int32 days) 位置 D:\lizw\eAgentsAdmin_source\ftpd\Program.cs:行号 158
+[2021-10-29 17:27:19.261] 索引和长度必须引用该字符串内的位置。
+参数名: length
+   在 System.String.Substring(Int32 startIndex, Int32 length)
+   在 ftpd.Program.GetFtpFiles(String unitKey, Int32 days) 位置 D:\lizw\eAgentsAdmin_source\ftpd\Program.cs:行号 187
+[2021-10-29 17:27:19.709] 远程服务器返回错误: (550) 文件不可用(例如，未找到文件，无法访问文件)。
+   在 System.Net.FtpWebRequest.SyncRequestCallback(Object obj)
+   在 System.Net.FtpWebRequest.RequestCallback(Object obj)
+   在 System.Net.CommandStream.Dispose(Boolean disposing)
+   在 System.IO.Stream.Close()
+   在 System.IO.Stream.Dispose()
+   在 System.Net.ConnectionPool.Destroy(PooledStream pooledStream)
+   在 System.Net.ConnectionPool.PutConnection(PooledStream pooledStream, Object owningObject, Int32 creationTimeout, Boolean canReuse)
+   在 System.Net.FtpWebRequest.FinishRequestStage(RequestStage stage)
+   在 System.Net.FtpWebRequest.GetResponse()
+   在 ftpd.FtpClient.FtpCmd(String method) 位置 D:\lizw\eAgentsAdmin_source\ftpd\Program.cs:行号 834
+   在 ftpd.FtpClient.ListDir(String path) 位置 D:\lizw\eAgentsAdmin_source\ftpd\Program.cs:行号 789
+   在 ftpd.Program.GetFtpFiles(String unitKey, Int32 days) 位置 D:\lizw\eAgentsAdmin_source\ftpd\Program.cs:行号 158
+[2021-10-29 17:27:21.121] 远程服务器返回错误: (550) 文件不可用(例如，未找到文件，无法访问文件)。
+   在 System.Net.FtpWebRequest.SyncRequestCallback(Object obj)
+   在 System.Net.FtpWebRequest.RequestCallback(Object obj)
+   在 System.Net.CommandStream.Dispose(Boolean disposing)
+   在 System.IO.Stream.Close()
+   在 System.IO.Stream.Dispose()
+   在 System.Net.ConnectionPool.Destroy(PooledStream pooledStream)
+   在 System.Net.ConnectionPool.PutConnection(PooledStream pooledStream, Object owningObject, Int32 creationTimeout, Boolean canReuse)
+   在 System.Net.FtpWebRequest.FinishRequestStage(RequestStage stage)
+   在 System.Net.FtpWebRequest.GetResponse()
+   在 ftpd.FtpClient.FtpCmd(String method) 位置 D:\lizw\eAgentsAdmin_source\ftpd\Program.cs:行号 834
+   在 ftpd.FtpClient.ListDir(String path) 位置 D:\lizw\eAgentsAdmin_source\ftpd\Program.cs:行号 789
+   在 ftpd.Program.GetFtpFiles(String unitKey, Int32 days) 位置 D:\lizw\eAgentsAdmin_source\ftpd\Program.cs:行号 158
+[2021-10-29 17:27:22.307] 远程服务器返回错误: (550) 文件不可用(例如，未找到文件，无法访问文件)。
+   在 System.Net.FtpWebRequest.SyncRequestCallback(Object obj)
+   在 System.Net.FtpWebRequest.RequestCallback(Object obj)
+   在 System.Net.CommandStream.Dispose(Boolean disposing)
+   在 System.IO.Stream.Close()
+   在 System.IO.Stream.Dispose()
+   在 System.Net.ConnectionPool.Destroy(PooledStream pooledStream)
+   在 System.Net.ConnectionPool.PutConnection(PooledStream pooledStream, Object owningObject, Int32 creationTimeout, Boolean canReuse)
+   在 System.Net.FtpWebRequest.FinishRequestStage(RequestStage stage)
+   在 System.Net.FtpWebRequest.GetResponse()
+   在 ftpd.FtpClient.FtpCmd(String method) 位置 D:\lizw\eAgentsAdmin_source\ftpd\Program.cs:行号 834
+   在 ftpd.FtpClient.ListDir(String path) 位置 D:\lizw\eAgentsAdmin_source\ftpd\Program.cs:行号 789
+   在 ftpd.Program.GetFtpFiles(String unitKey, Int32 days) 位置 D:\lizw\eAgentsAdmin_source\ftpd\Program.cs:行号 158
+[2021-10-29 17:27:23.569] 远程服务器返回错误: (550) 文件不可用(例如，未找到文件，无法访问文件)。
+   在 System.Net.FtpWebRequest.SyncRequestCallback(Object obj)
+   在 System.Net.FtpWebRequest.RequestCallback(Object obj)
+   在 System.Net.CommandStream.Dispose(Boolean disposing)
+   在 System.IO.Stream.Close()
+   在 System.IO.Stream.Dispose()
+   在 System.Net.ConnectionPool.Destroy(PooledStream pooledStream)
+   在 System.Net.ConnectionPool.PutConnection(PooledStream pooledStream, Object owningObject, Int32 creationTimeout, Boolean canReuse)
+   在 System.Net.FtpWebRequest.FinishRequestStage(RequestStage stage)
+   在 System.Net.FtpWebRequest.GetResponse()
+   在 ftpd.FtpClient.FtpCmd(String method) 位置 D:\lizw\eAgentsAdmin_source\ftpd\Program.cs:行号 834
+   在 ftpd.FtpClient.ListDir(String path) 位置 D:\lizw\eAgentsAdmin_source\ftpd\Program.cs:行号 789
+   在 ftpd.Program.GetFtpFiles(String unitKey, Int32 days) 位置 D:\lizw\eAgentsAdmin_source\ftpd\Program.cs:行号 158
+[2021-10-29 17:27:26.944] 远程服务器返回错误: (550) 文件不可用(例如，未找到文件，无法访问文件)。
+   在 System.Net.FtpWebRequest.SyncRequestCallback(Object obj)
+   在 System.Net.FtpWebRequest.RequestCallback(Object obj)
+   在 System.Net.CommandStream.Dispose(Boolean disposing)
+   在 System.IO.Stream.Close()
+   在 System.IO.Stream.Dispose()
+   在 System.Net.ConnectionPool.Destroy(PooledStream pooledStream)
+   在 System.Net.ConnectionPool.PutConnection(PooledStream pooledStream, Object owningObject, Int32 creationTimeout, Boolean canReuse)
+   在 System.Net.FtpWebRequest.FinishRequestStage(RequestStage stage)
+   在 System.Net.FtpWebRequest.GetResponse()
+   在 ftpd.FtpClient.FtpCmd(String method) 位置 D:\lizw\eAgentsAdmin_source\ftpd\Program.cs:行号 834
+   在 ftpd.FtpClient.ListDir(String path) 位置 D:\lizw\eAgentsAdmin_source\ftpd\Program.cs:行号 789
+   在 ftpd.Program.GetFtpFiles(String unitKey, Int32 days) 位置 D:\lizw\eAgentsAdmin_source\ftpd\Program.cs:行号 158
+[2021-10-29 17:27:28.657] 远程服务器返回错误: (550) 文件不可用(例如，未找到文件，无法访问文件)。
+   在 System.Net.FtpWebRequest.SyncRequestCallback(Object obj)
+   在 System.Net.FtpWebRequest.RequestCallback(Object obj)
+   在 System.Net.CommandStream.Dispose(Boolean disposing)
+   在 System.IO.Stream.Close()
+   在 System.IO.Stream.Dispose()
+   在 System.Net.ConnectionPool.Destroy(PooledStream pooledStream)
+   在 System.Net.ConnectionPool.PutConnection(PooledStream pooledStream, Object owningObject, Int32 creationTimeout, Boolean canReuse)
+   在 System.Net.FtpWebRequest.FinishRequestStage(RequestStage stage)
+   在 System.Net.FtpWebRequest.GetResponse()
+   在 ftpd.FtpClient.FtpCmd(String method) 位置 D:\lizw\eAgentsAdmin_source\ftpd\Program.cs:行号 834
+   在 ftpd.FtpClient.ListDir(String path) 位置 D:\lizw\eAgentsAdmin_source\ftpd\Program.cs:行号 789
+   在 ftpd.Program.GetFtpFiles(String unitKey, Int32 days) 位置 D:\lizw\eAgentsAdmin_source\ftpd\Program.cs:行号 158
+[2021-10-29 17:27:30.138] 远程服务器返回错误: (550) 文件不可用(例如，未找到文件，无法访问文件)。
+   在 System.Net.FtpWebRequest.SyncRequestCallback(Object obj)
+   在 System.Net.FtpWebRequest.RequestCallback(Object obj)
+   在 System.Net.CommandStream.Dispose(Boolean disposing)
+   在 System.IO.Stream.Close()
+   在 System.IO.Stream.Dispose()
+   在 System.Net.ConnectionPool.Destroy(PooledStream pooledStream)
+   在 System.Net.ConnectionPool.PutConnection(PooledStream pooledStream, Object owningObject, Int32 creationTimeout, Boolean canReuse)
+   在 System.Net.FtpWebRequest.FinishRequestStage(RequestStage stage)
+   在 System.Net.FtpWebRequest.GetResponse()
+   在 ftpd.FtpClient.FtpCmd(String method) 位置 D:\lizw\eAgentsAdmin_source\ftpd\Program.cs:行号 834
+   在 ftpd.FtpClient.ListDir(String path) 位置 D:\lizw\eAgentsAdmin_source\ftpd\Program.cs:行号 789
+   在 ftpd.Program.GetFtpFiles(String unitKey, Int32 days) 位置 D:\lizw\eAgentsAdmin_source\ftpd\Program.cs:行号 158
+[2021-10-29 17:27:31.599] 远程服务器返回错误: (550) 文件不可用(例如，未找到文件，无法访问文件)。
+   在 System.Net.FtpWebRequest.SyncRequestCallback(Object obj)
+   在 System.Net.FtpWebRequest.RequestCallback(Object obj)
+   在 System.Net.CommandStream.Dispose(Boolean disposing)
+   在 System.IO.Stream.Close()
+   在 System.IO.Stream.Dispose()
+   在 System.Net.ConnectionPool.Destroy(PooledStream pooledStream)
+   在 System.Net.ConnectionPool.PutConnection(PooledStream pooledStream, Object owningObject, Int32 creationTimeout, Boolean canReuse)
+   在 System.Net.FtpWebRequest.FinishRequestStage(RequestStage stage)
+   在 System.Net.FtpWebRequest.GetResponse()
+   在 ftpd.FtpClient.FtpCmd(String method) 位置 D:\lizw\eAgentsAdmin_source\ftpd\Program.cs:行号 834
+   在 ftpd.FtpClient.ListDir(String path) 位置 D:\lizw\eAgentsAdmin_source\ftpd\Program.cs:行号 789
+   在 ftpd.Program.GetFtpFiles(String unitKey, Int32 days) 位置 D:\lizw\eAgentsAdmin_source\ftpd\Program.cs:行号 158
+[2021-10-29 17:27:33.022] 远程服务器返回错误: (550) 文件不可用(例如，未找到文件，无法访问文件)。
+   在 System.Net.FtpWebRequest.SyncRequestCallback(Object obj)
+   在 System.Net.FtpWebRequest.RequestCallback(Object obj)
+   在 System.Net.CommandStream.Dispose(Boolean disposing)
+   在 System.IO.Stream.Close()
+   在 System.IO.Stream.Dispose()
+   在 System.Net.ConnectionPool.Destroy(PooledStream pooledStream)
+   在 System.Net.ConnectionPool.PutConnection(PooledStream pooledStream, Object owningObject, Int32 creationTimeout, Boolean canReuse)
+   在 System.Net.FtpWebRequest.FinishRequestStage(RequestStage stage)
+   在 System.Net.FtpWebRequest.GetResponse()
+   在 ftpd.FtpClient.FtpCmd(String method) 位置 D:\lizw\eAgentsAdmin_source\ftpd\Program.cs:行号 834
+   在 ftpd.FtpClient.ListDir(String path) 位置 D:\lizw\eAgentsAdmin_source\ftpd\Program.cs:行号 789
+   在 ftpd.Program.GetFtpFiles(String unitKey, Int32 days) 位置 D:\lizw\eAgentsAdmin_source\ftpd\Program.cs:行号 158
+[2021-10-29 17:27:34.220] 远程服务器返回错误: (550) 文件不可用(例如，未找到文件，无法访问文件)。
+   在 System.Net.FtpWebRequest.SyncRequestCallback(Object obj)
+   在 System.Net.FtpWebRequest.RequestCallback(Object obj)
+   在 System.Net.CommandStream.Dispose(Boolean disposing)
+   在 System.IO.Stream.Close()
+   在 System.IO.Stream.Dispose()
+   在 System.Net.ConnectionPool.Destroy(PooledStream pooledStream)
+   在 System.Net.ConnectionPool.PutConnection(PooledStream pooledStream, Object owningObject, Int32 creationTimeout, Boolean canReuse)
+   在 System.Net.FtpWebRequest.FinishRequestStage(RequestStage stage)
+   在 System.Net.FtpWebRequest.GetResponse()
+   在 ftpd.FtpClient.FtpCmd(String method) 位置 D:\lizw\eAgentsAdmin_source\ftpd\Program.cs:行号 834
+   在 ftpd.FtpClient.ListDir(String path) 位置 D:\lizw\eAgentsAdmin_source\ftpd\Program.cs:行号 789
+   在 ftpd.Program.GetFtpFiles(String unitKey, Int32 days) 位置 D:\lizw\eAgentsAdmin_source\ftpd\Program.cs:行号 158
+[2021-10-29 17:27:35.630] 远程服务器返回错误: (550) 文件不可用(例如，未找到文件，无法访问文件)。
+   在 System.Net.FtpWebRequest.SyncRequestCallback(Object obj)
+   在 System.Net.FtpWebRequest.RequestCallback(Object obj)
+   在 System.Net.CommandStream.Dispose(Boolean disposing)
+   在 System.IO.Stream.Close()
+   在 System.IO.Stream.Dispose()
+   在 System.Net.ConnectionPool.Destroy(PooledStream pooledStream)
+   在 System.Net.ConnectionPool.PutConnection(PooledStream pooledStream, Object owningObject, Int32 creationTimeout, Boolean canReuse)
+   在 System.Net.FtpWebRequest.FinishRequestStage(RequestStage stage)
+   在 System.Net.FtpWebRequest.GetResponse()
+   在 ftpd.FtpClient.FtpCmd(String method) 位置 D:\lizw\eAgentsAdmin_source\ftpd\Program.cs:行号 834
+   在 ftpd.FtpClient.ListDir(String path) 位置 D:\lizw\eAgentsAdmin_source\ftpd\Program.cs:行号 789
+   在 ftpd.Program.GetFtpFiles(String unitKey, Int32 days) 位置 D:\lizw\eAgentsAdmin_source\ftpd\Program.cs:行号 158
+[2021-10-29 17:27:36.802] 远程服务器返回错误: (550) 文件不可用(例如，未找到文件，无法访问文件)。
+   在 System.Net.FtpWebRequest.SyncRequestCallback(Object obj)
+   在 System.Net.FtpWebRequest.RequestCallback(Object obj)
+   在 System.Net.CommandStream.Dispose(Boolean disposing)
+   在 System.IO.Stream.Close()
+   在 System.IO.Stream.Dispose()
+   在 System.Net.ConnectionPool.Destroy(PooledStream pooledStream)
+   在 System.Net.ConnectionPool.PutConnection(PooledStream pooledStream, Object owningObject, Int32 creationTimeout, Boolean canReuse)
+   在 System.Net.FtpWebRequest.FinishRequestStage(RequestStage stage)
+   在 System.Net.FtpWebRequest.GetResponse()
+   在 ftpd.FtpClient.FtpCmd(String method) 位置 D:\lizw\eAgentsAdmin_source\ftpd\Program.cs:行号 834
+   在 ftpd.FtpClient.ListDir(String path) 位置 D:\lizw\eAgentsAdmin_source\ftpd\Program.cs:行号 789
+   在 ftpd.Program.GetFtpFiles(String unitKey, Int32 days) 位置 D:\lizw\eAgentsAdmin_source\ftpd\Program.cs:行号 158
+[2021-10-29 17:27:38.355] 远程服务器返回错误: (550) 文件不可用(例如，未找到文件，无法访问文件)。
+   在 System.Net.FtpWebRequest.SyncRequestCallback(Object obj)
+   在 System.Net.FtpWebRequest.RequestCallback(Object obj)
+   在 System.Net.CommandStream.Dispose(Boolean disposing)
+   在 System.IO.Stream.Close()
+   在 System.IO.Stream.Dispose()
+   在 System.Net.ConnectionPool.Destroy(PooledStream pooledStream)
+   在 System.Net.ConnectionPool.PutConnection(PooledStream pooledStream, Object owningObject, Int32 creationTimeout, Boolean canReuse)
+   在 System.Net.FtpWebRequest.FinishRequestStage(RequestStage stage)
+   在 System.Net.FtpWebRequest.GetResponse()
+   在 ftpd.FtpClient.FtpCmd(String method) 位置 D:\lizw\eAgentsAdmin_source\ftpd\Program.cs:行号 834
+   在 ftpd.FtpClient.ListDir(String path) 位置 D:\lizw\eAgentsAdmin_source\ftpd\Program.cs:行号 789
+   在 ftpd.Program.GetFtpFiles(String unitKey, Int32 days) 位置 D:\lizw\eAgentsAdmin_source\ftpd\Program.cs:行号 158
+[2021-10-29 17:27:43.112] 远程服务器返回错误: (550) 文件不可用(例如，未找到文件，无法访问文件)。
+   在 System.Net.FtpWebRequest.SyncRequestCallback(Object obj)
+   在 System.Net.FtpWebRequest.RequestCallback(Object obj)
+   在 System.Net.CommandStream.Dispose(Boolean disposing)
+   在 System.IO.Stream.Close()
+   在 System.IO.Stream.Dispose()
+   在 System.Net.ConnectionPool.Destroy(PooledStream pooledStream)
+   在 System.Net.ConnectionPool.PutConnection(PooledStream pooledStream, Object owningObject, Int32 creationTimeout, Boolean canReuse)
+   在 System.Net.FtpWebRequest.FinishRequestStage(RequestStage stage)
+   在 System.Net.FtpWebRequest.GetResponse()
+   在 ftpd.FtpClient.FtpCmd(String method) 位置 D:\lizw\eAgentsAdmin_source\ftpd\Program.cs:行号 834
+   在 ftpd.FtpClient.ListDir(String path) 位置 D:\lizw\eAgentsAdmin_source\ftpd\Program.cs:行号 789
+   在 ftpd.Program.GetFtpFiles(String unitKey, Int32 days) 位置 D:\lizw\eAgentsAdmin_source\ftpd\Program.cs:行号 158
+[2021-10-29 17:27:44.486] 远程服务器返回错误: (550) 文件不可用(例如，未找到文件，无法访问文件)。
+   在 System.Net.FtpWebRequest.SyncRequestCallback(Object obj)
+   在 System.Net.FtpWebRequest.RequestCallback(Object obj)
+   在 System.Net.CommandStream.Dispose(Boolean disposing)
+   在 System.IO.Stream.Close()
+   在 System.IO.Stream.Dispose()
+   在 System.Net.ConnectionPool.Destroy(PooledStream pooledStream)
+   在 System.Net.ConnectionPool.PutConnection(PooledStream pooledStream, Object owningObject, Int32 creationTimeout, Boolean canReuse)
+   在 System.Net.FtpWebRequest.FinishRequestStage(RequestStage stage)
+   在 System.Net.FtpWebRequest.GetResponse()
+   在 ftpd.FtpClient.FtpCmd(String method) 位置 D:\lizw\eAgentsAdmin_source\ftpd\Program.cs:行号 834
+   在 ftpd.FtpClient.ListDir(String path) 位置 D:\lizw\eAgentsAdmin_source\ftpd\Program.cs:行号 789
+   在 ftpd.Program.GetFtpFiles(String unitKey, Int32 days) 位置 D:\lizw\eAgentsAdmin_source\ftpd\Program.cs:行号 158
+[2021-10-29 17:27:46.277] 远程服务器返回错误: (550) 文件不可用(例如，未找到文件，无法访问文件)。
+   在 System.Net.FtpWebRequest.SyncRequestCallback(Object obj)
+   在 System.Net.FtpWebRequest.RequestCallback(Object obj)
+   在 System.Net.CommandStream.Dispose(Boolean disposing)
+   在 System.IO.Stream.Close()
+   在 System.IO.Stream.Dispose()
+   在 System.Net.ConnectionPool.Destroy(PooledStream pooledStream)
+   在 System.Net.ConnectionPool.PutConnection(PooledStream pooledStream, Object owningObject, Int32 creationTimeout, Boolean canReuse)
+   在 System.Net.FtpWebRequest.FinishRequestStage(RequestStage stage)
+   在 System.Net.FtpWebRequest.GetResponse()
+   在 ftpd.FtpClient.FtpCmd(String method) 位置 D:\lizw\eAgentsAdmin_source\ftpd\Program.cs:行号 834
+   在 ftpd.FtpClient.ListDir(String path) 位置 D:\lizw\eAgentsAdmin_source\ftpd\Program.cs:行号 789
+   在 ftpd.Program.GetFtpFiles(String unitKey, Int32 days) 位置 D:\lizw\eAgentsAdmin_source\ftpd\Program.cs:行号 158
+[2021-10-29 17:27:48.264] 远程服务器返回错误: (550) 文件不可用(例如，未找到文件，无法访问文件)。
+   在 System.Net.FtpWebRequest.SyncRequestCallback(Object obj)
+   在 System.Net.FtpWebRequest.RequestCallback(Object obj)
+   在 System.Net.CommandStream.Dispose(Boolean disposing)
+   在 System.IO.Stream.Close()
+   在 System.IO.Stream.Dispose()
+   在 System.Net.ConnectionPool.Destroy(PooledStream pooledStream)
+   在 System.Net.ConnectionPool.PutConnection(PooledStream pooledStream, Object owningObject, Int32 creationTimeout, Boolean canReuse)
+   在 System.Net.FtpWebRequest.FinishRequestStage(RequestStage stage)
+   在 System.Net.FtpWebRequest.GetResponse()
+   在 ftpd.FtpClient.FtpCmd(String method) 位置 D:\lizw\eAgentsAdmin_source\ftpd\Program.cs:行号 834
+   在 ftpd.FtpClient.ListDir(String path) 位置 D:\lizw\eAgentsAdmin_source\ftpd\Program.cs:行号 789
+   在 ftpd.Program.GetFtpFiles(String unitKey, Int32 days) 位置 D:\lizw\eAgentsAdmin_source\ftpd\Program.cs:行号 158
+[2021-10-29 17:27:49.951] 远程服务器返回错误: (550) 文件不可用(例如，未找到文件，无法访问文件)。
+   在 System.Net.FtpWebRequest.SyncRequestCallback(Object obj)
+   在 System.Net.FtpWebRequest.RequestCallback(Object obj)
+   在 System.Net.CommandStream.Dispose(Boolean disposing)
+   在 System.IO.Stream.Close()
+   在 System.IO.Stream.Dispose()
+   在 System.Net.ConnectionPool.Destroy(PooledStream pooledStream)
+   在 System.Net.ConnectionPool.PutConnection(PooledStream pooledStream, Object owningObject, Int32 creationTimeout, Boolean canReuse)
+   在 System.Net.FtpWebRequest.FinishRequestStage(RequestStage stage)
+   在 System.Net.FtpWebRequest.GetResponse()
+   在 ftpd.FtpClient.FtpCmd(String method) 位置 D:\lizw\eAgentsAdmin_source\ftpd\Program.cs:行号 834
+   在 ftpd.FtpClient.ListDir(String path) 位置 D:\lizw\eAgentsAdmin_source\ftpd\Program.cs:行号 789
+   在 ftpd.Program.GetFtpFiles(String unitKey, Int32 days) 位置 D:\lizw\eAgentsAdmin_source\ftpd\Program.cs:行号 158
+[2021-10-29 17:28:00.946] 索引和长度必须引用该字符串内的位置。
+参数名: length
+   在 System.String.Substring(Int32 startIndex, Int32 length)
+   在 ftpd.Program.GetFtpFiles(String unitKey, Int32 days) 位置 D:\lizw\eAgentsAdmin_source\ftpd\Program.cs:行号 188
+[2021-10-29 17:28:01.527] 远程服务器返回错误: (550) 文件不可用(例如，未找到文件，无法访问文件)。
+   在 System.Net.FtpWebRequest.SyncRequestCallback(Object obj)
+   在 System.Net.FtpWebRequest.RequestCallback(Object obj)
+   在 System.Net.CommandStream.Dispose(Boolean disposing)
+   在 System.IO.Stream.Close()
+   在 System.IO.Stream.Dispose()
+   在 System.Net.ConnectionPool.Destroy(PooledStream pooledStream)
+   在 System.Net.ConnectionPool.PutConnection(PooledStream pooledStream, Object owningObject, Int32 creationTimeout, Boolean canReuse)
+   在 System.Net.FtpWebRequest.FinishRequestStage(RequestStage stage)
+   在 System.Net.FtpWebRequest.GetResponse()
+   在 ftpd.FtpClient.FtpCmd(String method) 位置 D:\lizw\eAgentsAdmin_source\ftpd\Program.cs:行号 834
+   在 ftpd.FtpClient.ListDir(String path) 位置 D:\lizw\eAgentsAdmin_source\ftpd\Program.cs:行号 789
+   在 ftpd.Program.GetFtpFiles(String unitKey, Int32 days) 位置 D:\lizw\eAgentsAdmin_source\ftpd\Program.cs:行号 158
+[2021-10-29 17:28:22.663] 索引和长度必须引用该字符串内的位置。
+参数名: length
+   在 System.String.Substring(Int32 startIndex, Int32 length)
+   在 ftpd.Program.GetFtpFiles(String unitKey, Int32 days) 位置 D:\lizw\eAgentsAdmin_source\ftpd\Program.cs:行号 188
+[2021-10-29 17:29:03.680] 索引和长度必须引用该字符串内的位置。
+参数名: length
+   在 System.String.Substring(Int32 startIndex, Int32 length)
+   在 ftpd.Program.GetFtpFiles(String unitKey, Int32 days) 位置 D:\lizw\eAgentsAdmin_source\ftpd\Program.cs:行号 188
+[2021-10-29 17:29:04.145] 远程服务器返回错误: (550) 文件不可用(例如，未找到文件，无法访问文件)。
+   在 System.Net.FtpWebRequest.SyncRequestCallback(Object obj)
+   在 System.Net.FtpWebRequest.RequestCallback(Object obj)
+   在 System.Net.CommandStream.Dispose(Boolean disposing)
+   在 System.IO.Stream.Close()
+   在 System.IO.Stream.Dispose()
+   在 System.Net.ConnectionPool.Destroy(PooledStream pooledStream)
+   在 System.Net.ConnectionPool.PutConnection(PooledStream pooledStream, Object owningObject, Int32 creationTimeout, Boolean canReuse)
+   在 System.Net.FtpWebRequest.FinishRequestStage(RequestStage stage)
+   在 System.Net.FtpWebRequest.GetResponse()
+   在 ftpd.FtpClient.FtpCmd(String method) 位置 D:\lizw\eAgentsAdmin_source\ftpd\Program.cs:行号 834
+   在 ftpd.FtpClient.ListDir(String path) 位置 D:\lizw\eAgentsAdmin_source\ftpd\Program.cs:行号 789
+   在 ftpd.Program.GetFtpFiles(String unitKey, Int32 days) 位置 D:\lizw\eAgentsAdmin_source\ftpd\Program.cs:行号 158
+[2021-10-29 17:29:05.366] 远程服务器返回错误: (550) 文件不可用(例如，未找到文件，无法访问文件)。
+   在 System.Net.FtpWebRequest.SyncRequestCallback(Object obj)
+   在 System.Net.FtpWebRequest.RequestCallback(Object obj)
+   在 System.Net.CommandStream.Dispose(Boolean disposing)
+   在 System.IO.Stream.Close()
+   在 System.IO.Stream.Dispose()
+   在 System.Net.ConnectionPool.Destroy(PooledStream pooledStream)
+   在 System.Net.ConnectionPool.PutConnection(PooledStream pooledStream, Object owningObject, Int32 creationTimeout, Boolean canReuse)
+   在 System.Net.FtpWebRequest.FinishRequestStage(RequestStage stage)
+   在 System.Net.FtpWebRequest.GetResponse()
+   在 ftpd.FtpClient.FtpCmd(String method) 位置 D:\lizw\eAgentsAdmin_source\ftpd\Program.cs:行号 834
+   在 ftpd.FtpClient.ListDir(String path) 位置 D:\lizw\eAgentsAdmin_source\ftpd\Program.cs:行号 789
+   在 ftpd.Program.GetFtpFiles(String unitKey, Int32 days) 位置 D:\lizw\eAgentsAdmin_source\ftpd\Program.cs:行号 158
+[2021-10-29 17:29:06.648] 远程服务器返回错误: (550) 文件不可用(例如，未找到文件，无法访问文件)。
+   在 System.Net.FtpWebRequest.SyncRequestCallback(Object obj)
+   在 System.Net.FtpWebRequest.RequestCallback(Object obj)
+   在 System.Net.CommandStream.Dispose(Boolean disposing)
+   在 System.IO.Stream.Close()
+   在 System.IO.Stream.Dispose()
+   在 System.Net.ConnectionPool.Destroy(PooledStream pooledStream)
+   在 System.Net.ConnectionPool.PutConnection(PooledStream pooledStream, Object owningObject, Int32 creationTimeout, Boolean canReuse)
+   在 System.Net.FtpWebRequest.FinishRequestStage(RequestStage stage)
+   在 System.Net.FtpWebRequest.GetResponse()
+   在 ftpd.FtpClient.FtpCmd(String method) 位置 D:\lizw\eAgentsAdmin_source\ftpd\Program.cs:行号 834
+   在 ftpd.FtpClient.ListDir(String path) 位置 D:\lizw\eAgentsAdmin_source\ftpd\Program.cs:行号 789
+   在 ftpd.Program.GetFtpFiles(String unitKey, Int32 days) 位置 D:\lizw\eAgentsAdmin_source\ftpd\Program.cs:行号 158
+[2021-10-29 17:29:08.263] 远程服务器返回错误: (550) 文件不可用(例如，未找到文件，无法访问文件)。
+   在 System.Net.FtpWebRequest.SyncRequestCallback(Object obj)
+   在 System.Net.FtpWebRequest.RequestCallback(Object obj)
+   在 System.Net.CommandStream.Dispose(Boolean disposing)
+   在 System.IO.Stream.Close()
+   在 System.IO.Stream.Dispose()
+   在 System.Net.ConnectionPool.Destroy(PooledStream pooledStream)
+   在 System.Net.ConnectionPool.PutConnection(PooledStream pooledStream, Object owningObject, Int32 creationTimeout, Boolean canReuse)
+   在 System.Net.FtpWebRequest.FinishRequestStage(RequestStage stage)
+   在 System.Net.FtpWebRequest.GetResponse()
+   在 ftpd.FtpClient.FtpCmd(String method) 位置 D:\lizw\eAgentsAdmin_source\ftpd\Program.cs:行号 834
+   在 ftpd.FtpClient.ListDir(String path) 位置 D:\lizw\eAgentsAdmin_source\ftpd\Program.cs:行号 789
+   在 ftpd.Program.GetFtpFiles(String unitKey, Int32 days) 位置 D:\lizw\eAgentsAdmin_source\ftpd\Program.cs:行号 158
+[2021-10-29 17:29:09.794] 远程服务器返回错误: (550) 文件不可用(例如，未找到文件，无法访问文件)。
+   在 System.Net.FtpWebRequest.SyncRequestCallback(Object obj)
+   在 System.Net.FtpWebRequest.RequestCallback(Object obj)
+   在 System.Net.CommandStream.Dispose(Boolean disposing)
+   在 System.IO.Stream.Close()
+   在 System.IO.Stream.Dispose()
+   在 System.Net.ConnectionPool.Destroy(PooledStream pooledStream)
+   在 System.Net.ConnectionPool.PutConnection(PooledStream pooledStream, Object owningObject, Int32 creationTimeout, Boolean canReuse)
+   在 System.Net.FtpWebRequest.FinishRequestStage(RequestStage stage)
+   在 System.Net.FtpWebRequest.GetResponse()
+   在 ftpd.FtpClient.FtpCmd(String method) 位置 D:\lizw\eAgentsAdmin_source\ftpd\Program.cs:行号 834
+   在 ftpd.FtpClient.ListDir(String path) 位置 D:\lizw\eAgentsAdmin_source\ftpd\Program.cs:行号 789
+   在 ftpd.Program.GetFtpFiles(String unitKey, Int32 days) 位置 D:\lizw\eAgentsAdmin_source\ftpd\Program.cs:行号 158
+[2021-10-29 17:29:11.382] 远程服务器返回错误: (550) 文件不可用(例如，未找到文件，无法访问文件)。
+   在 System.Net.FtpWebRequest.SyncRequestCallback(Object obj)
+   在 System.Net.FtpWebRequest.RequestCallback(Object obj)
+   在 System.Net.CommandStream.Dispose(Boolean disposing)
+   在 System.IO.Stream.Close()
+   在 System.IO.Stream.Dispose()
+   在 System.Net.ConnectionPool.Destroy(PooledStream pooledStream)
+   在 System.Net.ConnectionPool.PutConnection(PooledStream pooledStream, Object owningObject, Int32 creationTimeout, Boolean canReuse)
+   在 System.Net.FtpWebRequest.FinishRequestStage(RequestStage stage)
+   在 System.Net.FtpWebRequest.GetResponse()
+   在 ftpd.FtpClient.FtpCmd(String method) 位置 D:\lizw\eAgentsAdmin_source\ftpd\Program.cs:行号 834
+   在 ftpd.FtpClient.ListDir(String path) 位置 D:\lizw\eAgentsAdmin_source\ftpd\Program.cs:行号 789
+   在 ftpd.Program.GetFtpFiles(String unitKey, Int32 days) 位置 D:\lizw\eAgentsAdmin_source\ftpd\Program.cs:行号 158
+[2021-10-29 17:29:12.706] 远程服务器返回错误: (550) 文件不可用(例如，未找到文件，无法访问文件)。
+   在 System.Net.FtpWebRequest.SyncRequestCallback(Object obj)
+   在 System.Net.FtpWebRequest.RequestCallback(Object obj)
+   在 System.Net.CommandStream.Dispose(Boolean disposing)
+   在 System.IO.Stream.Close()
+   在 System.IO.Stream.Dispose()
+   在 System.Net.ConnectionPool.Destroy(PooledStream pooledStream)
+   在 System.Net.ConnectionPool.PutConnection(PooledStream pooledStream, Object owningObject, Int32 creationTimeout, Boolean canReuse)
+   在 System.Net.FtpWebRequest.FinishRequestStage(RequestStage stage)
+   在 System.Net.FtpWebRequest.GetResponse()
+   在 ftpd.FtpClient.FtpCmd(String method) 位置 D:\lizw\eAgentsAdmin_source\ftpd\Program.cs:行号 834
+   在 ftpd.FtpClient.ListDir(String path) 位置 D:\lizw\eAgentsAdmin_source\ftpd\Program.cs:行号 789
+   在 ftpd.Program.GetFtpFiles(String unitKey, Int32 days) 位置 D:\lizw\eAgentsAdmin_source\ftpd\Program.cs:行号 158
+[2021-10-29 17:29:16.015] 远程服务器返回错误: (550) 文件不可用(例如，未找到文件，无法访问文件)。
+   在 System.Net.FtpWebRequest.SyncRequestCallback(Object obj)
+   在 System.Net.FtpWebRequest.RequestCallback(Object obj)
+   在 System.Net.CommandStream.Dispose(Boolean disposing)
+   在 System.IO.Stream.Close()
+   在 System.IO.Stream.Dispose()
+   在 System.Net.ConnectionPool.Destroy(PooledStream pooledStream)
+   在 System.Net.ConnectionPool.PutConnection(PooledStream pooledStream, Object owningObject, Int32 creationTimeout, Boolean canReuse)
+   在 System.Net.FtpWebRequest.FinishRequestStage(RequestStage stage)
+   在 System.Net.FtpWebRequest.GetResponse()
+   在 ftpd.FtpClient.FtpCmd(String method) 位置 D:\lizw\eAgentsAdmin_source\ftpd\Program.cs:行号 834
+   在 ftpd.FtpClient.ListDir(String path) 位置 D:\lizw\eAgentsAdmin_source\ftpd\Program.cs:行号 789
+   在 ftpd.Program.GetFtpFiles(String unitKey, Int32 days) 位置 D:\lizw\eAgentsAdmin_source\ftpd\Program.cs:行号 158
+[2021-10-29 17:29:17.125] 远程服务器返回错误: (550) 文件不可用(例如，未找到文件，无法访问文件)。
+   在 System.Net.FtpWebRequest.SyncRequestCallback(Object obj)
+   在 System.Net.FtpWebRequest.RequestCallback(Object obj)
+   在 System.Net.CommandStream.Dispose(Boolean disposing)
+   在 System.IO.Stream.Close()
+   在 System.IO.Stream.Dispose()
+   在 System.Net.ConnectionPool.Destroy(PooledStream pooledStream)
+   在 System.Net.ConnectionPool.PutConnection(PooledStream pooledStream, Object owningObject, Int32 creationTimeout, Boolean canReuse)
+   在 System.Net.FtpWebRequest.FinishRequestStage(RequestStage stage)
+   在 System.Net.FtpWebRequest.GetResponse()
+   在 ftpd.FtpClient.FtpCmd(String method) 位置 D:\lizw\eAgentsAdmin_source\ftpd\Program.cs:行号 834
+   在 ftpd.FtpClient.ListDir(String path) 位置 D:\lizw\eAgentsAdmin_source\ftpd\Program.cs:行号 789
+   在 ftpd.Program.GetFtpFiles(String unitKey, Int32 days) 位置 D:\lizw\eAgentsAdmin_source\ftpd\Program.cs:行号 158
+[2021-10-29 17:29:18.326] 远程服务器返回错误: (550) 文件不可用(例如，未找到文件，无法访问文件)。
+   在 System.Net.FtpWebRequest.SyncRequestCallback(Object obj)
+   在 System.Net.FtpWebRequest.RequestCallback(Object obj)
+   在 System.Net.CommandStream.Dispose(Boolean disposing)
+   在 System.IO.Stream.Close()
+   在 System.IO.Stream.Dispose()
+   在 System.Net.ConnectionPool.Destroy(PooledStream pooledStream)
+   在 System.Net.ConnectionPool.PutConnection(PooledStream pooledStream, Object owningObject, Int32 creationTimeout, Boolean canReuse)
+   在 System.Net.FtpWebRequest.FinishRequestStage(RequestStage stage)
+   在 System.Net.FtpWebRequest.GetResponse()
+   在 ftpd.FtpClient.FtpCmd(String method) 位置 D:\lizw\eAgentsAdmin_source\ftpd\Program.cs:行号 834
+   在 ftpd.FtpClient.ListDir(String path) 位置 D:\lizw\eAgentsAdmin_source\ftpd\Program.cs:行号 789
+   在 ftpd.Program.GetFtpFiles(String unitKey, Int32 days) 位置 D:\lizw\eAgentsAdmin_source\ftpd\Program.cs:行号 158
+[2021-10-29 17:29:19.675] 远程服务器返回错误: (550) 文件不可用(例如，未找到文件，无法访问文件)。
+   在 System.Net.FtpWebRequest.SyncRequestCallback(Object obj)
+   在 System.Net.FtpWebRequest.RequestCallback(Object obj)
+   在 System.Net.CommandStream.Dispose(Boolean disposing)
+   在 System.IO.Stream.Close()
+   在 System.IO.Stream.Dispose()
+   在 System.Net.ConnectionPool.Destroy(PooledStream pooledStream)
+   在 System.Net.ConnectionPool.PutConnection(PooledStream pooledStream, Object owningObject, Int32 creationTimeout, Boolean canReuse)
+   在 System.Net.FtpWebRequest.FinishRequestStage(RequestStage stage)
+   在 System.Net.FtpWebRequest.GetResponse()
+   在 ftpd.FtpClient.FtpCmd(String method) 位置 D:\lizw\eAgentsAdmin_source\ftpd\Program.cs:行号 834
+   在 ftpd.FtpClient.ListDir(String path) 位置 D:\lizw\eAgentsAdmin_source\ftpd\Program.cs:行号 789
+   在 ftpd.Program.GetFtpFiles(String unitKey, Int32 days) 位置 D:\lizw\eAgentsAdmin_source\ftpd\Program.cs:行号 158
+[2021-10-29 17:29:20.774] 远程服务器返回错误: (550) 文件不可用(例如，未找到文件，无法访问文件)。
+   在 System.Net.FtpWebRequest.SyncRequestCallback(Object obj)
+   在 System.Net.FtpWebRequest.RequestCallback(Object obj)
+   在 System.Net.CommandStream.Dispose(Boolean disposing)
+   在 System.IO.Stream.Close()
+   在 System.IO.Stream.Dispose()
+   在 System.Net.ConnectionPool.Destroy(PooledStream pooledStream)
+   在 System.Net.ConnectionPool.PutConnection(PooledStream pooledStream, Object owningObject, Int32 creationTimeout, Boolean canReuse)
+   在 System.Net.FtpWebRequest.FinishRequestStage(RequestStage stage)
+   在 System.Net.FtpWebRequest.GetResponse()
+   在 ftpd.FtpClient.FtpCmd(String method) 位置 D:\lizw\eAgentsAdmin_source\ftpd\Program.cs:行号 834
+   在 ftpd.FtpClient.ListDir(String path) 位置 D:\lizw\eAgentsAdmin_source\ftpd\Program.cs:行号 789
+   在 ftpd.Program.GetFtpFiles(String unitKey, Int32 days) 位置 D:\lizw\eAgentsAdmin_source\ftpd\Program.cs:行号 158
+[2021-10-29 17:29:21.867] 远程服务器返回错误: (550) 文件不可用(例如，未找到文件，无法访问文件)。
+   在 System.Net.FtpWebRequest.SyncRequestCallback(Object obj)
+   在 System.Net.FtpWebRequest.RequestCallback(Object obj)
+   在 System.Net.CommandStream.Dispose(Boolean disposing)
+   在 System.IO.Stream.Close()
+   在 System.IO.Stream.Dispose()
+   在 System.Net.ConnectionPool.Destroy(PooledStream pooledStream)
+   在 System.Net.ConnectionPool.PutConnection(PooledStream pooledStream, Object owningObject, Int32 creationTimeout, Boolean canReuse)
+   在 System.Net.FtpWebRequest.FinishRequestStage(RequestStage stage)
+   在 System.Net.FtpWebRequest.GetResponse()
+   在 ftpd.FtpClient.FtpCmd(String method) 位置 D:\lizw\eAgentsAdmin_source\ftpd\Program.cs:行号 834
+   在 ftpd.FtpClient.ListDir(String path) 位置 D:\lizw\eAgentsAdmin_source\ftpd\Program.cs:行号 789
+   在 ftpd.Program.GetFtpFiles(String unitKey, Int32 days) 位置 D:\lizw\eAgentsAdmin_source\ftpd\Program.cs:行号 158
+[2021-10-29 17:29:26.013] 远程服务器返回错误: (550) 文件不可用(例如，未找到文件，无法访问文件)。
+   在 System.Net.FtpWebRequest.SyncRequestCallback(Object obj)
+   在 System.Net.FtpWebRequest.RequestCallback(Object obj)
+   在 System.Net.CommandStream.Dispose(Boolean disposing)
+   在 System.IO.Stream.Close()
+   在 System.IO.Stream.Dispose()
+   在 System.Net.ConnectionPool.Destroy(PooledStream pooledStream)
+   在 System.Net.ConnectionPool.PutConnection(PooledStream pooledStream, Object owningObject, Int32 creationTimeout, Boolean canReuse)
+   在 System.Net.FtpWebRequest.FinishRequestStage(RequestStage stage)
+   在 System.Net.FtpWebRequest.GetResponse()
+   在 ftpd.FtpClient.FtpCmd(String method) 位置 D:\lizw\eAgentsAdmin_source\ftpd\Program.cs:行号 834
+   在 ftpd.FtpClient.ListDir(String path) 位置 D:\lizw\eAgentsAdmin_source\ftpd\Program.cs:行号 789
+   在 ftpd.Program.GetFtpFiles(String unitKey, Int32 days) 位置 D:\lizw\eAgentsAdmin_source\ftpd\Program.cs:行号 158
+[2021-10-29 17:29:27.191] 远程服务器返回错误: (550) 文件不可用(例如，未找到文件，无法访问文件)。
+   在 System.Net.FtpWebRequest.SyncRequestCallback(Object obj)
+   在 System.Net.FtpWebRequest.RequestCallback(Object obj)
+   在 System.Net.CommandStream.Dispose(Boolean disposing)
+   在 System.IO.Stream.Close()
+   在 System.IO.Stream.Dispose()
+   在 System.Net.ConnectionPool.Destroy(PooledStream pooledStream)
+   在 System.Net.ConnectionPool.PutConnection(PooledStream pooledStream, Object owningObject, Int32 creationTimeout, Boolean canReuse)
+   在 System.Net.FtpWebRequest.FinishRequestStage(RequestStage stage)
+   在 System.Net.FtpWebRequest.GetResponse()
+   在 ftpd.FtpClient.FtpCmd(String method) 位置 D:\lizw\eAgentsAdmin_source\ftpd\Program.cs:行号 834
+   在 ftpd.FtpClient.ListDir(String path) 位置 D:\lizw\eAgentsAdmin_source\ftpd\Program.cs:行号 789
+   在 ftpd.Program.GetFtpFiles(String unitKey, Int32 days) 位置 D:\lizw\eAgentsAdmin_source\ftpd\Program.cs:行号 158
+[2021-10-29 17:29:28.509] 远程服务器返回错误: (550) 文件不可用(例如，未找到文件，无法访问文件)。
+   在 System.Net.FtpWebRequest.SyncRequestCallback(Object obj)
+   在 System.Net.FtpWebRequest.RequestCallback(Object obj)
+   在 System.Net.CommandStream.Dispose(Boolean disposing)
+   在 System.IO.Stream.Close()
+   在 System.IO.Stream.Dispose()
+   在 System.Net.ConnectionPool.Destroy(PooledStream pooledStream)
+   在 System.Net.ConnectionPool.PutConnection(PooledStream pooledStream, Object owningObject, Int32 creationTimeout, Boolean canReuse)
+   在 System.Net.FtpWebRequest.FinishRequestStage(RequestStage stage)
+   在 System.Net.FtpWebRequest.GetResponse()
+   在 ftpd.FtpClient.FtpCmd(String method) 位置 D:\lizw\eAgentsAdmin_source\ftpd\Program.cs:行号 834
+   在 ftpd.FtpClient.ListDir(String path) 位置 D:\lizw\eAgentsAdmin_source\ftpd\Program.cs:行号 789
+   在 ftpd.Program.GetFtpFiles(String unitKey, Int32 days) 位置 D:\lizw\eAgentsAdmin_source\ftpd\Program.cs:行号 158
+[2021-10-29 17:29:30.006] 远程服务器返回错误: (550) 文件不可用(例如，未找到文件，无法访问文件)。
+   在 System.Net.FtpWebRequest.SyncRequestCallback(Object obj)
+   在 System.Net.FtpWebRequest.RequestCallback(Object obj)
+   在 System.Net.CommandStream.Dispose(Boolean disposing)
+   在 System.IO.Stream.Close()
+   在 System.IO.Stream.Dispose()
+   在 System.Net.ConnectionPool.Destroy(PooledStream pooledStream)
+   在 System.Net.ConnectionPool.PutConnection(PooledStream pooledStream, Object owningObject, Int32 creationTimeout, Boolean canReuse)
+   在 System.Net.FtpWebRequest.FinishRequestStage(RequestStage stage)
+   在 System.Net.FtpWebRequest.GetResponse()
+   在 ftpd.FtpClient.FtpCmd(String method) 位置 D:\lizw\eAgentsAdmin_source\ftpd\Program.cs:行号 834
+   在 ftpd.FtpClient.ListDir(String path) 位置 D:\lizw\eAgentsAdmin_source\ftpd\Program.cs:行号 789
+   在 ftpd.Program.GetFtpFiles(String unitKey, Int32 days) 位置 D:\lizw\eAgentsAdmin_source\ftpd\Program.cs:行号 158
+[2021-10-29 17:29:31.582] 远程服务器返回错误: (550) 文件不可用(例如，未找到文件，无法访问文件)。
+   在 System.Net.FtpWebRequest.SyncRequestCallback(Object obj)
+   在 System.Net.FtpWebRequest.RequestCallback(Object obj)
+   在 System.Net.CommandStream.Dispose(Boolean disposing)
+   在 System.IO.Stream.Close()
+   在 System.IO.Stream.Dispose()
+   在 System.Net.ConnectionPool.Destroy(PooledStream pooledStream)
+   在 System.Net.ConnectionPool.PutConnection(PooledStream pooledStream, Object owningObject, Int32 creationTimeout, Boolean canReuse)
+   在 System.Net.FtpWebRequest.FinishRequestStage(RequestStage stage)
+   在 System.Net.FtpWebRequest.GetResponse()
+   在 ftpd.FtpClient.FtpCmd(String method) 位置 D:\lizw\eAgentsAdmin_source\ftpd\Program.cs:行号 834
+   在 ftpd.FtpClient.ListDir(String path) 位置 D:\lizw\eAgentsAdmin_source\ftpd\Program.cs:行号 789
+   在 ftpd.Program.GetFtpFiles(String unitKey, Int32 days) 位置 D:\lizw\eAgentsAdmin_source\ftpd\Program.cs:行号 158
+[2021-10-29 17:29:33.036] 远程服务器返回错误: (550) 文件不可用(例如，未找到文件，无法访问文件)。
+   在 System.Net.FtpWebRequest.SyncRequestCallback(Object obj)
+   在 System.Net.FtpWebRequest.RequestCallback(Object obj)
+   在 System.Net.CommandStream.Dispose(Boolean disposing)
+   在 System.IO.Stream.Close()
+   在 System.IO.Stream.Dispose()
+   在 System.Net.ConnectionPool.Destroy(PooledStream pooledStream)
+   在 System.Net.ConnectionPool.PutConnection(PooledStream pooledStream, Object owningObject, Int32 creationTimeout, Boolean canReuse)
+   在 System.Net.FtpWebRequest.FinishRequestStage(RequestStage stage)
+   在 System.Net.FtpWebRequest.GetResponse()
+   在 ftpd.FtpClient.FtpCmd(String method) 位置 D:\lizw\eAgentsAdmin_source\ftpd\Program.cs:行号 834
+   在 ftpd.FtpClient.ListDir(String path) 位置 D:\lizw\eAgentsAdmin_source\ftpd\Program.cs:行号 789
+   在 ftpd.Program.GetFtpFiles(String unitKey, Int32 days) 位置 D:\lizw\eAgentsAdmin_source\ftpd\Program.cs:行号 158
+[2021-10-29 17:29:34.325] 远程服务器返回错误: (550) 文件不可用(例如，未找到文件，无法访问文件)。
+   在 System.Net.FtpWebRequest.SyncRequestCallback(Object obj)
+   在 System.Net.FtpWebRequest.RequestCallback(Object obj)
+   在 System.Net.CommandStream.Dispose(Boolean disposing)
+   在 System.IO.Stream.Close()
+   在 System.IO.Stream.Dispose()
+   在 System.Net.ConnectionPool.Destroy(PooledStream pooledStream)
+   在 System.Net.ConnectionPool.PutConnection(PooledStream pooledStream, Object owningObject, Int32 creationTimeout, Boolean canReuse)
+   在 System.Net.FtpWebRequest.FinishRequestStage(RequestStage stage)
+   在 System.Net.FtpWebRequest.GetResponse()
+   在 ftpd.FtpClient.FtpCmd(String method) 位置 D:\lizw\eAgentsAdmin_source\ftpd\Program.cs:行号 834
+   在 ftpd.FtpClient.ListDir(String path) 位置 D:\lizw\eAgentsAdmin_source\ftpd\Program.cs:行号 789
+   在 ftpd.Program.GetFtpFiles(String unitKey, Int32 days) 位置 D:\lizw\eAgentsAdmin_source\ftpd\Program.cs:行号 158
+[2021-10-29 17:29:35.504] 远程服务器返回错误: (550) 文件不可用(例如，未找到文件，无法访问文件)。
+   在 System.Net.FtpWebRequest.SyncRequestCallback(Object obj)
+   在 System.Net.FtpWebRequest.RequestCallback(Object obj)
+   在 System.Net.CommandStream.Dispose(Boolean disposing)
+   在 System.IO.Stream.Close()
+   在 System.IO.Stream.Dispose()
+   在 System.Net.ConnectionPool.Destroy(PooledStream pooledStream)
+   在 System.Net.ConnectionPool.PutConnection(PooledStream pooledStream, Object owningObject, Int32 creationTimeout, Boolean canReuse)
+   在 System.Net.FtpWebRequest.FinishRequestStage(RequestStage stage)
+   在 System.Net.FtpWebRequest.GetResponse()
+   在 ftpd.FtpClient.FtpCmd(String method) 位置 D:\lizw\eAgentsAdmin_source\ftpd\Program.cs:行号 834
+   在 ftpd.FtpClient.ListDir(String path) 位置 D:\lizw\eAgentsAdmin_source\ftpd\Program.cs:行号 789
+   在 ftpd.Program.GetFtpFiles(String unitKey, Int32 days) 位置 D:\lizw\eAgentsAdmin_source\ftpd\Program.cs:行号 158
+[2021-10-29 17:29:39.236] 远程服务器返回错误: (550) 文件不可用(例如，未找到文件，无法访问文件)。
+   在 System.Net.FtpWebRequest.SyncRequestCallback(Object obj)
+   在 System.Net.FtpWebRequest.RequestCallback(Object obj)
+   在 System.Net.CommandStream.Dispose(Boolean disposing)
+   在 System.IO.Stream.Close()
+   在 System.IO.Stream.Dispose()
+   在 System.Net.ConnectionPool.Destroy(PooledStream pooledStream)
+   在 System.Net.ConnectionPool.PutConnection(PooledStream pooledStream, Object owningObject, Int32 creationTimeout, Boolean canReuse)
+   在 System.Net.FtpWebRequest.FinishRequestStage(RequestStage stage)
+   在 System.Net.FtpWebRequest.GetResponse()
+   在 ftpd.FtpClient.FtpCmd(String method) 位置 D:\lizw\eAgentsAdmin_source\ftpd\Program.cs:行号 834
+   在 ftpd.FtpClient.ListDir(String path) 位置 D:\lizw\eAgentsAdmin_source\ftpd\Program.cs:行号 789
+   在 ftpd.Program.GetFtpFiles(String unitKey, Int32 days) 位置 D:\lizw\eAgentsAdmin_source\ftpd\Program.cs:行号 158
+[2021-10-29 17:29:40.400] 远程服务器返回错误: (550) 文件不可用(例如，未找到文件，无法访问文件)。
+   在 System.Net.FtpWebRequest.SyncRequestCallback(Object obj)
+   在 System.Net.FtpWebRequest.RequestCallback(Object obj)
+   在 System.Net.CommandStream.Dispose(Boolean disposing)
+   在 System.IO.Stream.Close()
+   在 System.IO.Stream.Dispose()
+   在 System.Net.ConnectionPool.Destroy(PooledStream pooledStream)
+   在 System.Net.ConnectionPool.PutConnection(PooledStream pooledStream, Object owningObject, Int32 creationTimeout, Boolean canReuse)
+   在 System.Net.FtpWebRequest.FinishRequestStage(RequestStage stage)
+   在 System.Net.FtpWebRequest.GetResponse()
+   在 ftpd.FtpClient.FtpCmd(String method) 位置 D:\lizw\eAgentsAdmin_source\ftpd\Program.cs:行号 834
+   在 ftpd.FtpClient.ListDir(String path) 位置 D:\lizw\eAgentsAdmin_source\ftpd\Program.cs:行号 789
+   在 ftpd.Program.GetFtpFiles(String unitKey, Int32 days) 位置 D:\lizw\eAgentsAdmin_source\ftpd\Program.cs:行号 158
+[2021-10-29 17:29:54.682] 远程服务器返回错误: (550) 文件不可用(例如，未找到文件，无法访问文件)。
+   在 System.Net.FtpWebRequest.SyncRequestCallback(Object obj)
+   在 System.Net.FtpWebRequest.RequestCallback(Object obj)
+   在 System.Net.CommandStream.Dispose(Boolean disposing)
+   在 System.IO.Stream.Close()
+   在 System.IO.Stream.Dispose()
+   在 System.Net.ConnectionPool.Destroy(PooledStream pooledStream)
+   在 System.Net.ConnectionPool.PutConnection(PooledStream pooledStream, Object owningObject, Int32 creationTimeout, Boolean canReuse)
+   在 System.Net.FtpWebRequest.FinishRequestStage(RequestStage stage)
+   在 System.Net.FtpWebRequest.GetResponse()
+   在 ftpd.FtpClient.FtpCmd(String method) 位置 D:\lizw\eAgentsAdmin_source\ftpd\Program.cs:行号 834
+   在 ftpd.FtpClient.ListDir(String path) 位置 D:\lizw\eAgentsAdmin_source\ftpd\Program.cs:行号 789
+   在 ftpd.Program.GetFtpFiles(String unitKey, Int32 days) 位置 D:\lizw\eAgentsAdmin_source\ftpd\Program.cs:行号 158
+[2021-10-29 17:29:57.595] 远程服务器返回错误: (550) 文件不可用(例如，未找到文件，无法访问文件)。
+   在 System.Net.FtpWebRequest.SyncRequestCallback(Object obj)
+   在 System.Net.FtpWebRequest.RequestCallback(Object obj)
+   在 System.Net.CommandStream.Dispose(Boolean disposing)
+   在 System.IO.Stream.Close()
+   在 System.IO.Stream.Dispose()
+   在 System.Net.ConnectionPool.Destroy(PooledStream pooledStream)
+   在 System.Net.ConnectionPool.PutConnection(PooledStream pooledStream, Object owningObject, Int32 creationTimeout, Boolean canReuse)
+   在 System.Net.FtpWebRequest.FinishRequestStage(RequestStage stage)
+   在 System.Net.FtpWebRequest.GetResponse()
+   在 ftpd.FtpClient.FtpCmd(String method) 位置 D:\lizw\eAgentsAdmin_source\ftpd\Program.cs:行号 834
+   在 ftpd.FtpClient.ListDir(String path) 位置 D:\lizw\eAgentsAdmin_source\ftpd\Program.cs:行号 789
+   在 ftpd.Program.GetFtpFiles(String unitKey, Int32 days) 位置 D:\lizw\eAgentsAdmin_source\ftpd\Program.cs:行号 164
+[2021-10-29 17:30:06.118] 远程服务器返回错误: (550) 文件不可用(例如，未找到文件，无法访问文件)。
+   在 System.Net.FtpWebRequest.SyncRequestCallback(Object obj)
+   在 System.Net.FtpWebRequest.RequestCallback(Object obj)
+   在 System.Net.CommandStream.Dispose(Boolean disposing)
+   在 System.IO.Stream.Close()
+   在 System.IO.Stream.Dispose()
+   在 System.Net.ConnectionPool.Destroy(PooledStream pooledStream)
+   在 System.Net.ConnectionPool.PutConnection(PooledStream pooledStream, Object owningObject, Int32 creationTimeout, Boolean canReuse)
+   在 System.Net.FtpWebRequest.FinishRequestStage(RequestStage stage)
+   在 System.Net.FtpWebRequest.GetResponse()
+   在 ftpd.FtpClient.FtpCmd(String method) 位置 D:\lizw\eAgentsAdmin_source\ftpd\Program.cs:行号 834
+   在 ftpd.FtpClient.ListDir(String path) 位置 D:\lizw\eAgentsAdmin_source\ftpd\Program.cs:行号 789
+   在 ftpd.Program.GetFtpFiles(String unitKey, Int32 days) 位置 D:\lizw\eAgentsAdmin_source\ftpd\Program.cs:行号 158
+[2021-10-29 17:30:09.487] 远程服务器返回错误: (550) 文件不可用(例如，未找到文件，无法访问文件)。
+   在 System.Net.FtpWebRequest.SyncRequestCallback(Object obj)
+   在 System.Net.FtpWebRequest.RequestCallback(Object obj)
+   在 System.Net.CommandStream.Dispose(Boolean disposing)
+   在 System.IO.Stream.Close()
+   在 System.IO.Stream.Dispose()
+   在 System.Net.ConnectionPool.Destroy(PooledStream pooledStream)
+   在 System.Net.ConnectionPool.PutConnection(PooledStream pooledStream, Object owningObject, Int32 creationTimeout, Boolean canReuse)
+   在 System.Net.FtpWebRequest.FinishRequestStage(RequestStage stage)
+   在 System.Net.FtpWebRequest.GetResponse()
+   在 ftpd.FtpClient.FtpCmd(String method) 位置 D:\lizw\eAgentsAdmin_source\ftpd\Program.cs:行号 834
+   在 ftpd.FtpClient.ListDir(String path) 位置 D:\lizw\eAgentsAdmin_source\ftpd\Program.cs:行号 789
+   在 ftpd.Program.GetFtpFiles(String unitKey, Int32 days) 位置 D:\lizw\eAgentsAdmin_source\ftpd\Program.cs:行号 158
+[2021-10-29 17:30:11.123] 远程服务器返回错误: (550) 文件不可用(例如，未找到文件，无法访问文件)。
+   在 System.Net.FtpWebRequest.SyncRequestCallback(Object obj)
+   在 System.Net.FtpWebRequest.RequestCallback(Object obj)
+   在 System.Net.CommandStream.Dispose(Boolean disposing)
+   在 System.IO.Stream.Close()
+   在 System.IO.Stream.Dispose()
+   在 System.Net.ConnectionPool.Destroy(PooledStream pooledStream)
+   在 System.Net.ConnectionPool.PutConnection(PooledStream pooledStream, Object owningObject, Int32 creationTimeout, Boolean canReuse)
+   在 System.Net.FtpWebRequest.FinishRequestStage(RequestStage stage)
+   在 System.Net.FtpWebRequest.GetResponse()
+   在 ftpd.FtpClient.FtpCmd(String method) 位置 D:\lizw\eAgentsAdmin_source\ftpd\Program.cs:行号 834
+   在 ftpd.FtpClient.ListDir(String path) 位置 D:\lizw\eAgentsAdmin_source\ftpd\Program.cs:行号 789
+   在 ftpd.Program.GetFtpFiles(String unitKey, Int32 days) 位置 D:\lizw\eAgentsAdmin_source\ftpd\Program.cs:行号 158
+[2021-10-29 17:30:13.063] 远程服务器返回错误: (550) 文件不可用(例如，未找到文件，无法访问文件)。
+   在 System.Net.FtpWebRequest.SyncRequestCallback(Object obj)
+   在 System.Net.FtpWebRequest.RequestCallback(Object obj)
+   在 System.Net.CommandStream.Dispose(Boolean disposing)
+   在 System.IO.Stream.Close()
+   在 System.IO.Stream.Dispose()
+   在 System.Net.ConnectionPool.Destroy(PooledStream pooledStream)
+   在 System.Net.ConnectionPool.PutConnection(PooledStream pooledStream, Object owningObject, Int32 creationTimeout, Boolean canReuse)
+   在 System.Net.FtpWebRequest.FinishRequestStage(RequestStage stage)
+   在 System.Net.FtpWebRequest.GetResponse()
+   在 ftpd.FtpClient.FtpCmd(String method) 位置 D:\lizw\eAgentsAdmin_source\ftpd\Program.cs:行号 834
+   在 ftpd.FtpClient.ListDir(String path) 位置 D:\lizw\eAgentsAdmin_source\ftpd\Program.cs:行号 789
+   在 ftpd.Program.GetFtpFiles(String unitKey, Int32 days) 位置 D:\lizw\eAgentsAdmin_source\ftpd\Program.cs:行号 158
+[2021-10-29 17:30:14.355] 远程服务器返回错误: (550) 文件不可用(例如，未找到文件，无法访问文件)。
+   在 System.Net.FtpWebRequest.SyncRequestCallback(Object obj)
+   在 System.Net.FtpWebRequest.RequestCallback(Object obj)
+   在 System.Net.CommandStream.Dispose(Boolean disposing)
+   在 System.IO.Stream.Close()
+   在 System.IO.Stream.Dispose()
+   在 System.Net.ConnectionPool.Destroy(PooledStream pooledStream)
+   在 System.Net.ConnectionPool.PutConnection(PooledStream pooledStream, Object owningObject, Int32 creationTimeout, Boolean canReuse)
+   在 System.Net.FtpWebRequest.FinishRequestStage(RequestStage stage)
+   在 System.Net.FtpWebRequest.GetResponse()
+   在 ftpd.FtpClient.FtpCmd(String method) 位置 D:\lizw\eAgentsAdmin_source\ftpd\Program.cs:行号 834
+   在 ftpd.FtpClient.ListDir(String path) 位置 D:\lizw\eAgentsAdmin_source\ftpd\Program.cs:行号 789
+   在 ftpd.Program.GetFtpFiles(String unitKey, Int32 days) 位置 D:\lizw\eAgentsAdmin_source\ftpd\Program.cs:行号 158
+[2021-10-29 17:30:19.630] 远程服务器返回错误: (550) 文件不可用(例如，未找到文件，无法访问文件)。
+   在 System.Net.FtpWebRequest.SyncRequestCallback(Object obj)
+   在 System.Net.FtpWebRequest.RequestCallback(Object obj)
+   在 System.Net.CommandStream.Dispose(Boolean disposing)
+   在 System.IO.Stream.Close()
+   在 System.IO.Stream.Dispose()
+   在 System.Net.ConnectionPool.Destroy(PooledStream pooledStream)
+   在 System.Net.ConnectionPool.PutConnection(PooledStream pooledStream, Object owningObject, Int32 creationTimeout, Boolean canReuse)
+   在 System.Net.FtpWebRequest.FinishRequestStage(RequestStage stage)
+   在 System.Net.FtpWebRequest.GetResponse()
+   在 ftpd.FtpClient.FtpCmd(String method) 位置 D:\lizw\eAgentsAdmin_source\ftpd\Program.cs:行号 834
+   在 ftpd.FtpClient.ListDir(String path) 位置 D:\lizw\eAgentsAdmin_source\ftpd\Program.cs:行号 789
+   在 ftpd.Program.GetFtpFiles(String unitKey, Int32 days) 位置 D:\lizw\eAgentsAdmin_source\ftpd\Program.cs:行号 158
+[2021-10-29 17:30:20.809] 远程服务器返回错误: (550) 文件不可用(例如，未找到文件，无法访问文件)。
+   在 System.Net.FtpWebRequest.SyncRequestCallback(Object obj)
+   在 System.Net.FtpWebRequest.RequestCallback(Object obj)
+   在 System.Net.CommandStream.Dispose(Boolean disposing)
+   在 System.IO.Stream.Close()
+   在 System.IO.Stream.Dispose()
+   在 System.Net.ConnectionPool.Destroy(PooledStream pooledStream)
+   在 System.Net.ConnectionPool.PutConnection(PooledStream pooledStream, Object owningObject, Int32 creationTimeout, Boolean canReuse)
+   在 System.Net.FtpWebRequest.FinishRequestStage(RequestStage stage)
+   在 System.Net.FtpWebRequest.GetResponse()
+   在 ftpd.FtpClient.FtpCmd(String method) 位置 D:\lizw\eAgentsAdmin_source\ftpd\Program.cs:行号 834
+   在 ftpd.FtpClient.ListDir(String path) 位置 D:\lizw\eAgentsAdmin_source\ftpd\Program.cs:行号 789
+   在 ftpd.Program.GetFtpFiles(String unitKey, Int32 days) 位置 D:\lizw\eAgentsAdmin_source\ftpd\Program.cs:行号 158
+[2021-10-29 17:30:21.997] 远程服务器返回错误: (550) 文件不可用(例如，未找到文件，无法访问文件)。
+   在 System.Net.FtpWebRequest.SyncRequestCallback(Object obj)
+   在 System.Net.FtpWebRequest.RequestCallback(Object obj)
+   在 System.Net.CommandStream.Dispose(Boolean disposing)
+   在 System.IO.Stream.Close()
+   在 System.IO.Stream.Dispose()
+   在 System.Net.ConnectionPool.Destroy(PooledStream pooledStream)
+   在 System.Net.ConnectionPool.PutConnection(PooledStream pooledStream, Object owningObject, Int32 creationTimeout, Boolean canReuse)
+   在 System.Net.FtpWebRequest.FinishRequestStage(RequestStage stage)
+   在 System.Net.FtpWebRequest.GetResponse()
+   在 ftpd.FtpClient.FtpCmd(String method) 位置 D:\lizw\eAgentsAdmin_source\ftpd\Program.cs:行号 834
+   在 ftpd.FtpClient.ListDir(String path) 位置 D:\lizw\eAgentsAdmin_source\ftpd\Program.cs:行号 789
+   在 ftpd.Program.GetFtpFiles(String unitKey, Int32 days) 位置 D:\lizw\eAgentsAdmin_source\ftpd\Program.cs:行号 158
+[2021-10-29 17:30:23.161] 远程服务器返回错误: (550) 文件不可用(例如，未找到文件，无法访问文件)。
+   在 System.Net.FtpWebRequest.SyncRequestCallback(Object obj)
+   在 System.Net.FtpWebRequest.RequestCallback(Object obj)
+   在 System.Net.CommandStream.Dispose(Boolean disposing)
+   在 System.IO.Stream.Close()
+   在 System.IO.Stream.Dispose()
+   在 System.Net.ConnectionPool.Destroy(PooledStream pooledStream)
+   在 System.Net.ConnectionPool.PutConnection(PooledStream pooledStream, Object owningObject, Int32 creationTimeout, Boolean canReuse)
+   在 System.Net.FtpWebRequest.FinishRequestStage(RequestStage stage)
+   在 System.Net.FtpWebRequest.GetResponse()
+   在 ftpd.FtpClient.FtpCmd(String method) 位置 D:\lizw\eAgentsAdmin_source\ftpd\Program.cs:行号 834
+   在 ftpd.FtpClient.ListDir(String path) 位置 D:\lizw\eAgentsAdmin_source\ftpd\Program.cs:行号 789
+   在 ftpd.Program.GetFtpFiles(String unitKey, Int32 days) 位置 D:\lizw\eAgentsAdmin_source\ftpd\Program.cs:行号 158
+[2021-10-29 17:30:28.138] 远程服务器返回错误: (550) 文件不可用(例如，未找到文件，无法访问文件)。
+   在 System.Net.FtpWebRequest.SyncRequestCallback(Object obj)
+   在 System.Net.FtpWebRequest.RequestCallback(Object obj)
+   在 System.Net.CommandStream.Dispose(Boolean disposing)
+   在 System.IO.Stream.Close()
+   在 System.IO.Stream.Dispose()
+   在 System.Net.ConnectionPool.Destroy(PooledStream pooledStream)
+   在 System.Net.ConnectionPool.PutConnection(PooledStream pooledStream, Object owningObject, Int32 creationTimeout, Boolean canReuse)
+   在 System.Net.FtpWebRequest.FinishRequestStage(RequestStage stage)
+   在 System.Net.FtpWebRequest.GetResponse()
+   在 ftpd.FtpClient.FtpCmd(String method) 位置 D:\lizw\eAgentsAdmin_source\ftpd\Program.cs:行号 834
+   在 ftpd.FtpClient.ListDir(String path) 位置 D:\lizw\eAgentsAdmin_source\ftpd\Program.cs:行号 789
+   在 ftpd.Program.GetFtpFiles(String unitKey, Int32 days) 位置 D:\lizw\eAgentsAdmin_source\ftpd\Program.cs:行号 158
+[2021-10-29 17:30:50.426] 远程服务器返回错误: (550) 文件不可用(例如，未找到文件，无法访问文件)。
+   在 System.Net.FtpWebRequest.SyncRequestCallback(Object obj)
+   在 System.Net.FtpWebRequest.RequestCallback(Object obj)
+   在 System.Net.CommandStream.Dispose(Boolean disposing)
+   在 System.IO.Stream.Close()
+   在 System.IO.Stream.Dispose()
+   在 System.Net.ConnectionPool.Destroy(PooledStream pooledStream)
+   在 System.Net.ConnectionPool.PutConnection(PooledStream pooledStream, Object owningObject, Int32 creationTimeout, Boolean canReuse)
+   在 System.Net.FtpWebRequest.FinishRequestStage(RequestStage stage)
+   在 System.Net.FtpWebRequest.GetResponse()
+   在 ftpd.FtpClient.FtpCmd(String method) 位置 D:\lizw\eAgentsAdmin_source\ftpd\Program.cs:行号 834
+   在 ftpd.FtpClient.ListDir(String path) 位置 D:\lizw\eAgentsAdmin_source\ftpd\Program.cs:行号 789
+   在 ftpd.Program.GetFtpFiles(String unitKey, Int32 days) 位置 D:\lizw\eAgentsAdmin_source\ftpd\Program.cs:行号 158
+[2021-10-29 17:30:52.179] 远程服务器返回错误: (550) 文件不可用(例如，未找到文件，无法访问文件)。
+   在 System.Net.FtpWebRequest.SyncRequestCallback(Object obj)
+   在 System.Net.FtpWebRequest.RequestCallback(Object obj)
+   在 System.Net.CommandStream.Dispose(Boolean disposing)
+   在 System.IO.Stream.Close()
+   在 System.IO.Stream.Dispose()
+   在 System.Net.ConnectionPool.Destroy(PooledStream pooledStream)
+   在 System.Net.ConnectionPool.PutConnection(PooledStream pooledStream, Object owningObject, Int32 creationTimeout, Boolean canReuse)
+   在 System.Net.FtpWebRequest.FinishRequestStage(RequestStage stage)
+   在 System.Net.FtpWebRequest.GetResponse()
+   在 ftpd.FtpClient.FtpCmd(String method) 位置 D:\lizw\eAgentsAdmin_source\ftpd\Program.cs:行号 834
+   在 ftpd.FtpClient.ListDir(String path) 位置 D:\lizw\eAgentsAdmin_source\ftpd\Program.cs:行号 789
+   在 ftpd.Program.GetFtpFiles(String unitKey, Int32 days) 位置 D:\lizw\eAgentsAdmin_source\ftpd\Program.cs:行号 158
+[2021-10-29 17:30:53.389] 远程服务器返回错误: (550) 文件不可用(例如，未找到文件，无法访问文件)。
+   在 System.Net.FtpWebRequest.SyncRequestCallback(Object obj)
+   在 System.Net.FtpWebRequest.RequestCallback(Object obj)
+   在 System.Net.CommandStream.Dispose(Boolean disposing)
+   在 System.IO.Stream.Close()
+   在 System.IO.Stream.Dispose()
+   在 System.Net.ConnectionPool.Destroy(PooledStream pooledStream)
+   在 System.Net.ConnectionPool.PutConnection(PooledStream pooledStream, Object owningObject, Int32 creationTimeout, Boolean canReuse)
+   在 System.Net.FtpWebRequest.FinishRequestStage(RequestStage stage)
+   在 System.Net.FtpWebRequest.GetResponse()
+   在 ftpd.FtpClient.FtpCmd(String method) 位置 D:\lizw\eAgentsAdmin_source\ftpd\Program.cs:行号 834
+   在 ftpd.FtpClient.ListDir(String path) 位置 D:\lizw\eAgentsAdmin_source\ftpd\Program.cs:行号 789
+   在 ftpd.Program.GetFtpFiles(String unitKey, Int32 days) 位置 D:\lizw\eAgentsAdmin_source\ftpd\Program.cs:行号 158
+[2021-10-29 17:30:54.565] 远程服务器返回错误: (550) 文件不可用(例如，未找到文件，无法访问文件)。
+   在 System.Net.FtpWebRequest.SyncRequestCallback(Object obj)
+   在 System.Net.FtpWebRequest.RequestCallback(Object obj)
+   在 System.Net.CommandStream.Dispose(Boolean disposing)
+   在 System.IO.Stream.Close()
+   在 System.IO.Stream.Dispose()
+   在 System.Net.ConnectionPool.Destroy(PooledStream pooledStream)
+   在 System.Net.ConnectionPool.PutConnection(PooledStream pooledStream, Object owningObject, Int32 creationTimeout, Boolean canReuse)
+   在 System.Net.FtpWebRequest.FinishRequestStage(RequestStage stage)
+   在 System.Net.FtpWebRequest.GetResponse()
+   在 ftpd.FtpClient.FtpCmd(String method) 位置 D:\lizw\eAgentsAdmin_source\ftpd\Program.cs:行号 834
+   在 ftpd.FtpClient.ListDir(String path) 位置 D:\lizw\eAgentsAdmin_source\ftpd\Program.cs:行号 789
+   在 ftpd.Program.GetFtpFiles(String unitKey, Int32 days) 位置 D:\lizw\eAgentsAdmin_source\ftpd\Program.cs:行号 158
+[2021-10-29 17:30:55.683] 远程服务器返回错误: (550) 文件不可用(例如，未找到文件，无法访问文件)。
+   在 System.Net.FtpWebRequest.SyncRequestCallback(Object obj)
+   在 System.Net.FtpWebRequest.RequestCallback(Object obj)
+   在 System.Net.CommandStream.Dispose(Boolean disposing)
+   在 System.IO.Stream.Close()
+   在 System.IO.Stream.Dispose()
+   在 System.Net.ConnectionPool.Destroy(PooledStream pooledStream)
+   在 System.Net.ConnectionPool.PutConnection(PooledStream pooledStream, Object owningObject, Int32 creationTimeout, Boolean canReuse)
+   在 System.Net.FtpWebRequest.FinishRequestStage(RequestStage stage)
+   在 System.Net.FtpWebRequest.GetResponse()
+   在 ftpd.FtpClient.FtpCmd(String method) 位置 D:\lizw\eAgentsAdmin_source\ftpd\Program.cs:行号 834
+   在 ftpd.FtpClient.ListDir(String path) 位置 D:\lizw\eAgentsAdmin_source\ftpd\Program.cs:行号 789
+   在 ftpd.Program.GetFtpFiles(String unitKey, Int32 days) 位置 D:\lizw\eAgentsAdmin_source\ftpd\Program.cs:行号 158
+[2021-10-29 17:30:57.188] 远程服务器返回错误: (550) 文件不可用(例如，未找到文件，无法访问文件)。
+   在 System.Net.FtpWebRequest.SyncRequestCallback(Object obj)
+   在 System.Net.FtpWebRequest.RequestCallback(Object obj)
+   在 System.Net.CommandStream.Dispose(Boolean disposing)
+   在 System.IO.Stream.Close()
+   在 System.IO.Stream.Dispose()
+   在 System.Net.ConnectionPool.Destroy(PooledStream pooledStream)
+   在 System.Net.ConnectionPool.PutConnection(PooledStream pooledStream, Object owningObject, Int32 creationTimeout, Boolean canReuse)
+   在 System.Net.FtpWebRequest.FinishRequestStage(RequestStage stage)
+   在 System.Net.FtpWebRequest.GetResponse()
+   在 ftpd.FtpClient.FtpCmd(String method) 位置 D:\lizw\eAgentsAdmin_source\ftpd\Program.cs:行号 834
+   在 ftpd.FtpClient.ListDir(String path) 位置 D:\lizw\eAgentsAdmin_source\ftpd\Program.cs:行号 789
+   在 ftpd.Program.GetFtpFiles(String unitKey, Int32 days) 位置 D:\lizw\eAgentsAdmin_source\ftpd\Program.cs:行号 158
+[2021-10-29 17:30:59.176] 远程服务器返回错误: (550) 文件不可用(例如，未找到文件，无法访问文件)。
+   在 System.Net.FtpWebRequest.SyncRequestCallback(Object obj)
+   在 System.Net.FtpWebRequest.RequestCallback(Object obj)
+   在 System.Net.CommandStream.Dispose(Boolean disposing)
+   在 System.IO.Stream.Close()
+   在 System.IO.Stream.Dispose()
+   在 System.Net.ConnectionPool.Destroy(PooledStream pooledStream)
+   在 System.Net.ConnectionPool.PutConnection(PooledStream pooledStream, Object owningObject, Int32 creationTimeout, Boolean canReuse)
+   在 System.Net.FtpWebRequest.FinishRequestStage(RequestStage stage)
+   在 System.Net.FtpWebRequest.GetResponse()
+   在 ftpd.FtpClient.FtpCmd(String method) 位置 D:\lizw\eAgentsAdmin_source\ftpd\Program.cs:行号 834
+   在 ftpd.FtpClient.ListDir(String path) 位置 D:\lizw\eAgentsAdmin_source\ftpd\Program.cs:行号 789
+   在 ftpd.Program.GetFtpFiles(String unitKey, Int32 days) 位置 D:\lizw\eAgentsAdmin_source\ftpd\Program.cs:行号 158
+[2021-10-29 17:31:03.417] 远程服务器返回错误: (550) 文件不可用(例如，未找到文件，无法访问文件)。
+   在 System.Net.FtpWebRequest.SyncRequestCallback(Object obj)
+   在 System.Net.FtpWebRequest.RequestCallback(Object obj)
+   在 System.Net.CommandStream.Dispose(Boolean disposing)
+   在 System.IO.Stream.Close()
+   在 System.IO.Stream.Dispose()
+   在 System.Net.ConnectionPool.Destroy(PooledStream pooledStream)
+   在 System.Net.ConnectionPool.PutConnection(PooledStream pooledStream, Object owningObject, Int32 creationTimeout, Boolean canReuse)
+   在 System.Net.FtpWebRequest.FinishRequestStage(RequestStage stage)
+   在 System.Net.FtpWebRequest.GetResponse()
+   在 ftpd.FtpClient.FtpCmd(String method) 位置 D:\lizw\eAgentsAdmin_source\ftpd\Program.cs:行号 834
+   在 ftpd.FtpClient.ListDir(String path) 位置 D:\lizw\eAgentsAdmin_source\ftpd\Program.cs:行号 789
+   在 ftpd.Program.GetFtpFiles(String unitKey, Int32 days) 位置 D:\lizw\eAgentsAdmin_source\ftpd\Program.cs:行号 158
+[2021-10-29 17:31:04.669] 远程服务器返回错误: (550) 文件不可用(例如，未找到文件，无法访问文件)。
+   在 System.Net.FtpWebRequest.SyncRequestCallback(Object obj)
+   在 System.Net.FtpWebRequest.RequestCallback(Object obj)
+   在 System.Net.CommandStream.Dispose(Boolean disposing)
+   在 System.IO.Stream.Close()
+   在 System.IO.Stream.Dispose()
+   在 System.Net.ConnectionPool.Destroy(PooledStream pooledStream)
+   在 System.Net.ConnectionPool.PutConnection(PooledStream pooledStream, Object owningObject, Int32 creationTimeout, Boolean canReuse)
+   在 System.Net.FtpWebRequest.FinishRequestStage(RequestStage stage)
+   在 System.Net.FtpWebRequest.GetResponse()
+   在 ftpd.FtpClient.FtpCmd(String method) 位置 D:\lizw\eAgentsAdmin_source\ftpd\Program.cs:行号 834
+   在 ftpd.FtpClient.ListDir(String path) 位置 D:\lizw\eAgentsAdmin_source\ftpd\Program.cs:行号 789
+   在 ftpd.Program.GetFtpFiles(String unitKey, Int32 days) 位置 D:\lizw\eAgentsAdmin_source\ftpd\Program.cs:行号 158
+[2021-10-29 17:31:06.088] 远程服务器返回错误: (550) 文件不可用(例如，未找到文件，无法访问文件)。
+   在 System.Net.FtpWebRequest.SyncRequestCallback(Object obj)
+   在 System.Net.FtpWebRequest.RequestCallback(Object obj)
+   在 System.Net.CommandStream.Dispose(Boolean disposing)
+   在 System.IO.Stream.Close()
+   在 System.IO.Stream.Dispose()
+   在 System.Net.ConnectionPool.Destroy(PooledStream pooledStream)
+   在 System.Net.ConnectionPool.PutConnection(PooledStream pooledStream, Object owningObject, Int32 creationTimeout, Boolean canReuse)
+   在 System.Net.FtpWebRequest.FinishRequestStage(RequestStage stage)
+   在 System.Net.FtpWebRequest.GetResponse()
+   在 ftpd.FtpClient.FtpCmd(String method) 位置 D:\lizw\eAgentsAdmin_source\ftpd\Program.cs:行号 834
+   在 ftpd.FtpClient.ListDir(String path) 位置 D:\lizw\eAgentsAdmin_source\ftpd\Program.cs:行号 789
+   在 ftpd.Program.GetFtpFiles(String unitKey, Int32 days) 位置 D:\lizw\eAgentsAdmin_source\ftpd\Program.cs:行号 158
+[2021-10-29 17:31:09.657] 远程服务器返回错误: (550) 文件不可用(例如，未找到文件，无法访问文件)。
+   在 System.Net.FtpWebRequest.SyncRequestCallback(Object obj)
+   在 System.Net.FtpWebRequest.RequestCallback(Object obj)
+   在 System.Net.CommandStream.Dispose(Boolean disposing)
+   在 System.IO.Stream.Close()
+   在 System.IO.Stream.Dispose()
+   在 System.Net.ConnectionPool.Destroy(PooledStream pooledStream)
+   在 System.Net.ConnectionPool.PutConnection(PooledStream pooledStream, Object owningObject, Int32 creationTimeout, Boolean canReuse)
+   在 System.Net.FtpWebRequest.FinishRequestStage(RequestStage stage)
+   在 System.Net.FtpWebRequest.GetResponse()
+   在 ftpd.FtpClient.FtpCmd(String method) 位置 D:\lizw\eAgentsAdmin_source\ftpd\Program.cs:行号 834
+   在 ftpd.FtpClient.ListDir(String path) 位置 D:\lizw\eAgentsAdmin_source\ftpd\Program.cs:行号 789
+   在 ftpd.Program.GetFtpFiles(String unitKey, Int32 days) 位置 D:\lizw\eAgentsAdmin_source\ftpd\Program.cs:行号 158
+[2021-10-29 17:31:10.828] 远程服务器返回错误: (550) 文件不可用(例如，未找到文件，无法访问文件)。
+   在 System.Net.FtpWebRequest.SyncRequestCallback(Object obj)
+   在 System.Net.FtpWebRequest.RequestCallback(Object obj)
+   在 System.Net.CommandStream.Dispose(Boolean disposing)
+   在 System.IO.Stream.Close()
+   在 System.IO.Stream.Dispose()
+   在 System.Net.ConnectionPool.Destroy(PooledStream pooledStream)
+   在 System.Net.ConnectionPool.PutConnection(PooledStream pooledStream, Object owningObject, Int32 creationTimeout, Boolean canReuse)
+   在 System.Net.FtpWebRequest.FinishRequestStage(RequestStage stage)
+   在 System.Net.FtpWebRequest.GetResponse()
+   在 ftpd.FtpClient.FtpCmd(String method) 位置 D:\lizw\eAgentsAdmin_source\ftpd\Program.cs:行号 834
+   在 ftpd.FtpClient.ListDir(String path) 位置 D:\lizw\eAgentsAdmin_source\ftpd\Program.cs:行号 789
+   在 ftpd.Program.GetFtpFiles(String unitKey, Int32 days) 位置 D:\lizw\eAgentsAdmin_source\ftpd\Program.cs:行号 158
+[2021-10-29 17:31:11.931] 远程服务器返回错误: (550) 文件不可用(例如，未找到文件，无法访问文件)。
+   在 System.Net.FtpWebRequest.SyncRequestCallback(Object obj)
+   在 System.Net.FtpWebRequest.RequestCallback(Object obj)
+   在 System.Net.CommandStream.Dispose(Boolean disposing)
+   在 System.IO.Stream.Close()
+   在 System.IO.Stream.Dispose()
+   在 System.Net.ConnectionPool.Destroy(PooledStream pooledStream)
+   在 System.Net.ConnectionPool.PutConnection(PooledStream pooledStream, Object owningObject, Int32 creationTimeout, Boolean canReuse)
+   在 System.Net.FtpWebRequest.FinishRequestStage(RequestStage stage)
+   在 System.Net.FtpWebRequest.GetResponse()
+   在 ftpd.FtpClient.FtpCmd(String method) 位置 D:\lizw\eAgentsAdmin_source\ftpd\Program.cs:行号 834
+   在 ftpd.FtpClient.ListDir(String path) 位置 D:\lizw\eAgentsAdmin_source\ftpd\Program.cs:行号 789
+   在 ftpd.Program.GetFtpFiles(String unitKey, Int32 days) 位置 D:\lizw\eAgentsAdmin_source\ftpd\Program.cs:行号 158
+[2021-10-29 17:31:13.130] 远程服务器返回错误: (550) 文件不可用(例如，未找到文件，无法访问文件)。
+   在 System.Net.FtpWebRequest.SyncRequestCallback(Object obj)
+   在 System.Net.FtpWebRequest.RequestCallback(Object obj)
+   在 System.Net.CommandStream.Dispose(Boolean disposing)
+   在 System.IO.Stream.Close()
+   在 System.IO.Stream.Dispose()
+   在 System.Net.ConnectionPool.Destroy(PooledStream pooledStream)
+   在 System.Net.ConnectionPool.PutConnection(PooledStream pooledStream, Object owningObject, Int32 creationTimeout, Boolean canReuse)
+   在 System.Net.FtpWebRequest.FinishRequestStage(RequestStage stage)
+   在 System.Net.FtpWebRequest.GetResponse()
+   在 ftpd.FtpClient.FtpCmd(String method) 位置 D:\lizw\eAgentsAdmin_source\ftpd\Program.cs:行号 834
+   在 ftpd.FtpClient.ListDir(String path) 位置 D:\lizw\eAgentsAdmin_source\ftpd\Program.cs:行号 789
+   在 ftpd.Program.GetFtpFiles(String unitKey, Int32 days) 位置 D:\lizw\eAgentsAdmin_source\ftpd\Program.cs:行号 158
+[2021-10-29 17:31:14.263] 远程服务器返回错误: (550) 文件不可用(例如，未找到文件，无法访问文件)。
+   在 System.Net.FtpWebRequest.SyncRequestCallback(Object obj)
+   在 System.Net.FtpWebRequest.RequestCallback(Object obj)
+   在 System.Net.CommandStream.Dispose(Boolean disposing)
+   在 System.IO.Stream.Close()
+   在 System.IO.Stream.Dispose()
+   在 System.Net.ConnectionPool.Destroy(PooledStream pooledStream)
+   在 System.Net.ConnectionPool.PutConnection(PooledStream pooledStream, Object owningObject, Int32 creationTimeout, Boolean canReuse)
+   在 System.Net.FtpWebRequest.FinishRequestStage(RequestStage stage)
+   在 System.Net.FtpWebRequest.GetResponse()
+   在 ftpd.FtpClient.FtpCmd(String method) 位置 D:\lizw\eAgentsAdmin_source\ftpd\Program.cs:行号 834
+   在 ftpd.FtpClient.ListDir(String path) 位置 D:\lizw\eAgentsAdmin_source\ftpd\Program.cs:行号 789
+   在 ftpd.Program.GetFtpFiles(String unitKey, Int32 days) 位置 D:\lizw\eAgentsAdmin_source\ftpd\Program.cs:行号 158
+[2021-10-29 17:31:15.424] 远程服务器返回错误: (550) 文件不可用(例如，未找到文件，无法访问文件)。
+   在 System.Net.FtpWebRequest.SyncRequestCallback(Object obj)
+   在 System.Net.FtpWebRequest.RequestCallback(Object obj)
+   在 System.Net.CommandStream.Dispose(Boolean disposing)
+   在 System.IO.Stream.Close()
+   在 System.IO.Stream.Dispose()
+   在 System.Net.ConnectionPool.Destroy(PooledStream pooledStream)
+   在 System.Net.ConnectionPool.PutConnection(PooledStream pooledStream, Object owningObject, Int32 creationTimeout, Boolean canReuse)
+   在 System.Net.FtpWebRequest.FinishRequestStage(RequestStage stage)
+   在 System.Net.FtpWebRequest.GetResponse()
+   在 ftpd.FtpClient.FtpCmd(String method) 位置 D:\lizw\eAgentsAdmin_source\ftpd\Program.cs:行号 834
+   在 ftpd.FtpClient.ListDir(String path) 位置 D:\lizw\eAgentsAdmin_source\ftpd\Program.cs:行号 789
+   在 ftpd.Program.GetFtpFiles(String unitKey, Int32 days) 位置 D:\lizw\eAgentsAdmin_source\ftpd\Program.cs:行号 158
+[2021-10-29 17:31:16.519] 远程服务器返回错误: (550) 文件不可用(例如，未找到文件，无法访问文件)。
+   在 System.Net.FtpWebRequest.SyncRequestCallback(Object obj)
+   在 System.Net.FtpWebRequest.RequestCallback(Object obj)
+   在 System.Net.CommandStream.Dispose(Boolean disposing)
+   在 System.IO.Stream.Close()
+   在 System.IO.Stream.Dispose()
+   在 System.Net.ConnectionPool.Destroy(PooledStream pooledStream)
+   在 System.Net.ConnectionPool.PutConnection(PooledStream pooledStream, Object owningObject, Int32 creationTimeout, Boolean canReuse)
+   在 System.Net.FtpWebRequest.FinishRequestStage(RequestStage stage)
+   在 System.Net.FtpWebRequest.GetResponse()
+   在 ftpd.FtpClient.FtpCmd(String method) 位置 D:\lizw\eAgentsAdmin_source\ftpd\Program.cs:行号 834
+   在 ftpd.FtpClient.ListDir(String path) 位置 D:\lizw\eAgentsAdmin_source\ftpd\Program.cs:行号 789
+   在 ftpd.Program.GetFtpFiles(String unitKey, Int32 days) 位置 D:\lizw\eAgentsAdmin_source\ftpd\Program.cs:行号 158
+[2021-10-29 17:31:17.885] 远程服务器返回错误: (550) 文件不可用(例如，未找到文件，无法访问文件)。
+   在 System.Net.FtpWebRequest.SyncRequestCallback(Object obj)
+   在 System.Net.FtpWebRequest.RequestCallback(Object obj)
+   在 System.Net.CommandStream.Dispose(Boolean disposing)
+   在 System.IO.Stream.Close()
+   在 System.IO.Stream.Dispose()
+   在 System.Net.ConnectionPool.Destroy(PooledStream pooledStream)
+   在 System.Net.ConnectionPool.PutConnection(PooledStream pooledStream, Object owningObject, Int32 creationTimeout, Boolean canReuse)
+   在 System.Net.FtpWebRequest.FinishRequestStage(RequestStage stage)
+   在 System.Net.FtpWebRequest.GetResponse()
+   在 ftpd.FtpClient.FtpCmd(String method) 位置 D:\lizw\eAgentsAdmin_source\ftpd\Program.cs:行号 834
+   在 ftpd.FtpClient.ListDir(String path) 位置 D:\lizw\eAgentsAdmin_source\ftpd\Program.cs:行号 789
+   在 ftpd.Program.GetFtpFiles(String unitKey, Int32 days) 位置 D:\lizw\eAgentsAdmin_source\ftpd\Program.cs:行号 158
+[2021-10-29 17:31:19.662] 远程服务器返回错误: (550) 文件不可用(例如，未找到文件，无法访问文件)。
+   在 System.Net.FtpWebRequest.SyncRequestCallback(Object obj)
+   在 System.Net.FtpWebRequest.RequestCallback(Object obj)
+   在 System.Net.CommandStream.Dispose(Boolean disposing)
+   在 System.IO.Stream.Close()
+   在 System.IO.Stream.Dispose()
+   在 System.Net.ConnectionPool.Destroy(PooledStream pooledStream)
+   在 System.Net.ConnectionPool.PutConnection(PooledStream pooledStream, Object owningObject, Int32 creationTimeout, Boolean canReuse)
+   在 System.Net.FtpWebRequest.FinishRequestStage(RequestStage stage)
+   在 System.Net.FtpWebRequest.GetResponse()
+   在 ftpd.FtpClient.FtpCmd(String method) 位置 D:\lizw\eAgentsAdmin_source\ftpd\Program.cs:行号 834
+   在 ftpd.FtpClient.ListDir(String path) 位置 D:\lizw\eAgentsAdmin_source\ftpd\Program.cs:行号 789
+   在 ftpd.Program.GetFtpFiles(String unitKey, Int32 days) 位置 D:\lizw\eAgentsAdmin_source\ftpd\Program.cs:行号 158
+[2021-10-29 17:31:21.025] 远程服务器返回错误: (550) 文件不可用(例如，未找到文件，无法访问文件)。
+   在 System.Net.FtpWebRequest.SyncRequestCallback(Object obj)
+   在 System.Net.FtpWebRequest.RequestCallback(Object obj)
+   在 System.Net.CommandStream.Dispose(Boolean disposing)
+   在 System.IO.Stream.Close()
+   在 System.IO.Stream.Dispose()
+   在 System.Net.ConnectionPool.Destroy(PooledStream pooledStream)
+   在 System.Net.ConnectionPool.PutConnection(PooledStream pooledStream, Object owningObject, Int32 creationTimeout, Boolean canReuse)
+   在 System.Net.FtpWebRequest.FinishRequestStage(RequestStage stage)
+   在 System.Net.FtpWebRequest.GetResponse()
+   在 ftpd.FtpClient.FtpCmd(String method) 位置 D:\lizw\eAgentsAdmin_source\ftpd\Program.cs:行号 834
+   在 ftpd.FtpClient.ListDir(String path) 位置 D:\lizw\eAgentsAdmin_source\ftpd\Program.cs:行号 789
+   在 ftpd.Program.GetFtpFiles(String unitKey, Int32 days) 位置 D:\lizw\eAgentsAdmin_source\ftpd\Program.cs:行号 158
+[2021-10-29 17:31:22.927] 远程服务器返回错误: (550) 文件不可用(例如，未找到文件，无法访问文件)。
+   在 System.Net.FtpWebRequest.SyncRequestCallback(Object obj)
+   在 System.Net.FtpWebRequest.RequestCallback(Object obj)
+   在 System.Net.CommandStream.Dispose(Boolean disposing)
+   在 System.IO.Stream.Close()
+   在 System.IO.Stream.Dispose()
+   在 System.Net.ConnectionPool.Destroy(PooledStream pooledStream)
+   在 System.Net.ConnectionPool.PutConnection(PooledStream pooledStream, Object owningObject, Int32 creationTimeout, Boolean canReuse)
+   在 System.Net.FtpWebRequest.FinishRequestStage(RequestStage stage)
+   在 System.Net.FtpWebRequest.GetResponse()
+   在 ftpd.FtpClient.FtpCmd(String method) 位置 D:\lizw\eAgentsAdmin_source\ftpd\Program.cs:行号 834
+   在 ftpd.FtpClient.ListDir(String path) 位置 D:\lizw\eAgentsAdmin_source\ftpd\Program.cs:行号 789
+   在 ftpd.Program.GetFtpFiles(String unitKey, Int32 days) 位置 D:\lizw\eAgentsAdmin_source\ftpd\Program.cs:行号 158
+[2021-10-29 17:31:24.425] 远程服务器返回错误: (550) 文件不可用(例如，未找到文件，无法访问文件)。
+   在 System.Net.FtpWebRequest.SyncRequestCallback(Object obj)
+   在 System.Net.FtpWebRequest.RequestCallback(Object obj)
+   在 System.Net.CommandStream.Dispose(Boolean disposing)
+   在 System.IO.Stream.Close()
+   在 System.IO.Stream.Dispose()
+   在 System.Net.ConnectionPool.Destroy(PooledStream pooledStream)
+   在 System.Net.ConnectionPool.PutConnection(PooledStream pooledStream, Object owningObject, Int32 creationTimeout, Boolean canReuse)
+   在 System.Net.FtpWebRequest.FinishRequestStage(RequestStage stage)
+   在 System.Net.FtpWebRequest.GetResponse()
+   在 ftpd.FtpClient.FtpCmd(String method) 位置 D:\lizw\eAgentsAdmin_source\ftpd\Program.cs:行号 834
+   在 ftpd.FtpClient.ListDir(String path) 位置 D:\lizw\eAgentsAdmin_source\ftpd\Program.cs:行号 789
+   在 ftpd.Program.GetFtpFiles(String unitKey, Int32 days) 位置 D:\lizw\eAgentsAdmin_source\ftpd\Program.cs:行号 158
+[2021-10-29 17:31:25.572] 远程服务器返回错误: (550) 文件不可用(例如，未找到文件，无法访问文件)。
+   在 System.Net.FtpWebRequest.SyncRequestCallback(Object obj)
+   在 System.Net.FtpWebRequest.RequestCallback(Object obj)
+   在 System.Net.CommandStream.Dispose(Boolean disposing)
+   在 System.IO.Stream.Close()
+   在 System.IO.Stream.Dispose()
+   在 System.Net.ConnectionPool.Destroy(PooledStream pooledStream)
+   在 System.Net.ConnectionPool.PutConnection(PooledStream pooledStream, Object owningObject, Int32 creationTimeout, Boolean canReuse)
+   在 System.Net.FtpWebRequest.FinishRequestStage(RequestStage stage)
+   在 System.Net.FtpWebRequest.GetResponse()
+   在 ftpd.FtpClient.FtpCmd(String method) 位置 D:\lizw\eAgentsAdmin_source\ftpd\Program.cs:行号 834
+   在 ftpd.FtpClient.ListDir(String path) 位置 D:\lizw\eAgentsAdmin_source\ftpd\Program.cs:行号 789
+   在 ftpd.Program.GetFtpFiles(String unitKey, Int32 days) 位置 D:\lizw\eAgentsAdmin_source\ftpd\Program.cs:行号 158
+[2021-10-29 17:31:29.927] 远程服务器返回错误: (550) 文件不可用(例如，未找到文件，无法访问文件)。
+   在 System.Net.FtpWebRequest.SyncRequestCallback(Object obj)
+   在 System.Net.FtpWebRequest.RequestCallback(Object obj)
+   在 System.Net.CommandStream.Dispose(Boolean disposing)
+   在 System.IO.Stream.Close()
+   在 System.IO.Stream.Dispose()
+   在 System.Net.ConnectionPool.Destroy(PooledStream pooledStream)
+   在 System.Net.ConnectionPool.PutConnection(PooledStream pooledStream, Object owningObject, Int32 creationTimeout, Boolean canReuse)
+   在 System.Net.FtpWebRequest.FinishRequestStage(RequestStage stage)
+   在 System.Net.FtpWebRequest.GetResponse()
+   在 ftpd.FtpClient.FtpCmd(String method) 位置 D:\lizw\eAgentsAdmin_source\ftpd\Program.cs:行号 834
+   在 ftpd.FtpClient.ListDir(String path) 位置 D:\lizw\eAgentsAdmin_source\ftpd\Program.cs:行号 789
+   在 ftpd.Program.GetFtpFiles(String unitKey, Int32 days) 位置 D:\lizw\eAgentsAdmin_source\ftpd\Program.cs:行号 158
+[2021-10-29 17:31:31.373] 远程服务器返回错误: (550) 文件不可用(例如，未找到文件，无法访问文件)。
+   在 System.Net.FtpWebRequest.SyncRequestCallback(Object obj)
+   在 System.Net.FtpWebRequest.RequestCallback(Object obj)
+   在 System.Net.CommandStream.Dispose(Boolean disposing)
+   在 System.IO.Stream.Close()
+   在 System.IO.Stream.Dispose()
+   在 System.Net.ConnectionPool.Destroy(PooledStream pooledStream)
+   在 System.Net.ConnectionPool.PutConnection(PooledStream pooledStream, Object owningObject, Int32 creationTimeout, Boolean canReuse)
+   在 System.Net.FtpWebRequest.FinishRequestStage(RequestStage stage)
+   在 System.Net.FtpWebRequest.GetResponse()
+   在 ftpd.FtpClient.FtpCmd(String method) 位置 D:\lizw\eAgentsAdmin_source\ftpd\Program.cs:行号 834
+   在 ftpd.FtpClient.ListDir(String path) 位置 D:\lizw\eAgentsAdmin_source\ftpd\Program.cs:行号 789
+   在 ftpd.Program.GetFtpFiles(String unitKey, Int32 days) 位置 D:\lizw\eAgentsAdmin_source\ftpd\Program.cs:行号 158
+[2021-10-29 17:31:32.516] 远程服务器返回错误: (550) 文件不可用(例如，未找到文件，无法访问文件)。
+   在 System.Net.FtpWebRequest.SyncRequestCallback(Object obj)
+   在 System.Net.FtpWebRequest.RequestCallback(Object obj)
+   在 System.Net.CommandStream.Dispose(Boolean disposing)
+   在 System.IO.Stream.Close()
+   在 System.IO.Stream.Dispose()
+   在 System.Net.ConnectionPool.Destroy(PooledStream pooledStream)
+   在 System.Net.ConnectionPool.PutConnection(PooledStream pooledStream, Object owningObject, Int32 creationTimeout, Boolean canReuse)
+   在 System.Net.FtpWebRequest.FinishRequestStage(RequestStage stage)
+   在 System.Net.FtpWebRequest.GetResponse()
+   在 ftpd.FtpClient.FtpCmd(String method) 位置 D:\lizw\eAgentsAdmin_source\ftpd\Program.cs:行号 834
+   在 ftpd.FtpClient.ListDir(String path) 位置 D:\lizw\eAgentsAdmin_source\ftpd\Program.cs:行号 789
+   在 ftpd.Program.GetFtpFiles(String unitKey, Int32 days) 位置 D:\lizw\eAgentsAdmin_source\ftpd\Program.cs:行号 158
+[2021-10-29 17:31:36.525] 远程服务器返回错误: (550) 文件不可用(例如，未找到文件，无法访问文件)。
+   在 System.Net.FtpWebRequest.SyncRequestCallback(Object obj)
+   在 System.Net.FtpWebRequest.RequestCallback(Object obj)
+   在 System.Net.CommandStream.Dispose(Boolean disposing)
+   在 System.IO.Stream.Close()
+   在 System.IO.Stream.Dispose()
+   在 System.Net.ConnectionPool.Destroy(PooledStream pooledStream)
+   在 System.Net.ConnectionPool.PutConnection(PooledStream pooledStream, Object owningObject, Int32 creationTimeout, Boolean canReuse)
+   在 System.Net.FtpWebRequest.FinishRequestStage(RequestStage stage)
+   在 System.Net.FtpWebRequest.GetResponse()
+   在 ftpd.FtpClient.FtpCmd(String method) 位置 D:\lizw\eAgentsAdmin_source\ftpd\Program.cs:行号 834
+   在 ftpd.FtpClient.ListDir(String path) 位置 D:\lizw\eAgentsAdmin_source\ftpd\Program.cs:行号 789
+   在 ftpd.Program.GetFtpFiles(String unitKey, Int32 days) 位置 D:\lizw\eAgentsAdmin_source\ftpd\Program.cs:行号 158
+[2021-10-29 17:31:37.644] 远程服务器返回错误: (550) 文件不可用(例如，未找到文件，无法访问文件)。
+   在 System.Net.FtpWebRequest.SyncRequestCallback(Object obj)
+   在 System.Net.FtpWebRequest.RequestCallback(Object obj)
+   在 System.Net.CommandStream.Dispose(Boolean disposing)
+   在 System.IO.Stream.Close()
+   在 System.IO.Stream.Dispose()
+   在 System.Net.ConnectionPool.Destroy(PooledStream pooledStream)
+   在 System.Net.ConnectionPool.PutConnection(PooledStream pooledStream, Object owningObject, Int32 creationTimeout, Boolean canReuse)
+   在 System.Net.FtpWebRequest.FinishRequestStage(RequestStage stage)
+   在 System.Net.FtpWebRequest.GetResponse()
+   在 ftpd.FtpClient.FtpCmd(String method) 位置 D:\lizw\eAgentsAdmin_source\ftpd\Program.cs:行号 834
+   在 ftpd.FtpClient.ListDir(String path) 位置 D:\lizw\eAgentsAdmin_source\ftpd\Program.cs:行号 789
+   在 ftpd.Program.GetFtpFiles(String unitKey, Int32 days) 位置 D:\lizw\eAgentsAdmin_source\ftpd\Program.cs:行号 158
+[2021-10-29 17:31:38.750] 远程服务器返回错误: (550) 文件不可用(例如，未找到文件，无法访问文件)。
+   在 System.Net.FtpWebRequest.SyncRequestCallback(Object obj)
+   在 System.Net.FtpWebRequest.RequestCallback(Object obj)
+   在 System.Net.CommandStream.Dispose(Boolean disposing)
+   在 System.IO.Stream.Close()
+   在 System.IO.Stream.Dispose()
+   在 System.Net.ConnectionPool.Destroy(PooledStream pooledStream)
+   在 System.Net.ConnectionPool.PutConnection(PooledStream pooledStream, Object owningObject, Int32 creationTimeout, Boolean canReuse)
+   在 System.Net.FtpWebRequest.FinishRequestStage(RequestStage stage)
+   在 System.Net.FtpWebRequest.GetResponse()
+   在 ftpd.FtpClient.FtpCmd(String method) 位置 D:\lizw\eAgentsAdmin_source\ftpd\Program.cs:行号 834
+   在 ftpd.FtpClient.ListDir(String path) 位置 D:\lizw\eAgentsAdmin_source\ftpd\Program.cs:行号 789
+   在 ftpd.Program.GetFtpFiles(String unitKey, Int32 days) 位置 D:\lizw\eAgentsAdmin_source\ftpd\Program.cs:行号 158
+[2021-10-29 17:31:43.874] 远程服务器返回错误: (550) 文件不可用(例如，未找到文件，无法访问文件)。
+   在 System.Net.FtpWebRequest.SyncRequestCallback(Object obj)
+   在 System.Net.FtpWebRequest.RequestCallback(Object obj)
+   在 System.Net.CommandStream.Dispose(Boolean disposing)
+   在 System.IO.Stream.Close()
+   在 System.IO.Stream.Dispose()
+   在 System.Net.ConnectionPool.Destroy(PooledStream pooledStream)
+   在 System.Net.ConnectionPool.PutConnection(PooledStream pooledStream, Object owningObject, Int32 creationTimeout, Boolean canReuse)
+   在 System.Net.FtpWebRequest.FinishRequestStage(RequestStage stage)
+   在 System.Net.FtpWebRequest.GetResponse()
+   在 ftpd.FtpClient.FtpCmd(String method) 位置 D:\lizw\eAgentsAdmin_source\ftpd\Program.cs:行号 834
+   在 ftpd.FtpClient.ListDir(String path) 位置 D:\lizw\eAgentsAdmin_source\ftpd\Program.cs:行号 789
+   在 ftpd.Program.GetFtpFiles(String unitKey, Int32 days) 位置 D:\lizw\eAgentsAdmin_source\ftpd\Program.cs:行号 158
+[2021-10-29 17:31:46.618] 远程服务器返回错误: (550) 文件不可用(例如，未找到文件，无法访问文件)。
+   在 System.Net.FtpWebRequest.SyncRequestCallback(Object obj)
+   在 System.Net.FtpWebRequest.RequestCallback(Object obj)
+   在 System.Net.CommandStream.Dispose(Boolean disposing)
+   在 System.IO.Stream.Close()
+   在 System.IO.Stream.Dispose()
+   在 System.Net.ConnectionPool.Destroy(PooledStream pooledStream)
+   在 System.Net.ConnectionPool.PutConnection(PooledStream pooledStream, Object owningObject, Int32 creationTimeout, Boolean canReuse)
+   在 System.Net.FtpWebRequest.FinishRequestStage(RequestStage stage)
+   在 System.Net.FtpWebRequest.GetResponse()
+   在 ftpd.FtpClient.FtpCmd(String method) 位置 D:\lizw\eAgentsAdmin_source\ftpd\Program.cs:行号 834
+   在 ftpd.FtpClient.ListDir(String path) 位置 D:\lizw\eAgentsAdmin_source\ftpd\Program.cs:行号 789
+   在 ftpd.Program.GetFtpFiles(String unitKey, Int32 days) 位置 D:\lizw\eAgentsAdmin_source\ftpd\Program.cs:行号 158
+[2021-10-29 17:31:56.139] 远程服务器返回错误: (550) 文件不可用(例如，未找到文件，无法访问文件)。
+   在 System.Net.FtpWebRequest.SyncRequestCallback(Object obj)
+   在 System.Net.FtpWebRequest.RequestCallback(Object obj)
+   在 System.Net.CommandStream.Dispose(Boolean disposing)
+   在 System.IO.Stream.Close()
+   在 System.IO.Stream.Dispose()
+   在 System.Net.ConnectionPool.Destroy(PooledStream pooledStream)
+   在 System.Net.ConnectionPool.PutConnection(PooledStream pooledStream, Object owningObject, Int32 creationTimeout, Boolean canReuse)
+   在 System.Net.FtpWebRequest.FinishRequestStage(RequestStage stage)
+   在 System.Net.FtpWebRequest.GetResponse()
+   在 ftpd.FtpClient.FtpCmd(String method) 位置 D:\lizw\eAgentsAdmin_source\ftpd\Program.cs:行号 834
+   在 ftpd.FtpClient.ListDir(String path) 位置 D:\lizw\eAgentsAdmin_source\ftpd\Program.cs:行号 789
+   在 ftpd.Program.GetFtpFiles(String unitKey, Int32 days) 位置 D:\lizw\eAgentsAdmin_source\ftpd\Program.cs:行号 158
+[2021-10-29 17:31:58.088] 远程服务器返回错误: (550) 文件不可用(例如，未找到文件，无法访问文件)。
+   在 System.Net.FtpWebRequest.SyncRequestCallback(Object obj)
+   在 System.Net.FtpWebRequest.RequestCallback(Object obj)
+   在 System.Net.CommandStream.Dispose(Boolean disposing)
+   在 System.IO.Stream.Close()
+   在 System.IO.Stream.Dispose()
+   在 System.Net.ConnectionPool.Destroy(PooledStream pooledStream)
+   在 System.Net.ConnectionPool.PutConnection(PooledStream pooledStream, Object owningObject, Int32 creationTimeout, Boolean canReuse)
+   在 System.Net.FtpWebRequest.FinishRequestStage(RequestStage stage)
+   在 System.Net.FtpWebRequest.GetResponse()
+   在 ftpd.FtpClient.FtpCmd(String method) 位置 D:\lizw\eAgentsAdmin_source\ftpd\Program.cs:行号 834
+   在 ftpd.FtpClient.ListDir(String path) 位置 D:\lizw\eAgentsAdmin_source\ftpd\Program.cs:行号 789
+   在 ftpd.Program.GetFtpFiles(String unitKey, Int32 days) 位置 D:\lizw\eAgentsAdmin_source\ftpd\Program.cs:行号 158
+[2021-10-29 17:31:59.993] 远程服务器返回错误: (550) 文件不可用(例如，未找到文件，无法访问文件)。
+   在 System.Net.FtpWebRequest.SyncRequestCallback(Object obj)
+   在 System.Net.FtpWebRequest.RequestCallback(Object obj)
+   在 System.Net.CommandStream.Dispose(Boolean disposing)
+   在 System.IO.Stream.Close()
+   在 System.IO.Stream.Dispose()
+   在 System.Net.ConnectionPool.Destroy(PooledStream pooledStream)
+   在 System.Net.ConnectionPool.PutConnection(PooledStream pooledStream, Object owningObject, Int32 creationTimeout, Boolean canReuse)
+   在 System.Net.FtpWebRequest.FinishRequestStage(RequestStage stage)
+   在 System.Net.FtpWebRequest.GetResponse()
+   在 ftpd.FtpClient.FtpCmd(String method) 位置 D:\lizw\eAgentsAdmin_source\ftpd\Program.cs:行号 834
+   在 ftpd.FtpClient.ListDir(String path) 位置 D:\lizw\eAgentsAdmin_source\ftpd\Program.cs:行号 789
+   在 ftpd.Program.GetFtpFiles(String unitKey, Int32 days) 位置 D:\lizw\eAgentsAdmin_source\ftpd\Program.cs:行号 158
+[2021-10-29 17:32:02.827] 远程服务器返回错误: (550) 文件不可用(例如，未找到文件，无法访问文件)。
+   在 System.Net.FtpWebRequest.SyncRequestCallback(Object obj)
+   在 System.Net.FtpWebRequest.RequestCallback(Object obj)
+   在 System.Net.CommandStream.Dispose(Boolean disposing)
+   在 System.IO.Stream.Close()
+   在 System.IO.Stream.Dispose()
+   在 System.Net.ConnectionPool.Destroy(PooledStream pooledStream)
+   在 System.Net.ConnectionPool.PutConnection(PooledStream pooledStream, Object owningObject, Int32 creationTimeout, Boolean canReuse)
+   在 System.Net.FtpWebRequest.FinishRequestStage(RequestStage stage)
+   在 System.Net.FtpWebRequest.GetResponse()
+   在 ftpd.FtpClient.FtpCmd(String method) 位置 D:\lizw\eAgentsAdmin_source\ftpd\Program.cs:行号 834
+   在 ftpd.FtpClient.ListDir(String path) 位置 D:\lizw\eAgentsAdmin_source\ftpd\Program.cs:行号 789
+   在 ftpd.Program.GetFtpFiles(String unitKey, Int32 days) 位置 D:\lizw\eAgentsAdmin_source\ftpd\Program.cs:行号 158
+[2021-10-29 17:32:05.422] 远程服务器返回错误: (550) 文件不可用(例如，未找到文件，无法访问文件)。
+   在 System.Net.FtpWebRequest.SyncRequestCallback(Object obj)
+   在 System.Net.FtpWebRequest.RequestCallback(Object obj)
+   在 System.Net.CommandStream.Dispose(Boolean disposing)
+   在 System.IO.Stream.Close()
+   在 System.IO.Stream.Dispose()
+   在 System.Net.ConnectionPool.Destroy(PooledStream pooledStream)
+   在 System.Net.ConnectionPool.PutConnection(PooledStream pooledStream, Object owningObject, Int32 creationTimeout, Boolean canReuse)
+   在 System.Net.FtpWebRequest.FinishRequestStage(RequestStage stage)
+   在 System.Net.FtpWebRequest.GetResponse()
+   在 ftpd.FtpClient.FtpCmd(String method) 位置 D:\lizw\eAgentsAdmin_source\ftpd\Program.cs:行号 834
+   在 ftpd.FtpClient.ListDir(String path) 位置 D:\lizw\eAgentsAdmin_source\ftpd\Program.cs:行号 789
+   在 ftpd.Program.GetFtpFiles(String unitKey, Int32 days) 位置 D:\lizw\eAgentsAdmin_source\ftpd\Program.cs:行号 158
+[2021-10-29 17:32:18.121] 远程服务器返回错误: (550) 文件不可用(例如，未找到文件，无法访问文件)。
+   在 System.Net.FtpWebRequest.SyncRequestCallback(Object obj)
+   在 System.Net.FtpWebRequest.RequestCallback(Object obj)
+   在 System.Net.CommandStream.Dispose(Boolean disposing)
+   在 System.IO.Stream.Close()
+   在 System.IO.Stream.Dispose()
+   在 System.Net.ConnectionPool.Destroy(PooledStream pooledStream)
+   在 System.Net.ConnectionPool.PutConnection(PooledStream pooledStream, Object owningObject, Int32 creationTimeout, Boolean canReuse)
+   在 System.Net.FtpWebRequest.FinishRequestStage(RequestStage stage)
+   在 System.Net.FtpWebRequest.GetResponse()
+   在 ftpd.FtpClient.FtpCmd(String method) 位置 D:\lizw\eAgentsAdmin_source\ftpd\Program.cs:行号 834
+   在 ftpd.FtpClient.ListDir(String path) 位置 D:\lizw\eAgentsAdmin_source\ftpd\Program.cs:行号 789
+   在 ftpd.Program.GetFtpFiles(String unitKey, Int32 days) 位置 D:\lizw\eAgentsAdmin_source\ftpd\Program.cs:行号 158
+[2021-10-29 17:32:20.134] 远程服务器返回错误: (550) 文件不可用(例如，未找到文件，无法访问文件)。
+   在 System.Net.FtpWebRequest.SyncRequestCallback(Object obj)
+   在 System.Net.FtpWebRequest.RequestCallback(Object obj)
+   在 System.Net.CommandStream.Dispose(Boolean disposing)
+   在 System.IO.Stream.Close()
+   在 System.IO.Stream.Dispose()
+   在 System.Net.ConnectionPool.Destroy(PooledStream pooledStream)
+   在 System.Net.ConnectionPool.PutConnection(PooledStream pooledStream, Object owningObject, Int32 creationTimeout, Boolean canReuse)
+   在 System.Net.FtpWebRequest.FinishRequestStage(RequestStage stage)
+   在 System.Net.FtpWebRequest.GetResponse()
+   在 ftpd.FtpClient.FtpCmd(String method) 位置 D:\lizw\eAgentsAdmin_source\ftpd\Program.cs:行号 834
+   在 ftpd.FtpClient.ListDir(String path) 位置 D:\lizw\eAgentsAdmin_source\ftpd\Program.cs:行号 789
+   在 ftpd.Program.GetFtpFiles(String unitKey, Int32 days) 位置 D:\lizw\eAgentsAdmin_source\ftpd\Program.cs:行号 158
+[2021-10-29 17:32:22.080] 远程服务器返回错误: (550) 文件不可用(例如，未找到文件，无法访问文件)。
+   在 System.Net.FtpWebRequest.SyncRequestCallback(Object obj)
+   在 System.Net.FtpWebRequest.RequestCallback(Object obj)
+   在 System.Net.CommandStream.Dispose(Boolean disposing)
+   在 System.IO.Stream.Close()
+   在 System.IO.Stream.Dispose()
+   在 System.Net.ConnectionPool.Destroy(PooledStream pooledStream)
+   在 System.Net.ConnectionPool.PutConnection(PooledStream pooledStream, Object owningObject, Int32 creationTimeout, Boolean canReuse)
+   在 System.Net.FtpWebRequest.FinishRequestStage(RequestStage stage)
+   在 System.Net.FtpWebRequest.GetResponse()
+   在 ftpd.FtpClient.FtpCmd(String method) 位置 D:\lizw\eAgentsAdmin_source\ftpd\Program.cs:行号 834
+   在 ftpd.FtpClient.ListDir(String path) 位置 D:\lizw\eAgentsAdmin_source\ftpd\Program.cs:行号 789
+   在 ftpd.Program.GetFtpFiles(String unitKey, Int32 days) 位置 D:\lizw\eAgentsAdmin_source\ftpd\Program.cs:行号 158

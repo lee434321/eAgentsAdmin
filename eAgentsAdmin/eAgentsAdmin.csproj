@@ -1,0 +1,867 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>
+    </ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{E6EA7370-B679-45E6-B7A4-1A6167624D10}</ProjectGuid>
+    <ProjectTypeGuids>{349c5851-65df-11da-9384-00065b846f21};{fae04ec0-301f-11d3-bf4b-00c04f79efbc}</ProjectTypeGuids>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>PropertyOneAppWeb</RootNamespace>
+    <AssemblyName>PropertyOneAppWeb</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <UseIISExpress>false</UseIISExpress>
+    <TargetFrameworkProfile />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Interop.iPGClientCOM, Version=1.0.0.0, Culture=neutral, processorArchitecture=x86">
+      <SpecificVersion>False</SpecificVersion>
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+      <HintPath>bin\Interop.iPGClientCOM.dll</HintPath>
+    </Reference>
+    <Reference Include="itextsharp">
+      <HintPath>..\..\..\..\..\..\..\tempShare\itextsharp-5.5.13\itextsharp-5.5.13\src\core\bin\Debug_woDrawing\itextsharp.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="Newtonsoft.Json, Version=10.0.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>bin\Newtonsoft.Json.dll</HintPath>
+    </Reference>
+    <Reference Include="Oracle.ManagedDataAccess, Version=4.121.1.0, Culture=neutral, PublicKeyToken=89b483f429c47342, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>bin\Oracle.ManagedDataAccess.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Data.OracleClient" />
+    <Reference Include="System.Runtime.Serialization" />
+    <Reference Include="System.Web.DynamicData" />
+    <Reference Include="System.Web.Entity" />
+    <Reference Include="System.Web.ApplicationServices" />
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Web.Extensions" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.EnterpriseServices" />
+    <Reference Include="System.Xml.Linq" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="404.html" />
+    <Content Include="admin\admin.aspx" />
+    <Content Include="98.html" />
+    <Content Include="500.html" />
+    <Content Include="bin\wkhtmltopdf.exe" />
+    <Content Include="Css\Menu.css" />
+    <Content Include="Css\Site.css" />
+    <Content Include="Global.asax" />
+    <Content Include="Image\50-50.png" />
+    <Content Include="Image\blankwhite.png" />
+    <Content Include="Image\CKA_Logo_01.png" />
+    <Content Include="Image\contactUs_pic.png" />
+    <Content Include="Image\DownloadApp.jpg" />
+    <Content Include="Image\HEAL-master2017.png" />
+    <Content Include="Image\HEALlogo.png" />
+    <Content Include="Image\HEALlogo02.png" />
+    <Content Include="Image\home_logo.png" />
+    <Content Include="Image\home_logo2.png" />
+    <Content Include="Image\icon_ChangePassword.png" />
+    <Content Include="Image\icon_ContactUs.png" />
+    <Content Include="Image\icon_feedback.png" />
+    <Content Include="Image\icon_map.png" />
+    <Content Include="Image\icon_MyProfile.png" />
+    <Content Include="Image\icon_MyStatment.png" />
+    <Content Include="Image\icon_Notices.png" />
+    <Content Include="Image\icon_OnlinePayment.png" />
+    <Content Include="Image\login_bj.png" />
+    <Content Include="Image\login_bj04.png" />
+    <Content Include="Image\login_bjShadow.png" />
+    <Content Include="Image\login_bj_01.jpg" />
+    <Content Include="Image\login_icon01.png" />
+    <Content Include="Image\logo.png" />
+    <Content Include="Image\logo_bj.png" />
+    <Content Include="Image\notices_banner_new.png" />
+    <Content Include="Image\SystemM_logo.png" />
+    <Content Include="Image\footerimage.jpg" />
+    <Content Include="js\AmazeUISwiper\amazeui.swiper.css" />
+    <Content Include="js\AmazeUISwiper\amazeui.swiper.min.js" />
+    <Content Include="js\AmazeUI\assets\css\admin.css" />
+    <Content Include="js\AmazeUI\assets\css\amazeui.css" />
+    <Content Include="js\AmazeUI\assets\css\amazeui.flat.css" />
+    <Content Include="js\AmazeUI\assets\css\amazeui.flat.min.css" />
+    <Content Include="js\AmazeUI\assets\css\amazeui.min.css" />
+    <Content Include="js\AmazeUI\assets\css\app.css" />
+    <Content Include="js\AmazeUI\assets\i\app-icon72x72%402x.png" />
+    <Content Include="js\AmazeUI\assets\i\examples\admin-chrome.png" />
+    <Content Include="js\AmazeUI\assets\i\examples\admin-firefox.png" />
+    <Content Include="js\AmazeUI\assets\i\examples\admin-ie.png" />
+    <Content Include="js\AmazeUI\assets\i\examples\admin-opera.png" />
+    <Content Include="js\AmazeUI\assets\i\examples\admin-safari.png" />
+    <Content Include="js\AmazeUI\assets\i\examples\adminPage.png" />
+    <Content Include="js\AmazeUI\assets\i\examples\blogPage.png" />
+    <Content Include="js\AmazeUI\assets\i\examples\landing.png" />
+    <Content Include="js\AmazeUI\assets\i\examples\landingPage.png" />
+    <Content Include="js\AmazeUI\assets\i\examples\loginPage.png" />
+    <Content Include="js\AmazeUI\assets\i\examples\sidebarPage.png" />
+    <Content Include="js\AmazeUI\assets\i\favicon.png" />
+    <Content Include="js\AmazeUI\assets\i\startup-640x1096.png" />
+    <Content Include="js\AmazeUI\assets\js\amazeui.ie8polyfill.js" />
+    <Content Include="js\AmazeUI\assets\js\amazeui.ie8polyfill.min.js" />
+    <Content Include="js\AmazeUI\assets\js\amazeui.js" />
+    <Content Include="js\AmazeUI\assets\js\amazeui.min.js" />
+    <Content Include="js\AmazeUI\assets\js\amazeui.widgets.helper.js" />
+    <Content Include="js\AmazeUI\assets\js\amazeui.widgets.helper.min.js" />
+    <Content Include="js\AmazeUI\assets\js\app.js" />
+    <Content Include="js\AmazeUI\assets\js\handlebars.min.js" />
+    <Content Include="js\bootgrid\jquery.bootgrid.css" />
+    <Content Include="js\bootgrid\jquery.bootgrid.fa.js" />
+    <Content Include="js\bootgrid\jquery.bootgrid.fa.min.js" />
+    <Content Include="js\bootgrid\jquery.bootgrid.js" />
+    <Content Include="js\bootgrid\jquery.bootgrid.min.css" />
+    <Content Include="js\bootgrid\jquery.bootgrid.min.js" />
+    <Content Include="js\bootstrap-4.3.1-dist\css\bootstrap.min.css" />
+    <Content Include="js\bootstrap-4.3.1-dist\js\bootstrap.min.js" />
+    <Content Include="js\bootstrap\css\bootstrap-theme.css" />
+    <Content Include="js\bootstrap\css\bootstrap-theme.min.css" />
+    <Content Include="js\bootstrap\css\bootstrap.css" />
+    <Content Include="js\bootstrap\css\bootstrap.min.css" />
+    <Content Include="js\bootstrap\fonts\glyphicons-halflings-regular.svg" />
+    <Content Include="js\bootstrap\js\bootstrap.js" />
+    <Content Include="js\bootstrap\js\bootstrap.min.js" />
+    <Content Include="js\bootstrap\js\npm.js" />
+    <Content Include="js\font-awesome-4.7.0\css\font-awesome.css" />
+    <Content Include="js\font-awesome-4.7.0\css\font-awesome.min.css" />
+    <Content Include="js\font-awesome-4.7.0\fonts\fontawesome-webfont.svg" />
+    <Content Include="js\jQuery\jquery-1.11.1.min.js" />
+    <Content Include="js\jQuery\jquery-2.1.4.min.js" />
+    <Content Include="js\jQuery\jquery-3.2.1.js" />
+    <Content Include="js\jQuery\jquery-3.2.1.min.js" />
+    <Content Include="js\jQuery\jquery.min.js" />
+    <Content Include="js\modernizr.js" />
+    <Content Include="js\SiteJScript.js" />
+    <Content Include="js\Swiper\swiper.css" />
+    <Content Include="js\Swiper\swiper.jquery.js" />
+    <Content Include="js\Swiper\swiper.jquery.min.js" />
+    <Content Include="js\Swiper\swiper.js" />
+    <Content Include="js\Swiper\swiper.min.js" />
+    <Content Include="js\thenBy.min.js" />
+    <Content Include="js\ueditor\dialogs\emotion\emotion.css" />
+    <Content Include="js\ueditor\dialogs\emotion\emotion.html" />
+    <Content Include="js\ueditor\dialogs\emotion\emotion.js" />
+    <Content Include="js\ueditor\dialogs\emotion\images\0.gif" />
+    <Content Include="js\ueditor\dialogs\emotion\images\bface.gif" />
+    <Content Include="js\ueditor\dialogs\emotion\images\cface.gif" />
+    <Content Include="js\ueditor\dialogs\emotion\images\fface.gif" />
+    <Content Include="js\ueditor\dialogs\emotion\images\jxface2.gif" />
+    <Content Include="js\ueditor\dialogs\emotion\images\neweditor-tab-bg.png" />
+    <Content Include="js\ueditor\dialogs\emotion\images\tface.gif" />
+    <Content Include="js\ueditor\dialogs\emotion\images\wface.gif" />
+    <Content Include="js\ueditor\dialogs\emotion\images\yface.gif" />
+    <Content Include="js\ueditor\dialogs\image\image.css" />
+    <Content Include="js\ueditor\dialogs\image\image.html" />
+    <Content Include="js\ueditor\dialogs\image\image.js" />
+    <Content Include="js\ueditor\dialogs\image\images\center_focus.jpg" />
+    <Content Include="js\ueditor\dialogs\image\images\left_focus.jpg" />
+    <Content Include="js\ueditor\dialogs\image\images\none_focus.jpg" />
+    <Content Include="js\ueditor\dialogs\image\images\right_focus.jpg" />
+    <Content Include="js\ueditor\dialogs\image\imageUploader.swf" />
+    <Content Include="js\ueditor\dialogs\internal.js" />
+    <Content Include="js\ueditor\dialogs\link\link.html" />
+    <Content Include="js\ueditor\dialogs\preview\preview.html" />
+    <Content Include="js\ueditor\dialogs\table\dragicon.png" />
+    <Content Include="js\ueditor\dialogs\table\edittable.css" />
+    <Content Include="js\ueditor\dialogs\table\edittable.html" />
+    <Content Include="js\ueditor\dialogs\table\edittable.js" />
+    <Content Include="js\ueditor\dialogs\table\edittd.html" />
+    <Content Include="js\ueditor\dialogs\table\edittip.html" />
+    <Content Include="js\ueditor\dialogs\tangram.js" />
+    <Content Include="js\ueditor\dialogs\video\callbacks.js" />
+    <Content Include="js\ueditor\dialogs\video\images\center_focus.jpg" />
+    <Content Include="js\ueditor\dialogs\video\images\left_focus.jpg" />
+    <Content Include="js\ueditor\dialogs\video\images\none_focus.jpg" />
+    <Content Include="js\ueditor\dialogs\video\images\right_focus.jpg" />
+    <Content Include="js\ueditor\dialogs\video\video.css" />
+    <Content Include="js\ueditor\dialogs\video\video.html" />
+    <Content Include="js\ueditor\dialogs\video\video.js" />
+    <Content Include="js\ueditor\lang\zh-cn\images\copy.png" />
+    <Content Include="js\ueditor\lang\zh-cn\images\imglabel.png" />
+    <Content Include="js\ueditor\lang\zh-cn\images\localimage.png" />
+    <Content Include="js\ueditor\lang\zh-cn\images\music.png" />
+    <Content Include="js\ueditor\lang\zh-cn\images\upload.png" />
+    <Content Include="js\ueditor\lang\zh-cn\zh-cn.js" />
+    <Content Include="js\ueditor\themes\default\css\ueditor.css" />
+    <Content Include="js\ueditor\themes\default\css\ueditor.min.css" />
+    <Content Include="js\ueditor\themes\default\dialogbase.css" />
+    <Content Include="js\ueditor\themes\default\images\anchor.gif" />
+    <Content Include="js\ueditor\themes\default\images\arrow.png" />
+    <Content Include="js\ueditor\themes\default\images\arrow_down.png" />
+    <Content Include="js\ueditor\themes\default\images\arrow_up.png" />
+    <Content Include="js\ueditor\themes\default\images\button-bg.gif" />
+    <Content Include="js\ueditor\themes\default\images\cancelbutton.gif" />
+    <Content Include="js\ueditor\themes\default\images\charts.png" />
+    <Content Include="js\ueditor\themes\default\images\cursor_h.gif" />
+    <Content Include="js\ueditor\themes\default\images\cursor_h.png" />
+    <Content Include="js\ueditor\themes\default\images\cursor_v.gif" />
+    <Content Include="js\ueditor\themes\default\images\cursor_v.png" />
+    <Content Include="js\ueditor\themes\default\images\dialog-title-bg.png" />
+    <Content Include="js\ueditor\themes\default\images\filescan.png" />
+    <Content Include="js\ueditor\themes\default\images\highlighted.gif" />
+    <Content Include="js\ueditor\themes\default\images\icons-all.gif" />
+    <Content Include="js\ueditor\themes\default\images\icons.gif" />
+    <Content Include="js\ueditor\themes\default\images\icons.png" />
+    <Content Include="js\ueditor\themes\default\images\lock.gif" />
+    <Content Include="js\ueditor\themes\default\images\neweditor-tab-bg.png" />
+    <Content Include="js\ueditor\themes\default\images\pagebreak.gif" />
+    <Content Include="js\ueditor\themes\default\images\scale.png" />
+    <Content Include="js\ueditor\themes\default\images\sortable.png" />
+    <Content Include="js\ueditor\themes\default\images\spacer.gif" />
+    <Content Include="js\ueditor\themes\default\images\sparator_v.png" />
+    <Content Include="js\ueditor\themes\default\images\table-cell-align.png" />
+    <Content Include="js\ueditor\themes\default\images\tangram-colorpicker.png" />
+    <Content Include="js\ueditor\themes\default\images\toolbar_bg.png" />
+    <Content Include="js\ueditor\themes\default\images\unhighlighted.gif" />
+    <Content Include="js\ueditor\themes\default\images\upload.png" />
+    <Content Include="js\ueditor\themes\default\images\videologo.gif" />
+    <Content Include="js\ueditor\themes\default\images\word.gif" />
+    <Content Include="js\ueditor\themes\default\images\wordpaste.png" />
+    <Content Include="js\ueditor\themes\iframe.css" />
+    <Content Include="js\ueditor\third-party\swfupload\fileprogress.js" />
+    <Content Include="js\ueditor\third-party\swfupload\swfupload.cookies.js" />
+    <Content Include="js\ueditor\third-party\swfupload\swfupload.js" />
+    <Content Include="js\ueditor\third-party\swfupload\swfupload.proxy.js" />
+    <Content Include="js\ueditor\third-party\swfupload\swfupload.queue.js" />
+    <Content Include="js\ueditor\third-party\swfupload\swfupload.speed.js" />
+    <Content Include="js\ueditor\third-party\swfupload\swfupload.swf" />
+    <Content Include="js\ueditor\third-party\swfupload\swfupload_fp9.swf" />
+    <Content Include="js\ueditor\third-party\SyntaxHighlighter\shCore.js" />
+    <Content Include="js\ueditor\third-party\SyntaxHighlighter\shCoreDefault.css" />
+    <Content Include="js\ueditor\third-party\video-js\font\vjs.svg" />
+    <Content Include="js\ueditor\third-party\video-js\video-js.css" />
+    <Content Include="js\ueditor\third-party\video-js\video-js.min.css" />
+    <Content Include="js\ueditor\third-party\video-js\video-js.swf" />
+    <Content Include="js\ueditor\third-party\video-js\video.dev.js" />
+    <Content Include="js\ueditor\third-party\video-js\video.js" />
+    <Content Include="js\ueditor\ueditor.all.js" />
+    <Content Include="js\ueditor\ueditor.config.js" />
+    <Content Include="js\vue-resource.min.js" />
+    <Content Include="js\vue.js" />
+    <Content Include="js\SiteJScript4eforms.js" />
+    <Content Include="js\vue.min.js" />
+    <Content Include="Login.aspx" />
+    <Content Include="LoginSystem.aspx" />
+    <Content Include="Public\disclaimer-cht.aspx" />
+    <Content Include="Public\disclaimer.aspx" />
+    <Content Include="Public\ForgetPassword.aspx" />
+    <Content Include="Public\privacy-policy.aspx" />
+    <Content Include="Public\register.aspx" />
+    <Content Include="systempublic\forgetpassword.aspx" />
+    <Content Include="system\app.js" />
+    <Content Include="system\CustomerCreation.aspx" />
+    <Content Include="SiteSystemBootcss.Master" />
+    <Content Include="getStatement.ashx" />
+    <Content Include="system\EAgent_InformTemplate.xml">
+      <SubType>Designer</SubType>
+    </Content>
+    <Content Include="system\eFlowDef.aspx" />
+    <Content Include="system\eFormDateDef.aspx" />
+    <Content Include="system\eForms.aspx" />
+    <Content Include="system\eFormTimeDef.aspx" />
+    <Content Include="system\eFormTmp1.aspx" />
+    <Content Include="system\email.xml">
+      <SubType>Designer</SubType>
+    </Content>
+    <Content Include="system\eOper.aspx" />
+    <Content Include="system\exceptionlist.aspx" />
+    <Content Include="system\fbsetup.aspx" />
+    <Content Include="system\FeedbackMaintenance.aspx" />
+    <Content Include="system\Homepage.aspx" />
+    <Content Include="system\noticeapprove.aspx" />
+    <Content Include="system\NoticeMaintenance.aspx" />
+    <Content Include="system\notice_default_img\Carpark.png" />
+    <Content Include="system\notice_default_img\Event_03.png" />
+    <Content Include="system\notice_default_img\Event_04.png" />
+    <Content Include="system\notice_default_img\notice-sample.png" />
+    <Content Include="system\notice_default_img\notice_03.png" />
+    <Content Include="system\notice_default_img\notice_04.png" />
+    <Content Include="system\notice_default_img\Service_03.png" />
+    <Content Include="system\notice_default_img\Service_04.png" />
+    <Content Include="system\PropertyMgmt.aspx" />
+    <Content Include="system\reminder.aspx" />
+    <Content Include="system\statementcutoff.aspx" />
+    <Content Include="system\tpls4form\Form_VP_static.html" />
+    <Content Include="system\tpls4form\Form_REC_static.html" />
+    <Content Include="system\tpls4form\Form_EHAC_static.html" />
+    <Content Include="system\tpls4form\Form_E_static.html" />
+    <Content Include="system\tpls4form\Form_AS_static.html" />
+    <Content Include="system\tpls4form\Form_B_static.html" />
+    <Content Include="system\tpls4form\Form_A_static.html" />
+    <Content Include="system\tpls4form\Form_REC.html" />
+    <Content Include="system\tpls4form\Form_AS.html" />
+    <Content Include="system\tpls4form\Form_B.html" />
+    <Content Include="system\tpls4form\Form_A.html" />
+    <Content Include="system\tpls4form\Form_EHAC.html" />
+    <Content Include="system\tpls4form\Form_VP.html" />
+    <Content Include="system\tpls4form\scaffold.html" />
+    <Content Include="system\tpls4form\Form_E.html" />
+    <Content Include="system\UserGroupMaintenance.aspx" />
+    <Content Include="system\UserMaintenance.aspx" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="admin\admin.aspx.cs">
+      <DependentUpon>admin.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="admin\admin.aspx.designer.cs">
+      <DependentUpon>admin.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="ajax.ashx.cs">
+      <DependentUpon>ajax.ashx</DependentUpon>
+    </Compile>
+    <Compile Include="App_GlobalResources\Error.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Error.resx</DependentUpon>
+    </Compile>
+    <Compile Include="App_GlobalResources\Error.zh-CHS.designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Error.zh-CHS.resx</DependentUpon>
+    </Compile>
+    <Compile Include="App_GlobalResources\Error.zh-CHT.designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Error.zh-CHT.resx</DependentUpon>
+    </Compile>
+    <Compile Include="App_GlobalResources\Lang.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Lang.resx</DependentUpon>
+    </Compile>
+    <Compile Include="App_GlobalResources\Lang.zh-CHS.designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Lang.zh-CHS.resx</DependentUpon>
+    </Compile>
+    <Compile Include="App_GlobalResources\Lang.zh-CHT.designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Lang.zh-CHT.resx</DependentUpon>
+    </Compile>
+    <Compile Include="Commom\ApiUtil.cs" />
+    <Compile Include="Commom\Bizhub.cs" />
+    <Compile Include="Commom\ConnectionString.cs" />
+    <Compile Include="Commom\DbConsole.cs" />
+    <Compile Include="Commom\EncryptUtil.cs" />
+    <Compile Include="Commom\ExchangeMail.cs" />
+    <Compile Include="Commom\GlobalUtil.cs" />
+    <Compile Include="Commom\GlobalUtilSystem.cs" />
+    <Compile Include="Commom\HttpUtil.cs" />
+    <Compile Include="Commom\Log.cs" />
+    <Compile Include="Commom\NetworkConnection.cs" />
+    <Compile Include="Commom\OracleEnquiry.cs" />
+    <Compile Include="Commom\OracleHelper.cs" />
+    <Compile Include="Commom\pps.cs" />
+    <Compile Include="getStatement.ashx.cs">
+      <DependentUpon>getStatement.ashx</DependentUpon>
+    </Compile>
+    <Compile Include="Global.asax.cs">
+      <DependentUpon>Global.asax</DependentUpon>
+    </Compile>
+    <Compile Include="Login.aspx.cs">
+      <DependentUpon>Login.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Login.aspx.designer.cs">
+      <DependentUpon>Login.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="LoginSystem.aspx.cs">
+      <DependentUpon>LoginSystem.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="LoginSystem.aspx.designer.cs">
+      <DependentUpon>LoginSystem.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Model\DataModel.cs" />
+    <Compile Include="Model\JsonApi.cs" />
+    <Compile Include="PageBase.cs">
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Public\disclaimer-cht.aspx.cs">
+      <DependentUpon>disclaimer-cht.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Public\disclaimer-cht.aspx.designer.cs">
+      <DependentUpon>disclaimer-cht.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Public\disclaimer.aspx.cs">
+      <DependentUpon>disclaimer.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Public\disclaimer.aspx.designer.cs">
+      <DependentUpon>disclaimer.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Public\ForgetPassword.aspx.cs">
+      <DependentUpon>ForgetPassword.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Public\ForgetPassword.aspx.designer.cs">
+      <DependentUpon>ForgetPassword.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Public\privacy-policy.aspx.cs">
+      <DependentUpon>privacy-policy.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Public\privacy-policy.aspx.designer.cs">
+      <DependentUpon>privacy-policy.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Public\register.aspx.cs">
+      <DependentUpon>register.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Public\register.aspx.designer.cs">
+      <DependentUpon>register.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Site.Master.cs">
+      <DependentUpon>Site.Master</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Site.Master.designer.cs">
+      <DependentUpon>Site.Master</DependentUpon>
+    </Compile>
+    <Compile Include="SiteBlank.Master.cs">
+      <DependentUpon>SiteBlank.Master</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="SiteBlank.Master.designer.cs">
+      <DependentUpon>SiteBlank.Master</DependentUpon>
+    </Compile>
+    <Compile Include="SitePublic.Master.cs">
+      <DependentUpon>SitePublic.Master</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="SitePublic.Master.designer.cs">
+      <DependentUpon>SitePublic.Master</DependentUpon>
+    </Compile>
+    <Compile Include="SiteSystem.Master.cs">
+      <DependentUpon>SiteSystem.Master</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="SiteSystem.Master.designer.cs">
+      <DependentUpon>SiteSystem.Master</DependentUpon>
+    </Compile>
+    <Compile Include="SiteSystemBootcss.Master.cs">
+      <DependentUpon>SiteSystemBootcss.Master</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="SiteSystemBootcss.Master.designer.cs">
+      <DependentUpon>SiteSystemBootcss.Master</DependentUpon>
+    </Compile>
+    <Compile Include="SiteSystemPublic.Master.cs">
+      <DependentUpon>SiteSystemPublic.Master</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="SiteSystemPublic.Master.designer.cs">
+      <DependentUpon>SiteSystemPublic.Master</DependentUpon>
+    </Compile>
+    <Compile Include="systempublic\forgetpassword.aspx.cs">
+      <DependentUpon>forgetpassword.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="systempublic\forgetpassword.aspx.designer.cs">
+      <DependentUpon>forgetpassword.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="system\ajax.ashx.cs">
+      <DependentUpon>ajax.ashx</DependentUpon>
+    </Compile>
+    <Compile Include="system\CustomerCreation.aspx.cs">
+      <DependentUpon>CustomerCreation.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="system\CustomerCreation.aspx.designer.cs">
+      <DependentUpon>CustomerCreation.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="system\eFlowDef.aspx.cs">
+      <DependentUpon>eFlowDef.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="system\eFlowDef.aspx.designer.cs">
+      <DependentUpon>eFlowDef.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="system\eFormDateDef.aspx.cs">
+      <DependentUpon>eFormDateDef.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="system\eFormDateDef.aspx.designer.cs">
+      <DependentUpon>eFormDateDef.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="system\eForms.aspx.cs">
+      <DependentUpon>eForms.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="system\eForms.aspx.designer.cs">
+      <DependentUpon>eForms.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="system\eFormTimeDef.aspx.cs">
+      <DependentUpon>eFormTimeDef.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="system\eFormTimeDef.aspx.designer.cs">
+      <DependentUpon>eFormTimeDef.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="system\eFormTmp1.aspx.cs">
+      <DependentUpon>eFormTmp1.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="system\eFormTmp1.aspx.designer.cs">
+      <DependentUpon>eFormTmp1.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="system\eOper.aspx.cs">
+      <DependentUpon>eOper.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="system\eOper.aspx.designer.cs">
+      <DependentUpon>eOper.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="system\exceptionlist.aspx.cs">
+      <DependentUpon>exceptionlist.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="system\exceptionlist.aspx.designer.cs">
+      <DependentUpon>exceptionlist.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="system\fbsetup.aspx.cs">
+      <DependentUpon>fbsetup.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="system\fbsetup.aspx.designer.cs">
+      <DependentUpon>fbsetup.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="system\FeedbackMaintenance.aspx.cs">
+      <DependentUpon>FeedbackMaintenance.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="system\FeedbackMaintenance.aspx.designer.cs">
+      <DependentUpon>FeedbackMaintenance.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="system\Homepage.aspx.cs">
+      <DependentUpon>Homepage.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="system\Homepage.aspx.designer.cs">
+      <DependentUpon>Homepage.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="system\noticeapprove.aspx.cs">
+      <DependentUpon>noticeapprove.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="system\noticeapprove.aspx.designer.cs">
+      <DependentUpon>noticeapprove.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="system\NoticeMaintenance.aspx.cs">
+      <DependentUpon>NoticeMaintenance.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="system\NoticeMaintenance.aspx.designer.cs">
+      <DependentUpon>NoticeMaintenance.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="system\PropertyMgmt.aspx.cs">
+      <DependentUpon>PropertyMgmt.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="system\PropertyMgmt.aspx.designer.cs">
+      <DependentUpon>PropertyMgmt.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="system\reminder.aspx.cs">
+      <DependentUpon>reminder.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="system\reminder.aspx.designer.cs">
+      <DependentUpon>reminder.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="system\statementcutoff.aspx.cs">
+      <DependentUpon>statementcutoff.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="system\statementcutoff.aspx.designer.cs">
+      <DependentUpon>statementcutoff.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="system\UserGroupMaintenance.aspx.cs">
+      <DependentUpon>UserGroupMaintenance.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="system\UserGroupMaintenance.aspx.designer.cs">
+      <DependentUpon>UserGroupMaintenance.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="system\UserMaintenance.aspx.cs">
+      <DependentUpon>UserMaintenance.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="system\UserMaintenance.aspx.designer.cs">
+      <DependentUpon>UserMaintenance.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Web\changemail.aspx.cs">
+      <DependentUpon>changemail.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Web\changemail.aspx.designer.cs">
+      <DependentUpon>changemail.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Web\ChangePassword.aspx.cs">
+      <DependentUpon>ChangePassword.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Web\ChangePassword.aspx.designer.cs">
+      <DependentUpon>ChangePassword.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Web\ContactUs.aspx.cs">
+      <DependentUpon>ContactUs.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Web\ContactUs.aspx.designer.cs">
+      <DependentUpon>ContactUs.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Web\CustomerReg.aspx.cs">
+      <DependentUpon>CustomerReg.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Web\CustomerReg.aspx.designer.cs">
+      <DependentUpon>CustomerReg.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Web\Homepage.aspx.cs">
+      <DependentUpon>Homepage.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Web\Homepage.aspx.designer.cs">
+      <DependentUpon>Homepage.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Web\Leaselink.aspx.cs">
+      <DependentUpon>Leaselink.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Web\Leaselink.aspx.designer.cs">
+      <DependentUpon>Leaselink.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Web\MyProfile.aspx.cs">
+      <DependentUpon>MyProfile.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Web\MyProfile.aspx.designer.cs">
+      <DependentUpon>MyProfile.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Web\Onlinepay.aspx.cs">
+      <DependentUpon>Onlinepay.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Web\Onlinepay.aspx.designer.cs">
+      <DependentUpon>Onlinepay.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Web\OnlinepayGenDO.aspx.cs">
+      <DependentUpon>OnlinepayGenDO.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Web\OnlinepayGenDO.aspx.designer.cs">
+      <DependentUpon>OnlinepayGenDO.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Web\OnlinepayReady.aspx.cs">
+      <DependentUpon>OnlinepayReady.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Web\OnlinepayReady.aspx.designer.cs">
+      <DependentUpon>OnlinepayReady.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Web\OnlinepayResult.aspx.cs">
+      <DependentUpon>OnlinepayResult.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Web\OnlinepayResult.aspx.designer.cs">
+      <DependentUpon>OnlinepayResult.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Web\PayHistory.aspx.cs">
+      <DependentUpon>PayHistory.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Web\PayHistory.aspx.designer.cs">
+      <DependentUpon>PayHistory.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Web\PdfViewer.aspx.cs">
+      <DependentUpon>PdfViewer.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Web\PdfViewer.aspx.designer.cs">
+      <DependentUpon>PdfViewer.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Web\Statement.aspx.cs">
+      <DependentUpon>Statement.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Web\Statement.aspx.designer.cs">
+      <DependentUpon>Statement.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Web\StatementViewer.aspx.cs">
+      <DependentUpon>StatementViewer.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Web\StatementViewer.aspx.designer.cs">
+      <DependentUpon>StatementViewer.aspx</DependentUpon>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Site.Master" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="App_GlobalResources\Lang.resx">
+      <Generator>GlobalResourceProxyGenerator</Generator>
+      <LastGenOutput>Lang.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </Content>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="App_GlobalResources\Lang.zh-CHT.resx">
+      <Generator>GlobalResourceProxyGenerator</Generator>
+      <LastGenOutput>Lang.zh-CHT.designer.cs</LastGenOutput>
+    </Content>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="App_GlobalResources\Lang.zh-CHS.resx">
+      <Generator>GlobalResourceProxyGenerator</Generator>
+      <LastGenOutput>Lang.zh-CHS.designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </Content>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="ajax.ashx" />
+    <None Include="js\AmazeUI\assets\fonts\fontawesome-webfont.eot" />
+    <None Include="js\AmazeUI\assets\fonts\fontawesome-webfont.ttf" />
+    <None Include="js\AmazeUI\assets\fonts\fontawesome-webfont.woff" />
+    <None Include="js\AmazeUI\assets\fonts\fontawesome-webfont.woff2" />
+    <None Include="js\AmazeUI\assets\fonts\FontAwesome.otf" />
+    <None Include="js\bootstrap\css\bootstrap-theme.css.map" />
+    <None Include="js\bootstrap\css\bootstrap-theme.min.css.map" />
+    <None Include="js\bootstrap\css\bootstrap.css.map" />
+    <None Include="js\bootstrap\css\bootstrap.min.css.map" />
+    <None Include="js\bootstrap\fonts\glyphicons-halflings-regular.eot" />
+    <None Include="js\bootstrap\fonts\glyphicons-halflings-regular.ttf" />
+    <None Include="js\bootstrap\fonts\glyphicons-halflings-regular.woff" />
+    <None Include="js\bootstrap\fonts\glyphicons-halflings-regular.woff2" />
+    <Content Include="Web\changemail.aspx" />
+    <Content Include="Web\ChangePassword.aspx" />
+    <Content Include="Web\ContactUs.aspx" />
+    <Content Include="Web\CustomerReg.aspx" />
+    <Content Include="Web\Homepage.aspx" />
+    <Content Include="Web\Leaselink.aspx" />
+    <Content Include="Web\MyProfile.aspx" />
+    <Content Include="Web\Onlinepay.aspx" />
+    <Content Include="Web\OnlinepayGenDO.aspx" />
+    <Content Include="Web\OnlinepayReady.aspx" />
+    <Content Include="Web\OnlinepayResult.aspx" />
+    <Content Include="Web\PayHistory.aspx" />
+    <Content Include="Web\PdfViewer.aspx" />
+    <Content Include="Web\Statement.aspx" />
+    <Content Include="Web\StatementViewer.aspx" />
+    <Content Include="Web\Web.config" />
+    <Content Include="SitePublic.Master" />
+    <Content Include="SiteBlank.Master" />
+    <None Include="js\font-awesome-4.7.0\fonts\fontawesome-webfont.eot" />
+    <None Include="js\font-awesome-4.7.0\fonts\fontawesome-webfont.ttf" />
+    <None Include="js\font-awesome-4.7.0\fonts\fontawesome-webfont.woff" />
+    <None Include="js\font-awesome-4.7.0\fonts\fontawesome-webfont.woff2" />
+    <None Include="js\font-awesome-4.7.0\fonts\FontAwesome.otf" />
+    <Content Include="Web-Sys.config">
+      <SubType>Designer</SubType>
+    </Content>
+    <Content Include="Web-Lease.config" />
+    <Content Include="SiteSystem.Master" />
+    <Content Include="SiteSystemPublic.Master" />
+    <Content Include="Web.config">
+      <SubType>Designer</SubType>
+    </Content>
+    <None Include="js\ueditor\third-party\video-js\font\vjs.eot" />
+    <None Include="js\ueditor\third-party\video-js\font\vjs.ttf" />
+    <None Include="js\ueditor\third-party\video-js\font\vjs.woff" />
+    <Content Include="system\ajax.ashx" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Log\" />
+    <Folder Include="Pdf\" />
+    <Folder Include="Upload\" />
+  </ItemGroup>
+  <ItemGroup>
+    <COMReference Include="ADODB">
+      <Guid>{B691E011-1797-432E-907A-4D8C69339129}</Guid>
+      <VersionMajor>6</VersionMajor>
+      <VersionMinor>0</VersionMinor>
+      <Lcid>0</Lcid>
+      <WrapperTool>tlbimp</WrapperTool>
+      <Isolated>False</Isolated>
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </COMReference>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="App_GlobalResources\Error.resx">
+      <Generator>GlobalResourceProxyGenerator</Generator>
+      <LastGenOutput>Error.Designer.cs</LastGenOutput>
+    </Content>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="App_GlobalResources\Error.zh-CHS.resx">
+      <Generator>GlobalResourceProxyGenerator</Generator>
+      <LastGenOutput>Error.zh-CHS.designer.cs</LastGenOutput>
+    </Content>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="App_GlobalResources\Error.zh-CHT.resx">
+      <Generator>GlobalResourceProxyGenerator</Generator>
+      <LastGenOutput>Error.zh-CHT.designer.cs</LastGenOutput>
+    </Content>
+  </ItemGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v10.0\WebApplications\Microsoft.WebApplication.targets" />
+  <ProjectExtensions>
+    <VisualStudio>
+      <FlavorProperties GUID="{349c5851-65df-11da-9384-00065b846f21}">
+        <WebProjectProperties>
+          <UseIIS>True</UseIIS>
+          <AutoAssignPort>True</AutoAssignPort>
+          <DevelopmentServerPort>58175</DevelopmentServerPort>
+          <DevelopmentServerVPath>/</DevelopmentServerVPath>
+          <IISUrl>http://localhost/eAgentsAdmin</IISUrl>
+          <NTLMAuthentication>False</NTLMAuthentication>
+          <UseCustomServer>False</UseCustomServer>
+          <CustomServerUrl>
+          </CustomServerUrl>
+          <SaveServerSettingsInUserFile>False</SaveServerSettingsInUserFile>
+        </WebProjectProperties>
+      </FlavorProperties>
+    </VisualStudio>
+  </ProjectExtensions>
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

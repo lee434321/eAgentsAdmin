@@ -1,0 +1,5 @@
+D:\lizw\eAgentsAdmin_source\ftpd\bin\Debug\ftpd.exe.config
+D:\lizw\eAgentsAdmin_source\ftpd\bin\Debug\ftpd.exe
+D:\lizw\eAgentsAdmin_source\ftpd\bin\Debug\ftpd.pdb
+D:\lizw\eAgentsAdmin_source\ftpd\obj\x86\Debug\ftpd.exe
+D:\lizw\eAgentsAdmin_source\ftpd\obj\x86\Debug\ftpd.pdb

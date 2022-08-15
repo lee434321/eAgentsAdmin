@@ -1,0 +1,1067 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="Res_Feedback_Date" xml:space="preserve">
+    <value>Date</value>
+  </data>
+  <data name="Res_Feedback_Detail" xml:space="preserve">
+    <value>Detail</value>
+  </data>
+  <data name="Res_Feedback_Id" xml:space="preserve">
+    <value>ID</value>
+  </data>
+  <data name="Res_Feedback_Reply" xml:space="preserve">
+    <value>Reply</value>
+  </data>
+  <data name="Res_Feedback_Search_From" xml:space="preserve">
+    <value>Date: </value>
+  </data>
+  <data name="Res_Feedback_Search_Status" xml:space="preserve">
+    <value>Status: </value>
+  </data>
+  <data name="Res_Feedback_Search_To" xml:space="preserve">
+    <value>To: </value>
+  </data>
+  <data name="Res_Feedback_Search_Type" xml:space="preserve">
+    <value>Type: </value>
+  </data>
+  <data name="Res_Feedback_Status" xml:space="preserve">
+    <value>Status</value>
+  </data>
+  <data name="Res_Feedback_Status_All" xml:space="preserve">
+    <value>All</value>
+  </data>
+  <data name="Res_Feedback_Status_NotReply" xml:space="preserve">
+    <value>Not Reply</value>
+  </data>
+  <data name="Res_Feedback_Status_Replied" xml:space="preserve">
+    <value>Replied</value>
+  </data>
+  <data name="Res_Feedback_Status_Closed" xml:space="preserve">
+    <value>Closed</value>
+  </data>
+  <data name="Res_Feedback_Status_Pending2Close" xml:space="preserve">
+    <value>Pending to close</value>
+  </data>
+  <data name="Res_Feedback_Title" xml:space="preserve">
+    <value>Subject</value>
+  </data>
+  <data name="Res_Feedback_Type" xml:space="preserve">
+    <value>Type</value>
+  </data>
+  <data name="Res_Feedback_Type_All" xml:space="preserve">
+    <value>All</value>
+  </data>
+  <data name="Res_Feedback_Type_Cleaning" xml:space="preserve">
+    <value>Cleaning</value>
+  </data>
+  <data name="Res_Feedback_Type_Gardening" xml:space="preserve">
+    <value>Gardening</value>
+  </data>
+  <data name="Res_Feedback_Type_Others" xml:space="preserve">
+    <value>Others</value>
+  </data>
+  <data name="Res_Feedback_Type_Security" xml:space="preserve">
+    <value>Security</value>
+  </data>
+  <data name="Res_Feedback_Type_Staff" xml:space="preserve">
+    <value>Staff</value>
+  </data>
+  <data name="Res_Forgetpsw_InputUserid" xml:space="preserve">
+    <value>Please input your  Lease Number:</value>
+  </data>
+  <data name="Res_Login_Button_Login" xml:space="preserve">
+    <value>Login</value>
+  </data>
+  <data name="Res_Login_Button_Term" xml:space="preserve">
+    <value>Terms &amp; Conditions</value>
+  </data>
+  <data name="Res_Login_Label_Password" xml:space="preserve">
+    <value>Password</value>
+  </data>
+  <data name="Res_Login_Label_UserName" xml:space="preserve">
+    <value>Lease Number</value>
+  </data>
+  <data name="Res_Login_Terms_Content" xml:space="preserve">
+    <value>All information in this web site is meant for your reference only, and is not intended, nor should be construed, as investment advice. CK Asset Holdings Limited does not warrant or represent that the information provided here is complete and accurate, nor that the information is up to date. No liability will be accepted for any loss or damage howsoever arising from or in reliance upon the contents of this web site.</value>
+  </data>
+  <data name="Res_Menu_Feedbacks" xml:space="preserve">
+    <value>Feedbacks</value>
+  </data>
+  <data name="Res_Menu_Feedback" xml:space="preserve">
+    <value>FEEDBACK</value>
+  </data>
+  <data name="Res_Menu_FeedbackMaintenance" xml:space="preserve">
+    <value>Feedback Maintenance</value>
+  </data>
+  <data name="Res_Menu_Homepage" xml:space="preserve">
+    <value>Home</value>
+  </data>
+  <data name="Res_Menu_NoticeMaintenance" xml:space="preserve">
+    <value>Notice</value>
+  </data>
+  <data name="Res_Menu_Onlinepay" xml:space="preserve">
+    <value>Onlinepay</value>
+  </data>
+  <data name="Res_Menu_Profile" xml:space="preserve">
+    <value>My Profile</value>
+  </data>
+  <data name="Res_Menu_Statement" xml:space="preserve">
+    <value>Statement</value>
+  </data>
+  <data name="Res_Menu_SystemInfo" xml:space="preserve">
+    <value>System Information</value>
+  </data>
+  <data name="Res_Menu_SystemMaintenance" xml:space="preserve">
+    <value>System Maintenance</value>
+  </data>
+  <data name="Res_Menu_UserMaintenance" xml:space="preserve">
+    <value>User Maintenance</value>
+  </data>
+  <data name="Res_OnlinepayReady_Confirm" xml:space="preserve">
+    <value>Confirm</value>
+  </data>
+  <data name="Res_OnlinepayReady_PaymentAmount" xml:space="preserve">
+    <value>Payment Amount:</value>
+  </data>
+  <data name="Res_OnlinepayReady_PayWithPPS" xml:space="preserve">
+    <value>Pay with PPS</value>
+  </data>
+  <data name="Res_OnlinepayReady_PremiseName" xml:space="preserve">
+    <value>Premise Name:</value>
+  </data>
+  <data name="Res_Onlinepay_Amount" xml:space="preserve">
+    <value>Amount</value>
+  </data>
+  <data name="Res_Onlinepay_ChargeItem" xml:space="preserve">
+    <value>Charge Item</value>
+  </data>
+  <data name="Res_Onlinepay_CustName" xml:space="preserve">
+    <value>Customer Name :</value>
+  </data>
+  <data name="Res_Onlinepay_Desc" xml:space="preserve">
+    <value>Description</value>
+  </data>
+  <data name="Res_Onlinepay_Duedate" xml:space="preserve">
+    <value>Due Date</value>
+  </data>
+  <data name="Res_Onlinepay_Gridview_ChooseAll" xml:space="preserve">
+    <value>All</value>
+  </data>
+  <data name="Res_Onlinepay_History" xml:space="preserve">
+    <value>Payment History</value>
+  </data>
+  <data name="Res_Onlinepay_LeaseNum" xml:space="preserve">
+    <value>Lease Number :</value>
+  </data>
+  <data name="Res_Onlinepay_MerInfo" xml:space="preserve">
+    <value>Merchant Information</value>
+  </data>
+  <data name="Res_Onlinepay_Outstandingamount" xml:space="preserve">
+    <value>Outstanding</value>
+  </data>
+  <data name="Res_Onlinepay_Pay" xml:space="preserve">
+    <value>Pay</value>
+  </data>
+  <data name="Res_Onlinepay_PaymentAmount" xml:space="preserve">
+    <value>Payment Amount : </value>
+  </data>
+  <data name="Res_Onlinepay_PaymentDate" xml:space="preserve">
+    <value>Payment Date</value>
+  </data>
+  <data name="Res_Onlinepay_TransactionNo" xml:space="preserve">
+    <value>Transaction No</value>
+  </data>
+  <data name="Res_Op_CurrentBalance" xml:space="preserve">
+    <value>Current Balance</value>
+  </data>
+  <data name="Res_Payhistory_Currency" xml:space="preserve">
+    <value>Currency</value>
+  </data>
+  <data name="Res_Payhistory_Payamount" xml:space="preserve">
+    <value>Pay Amount</value>
+  </data>
+  <data name="Res_Payhistory_Paydate" xml:space="preserve">
+    <value>Pay Date</value>
+  </data>
+  <data name="Res_Payhistory_PaymentHistory" xml:space="preserve">
+    <value>Payment History</value>
+  </data>
+  <data name="Res_Payhistory_Payresult" xml:space="preserve">
+    <value>Pay Result</value>
+  </data>
+  <data name="Res_Profile_BasicInfo" xml:space="preserve">
+    <value>Basic Infomation</value>
+  </data>
+  <data name="Res_Profile_BillAddr" xml:space="preserve">
+    <value>Billing Address</value>
+  </data>
+  <data name="Res_Profile_Contact" xml:space="preserve">
+    <value>Contact</value>
+  </data>
+  <data name="Res_Profile_ContactNum" xml:space="preserve">
+    <value>Contact Number</value>
+  </data>
+  <data name="Res_Profile_ContactPerson" xml:space="preserve">
+    <value>Contact Person</value>
+  </data>
+  <data name="Res_Profile_CustName" xml:space="preserve">
+    <value>Customer Name</value>
+  </data>
+  <data name="Res_Profile_CustNum" xml:space="preserve">
+    <value>Customer Number</value>
+  </data>
+  <data name="Res_Profile_Email" xml:space="preserve">
+    <value>Email Address</value>
+  </data>
+  <data name="Res_Profile_LeaseInfo" xml:space="preserve">
+    <value>Lease Information</value>
+  </data>
+  <data name="Res_Profile_LeaseNum" xml:space="preserve">
+    <value>Lease Number</value>
+  </data>
+  <data name="Res_Profile_LeasePeriod" xml:space="preserve">
+    <value>Lease Period</value>
+  </data>
+  <data name="Res_Profile_Others" xml:space="preserve">
+    <value>Others</value>
+  </data>
+  <data name="Res_Profile_Premises" xml:space="preserve">
+    <value>Premises</value>
+  </data>
+  <data name="Res_Profile_TradeName" xml:space="preserve">
+    <value>Trade Name</value>
+  </data>
+  <data name="Res_Site_Alert_OK" xml:space="preserve">
+    <value>OK</value>
+  </data>
+  <data name="Res_Site_Alert_Title" xml:space="preserve">
+    <value>Notice</value>
+  </data>
+  <data name="Res_Site_Search" xml:space="preserve">
+    <value>Search</value>
+  </data>
+  <data name="Res_Statement_Detail" xml:space="preserve">
+    <value>Detail</value>
+  </data>
+  <data name="Res_Statement_PaymentDueDate" xml:space="preserve">
+    <value>Payment Due Date</value>
+  </data>
+  <data name="Res_Statement_StatementAmount" xml:space="preserve">
+    <value>Statement Amount</value>
+  </data>
+  <data name="Res_Statement_StatementDate" xml:space="preserve">
+    <value>Statement Date</value>
+  </data>
+  <data name="Res_Statement_StatementNumber" xml:space="preserve">
+    <value>Statement Number</value>
+  </data>
+  <data name="Res_Menu_ChangePsw" xml:space="preserve">
+    <value>Password Setting</value>
+  </data>
+  <data name="Res_Menu_ContactUs" xml:space="preserve">
+    <value>Contact Us</value>
+  </data>
+  <data name="Res_Menu_PropertyInfo" xml:space="preserve">
+    <value>PROPERTY INFO</value>
+  </data>
+  <data name="Res_Feedback_New" xml:space="preserve">
+    <value>New</value>
+  </data>
+  <data name="Res_Feedback_Submit" xml:space="preserve">
+    <value>Submit</value>
+  </data>
+  <data name="Res_Menu_Register" xml:space="preserve">
+    <value>Register</value>
+  </data>
+  <data name="Res_Menu_AccountInfo" xml:space="preserve">
+    <value>ACCOUNT INFO</value>
+  </data>
+  <data name="Res_Menu_LinkLease" xml:space="preserve">
+    <value>Link Lease</value>
+  </data>
+  <data name="Res_ChangePsw_Button" xml:space="preserve">
+    <value>Change Password</value>
+  </data>
+  <data name="Res_ChangePsw_CurrentPsw" xml:space="preserve">
+    <value>Current Password</value>
+  </data>
+  <data name="Res_ChangePsw_Error" xml:space="preserve">
+    <value>Please input correct password</value>
+  </data>
+  <data name="Res_ChangePsw_NewPsw1" xml:space="preserve">
+    <value>New Password</value>
+  </data>
+  <data name="Res_ChangePsw_NewPsw2" xml:space="preserve">
+    <value>Reconfirm Password</value>
+  </data>
+  <data name="Res_ChangePsw_UserName" xml:space="preserve">
+    <value>Lease Number</value>
+  </data>
+  <data name="Res_Homepage_LastLogin" xml:space="preserve">
+    <value>Your Last Successful Login:</value>
+  </data>
+  <data name="Res_Homepage_Welcome" xml:space="preserve">
+    <value>Welcome</value>
+  </data>
+  <data name="Res_LinkLease_Button" xml:space="preserve">
+    <value>Link New Lease</value>
+  </data>
+  <data name="Res_LinkLease_Edit" xml:space="preserve">
+    <value>Edit</value>
+  </data>
+  <data name="Res_LinkLease_LinkedLease" xml:space="preserve">
+    <value>Linked Lease Number</value>
+  </data>
+  <data name="Res_LinkLease_Premises" xml:space="preserve">
+    <value>Premises</value>
+  </data>
+  <data name="Res_Menu_Logout" xml:space="preserve">
+    <value>Logout</value>
+  </data>
+  <data name="Res_Menu_Welcome" xml:space="preserve">
+    <value>Welcome!</value>
+  </data>
+  <data name="Res_LinkLease_Button_Delete" xml:space="preserve">
+    <value>Delete</value>
+  </data>
+  <data name="Res_LinkLease_LeaseNumber" xml:space="preserve">
+    <value>Lease Number</value>
+  </data>
+  <data name="Res_LinkLease_LinkNewLease" xml:space="preserve">
+    <value>Link New Lease</value>
+  </data>
+  <data name="Res_LinkLease_Modal_DeleteLease" xml:space="preserve">
+    <value>Delete Linked Lease</value>
+  </data>
+  <data name="Res_LinkLease_Password" xml:space="preserve">
+    <value>Password</value>
+  </data>
+  <data name="Res_Menu_EmailSetting" xml:space="preserve">
+    <value>Email Setting</value>
+  </data>
+  <data name="Res_Login_ForgetPassword" xml:space="preserve">
+    <value>Forget password?</value>
+  </data>
+  <data name="Res_Login_Register" xml:space="preserve">
+    <value>Register</value>
+  </data>
+  <data name="Res_Login_Title" xml:space="preserve">
+    <value>Login to your account</value>
+  </data>
+  <data name="Res_ChangeEmail_NewEmail" xml:space="preserve">
+    <value>New Email</value>
+  </data>
+  <data name="Res_ChangeEmail_Password" xml:space="preserve">
+    <value>Password</value>
+  </data>
+  <data name="Res_ChangeEmail_Success" xml:space="preserve">
+    <value>Update Success</value>
+  </data>
+  <data name="Res_ChangeEmail_UpdateEmail" xml:space="preserve">
+    <value>Update Email</value>
+  </data>
+  <data name="Res_ContactUs_Billing" xml:space="preserve">
+    <value>Billing</value>
+  </data>
+  <data name="Res_ContactUs_EstateManagement" xml:space="preserve">
+    <value>Estate Management</value>
+  </data>
+  <data name="Res_ContactUs_Leasing" xml:space="preserve">
+    <value>LEASING</value>
+  </data>
+  <data name="Res_ForgetPassword_ChangePsw" xml:space="preserve">
+    <value>Change Password</value>
+  </data>
+  <data name="Res_ForgetPassword_ConfirmPsw" xml:space="preserve">
+    <value>Confirm Password</value>
+  </data>
+  <data name="Res_ForgetPassword_GetCode" xml:space="preserve">
+    <value>Get Verification Code</value>
+  </data>
+  <data name="Res_ForgetPassword_LeaseNumber" xml:space="preserve">
+    <value>Lease Number</value>
+  </data>
+  <data name="Res_ForgetPassword_NewPsw" xml:space="preserve">
+    <value>New Password</value>
+  </data>
+  <data name="Res_ForgetPassword_YourCode" xml:space="preserve">
+    <value>Your Verification Code</value>
+  </data>
+  <data name="Res_Homepage_NewMessage" xml:space="preserve">
+    <value>notification(s).</value>
+  </data>
+  <data name="Res_Homepage_Summary" xml:space="preserve">
+    <value>Your Quick Summary</value>
+  </data>
+  <data name="Res_Homepage_TotalOutstanding" xml:space="preserve">
+    <value>Current Statement Balance: </value>
+  </data>
+  <data name="Res_Homepage_YouHave" xml:space="preserve">
+    <value>You have</value>
+  </data>
+  <data name="Res_LinkLease_CurrentBalance" xml:space="preserve">
+    <value>Statement Balance</value>
+  </data>
+  <data name="Res_LinkLease_ExpiryDate" xml:space="preserve">
+    <value>Expiry Date</value>
+  </data>
+  <data name="Res_LinkLease_StatementNumber" xml:space="preserve">
+    <value>Statement Number</value>
+  </data>
+  <data name="Res_Menu_ForgetPassword" xml:space="preserve">
+    <value>Forget Password</value>
+  </data>
+  <data name="Res_Register_CurrentBalance" xml:space="preserve">
+    <value>Statement balance</value>
+  </data>
+  <data name="Res_Register_Email" xml:space="preserve">
+    <value>Email</value>
+  </data>
+  <data name="Res_Register_ExpiryDate" xml:space="preserve">
+    <value>Lease expiry date</value>
+  </data>
+  <data name="Res_Register_LeaseNumber" xml:space="preserve">
+    <value>Lease Number</value>
+  </data>
+  <data name="Res_Register_Register" xml:space="preserve">
+    <value>Register</value>
+  </data>
+  <data name="Res_Register_StatementNumber" xml:space="preserve">
+    <value>Statement number (within 3 month)</value>
+  </data>
+  <data name="Res_Register_Success" xml:space="preserve">
+    <value>Register Success</value>
+  </data>
+  <data name="Res_Statement_ButtonDetail" xml:space="preserve">
+    <value>Detail</value>
+  </data>
+  <data name="Res_Disclaimer" xml:space="preserve">
+    <value>1. DESCRIPTION OF SERVICE 
+Hutchison Estate Agents Limited  ("HEAL") operates a website located on the internet at [www.heal.com.hk] ("Site") which provides users of the Site ("User") with access to a selection of estate value-added services ("Service") subject to the terms and conditions of service set out herein ("Terms and Conditions"). Through the use of the Service, Users will be able to: 
+(a) view notices, news and information relating to their estate; 
+(b) make reservations, check availability and rates for estate facilities; 
+(c) have access to general unit repair and maintenance services; 
+(d) shop on-line; 
+(e) play on-line games, access on-line courses and use the internet visual system; 
+(f) have access to laundry services, car cleaning services and bouquet ordering services; and 
+(g) enjoy other associated services which may be made available by HEAL to Users from time to time. 
+
+2. ACCEPTANCE OF TERMS AND CONDITIONS 
+Use of the Site and the Service is subject to these Terms and Conditions. Certain areas of the Service are only available to: 
+(a) Users who have registered with HEAL (see "Registration" under Section 3); 
+(b) Users who are residents or tenants; and/or 
+(c) Users who are over 18. Any person who accesses or uses the Site (or any of its pages) and/or the Service will be deemed to have accepted these Terms and Conditions. Any person who does not agree to these Terms and Conditions must NOT access or use the Site and/or the Service. When using any particular area of the Service, User may be subject to additional guidelines or rules applicable to such area which may be posted on the Site from time to time without prior notice. All such guidelines or rules are hereby incorporated by reference into the Terms and Conditions. 
+
+3. REGISTRATION 
+Any resident, owner or tenant of properties managed by the Hutchison Whampoa Property Group and located in the People's Republic of China ("PRC") (whether an individual or a body corporate) who is capable of forming legally binding contracts under applicable law may apply to become a registered User. Notwithstanding the foregoing, application as a registered User is NOT open to persons resident in jurisdictions where the right to access or use the Site and/or the Service is prohibited by any applicable law. To become a registered User, applicant must complete and submit a prescribed registration form to the relevant Estate Management Office ("Registration Form") and: 
+(a) provide true, accurate, current and complete information about itself in the Registration Form (such information being the "Registration Data"); and 
+(b) maintain and promptly update the Registration Data to keep it true, accurate, relevant, current and complete. Notwithstanding anything to the contrary contained in these Terms and Conditions, HEAL reserves the right to accept or reject any application to become a registered User at its sole discretion. 
+
+4. PRIVACY POLICY 
+Personal data such as name and address will be subject to HEAL's personal data privacy policy appearing at [http://203.129.70.100/privacy.html]/[ l ]) ("Privacy Policy"). 
+
+5. USER ACCOUNT, USER NAME AND PASSWORD 
+Upon acceptance of an application to become a registered User, HEAL will set up an account ("User Account") for the User and will also provide to the User a user name or approve a user name provided by the User ("User Name") and a password ("Password") to enable the User to access and use certain areas of the Service which are not otherwise accessible or available to a User who has not so registered. User is solely responsible for maintaining the confidentiality of, and all activities which may take place under, its User Account, User Name and Password whether or not such activities have actually or expressly been authorised by the User in question. User is strictly prohibited from selling, renting, assigning, transferring, licensing or sub-licensing to any other person its right to access or use the Service or any part thereof. User must not, nor allow anyone to, use any means to circumvent log in password and other protections which HEAL may put in place to restrict access to certain areas of the Site and/or the Service. User must immediately notify HEAL of any unauthorised use of any User Name or Password or any other breach of security through any User Account. 
+
+6. PROPRIETARY RIGHTS 
+The Site may contain all forms of information and/or materials including but not limited to texts, files, data, articles, messages, graphics, logos, icons, images, photographs, music, sound, videos and software ("Content"). User acknowledges that all rights, title and interests in the Content, the Site, provision of the Service and all software ("Software") used in connection therewith ("Proprietary Rights") are the property of HEAL and/or its licensors or suppliers (as the case may be) and are protected by applicable intellectual property and other law. User must not, nor should it permit anyone to engage in any activity whatsoever which infringes or otherwise interferes with or prejudices any Proprietary Rights. User should notify HEAL of any actual, threatened or suspected infringement of, or any actions, claims, demands or proceedings in relation to, any such Proprietary Rights which may come to User's notice. The name "Hutchison Premium Services" and various HEAL trademarks and logos displayed on the Site are the property of HEAL. All other names, trademarks or logos which appear on the Site are the property of their respective owners and are solely used to refer to those parties' goods and/or services. Nothing contained in the Site should be construed as granting or conferring, whether by implication, estoppel or otherwise, any licence or right to use any of foregoing names, trademarks, logos or any other Proprietary Rights. Without prejudice to the foregoing, for the sole purpose of allowing User to use the Site and/or the Service and subject to the Terms and Conditions being fully complied with by User, HEAL grants to User a personal, non-transferrable and non-exclusive right and licence to view, download and print copies of the Content included in the Site. 
+
+7. USER CONDUCT 
+User must comply with all applicable law particularly relating to the use of the Site and/or the Service and relating to on-line conduct. User must evaluate and bear all risks associated with access or use of the Site and/or the Service. Except as expressly provided in these Terms and Conditions, without the written permission of HEAL and/or its licensors or suppliers, User must not, nor should it permit anyone to: 
+(a) copy, duplicate, reproduce, modify, sell, resell, exploit for any commercial purposes or create derivative works based upon or otherwise tamper with the functionality of any part of the Site, the Service, any Content in the Site, the Software or the use thereof; or 
+(b) decompile, disassemble, reverse engineer, attempt to discover the source code, assign, sub-license, grant a security interest or transfer any right in the Software; or 
+(c) remove or alter any copyright, trade mark or other proprietary notices contained in or on any Content in the Site; or 
+(d) obtain unauthorised access to the Service or access the Service by any means other than through the interface provided by HEAL for use in accessing the Service; or 
+(f) use the Site and/or the Service to engage in any activities which are inconsistent with the purpose of the Site. If User accesses or uses the Site, it does so on its own initiative and must not: 
+(a) upload, post, e-mail, transmit, distribute, publish or otherwise make available any Content: 
+(i) that is unlawful, harmful, threatening, abusive, harassing, violent, fraudulent, tortuous, offensive, defamatory, libellous, scandalous, seditious, vulgar, obscene, indecent, contains pornography, invasive of another's privacy, hateful, racially, ethnically or otherwise objectionable; or 
+(ii) that it does not have a r ight to transmit under any applicable law or under contractual or fiduciary relationships (such as insider information, proprietary and confidential information learned or disclosed as part of employment relationships or under non-disclosure agreements); or 
+(iii) that infringes any intellectual property rights or any other rights of any party; or 
+(iv) that contains unsolicited or unauthorised advertising, promotional materials, "junk mail", "chain letters", "spam" or any other form of solicitation; or 
+(v) that contains viruses, time bombs, bugs harmful elements, or codes, files, programmes, device or other matters which may interfere, intercept, interrupt, expropriate, debilitate, corrupt, damage, destroy or limit the functionality of any system, data, information, computer software or hardware or telecommunications equipment. 
+(b) impersonate any person or entity including but not limited to a HEAL official, forum leader, guide or host, or falsely state or otherwise misrepresent User's affiliation with a person or entity; or 
+(c) forge any headers or otherwise manipulate identifiers in order to disguise the origin of any Content; or 
+(d) interfere with or disrupt the Site or servers or networks connected to the Site or disobey any requirements, procedures, policies or regulations of networks connected to the Site; or 
+(e) interfere with or disrupt the normal flow of dialogue or otherwise act in a manner that negatively affects other User's ability to engage in real time exchanges; or 
+(f) promote or provide instructional information about illegal activities, promote physical harm or injury against any group or individual, or promote any act of cruelty to animals (including but not limited to providing instructions on how to assemble bombs, grenades and other weapons); or 
+(g) harm minors in any way; or 
+(h) "stalk" or otherwise harass another; or 
+(i) collect or store personal data about other Users; or 
+(j) violate any applicable law particularly relating to copyright, prohibitions on libel, slander and invasion of privacy and relating to electronic signatures and electronics transactions. 
+
+8. CONTENT 
+Whilst efforts have been made to ensure the accuracy of the information on the Site, it should not be treated as professional advice or the basis for formulating any business decisions whatsoever. Except as expressly provided in these Terms and Conditions, HEAL will not be in any way liable for any Content including but not limited to any errors, inaccuracies, typographical or technical mistakes or omissions whatsoever in such Content, or for any losses or damages of any kind incurred as a result of the use or reliance on any Content. All Content available on the Site is subject to change from time to time, and HEAL reserves the right at its sole discretion to add to, change or delete any Content at any time without notice. User must evaluate and bear all risks associated with viewing, downloading, storing, coping, printing copies, uploading, posting, e-mailing, transmitting, distributing, publishing, making available, using or otherwise dealing with any Content on the Site. Except as expressly provided in these Terms and Conditions, HEAL does not make or give any endorsement, acceptance, approval, recommendation, preference, guarantee, representation or warranty as to the standard, quality, integrity, reliability, accuracy, completeness, validity, adequacy, relevance, usefulness, effectiveness, timeliness of any Content contained in the Site. The information available on the Site is not intended to be comprehensive and details which may be relevant to a particular estate may have been omitted. Notwithstanding any other provisions contained herein, HEAL has the right, but not the obligation, to take any action including but not limited to removing or disabling access to any Content on the Site HEAL deems necessary or appropriate in its sole discretion without prior notice. In particular, HEAL may exercise such right if: 
+(a) HEAL believes such Content may give rise to liability to HEAL or other parties or interfere or impair its relationship with any User or other parties; or 
+(b) there is any conflict with or violation of any of these Terms and Conditions and/or any applicable law. Any non-personal unsolicited information or materials in whatever form which User elects to upload, post, e-mail, transmit, distribute, publish or otherwise make available to the Site, will be deemed not confidential, and by sending such unsolicited information or materials, User hereby grants HEAL a non-exclusive, worldwide, perpetual, irrevocable, royalty-free licence to use, copy, duplicate, reproduce, publicly perform and display, distribute, sub-license, modify, translate, publish, create derivative works from, transmit and sell those materials or information and/or incorporate them in other works in any form, media or technology now known or later developed for any purpose (commercial, public or otherwise), and HEAL will be free to use any ideas, suggestions, concepts, drawings, knowhow or techniques which User sends to HEAL for any purpose (commercial, public or otherwise) without any compensation to User whatsoever. 
+
+9. SERVICE 
+As part of the Service, User will be able to order a selection of products and services on-line through the Site. Except as expressly provided in these Terms and Conditions, it should not be construed in any way, expressly or impliedly, as the giving by HEAL of any endorsement, recommendation, representation or warranty in relation to any such products or services (or person, company or name associated therewith). Products or services described in, and/or available through, the Site may be provided by HEAL or independent suppliers, and such sale or supply may be subject to any additional terms and conditions of sale or supply imposed by such independent suppliers ("Terms of Supply") from time to time. Applicable Terms of Supply will either be posted on the Site (at the relevant section or page) or provided to User at the time of ordering the requested products or services. If User does not agree to accept such Terms of Supply or any part thereof, User will be unable to order the requested products or services. Terms of Supply may include pricing, payment terms, order and delivery details, return, refund and cancellation policies and other contract terms. Where any prices, sizes, dimensions, capacities or other numerical data are quoted on this Site, they should be treated as approximates only. Unless otherwise stated in the Site or provided in the applicable Terms of Supply, all prices quoted in this Site (if any) are exclusive of any good or service taxes or similar taxes (if any) and are subject to change without prior notice. Certain part of the Service and/or Content on the Site may be provided to User conditional upon User's purchase of a subscription. If User elects to purchase subscription-based Service and/or Content, User agrees to pay all subscription fees plus all applicable taxes and other fees. All items of products or services described in this Site are available only at the discretion of HEAL or independent suppliers and such products or services may be withdrawn or varied at any time without prior notice. Orders for products or services are subject to their availability and the full range of products or services may not be available in all locations. This Site does not constitute an offer on the part of HEAL to provide any products or services described therein to any persons resident in jurisdictions where purchase or supply of the products or services concerned and/or access or use of the Site and/or the Service is illegal or prohibited. HEAL shall not be liable for any damages or losses arising out of or in connection with User's inability to purchase any products or services described in the Site, howsoever caused. User agrees to pay for all Services as well as all products and/or services ordered through this Site in accordance with such payment method as may be stipulated by HEAL and posted on the Site from time to time without prior notice. HEAL currently accepts payment by way of cash, cheque, VISA or MasterCard ("Approved Card") only. Unless otherwise provided in the applicable Terms of Supply, User shall be responsible for all payment clearance charges, exchange rate and fluctuation risks associated with payment for products and/or services ordered through this Site. {Note to draft: Please confirm whether HEAL accepts payment by VISA and MasterCard only.} If a transaction involves payment, User will be required to provide Approved Card details through the User Account. User warrants that all Approved Card details submitted by it through the User Account are true, accurate, current and complete (including but not limited to the Approved Card number and expiry date). [Approved Card details submitted through the User Account will be encrypted for Users who have browsers which are capable of transmitting or receiving encrypted data, so that the information cannot be read as it travels over the internet. Subject to availability of the product or services ordered, User's order will be processed upon verification by HEAL of User's Approved Card details and an invoice will be issued and sent to User.] {Note to draft: Please advise whether the above wording accurately describes protection of Approved Card details submitted through the Site and order procedures.} HEAL does not sell or offer any products or services to Users who are under 18. User hereby represents and warrants that User is at least 18 years of age and possesses the legal right to purchase products or services described in this Site in accordance with these Terms and Conditions and the Terms of Supply, and that User has legal right to enter into legally binding contracts under applicable law in respect of the purchase of products or services in question. User further agrees to supervise usage by, and be responsible for all activities of all persons including minors under User's User Account, User Name and/or Password. Users who are under 18 must not: 
+(a) order any products or services described in this Site; 
+(b) provide any Approved Card details via the Site; or 
+(c) use any other Service and/or the Site unless with supervision of a parent or guardian at all times during the use of the Service and the Site. HEAL has the right, but not the obligation, to verify the age or capacity of any User but in the event it is discovered that any Users lack the requisite capacity, HEAL reserves the rights as may be available against such Users or the parents or guardians of such Users including the right to be indemnified by them against all losses or damages which may be suffered by HEAL as the result of such lack of capacity or to cancel their User Account and terminate their access to the Site and the Service. Certain areas of the Service may allow a User to interact with other third parties. Except as otherwise expressly provided in these Terms and Conditions, HEAL will not participate in any negotiations or transactions between User and any other third party through the Site. When using the Service, User should be aware that it is responsible for: 
+(a) all aspects of any interaction, dealing or transaction in which it chooses to participate with any other third party through the use of the Service, the Site or any Content included therein, including but not limited to working out and agreeing the terms and conditions of sale and exchange of goods or services, if any (to the extent they are not covered by these Terms and Conditions and the Terms of Supply); 
+(b) researching and complying with any applicable law, regulation or restriction on goods, services or manner of sale or exchange that may pertain to any such interaction, dealing or transaction; 
+(c) resolving any disputes, conflicts or claims of any nature which may arise from any such interaction, dealing or transaction; and
+(d) all applicable taxes, costs and expenses incurred by participating in any such interaction, dealing or transaction. 
+
+10. LINKED SITES AND THIRD PARTY CONTENT 
+The Site may contain links to third party websites ("Linked Sites") which are provided for convenience only but the inclusion of such links does not indicate in any way, expressly or impliedly, any endorsement, acceptance, approval, recommendation, preference, guarantee, representation or warranty by HEAL of any of the Linked Sites, any Content posted or otherwise found on such Linked Sites ("Third Party Content") or any products or services provided on the Linked Sites. User must evaluate and bear all risks associated with access or use of the Linked Sites, Third Party Content or products or services provided on the Linked Sites. Unless otherwise stated in the Site, HEAL has no connection with the owners or operators of the Linked Sites and has no control over or rights in the Linked Sites. HEAL will not be liable for any Third Party Content including but not limited to any errors, inaccuracies, typographical or technical mistakes or omissions whatsoever in such Third Party Content, or for any losses or damages of any kind incurred as a result of the use or reliance on any Third Party Content. HEAL does not endorse or give any representation on the goods or services offered in any Linked Sites, and any visit of any such Linked Sites is done entirely at User's own risk. HEAL reserves the right at its sole discretion to terminate any link to the Linked Sites. No person (whether an individual or a body corporate) is permitted to, or permit others to, create or establish a link to the Site by way of hyperlinks or any other means whatsoever without the written permission of HEAL. 
+
+11. DISCLAIMER OF WARRANTIES AND TERMS AND CONDITIONS 
+Except as otherwise expressly provided in these Terms and Conditions, all Service and Content included in the Site are provided "AS IS" and "AS AVAILABLE". To the fullest extent permitted by applicable law, HEAL expressly disclaims all warranties and terms and conditions of any kind, whether express or implied, including but not limited to: (a) any warranties of merchantability, fitness for a particular purpose or non-infringement of the third party rights; (b) any warranty that the Service and/or the Content included in the Site will meet User's requirements; (c) any warranty that the quality of any products, services (including Service) or information purchased or obtained by User from the Site will meet User's expectations; (d) any warranty that the Service and/or the Content included in the Site or the results which may be obtained from the use thereof will be reliable, accurate, complete, valid, adequate, relevant, useful, effective, timely, up-to-date, continuous, uninterrupted, secure, error-free or free of viruses or other harmful elements; (e) any warranty that any errors or defects in the Service, the Content and/or the Software will be corrected. The exclusions of liability mentioned above or otherwise contained in these Terms and Conditions shall not apply to liability for death or personal injury resulting from negligence of HEAL or any of its employees or agents. 
+
+12. LIMITATION OF LIABILITIES 
+It is the intention of HEAL to make the Site available 24 hours a day, 7 days a week, but HEAL retains the right to suspend access and/or use of the Site or otherwise make the Site unavailable for use from time to time for any reason and at any time without prior notice. HEAL will not be liable to any User, its employees, agents or any o ther party for any special, incidental, indirect or consequential damages of any kind or for any damage of any nature whatsoever, whether in tort, contract or otherwise regardless of the form of action, or by reason of any interruption of business, lost profits, lost data or business opportunity, or costs of procurement of substitute goods or services, arising out of or in connection with the access or use (or inability to access or use) the Site, any Content included in the Site and/or the Service, even if HEAL may have been advised of the possibility of such losses or damages. If at any time the foregoing limitation is prohibited by any law binding on HEAL, HEAL's liability will be limited to the re-grant or re-supply of access or use of the relevant Content included in the Site provided such re-grant or re-supply is permitted by law. No information, whether written or oral, obtained by User from HEAL or through or from the Site pursuant to these Terms and Conditions will be construed as advice, guarantees, representations, warranties or implied terms not otherwise expressly stated in these Terms and Conditions. In particular, all opinions, statements, attachments and any related documents found in the Site ("Opinions"), unless otherwise stated or specified in the Site, are solely those of the various authors or Content providers and do not necessarily reflect the views or official position of HEAL, its employees, officers, agents or representatives. User hereby waives all claims howsoever arising against HEAL, its employees, officers, agents and representatives in connection with any such Opinions including but not limited to claims for libel, defamation, and negligence. The Site (excluding any Linked Sites) is controlled by HEAL from its offices within Hong Kong. The Content contained in the Site and the Service are directed at those Users who access the Site from the PRC. HEAL makes no representations or warranties that the Content or the Service available on this Site are appropriate or available for use in any other locations, and access or use or attempting to gain access or use of any such Content or the Service from territories where such access or use is illegal is strictly prohibited. HEAL accepts no responsibility for errors or technical difficulties with the functionality of the Site or for electronic mail transmission. HEAL will not be responsible for any errors in any specification, picture, illustration or any typographical or technical mistakes or omissions which may be found in the Site. User is responsible for all equipment necessary to access and use the Site and the Service. HEAL will not be liable in any way for any losses or damages arising out of or in connection with any defect (in whatever form) in the User's software, hardware, other peripherals and/or network security control, and the User will be responsible for the repair, maintenance and all insurance against losses or damages to its software, hardware and other peripherals etc. used for running the software and/or gaining access to the Site and/or the Service. HEAL does not guarantee or warrant that files available for downloading from the Site will be free of infection of viruses, time bombs, bugs, harmful elements or codes, files, programmes, device or matters which may interfere, intercept, expropriate, debilitate, corrupt, damage, destroy or limit the functionality of any system, data, information, computer software or hardware or telecommunications equipment. User is responsible for implementing sufficient procedures and checkpoints to satisfy particular requirements for accuracy of data input and output, and for maintaining a means external to the Site for the reconstruction of any lost data. User must evaluate and bear all risks associated with entering into contracts or other arrangements or transactions with HEAL, independent suppliers, other Users or any other party through the Site or otherwise relying on any Content included therein. Some Content may contain electronic signatures and User's attention is drawn to the provisions in the Electronic Transactions Ordinance (Cap. 553 of the Laws of Hong Kong). If necessary, User should seek independent legal advice. HEAL will not be liable for failure to perform any obligation hereunder if such failure is caused by the occurrence or cause beyond the reasonable control of HEAL including but not limited to any act of government, change of law, strike, war, explosion, flood, earthquake, fire, war, act of God, outages of the internet or connections thereto, communications outages, virus attack and defect or fault in User's system or software. Any claim, suit or action whatsoever arising out of or in connection with the Terms and Conditions or related to the use of the Service must be filed within one (1) year from the date on which such claim or cause of action arose. 
+
+13. INDEMNITY 
+User agrees to indemnify and hold HEAL, its subsidiaries, affiliates, employees, officers, agents, associates, suppliers, contractors and/or other partners harmless from and against any losses, costs (including legal costs), damages, liabilities and expenses arising out of or in connection with the following without prejudice to other rights and remedies of HEAL and/or the aforesaid parties: (a) any breach of any terms of these Terms and Conditions; (b) unauthorised use of User's User Name, Password or User Account with HEAL; (c) any misuse of the Site, any Content included therein, the Service and/or the Software or use thereof which is inconsistent with the purpose of the Site; (d) any infringement of any Proprietary Rights; (e) any claim for injury to any person and/or damage to any property arising out of or in connection with these Terms and Conditions; (f) any dispute or transaction between Users or between User and any other party of any nature whether known or unknown, disclosed or undisclosed, arising out of or in any way in connection with such dispute or transaction; or (g) any violation of any applicable law. 
+
+14. EXPENSES 
+User is solely responsible for all local, state, national or foreign taxes, licences, fees, duties, export/import fees and any other costs (including legal costs), expenses and liabilities ("Expenses") arising out of or in connection with any interactions, dealings or transactions: (a) between User and any other party; or (b) between User and HEAL (unless otherwise expressly agreed by HEAL). HEAL will have no responsibility whatsoever for such Expenses and User agrees to indemnify HEAL for any such Expenses and any interest or penalties which may be imposed on HEAL. 
+
+15. MODIFICATIONS 
+HEAL reserves the right at any time and from time to time to amend these Terms and Conditions at its sole discretion by posting the amendments on the Site. These amendments will become effective immediately upon their posting on the Site. By continuing to use the Site and/or the Service, User will be deemed to have accepted such amended Terms and Conditions. 
+16. SUSPENSION AND TERMINATION 
+HEAL reserves the right at any time and from time to time to modify, suspend or discontinue, temporarily or permanently, the use of the Site and/or the Service or any part thereof without notice. HEAL may in its sole discretion at any time suspend or terminate User Account and refuse any and all current or future use of the Service or any part thereof without notice. User agrees that HEAL will not be liable to User or any third party in any way for any modification, suspension or discontinuation of the Site and/or the Service. The limitations of liabilities, the indemnity obligations of User and the provisions of governing law will survive the termination of the these Terms and Conditions.
+
+17. MISCELLANEOUS 
+Time will be of the essence as regards any date or period mentioned in these Terms and Conditions and any date or period substituted for the same. If at any time any provision of the Terms and Conditions is or becomes illegal, invalid or unenforceable in any respect, the legality, validity and enforceability of the remaining provisions of the Terms and Conditions will not be affected or impaired thereby. The Terms and Conditions will be binding on and ensure for the benefit of the successors of each party hereto. The Terms and Conditions are assignable by HEAL, whether in whole or in part, without User's prior consent, but User may not assign any of its benefits or obligations arising from the Terms and Conditions without the prior consent in writing of HEAL. No waiver by HEAL of any breach by User of any provision hereof will be deemed to be a waiver of any subsequent breach of that or any other provision hereof and any forbearance or delay by such party in exercising any of its rights hereunder will not be constituted as a waiver thereof. The parties are not agents, representatives, brokers or partners of each other. None of the parties hereto has any right, power or authority to enter into any agreement, arrangement and/or understanding for and on behalf of the other. Nor may either party hereto incur any obligation or liability for and on behalf of the other. Nor is there intended or created any manner of association, joint venture or partnership between the parties hereto. The Terms and Conditions (including all applicable Terms of Supply) represent the entire agreement and supersede all and any previous agreements or arrangements between the parties hereto or any other matter referred to in the Terms and Conditions, and all or any such previous agreements or arrangements (if any) will cease and determine with effect from the effective date of the Terms and Conditions. Headings are for convenience only and will not affect the construction of the Terms and Conditions. The Terms and Conditions are prepared in both English and Chinese. In the event of discrepancy, the English version shall prevail. 
+
+18. GOVERNING LAW 
+The Terms and Conditions, and all matters relating to access and use of the Site and/or the Service, will be governed by and construed in accordance with the laws of Hong Kong, and HEAL and User agree to submit to the non-exclusive jurisdiction of the courts of Hong Kong as regards any claim or matter arising under the Terms and Conditions or relating to access and use of the Site and/or the Service.</value>
+  </data>
+  <data name="Res_Register_CheckBox" xml:space="preserve">
+    <value>I have read and agree to be bound by the said Important Note (if applicable) and the said Terms and Conditions.</value>
+  </data>
+  <data name="Res_Register_CheckBox_ClickHere" xml:space="preserve">
+    <value>click here</value>
+  </data>
+  <data name="Res_Register_CheckBox_Please" xml:space="preserve">
+    <value>Please</value>
+  </data>
+  <data name="Res_Register_CheckBox_ReadTerms" xml:space="preserve">
+    <value>to read the Important Note on eStatement Service Arrangement (if applicable) and the Terms and Conditions.</value>
+  </data>
+  <data name="Res_Register_Cancel" xml:space="preserve">
+    <value>Cancel</value>
+  </data>
+  <data name="Res_Register_ButtonCancel" xml:space="preserve">
+    <value>Cancel Process</value>
+  </data>
+  <data name="Res_Register_ButtonContinue" xml:space="preserve">
+    <value>Continue Process</value>
+  </data>
+  <data name="Res_Register_CancelProcess" xml:space="preserve">
+    <value>Are you sure you want to cancel this process?</value>
+  </data>
+  <data name="Res_StatementViewer_Download" xml:space="preserve">
+    <value>Download PDF</value>
+  </data>
+  <data name="Res_Profile_ChangeEmail" xml:space="preserve">
+    <value>Change</value>
+  </data>
+  <data name="Res_Register_MonthlyRental" xml:space="preserve">
+    <value>Monthly rental amount</value>
+  </data>
+  <data name="Res_Register_SecurityQuestion1" xml:space="preserve">
+    <value>Security question 1</value>
+  </data>
+  <data name="Res_Register_SecurityQuestion2" xml:space="preserve">
+    <value>Security question 2</value>
+  </data>
+  <data name="Res_Global_Cancel" xml:space="preserve">
+    <value>Cancel</value>
+  </data>
+  <data name="Res_Global_OK" xml:space="preserve">
+    <value>OK</value>
+  </data>
+  <data name="Res_Login_FirstTimeConfirmPsw" xml:space="preserve">
+    <value>Confirm Password</value>
+  </data>
+  <data name="Res_Login_FirstTimeLogin" xml:space="preserve">
+    <value>Please change your password for your first time login</value>
+  </data>
+  <data name="Res_Login_FirstTimeNewPsw" xml:space="preserve">
+    <value>New Password</value>
+  </data>
+  <data name="Res_ForgetPassword_Mail_0" xml:space="preserve">
+    <value>Reset Password</value>
+  </data>
+  <data name="Res_ForgetPassword_Mail_1" xml:space="preserve">
+    <value>Dear Tenant,</value>
+  </data>
+  <data name="Res_ForgetPassword_Mail_2" xml:space="preserve">
+    <value>Please find below the verification code for password reset in our website. (website: www.heal.com.hk)</value>
+  </data>
+  <data name="Res_ForgetPassword_Mail_3" xml:space="preserve">
+    <value>Verification code:</value>
+  </data>
+  <data name="Res_ForgetPassword_Mail_4" xml:space="preserve">
+    <value>Yours faithfully,</value>
+  </data>
+  <data name="Res_ForgetPassword_Mail_5" xml:space="preserve">
+    <value>Hutchison Estate Agents Limited</value>
+  </data>
+  <data name="Res_ForgetPassword_Send_Success" xml:space="preserve">
+    <value>Your verification code has been sent to your email address</value>
+  </data>
+  <data name="Res_Login_Err_1" xml:space="preserve">
+    <value>Please input lease number</value>
+  </data>
+  <data name="Res_Login_Err_2" xml:space="preserve">
+    <value>Please input password</value>
+  </data>
+  <data name="Res_Global_Agree" xml:space="preserve">
+    <value>Agree</value>
+  </data>
+  <data name="Res_ChangePsw_Success" xml:space="preserve">
+    <value>Password is successfully changed</value>
+  </data>
+  <data name="Res_ChangeEmail_CheckUser" xml:space="preserve">
+    <value>Check</value>
+  </data>
+  <data name="Res_ChangeEmail_ContactName" xml:space="preserve">
+    <value>Contact Name</value>
+  </data>
+  <data name="Res_ChangeEmail_PhoneNumber" xml:space="preserve">
+    <value>Phone Number</value>
+  </data>
+  <data name="Res_ChangePsw_Changed" xml:space="preserve">
+    <value>Your password has been changed</value>
+  </data>
+  <data name="Res_Rider" xml:space="preserve">
+    <value>The information collected in this website will be used by Hutchison Estate Agents Limited (“HEAL”) for the provision of e-statement service and other purposes in connection therewith.  You have the right to request access to and correction of your personal data, details of the person who will handle such request and the privacy policy of HEAL are contained in the “Privacy Policy” section of this website.</value>
+  </data>
+  <data name="Res_Privacy_Policy" xml:space="preserve">
+    <value>Privacy Policy</value>
+  </data>
+  <data name="Res_ChangeEmail" xml:space="preserve">
+    <value>Change email</value>
+  </data>
+  <data name="Res_Alert_Approve_0" xml:space="preserve">
+    <value>Approve success</value>
+  </data>
+  <data name="Res_Alert_Approve_1" xml:space="preserve">
+    <value>Please select to approve</value>
+  </data>
+  <data name="Res_Alert_Approve_2" xml:space="preserve">
+    <value>Approve error</value>
+  </data>
+  <data name="Res_Approve" xml:space="preserve">
+    <value>Approve</value>
+  </data>
+  <data name="Res_Approver" xml:space="preserve">
+    <value>Approver</value>
+  </data>
+  <data name="Res_Authority" xml:space="preserve">
+    <value>Authority</value>
+  </data>
+  <data name="Res_Authority_Id" xml:space="preserve">
+    <value>Authority Id</value>
+  </data>
+  <data name="Res_Authority_Type" xml:space="preserve">
+    <value>Authority Type</value>
+  </data>
+  <data name="Res_Contact_Name" xml:space="preserve">
+    <value>Contact Name</value>
+  </data>
+  <data name="Res_Contact_Number" xml:space="preserve">
+    <value>Contact Number</value>
+  </data>
+  <data name="Res_Customer_Creation" xml:space="preserve">
+    <value>Customer Creation</value>
+  </data>
+  <data name="Res_Customer_Name" xml:space="preserve">
+    <value>Customer Name</value>
+  </data>
+  <data name="Res_Department" xml:space="preserve">
+    <value>Department</value>
+  </data>
+  <data name="Res_Detail" xml:space="preserve">
+    <value>Detail</value>
+  </data>
+  <data name="Res_Edit" xml:space="preserve">
+    <value>Edit</value>
+  </data>
+  <data name="Res_Edit_Cust_User" xml:space="preserve">
+    <value>Edit Customer User</value>
+  </data>
+  <data name="Res_Email" xml:space="preserve">
+    <value>Email</value>
+  </data>
+  <data name="Res_Em_Phone_Number" xml:space="preserve">
+    <value>Em Phone Number</value>
+  </data>
+  <data name="Res_End_Date" xml:space="preserve">
+    <value>End Date</value>
+  </data>
+  <data name="Res_Feedback_ApproveStatus" xml:space="preserve">
+    <value>Approve Status</value>
+  </data>
+  <data name="Res_Group_Name" xml:space="preserve">
+    <value>Group Name</value>
+  </data>
+  <data name="Res_Hompage_Menu_Info" xml:space="preserve">
+    <value>Information</value>
+  </data>
+  <data name="Res_Image" xml:space="preserve">
+    <value>Image</value>
+  </data>
+  <data name="Res_Lease_List" xml:space="preserve">
+    <value>Lease List</value>
+  </data>
+  <data name="Res_Lease_Number" xml:space="preserve">
+    <value>Lease Number </value>
+  </data>
+  <data name="Res_LoginSystem_Password" xml:space="preserve">
+    <value>Password</value>
+  </data>
+  <data name="Res_LoginSystem_Username" xml:space="preserve">
+    <value>User Name</value>
+  </data>
+  <data name="Res_Login_Name" xml:space="preserve">
+    <value>Login Name</value>
+  </data>
+  <data name="Res_Menu_CustomerCreation" xml:space="preserve">
+    <value>Customer Creation</value>
+  </data>
+  <data name="Res_Menu_NoticeApprove" xml:space="preserve">
+    <value>Notice Approve</value>
+  </data>
+  <data name="Res_Menu_PropertyMgmt" xml:space="preserve">
+    <value>Property Maintenance</value>
+  </data>
+  <data name="Res_Menu_StatementDateSetting" xml:space="preserve">
+    <value>Statement Date Setting</value>
+  </data>
+  <data name="Res_Menu_UserGroupMaintenance" xml:space="preserve">
+    <value>User Group Maintenance</value>
+  </data>
+  <data name="Res_New_Creation" xml:space="preserve">
+    <value>New Creation</value>
+  </data>
+  <data name="Res_New_Group" xml:space="preserve">
+    <value>New Group</value>
+  </data>
+  <data name="Res_New_User" xml:space="preserve">
+    <value>New User</value>
+  </data>
+  <data name="Res_NoticeApprove" xml:space="preserve">
+    <value>Notice Approve</value>
+  </data>
+  <data name="Res_NoticeMaintenance" xml:space="preserve">
+    <value>Notice Maintenance</value>
+  </data>
+  <data name="Res_Notice_ApproveBy" xml:space="preserve">
+    <value>Approve By</value>
+  </data>
+  <data name="Res_Notice_Attachment" xml:space="preserve">
+    <value>Attachement</value>
+  </data>
+  <data name="Res_Notice_Btn_Edit" xml:space="preserve">
+    <value>Edit Notice</value>
+  </data>
+  <data name="Res_Notice_Btn_New" xml:space="preserve">
+    <value>New Notice</value>
+  </data>
+  <data name="Res_Notice_ChooseUploadFile" xml:space="preserve">
+    <value>Choose Upload File</value>
+  </data>
+  <data name="Res_Notice_ChooseUploadImage" xml:space="preserve">
+    <value>Choose Upload Image</value>
+  </data>
+  <data name="Res_Notice_Content" xml:space="preserve">
+    <value>Content</value>
+  </data>
+  <data name="Res_Notice_CreateBy" xml:space="preserve">
+    <value>Create By</value>
+  </data>
+  <data name="Res_Notice_Grid_Approve" xml:space="preserve">
+    <value>Approve</value>
+  </data>
+  <data name="Res_Notice_Grid_Edit" xml:space="preserve">
+    <value>Edit</value>
+  </data>
+  <data name="Res_Notice_Grid_End" xml:space="preserve">
+    <value>End Date</value>
+  </data>
+  <data name="Res_Notice_Grid_Image" xml:space="preserve">
+    <value>Image</value>
+  </data>
+  <data name="Res_Notice_Grid_Property" xml:space="preserve">
+    <value>Property</value>
+  </data>
+  <data name="Res_Notice_Grid_Start" xml:space="preserve">
+    <value>Start Date</value>
+  </data>
+  <data name="Res_Notice_Grid_Subject" xml:space="preserve">
+    <value>Subject</value>
+  </data>
+  <data name="Res_Notice_Grid_Type" xml:space="preserve">
+    <value>Type</value>
+  </data>
+  <data name="Res_Notice_ImageResolutionIs" xml:space="preserve">
+    <value>Image resolution ratio is</value>
+  </data>
+  <data name="Res_Notice_SaveEdit" xml:space="preserve">
+    <value>Save Edit Notice</value>
+  </data>
+  <data name="Res_Notice_SaveNew" xml:space="preserve">
+    <value>Save New Notice</value>
+  </data>
+  <data name="Res_Notice_SelectProperty" xml:space="preserve">
+    <value>Select Property</value>
+  </data>
+  <data name="Res_Notice_UpdateBy" xml:space="preserve">
+    <value>Update By</value>
+  </data>
+  <data name="Res_Operation" xml:space="preserve">
+    <value>Operation</value>
+  </data>
+  <data name="Res_Phone" xml:space="preserve">
+    <value>Phone</value>
+  </data>
+  <data name="Res_Position" xml:space="preserve">
+    <value>Position</value>
+  </data>
+  <data name="Res_Preview" xml:space="preserve">
+    <value>Preview</value>
+  </data>
+  <data name="Res_Primary" xml:space="preserve">
+    <value>Primary</value>
+  </data>
+  <data name="Res_Property" xml:space="preserve">
+    <value>Property</value>
+  </data>
+  <data name="Res_Property_Billing_Email" xml:space="preserve">
+    <value>Billing Email</value>
+  </data>
+  <data name="Res_Property_Billing_Phone" xml:space="preserve">
+    <value>Billing Phone</value>
+  </data>
+  <data name="Res_Property_Code" xml:space="preserve">
+    <value>Property Code</value>
+  </data>
+  <data name="Res_Property_Editor" xml:space="preserve">
+    <value>Property Editor</value>
+  </data>
+  <data name="Res_Property_EM_Email" xml:space="preserve">
+    <value>EM Email</value>
+  </data>
+  <data name="Res_Property_Leasing_Email" xml:space="preserve">
+    <value>Leasing Email</value>
+  </data>
+  <data name="Res_Property_Leasing_Phone" xml:space="preserve">
+    <value>Leasing Phone</value>
+  </data>
+  <data name="Res_Property_Maintenance" xml:space="preserve">
+    <value>Property Maintenance</value>
+  </data>
+  <data name="Res_Property_Name" xml:space="preserve">
+    <value>Property Name</value>
+  </data>
+  <data name="Res_Role" xml:space="preserve">
+    <value>Role</value>
+  </data>
+  <data name="Res_Save" xml:space="preserve">
+    <value>Save</value>
+  </data>
+  <data name="Res_Save_Edit_Customer_User" xml:space="preserve">
+    <value>Save Edit Customer User</value>
+  </data>
+  <data name="Res_Save_Edit_Group" xml:space="preserve">
+    <value>Save Edit Group</value>
+  </data>
+  <data name="Res_Save_Edit_User" xml:space="preserve">
+    <value>Save Edit User</value>
+  </data>
+  <data name="Res_Save_New_Customer_User" xml:space="preserve">
+    <value>Save New Customer User</value>
+  </data>
+  <data name="Res_Save_New_Group" xml:space="preserve">
+    <value>Save New Group</value>
+  </data>
+  <data name="Res_Save_New_User" xml:space="preserve">
+    <value>Save New User</value>
+  </data>
+  <data name="Res_Select_Group" xml:space="preserve">
+    <value>Select Group</value>
+  </data>
+  <data name="Res_Send_Mail" xml:space="preserve">
+    <value>Send email</value>
+  </data>
+  <data name="Res_Send_Mail_Batch" xml:space="preserve">
+    <value>Send Mail(Batch)</value>
+  </data>
+  <data name="Res_Start_Date" xml:space="preserve">
+    <value>Start Date</value>
+  </data>
+  <data name="Res_Status" xml:space="preserve">
+    <value>Status</value>
+  </data>
+  <data name="Res_Status1" xml:space="preserve">
+    <value>Status</value>
+  </data>
+  <data name="Res_Subject" xml:space="preserve">
+    <value>Subject</value>
+  </data>
+  <data name="Res_User_Group" xml:space="preserve">
+    <value>User Group</value>
+  </data>
+  <data name="Res_User_Group_Maintenance" xml:space="preserve">
+    <value>User Group Maintenance</value>
+  </data>
+  <data name="Res_User_Id" xml:space="preserve">
+    <value>User Id</value>
+  </data>
+  <data name="Res_User_Maintenance" xml:space="preserve">
+    <value>User Maintenance</value>
+  </data>
+  <data name="Res_Select_A_Group" xml:space="preserve">
+    <value>Select A Group</value>
+  </data>
+  <data name="Res_Menu_Eforms" xml:space="preserve">
+    <value>eApplication</value>
+  </data>
+  <data name="Res_Menu_Eforms_Def" xml:space="preserve">
+    <value>eForm Define</value>
+  </data>
+  <data name="Res_Menu_Eforms_FlowDef" xml:space="preserve">
+    <value>eFlow Define</value>
+  </data>
+  <data name="Res_Menu_Eforms_Opers" xml:space="preserve">
+    <value>eOperation</value>
+  </data>
+  <data name="Res_Menu_Reminder_Setting" xml:space="preserve">
+    <value>Reminder Setting</value>
+  </data>
+  <data name="Res_Mail_Setup" xml:space="preserve">
+    <value>Mail Recipients Setting</value>
+  </data>
+  <data name="Res_Users" xml:space="preserve">
+    <value>User List</value>
+  </data>
+  <data name="Res_MenuItem_eForm_Date_Define" xml:space="preserve">
+    <value>eForm Date Define</value>
+  </data>
+  <data name="Res_MenuItem_eForm_Time_Define" xml:space="preserve">
+    <value>eForm Time Define</value>
+  </data>
+</root>

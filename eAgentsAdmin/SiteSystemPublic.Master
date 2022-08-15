@@ -1,0 +1,119 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="SiteSystemPublic.master.cs"
+    Inherits="PropertyOneAppWeb.SiteSystemPublic" %>
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head id="Head1" runat="server">
+    <meta http-equiv="X-UA-Compatible" content="IE=EDGE" />
+    <link rel="stylesheet" href="Css/Site.css" />
+    <link rel="stylesheet" href="js/AmazeUI/assets/css/amazeui.css" />
+    <!--[if (gte IE 9)|!(IE)]><!-->
+    <script type="text/javascript" src="../js/jQuery/jquery-3.2.1.min.js"></script>
+    <!--<![endif]-->
+    <!--[if lte IE 8]>
+    <script src="../js/jQuery/jquery-1.11.1.min.js"></script>
+    <script src="http://cdn.staticfile.org/modernizr/2.8.3/modernizr.js"></script>
+    <script src="../js/AmazeUI/assets/js/amazeui.ie8polyfill.min.js"></script>
+    <![endif]-->
+    <script type="text/javascript" src="../js/AmazeUI/assets/js/amazeui.min.js"></script>
+    <script type="text/javascript" src="../js/SiteJScript.js"></script>
+    <script type="text/javascript">
+        $(document).ready(function () {
+
+        });
+    </script>
+    <title>PropertyOne Onlinepay</title>
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body>
+    <div class="div-homepage-top">
+        <div style="height: 5px;">
+        </div>
+        <div style="padding-left: 30px; padding-right: 30px; min-height: 116px;">
+            <table style="width: 100%;">
+                <tr style="height: 40%;">
+                    <td rowspan="2" style="width: 25%;">
+                        <img id="img-logo" alt="" src="../Image/HEAL-master2017.png" width="209px" height="60px" />
+                    </td>
+                    <td style="width: 75%;">
+                    </td>
+                </tr>
+            </table>
+        </div>
+    </div>
+    <div style="height: 20px">
+    </div>
+    <div class="div-main-container">
+        <div class="div-main-guide">
+            <table style="width: 100%;">
+                <tr>
+                    <td style="width: 60px;">
+                        <%-- 导航栏图片 --%>
+                        <img id="img-nav" alt="" src="/Image/blankwhite.png" width="40px" height="40px" />
+                    </td>
+                    <td>
+                        <table style="width: 100%;">
+                            <tr>
+                                <td>
+                                    <%-- 导航栏文字 --%>
+                                    <label id="label-nav">
+                                    </label>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td style="width: 100%; height: 3px; background-color: #1C578F">
+                                </td>
+                            </tr>
+                        </table>
+                    </td>
+                </tr>
+            </table>
+        </div>
+        <div style="height: 5px">
+        </div>
+        <div class="div-main-updatepanel">
+            <%-- 内容 --%>
+            <div id="div-content" style="height: auto;">
+                <%-- 边距内内容 --%>
+                <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+                </asp:ContentPlaceHolder>
+            </div>
+        </div>
+    </div>
+    <%-- 页脚 --%>
+    <div class="div-main-footer">
+        <p>
+            © Copyright 2018 Hutchison Estate Agents Limited. All rights reserved.
+        </p>
+    </div>
+    <%--警告模态窗口--%>
+    <div class="am-modal am-modal-alert" tabindex="-1" id="doc-modal-alert">
+        <div class="am-modal-dialog">
+            <div class="am-modal-hd am-modal-hd-my">
+                <label id="label-alert-title">
+                </label>
+            </div>
+            <div class="am-modal-bd">
+                <div class="am-modal-bd-my">
+                    <label id="label-alert-content">
+                    </label>
+                </div>
+            </div>
+            <div class="am-modal-footer">
+                <span class="am-modal-btn">OK</span>
+            </div>
+        </div>
+    </div>
+    <%-- Loading窗口 --%>
+    <div class="am-modal am-modal-loading am-modal-no-btn" tabindex="-1" id="my-modal-loading">
+        <div class="am-modal-dialog">
+            <div class="am-modal-hd">
+                Loading...</div>
+            <div class="am-modal-bd">
+                <span class="am-icon-spinner am-icon-spin"></span>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<emails>
+  <template id="10" name="EForm_ReplyTenant">
+    <subject type="hk">
+      {Form_Name} (No: {Ref_No}) of HutchisonAgent
+    </subject>
+    <content type="hk" phone1="2128 0066" email="derek.yu@hwpg.com" EAgent_Company_En="" EAgent_Company_CN="" >
+      Dear Tenant,&lt;br/&gt;
+      &lt;br/&gt;
+      Please be informed that the {Form_Name} eForm - {Ref_No} has been {Inform_EN}.&lt;br/&gt;
+      Please logon to {link} to view your eForm for future reference.&lt;br/&gt;
+      &lt;br/&gt;
+      This e-mail serves as notification only, please do not reply to this email. If you change your email address, please notify us immediately by changing it through the website. If you have any enquiries on managing eForm, please call us at {phone1} or email {email} us during office hours.&lt;br/&gt;
+      &lt;br/&gt;
+      Thank you for using our eForm Service. &lt;br/&gt;
+      &lt;br/&gt;
+      Yours faithfully, &lt;br/&gt;
+      &lt;br/&gt;
+      {EAgent_Company_EN} &lt;br/&gt;
+      &lt;br/&gt;
+      &lt;br/&gt;
+      親愛的租戶: &lt;br/&gt;
+      &lt;br/&gt;
+      您的電子申请服务單{Form_Name} - （单号{Ref_No}）已經 {Inform_CN}。請即登錄 {link} 查看。 &lt;br/&gt;
+      &lt;br/&gt;
+      這只是通告電郵，請不要回覆此電郵。如果您更改您的電子郵件地址，請即時透過我們的網站更改，以便知悉。如您有任何疑問，請在辦公時間致電 {phone1} 或邮件 {email} 給我們。 &lt;br/&gt;
+      &lt;br/&gt;
+      感謝您使用我們的電子申请服務單。 &lt;br/&gt;
+      &lt;br/&gt;
+      {EAgent_Company_CN} 謹啟 &lt;br/&gt;
+    </content>
+  </template>
+
+  <template id="11" name="EForm_InformStaff" >                          
+    <subject type="hk">
+      [HutchisonAgent] {Form_Name} (No: {Ref_No}) Awaiting {Inform_EN}
+    </subject>
+    <content type="hk">
+      You have an {Inform_EN} request of eApplication what's the {Form_Name} eForm - {Ref_No} on HutchisonAgent.&lt;br/&gt;
+      The following are the info:&lt;br/&gt;
+      &lt;br/&gt;
+      Lease Number：{Lease_Number}  &lt;br/&gt;
+      Premises：{Premise_Name} &lt;br/&gt;
+      User : {Front_User} &lt;br/&gt;
+      Previous Approval Group: {Pre_RoleGrp} &lt;br/&gt;
+      Current Approval Group: {Cur_RoleGrp} &lt;br/&gt;
+      &lt;br/&gt;
+      Please check it by the following {link}
+      &lt;br/&gt;
+      This e-mail serves as notification only, please do not reply to this email.
+      &lt;br/&gt;
+      HutchisonAgent System
+      &lt;br/&gt;
+      &lt;br/&gt;
+      親愛的用戶: &lt;br/&gt;
+      &lt;br/&gt;
+      您有一张電子申请服务單{Form_Name} - （单号{Ref_No}）正等待您的{Inform_CN}。&lt;br/&gt;
+      &lt;br/&gt;
+      申请单概要如下： &lt;br/&gt;
+      &lt;br/&gt;
+      租约号：{Lease_Number}  &lt;br/&gt;
+      租约地址：{Premise_Name}  &lt;br/&gt;
+      租户登陆号 : {Front_User}  &lt;br/&gt;
+      前审批组: {Pre_RoleGrp}  &lt;br/&gt;
+      现审批组: {Cur_RoleGrp} &lt;br/&gt;
+      &lt;br/&gt;
+      請即登錄 {link} 查看。
+      &lt;br/&gt;
+      這只是通告電郵，請不要回覆此電郵。
+      &lt;br/&gt;
+      HutchisonAgent System
+      &lt;br/&gt;
+    </content>
+  </template>
+
+  <template id="12" name="EAgent_BatchInformStaff_NTC_EFM">
+    <subject type="hk">
+      [HutchisonAgent] Follow up items reminder
+    </subject>
+    <content type="hk">
+      <header>
+        Below please find item(s) awaiting for follow up as at {sysdate}.&lt;br/&gt;
+        &lt;br/&gt;
+      </header>
+      <body>
+        <table type="NTC">
+          <thead>
+            <caption>
+              Notice / Promotional Event Info:&lt;br/&gt;
+            </caption>
+            <tr>
+              <th fieldname="Property_Code">Property</th>
+              <th fieldname="Notice_Subject">Subject</th>
+              <th fieldname="Start_Date">Start Date</th>
+              <th fieldname="End_Date">End Date</th>
+              <th fieldname="Create_By">Created by</th>
+            </tr>
+          </thead>          
+        </table>
+        <table type="EFM">
+          <thead>
+            <caption>
+              &lt;br/&gt;
+              &lt;br/&gt;
+              eApplication Requests:&lt;br/&gt;
+            </caption>
+            <tr>
+              <th fieldname="Form_Name">Form Name</th>
+              <th fieldname="Form_No">Form No</th>
+              <th fieldname="Form_Date">Date</th>
+              <th fieldname="Form_LeaseNumber">Lease Number</th>
+              <th fieldname="Premise_Name">Premises (1st line)</th>
+              <th fieldname="Pre_Group">Prev Group</th>
+              <th fieldname="Cur_Group">Current Group</th>
+              <th fieldname="Form_Action">Action</th>              
+            </tr>
+          </thead>
+        </table>
+      </body>
+      <footer>
+        &lt;br/&gt;
+        &lt;br/&gt;
+        This e-mail serves as notification only, please do not reply to this email. &lt;br/&gt;
+        &lt;br/&gt;
+        &lt;br/&gt;
+        HutchisonAgent System &lt;br/&gt;       
+      </footer>      
+    </content>
+  </template>
+</emails>
+ 

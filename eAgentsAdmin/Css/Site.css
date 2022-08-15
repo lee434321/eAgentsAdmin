@@ -1,0 +1,766 @@
+﻿body
+{
+	min-width: 1200px;
+}
+
+.login-body-all-browser
+{
+	margin: 0;
+    padding: 0;
+    background: url('../Image/login_bj04.png');
+    repeat: no-repeat;
+    background-attachment:fixed;
+    filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='images/background.jpg', sizingMethod='scale');
+    -ms-filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='images/background.jpg', sizingMethod='scale');
+    background-size: cover;
+    -moz-background-size: cover;
+    -webkit-background-size: cover;
+}
+
+/* 登录界面建筑区域 */
+.div-login-building
+{
+	width: 1440px;
+	height: 806px;
+	margin-left: auto;
+	margin-right: auto;
+	/* background-image: url(/Image/Login/login_bj02.png); */
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+
+/* 登录界面表单区域 */
+.div-login-form
+{
+	width: 700px;
+	margin-left: 50px;
+	margin-top: 100px;
+	background-image: url('../Image/login_bjShadow.png');
+	background-repeat: repeat-y;
+	background-size: contain;
+	padding: 20px 40px 40px 50px;
+}
+
+/* 主页顶部图片区域 */
+.div-homepage-top
+{
+	background: url('../Image/notices_banner_new.png');
+    background-repeat: no-repeat; 
+    background-size: 100% 100%; 
+    width: 100%;
+    height: 200px;
+}
+
+/* 主页面Title蓝色 */
+.global_color_mainblue
+{
+	background-color: #1C578F;
+}
+
+/* 深蓝色 */
+.global_color_navyblue
+{
+	background-color: #4BB5E7;
+}
+
+/* 浅蓝色 */
+.global_color_lightblue
+{
+	background-color: #E3EEF6;
+}
+
+
+.global_table_head
+{
+	height: 40px;
+	color: #FFFFFF;
+	font-size: 18px;
+	padding-top: 6px;
+	padding-left: 10px !important;
+}
+
+.global_table_body
+{
+	padding: 20px 20px 20px 20px !important;
+}
+
+.global_table_line
+{
+	border-top-style: dashed;
+	border-top-width: 1px;
+	border-color: #CEDBE4;
+	height: 20px;
+}
+
+/* gridview上面浅蓝色区域 */
+.global-bluepanel
+{
+	border: 1px solid #CEDBE4;
+	background-color: #F6FAFD;
+}
+
+/* bootgrid 整体 */
+.global-bootgrid
+{
+	background-color: #ffffff;
+	border: 1px solid #CEDBE4;
+}
+
+/* 全局字体1 用于table*/
+.g-font-1
+{
+	font-size: 1.6rem !important;
+	color: #6c6c6b !important;
+	font-weight: normal !important;
+}
+
+/* 强制改变下拉框的字体 */
+span[class="am-selected-status am-fl"]
+{
+	font-size: 1.6rem !important;
+}
+
+button[class="am-selected-btn am-btn am-dropdown-toggle am-btn-lg am-btn-default"]
+{
+	font-size: 1.6rem !important;
+	height: 37.2px !important;
+}
+
+
+/* statement页面的link列 */
+.boot-header-1
+{
+	width: 150px;
+}
+
+.boot-header-2
+{
+	width: 120px;
+}
+
+.boot-header-3
+{
+	text-align: center;
+}
+
+.boot-cell-1
+{
+	text-align: center;
+}
+
+.div-full
+{
+	width: 100%;
+	height: 100%;
+}
+
+.div-full-height
+{
+	height: 100%;
+}
+
+/* 模态窗口上方标题背景 */
+.am-modal-hd-my 
+{
+	padding: 10px 10px 5px 10px;
+	/* background-color: #4BB5E7; */
+	background-color: #FFFFFF;
+	color: #4BB5E7;
+	text-align: left;
+	border-bottom: 2px solid #4BB5E7;
+}
+
+/* 模态窗口正文 */
+.am-modal-bd-my 
+{
+	width: 100%;
+	padding-top: 20px;
+}
+
+.div-login-main-logo
+{
+	width: 131px;
+	height: 43px;
+	margin-left: 50px;
+	margin-top: 50px;
+	/* background-image: url(/Image/HWPGlogo.png); */
+}
+
+.div-login-main-container
+{
+	width: 500px;
+	height: 500px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.div-login-main-container-title
+{
+	width: 100%;
+}
+
+.div-login-main-container-title-text
+{
+	font-size: 20px;
+	color: #586369;
+}
+
+/* 登录界面登录框上方的横线 */
+.div-login-main-container-title-line
+{
+	width: 100%;
+	height: 3px;
+	background-color: #586369;
+}
+
+/* 模态框标题下方的横线 */
+.div-alert-title-line
+{
+	width: 100%;
+	height: 3px;
+	background-color: #1C578F;
+}
+
+.div-login-main-container-input
+{
+	height: 50px;
+}
+
+.div-login-main-container-input-blank
+{
+	height: 20px;
+}
+
+.div-login-main-container-button
+{
+	width: 100%;
+	height: 50px;
+	
+}
+
+/* 支付历史模态框 */
+.div-onlinepay-history
+{
+	position: fixed;
+	z-index: 1;
+	width: 500px;
+	height: 400px;
+	margin-left: -250px;
+	margin-top: -200px;
+	top: 50%;
+	left: 50%;
+	overflow: hidden;
+	background-color: #777777;
+}
+
+/* 登录按钮样式 */
+.button-login
+{
+	background-color: Transparent;    /* 针对不支持rgba的浏览器 */
+	background: rgba(0, 0, 0, 0.1);
+	border: 1px solid #586369 !important;
+	color: #586369 !important;
+}
+
+/* 全局按钮样式 */
+.button-all
+{
+	min-width: 100px;
+}
+
+/* 全局文字样式 */
+.font-all
+{
+	color: #1C578F !important;
+	font-size: 1.6rem !important;
+}
+
+/* 忘记密码链接样式 */
+.a-forgetpsw
+{
+	color: #586369 !important;
+}
+
+/* 登录界面下拉框样式 */
+.select-login
+{
+	border: 1px solid #00ffff !important;
+}
+
+.button-pay
+{
+	width: 150px;
+}
+
+/* 用于垂直居中 兼容IE6及以上 */
+.global-vertical-align
+{
+	position: absolute;
+	top: 50%;
+	
+	/* 
+	在对应容器设置margin-top为对象高度的一半即可
+	如：amazeui输入框高度统一为37.2 
+	则：margin-top: -18.6px;  
+	*/
+}
+
+.div-login-main-container-logo
+{
+	width: 100%;
+	height: 100px;
+	text-align: center;
+}
+
+.label-login-input
+{
+	color: #586369;
+}
+
+.div-main-head
+{
+	width: 100%;
+	height: 316px;
+	background-color: #1C578F;
+}
+
+.div-main-container
+{
+	width: 1100px;
+	margin-left: auto;
+	margin-right: auto;
+    height: auto;
+}
+
+.div-main-guide
+{
+	width: 100%;
+	height: 80px;
+}
+
+
+.div-main-title-pic
+{
+	width: 100%;
+	height: 240px;
+}
+
+.div-main-menu
+{
+	width: 1920px;
+	height: 76px;
+}
+
+.div-main-menu-center
+{
+	width: 1100px;
+	height: 100%;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+
+.div-main-updatepanel
+{
+	width: 100%;
+	height: auto;
+	min-height: 600px;
+}
+
+.div-main-footer
+{
+	width: 100%;
+	height: 150px;
+	background-color: #EEEEEE;
+	margin-top: 100px;
+	text-align: center;
+	padding-top: 50px;
+}
+
+/* 首页Notice容器 */
+.div-notice-container
+{
+	width: 100%;
+	height: 900px;
+}
+
+/* 首页Notice小方块样式 */
+.div-notice-detail
+{
+	width: 100%;
+	height: 350px;
+	padding: 0px 1px 0px 1px;
+}
+
+.div-notice-detail-border
+{
+	width: 100%;
+	height: 350px;
+	border: 1px solid #CEDBE4;
+}
+
+/* Notice中蓝色条 */
+.div-notice-detail-blueline
+{
+	width: 100%;
+	height: 25px;
+	line-height: 25px;
+	background-color: #1C578F;
+	color: #FFFFFF;
+	text-align: center;
+}
+
+.div-notice-detail-textarea
+{
+	width: 100%;
+	height: 200px;
+	padding: 10px 10px 10px 10px;
+}
+
+.div-notice-detail-texttitle
+{
+	width: 100%;
+	height: 50px;
+	color: #1C578F;
+	font-size: 1.8rem;
+	font-weight: normal;
+}
+
+.div-notice-detail-textcontent
+{
+	width: 100%;
+	height: 100px;
+}
+
+.label-notice-detail-textcontent
+{
+	color: #A4A4A4;
+	font-size: 1.6rem;
+	font-weight: normal !important;
+}
+
+.div-notice-detail-readmore
+{
+	width: 100%;
+	height: 50px;
+}
+
+.label-notice-detail-readmore
+{
+	color: #666666;
+	font-size: 2rem;
+	font-weight: normal !important;
+}
+
+.div-onlinepay-gridview
+{
+	width: 100%;
+	height: auto;
+	
+}
+
+/* 主页上方welcome文字样式 */
+.label-site-welcome
+{
+	color: #586369;
+}
+
+.label-site-welcome:hover
+{
+	color: #FFFFFF;
+}
+
+.label-site-welcome:visited
+{
+	color: #FFFFFF;
+}
+
+/* MyProfile页面的Label样式 */
+.label-profile
+{
+	min-height: 40px;
+}
+
+/* onlinepay页面的文字样式1*/
+.label-onlinepay1
+{
+	font-size: 2.2rem;
+	color: #1C578F;
+}
+
+/* onlinepay页面的文字样式2*/
+.label-onlinepay2
+{
+	font-size: 1.4rem;
+	color: #4BB5E7;
+}
+
+/* onlinepay页面的文字样式3*/
+.label-onlinepay3
+{
+	font-size: 5rem;
+	color: #7ED200;
+	font-weight: bold;
+}
+
+/* onlinepay页面的文字样式4*/
+.label-onlinepay4
+{
+	font-size: 1.6rem;
+	color: #1C578F;
+}
+
+/* viewer的背景颜色 */
+.div-statementviewer-background
+{
+	width: 100%;
+	min-width: 1300px;
+	background-color: #565656;
+	padding: 50px 0px 50px 0px;
+}
+
+/* viewer的主面板 */
+.div-statementviewer-main
+{
+	background-color: #FFFFFF;
+	width: 1200px;
+	margin-left: auto;
+	margin-right: auto;
+	padding: 50px 50px 100px 50px;
+}
+
+/* viewer文字水平居中 */
+.div-statementviewer-center
+{
+	text-align: center !important;
+}
+
+/* viewer文字靠右 */
+.div-statementviewer-right
+{
+	text-align: right !important;
+}
+
+/* viewer company区域 */
+.div-statementviewer-company
+{
+	/* border: 1px solid #000000; */
+	background-color: #CCCCCC;
+	padding: 10px 10px 10px 10px !important;
+}
+
+/* viewer字体 */
+.label-statementviewer-font1
+{
+	font-size: 1.6rem !important;
+	font-weight: normal !important;
+}
+
+/* viewer小字体 */
+.f-v-small
+{
+	font-size: 1.2rem !important;
+	font-weight: normal !important;
+}
+
+/* view粗字体 */
+.f-v-bold
+{
+	font-size: 1.6rem !important;
+	font-weight: bold !important;
+}
+
+/* viewer table的边框*/
+.div-statementviewer-tableline
+{
+	border: 1px solid #000000 !important;
+}
+
+/* viewer table的上边框*/
+.div-statementviewer-topline
+{
+	border-top: 1px solid #000000 !important;
+}
+
+/* viewer table的左右边框*/
+.div-statementviewer-rightline
+{
+	border-right: 1px solid #000000 !important;
+	top: 0px;
+	bottom: 0px;
+}
+
+/* viewer table的下边框*/
+.div-statementviewer-bottomline
+{
+	border-bottom: 1px solid #000000 !important;
+}
+
+.p-statementviewer
+{
+	margin: 0px 0px 0px 0px !important;
+	min-height: 30px;
+}
+
+.p-statementviewer-history
+{
+	font-style: italic !important;
+}
+
+/* statement viewer的table*/
+.t-sv
+{
+	border: 1px solid #000000 !important;
+	width: 100%;
+}
+
+.t-sv2
+{
+	width: 100%;
+}
+
+.t-sv-td
+{
+	border: 1px solid #000000 !important;
+}
+
+.t-sv-td2
+{
+	border-left: 1px solid #000000 !important;
+	border-right: 1px solid #000000 !important;
+}
+
+.t-sv-td3
+{
+	text-align: center;
+}
+
+.t-sv-td4
+{
+	text-align: right;
+}
+
+.t-sv-td5
+{
+	vertical-align: top !important;
+}
+
+.t-sv-td6
+{
+	padding-left: 10px;
+}
+
+.t-sv-td7
+{
+	padding-right: 10px;
+}
+
+/* bootgrid的table */
+.t-bg-head
+{
+	text-align: right;
+}
+
+.t-bg-head2
+{
+	text-align: center;
+}
+
+.t-bg-head3
+{
+	text-align: center;
+	width: 150px;
+}
+
+.t-bg-cell
+{
+	text-align: right;
+	padding-right: 20px !important;
+}
+
+.t-bg-cell2
+{
+	text-align: center;
+}
+
+.textarea
+{
+	resize: none;
+	border: 1px solid #ccc !important;
+}
+
+/* Feedback回复对话框 */
+.chat-l
+{
+	word-wrap: break-word;
+	width: 100%;
+	min-height: 80px;
+	float: left;
+	background-color: #87CEEB;
+	padding: 20px 20px 20px 20px !important;
+	border-radius: 10px;
+	-moz-box-shadow:2px 2px 2px hsla(0, 0%, 0%, 0.3);  
+	-webkit-box-shadow:2px 2px 2px hsla(0, 0%, 0%, 0.3);  
+	box-shadow:2px 2px 2px hsla(0, 0%, 0%, 0.3); 
+}
+
+.chat-l-t
+{
+	text-align: left !important;
+}
+
+.chat-l-b
+{
+	text-align: left !important;
+}
+
+.chat-r
+{
+	word-wrap: break-word;
+	width: 100%;
+	min-height: 80px;
+	float: right;
+	background-color: #FFE4B5;
+	text-align: right !important;
+	padding: 20px 20px 20px 20px !important;
+	border-radius: 10px;
+	-moz-box-shadow:2px 2px 2px hsla(0, 0%, 0%, 0.3);  
+	-webkit-box-shadow:2px 2px 2px hsla(0, 0%, 0%, 0.3);  
+	box-shadow:2px 2px 2px hsla(0, 0%, 0%, 0.3); 
+}
+
+.chat-r-t
+{
+	text-align: right !important;
+}
+
+.chat-r-b
+{
+	text-align: left !important;
+}
+
+.p-contactus-1
+{
+	color: #4BB5E7;
+	font-size: 5rem;
+}
+
+.p-contactus-2
+{
+	color: #1C578F;
+	font-size: 2.2rem;
+}
+
+.td-changepsw
+{
+	color: #1C578F;
+	font-size: 1.8rem;
+	text-align: right;
+	padding-right: 10px;
+}
+
+.td-homepage-summary
+{
+	font-size: 12px; 
+	text-align: center;
+}

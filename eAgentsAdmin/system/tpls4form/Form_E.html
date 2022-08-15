@@ -1,0 +1,636 @@
+﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta http-equiv="X-UA-Compatible" content="IE=EDGE" />    
+    <link rel="Stylesheet" href="../../js/bootstrap-4.3.1-dist/css/bootstrap.min.css" media="screen,print" />    
+    <link rel="stylesheet" href="../../js/font-awesome-4.7.0/css/font-awesome.min.css" />
+    <!--[if (gte IE 9)|!(IE)]><!-->
+    <script type="text/javascript" src="../../js/jQuery/jquery-3.2.1.min.js"></script>
+    <!--<![endif]-->
+    <!--[if lte IE 8]>
+    <script src="/js/jQuery/jquery-1.11.1.min.js"></script>
+    <script src="/js/modernizr.js"></script>
+    <script src="/js/AmazeUI/assets/js/amazeui.ie8polyfill.min.js"></script>
+    <![endif]-->    
+    <script type="text/javascript" src="../../js/bootstrap-4.3.1-dist/js/bootstrap.min.js"></script>   
+    <script src="../../js/vue.js" type="text/javascript"></script>
+    <script src="../../js/vue-resource.min.js" type="text/javascript"></script>     
+    <script src="../../js/SiteJScript.js" type="text/javascript"></script> 
+    <title>Form E</title>
+    <style>
+        .eform-input{
+            border-top:0px;
+            border-left:0px; 
+            border-right:0px; 
+            border-color:Black;          
+            border-radius:0px;
+        }         
+        .eform-input-noborder{
+            border-top:0px;
+            border-left:0px; 
+            border-right:0px; 
+            border-bottom:0px;                         
+        }
+        
+        .bb{border-bottom:1px solid; }
+        
+        .ls-0 {letter-spacing:0.05rem;}        
+        .ls-1 {letter-spacing:0.15rem;}
+        .ls-2 {letter-spacing:0.30rem;}
+        .ls-3 {letter-spacing:0.50rem;}
+        .ls-4 {letter-spacing:0.75rem;}
+        .ls-5 {letter-spacing:1.05rem;}
+        
+        @media print
+        {
+        	.container{
+        		width:649px;
+        		height:978px;
+        		}
+        		
+        	#cmds{
+        		display:none;
+        		}
+        }
+    </style>
+</head>
+<body>
+    <div class="container" id="vu-det">
+        <div class="row">    
+            <div class="col-12">  
+                <h2 class="text-center ls-5">CHEUNG KONG CENTER</h2> 
+                <h4 class="text-center ls-2">[公眾範圍]工程許可證申請表</h4>
+                <h4 class="text-center ls-1" style=" border-bottom:1px solid black;">APPLICATION FOR WORK COMMENCEMENT PERMIT [COMMON AREA]</h4>                
+                <div v-html="dom.htmls.FORM_HEADER_HTML"></div>
+            </div>
+        </div>
+        
+        <!-- border box 1-->
+        <div style="border:1px solid black; padding:0.2rem;">        
+            <div class="row justify-content-center">                   
+                <div class="col-2 text-center ls-2">申请人</div>
+                <div class="w-100"></div>
+                <div class="col-2 text-center"><span class="bb">REQUISTION</span></div>
+            </div>
+
+            <div class="form-group row">
+                <label for="input-contractor-name" class="col-sm-4 col-form-label">
+                    {{dom.loaded?dom.controls.Contractor_Name.field_dispcn:''}}
+                    <br />  
+                    {{dom.loaded?dom.controls.Contractor_Name.field_dispen:''}}
+                </label>
+	            <div class="col-sm-8 align-self-center ">
+	                <input type="text" class="form-control eform-input" id="input-contractor-name" />                     
+	            </div>
+            </div>
+            
+            <!-- 子表表格 -->
+            <table class="table table-bordered table-sm sub-tbl" >
+                 <thead>
+                    <tr>
+                        <th colspan="3" class="text-center">
+                            {{dom.loaded?dom.subctrls.Sub_Tilte.field_dispcn:""}}({{dom.loaded?dom.subctrls.Sub_Tilte.field_dispen:""}})
+                        </th>                        
+                    </tr>
+                    <tr>
+                        <th rowspan="2" class=" align-content-lg-start">
+                            {{dom.loaded?dom.subctrls.Contactor.field_dispcn:""}}<br/>{{dom.loaded?dom.subctrls.Contactor.field_dispen:""}}
+                        </th>
+                        <th colspan="2" class="text-center">{{dom.loaded?dom.subctrls.TelNo.field_dispcn:""}}({{dom.loaded?dom.subctrls.TelNo.field_dispen:""}})</th>                        
+                    </tr>
+                    <tr>
+                        <th>{{dom.loaded?dom.subctrls.MobileNo.field_dispcn:""}}({{dom.loaded?dom.subctrls.MobileNo.field_dispen:""}})</th>
+                        <th>{{dom.loaded?dom.subctrls.OfficeNo.field_dispcn:""}}({{dom.loaded?dom.subctrls.OfficeNo.field_dispen:""}})</th>                                            
+                    </tr>
+                 </thead>
+                 <tbody>
+                    <tr v-for="row in dom.subdata.rows">
+                        <td>{{row.cols.Contactor.fmdt_value}}</td>                                               
+                        <td>{{row.cols.MobileNo.fmdt_value}}</td>
+                        <td>{{row.cols.OfficeNo.fmdt_value}}</td>
+                    </tr>
+                 </tbody>
+            </table>
+            
+            <div class="form-group row">
+                <label for="input-work-location" class="col-sm-4 col-form-label">
+                    {{dom.loaded?dom.controls.Work_Location.field_dispcn:''}}
+                    <br />  
+                    {{dom.loaded?dom.controls.Work_Location.field_dispen:''}}
+                </label>
+	            <div class="col-sm-8 align-self-center ">
+	                <input type="text" class="form-control eform-input" id="input-work-location"
+                         :value="dom.loaded?dom.controls.Work_Location.fmdt_value:''"
+                         :readonly="dom.loaded?isReadonly(dom.controls.Work_Location.field_editctrl):false" />                     
+	            </div>
+            </div>
+
+            <div class="form-group row">
+                <label for="input-work-desc" class="col-sm-4 col-form-label">
+                    {{dom.loaded?dom.controls.Work_Description.field_dispcn:''}}
+                    <br />  
+                    {{dom.loaded?dom.controls.Work_Description.field_dispen:''}}
+                </label>
+	            <div class="col-sm-8 align-self-center ">
+	                <input type="text" class="form-control eform-input" id="input-work-desc"
+                         :value="dom.loaded?dom.controls.Work_Description.fmdt_value:''"
+                         :readonly="dom.loaded?isReadonly(dom.controls.Work_Description.field_editctrl):false" />                     
+	            </div>
+            </div>
+        
+            <div class="form-group row">
+                <label for="input-reason-plan" class="col-sm-4 col-form-label">
+                    {{dom.loaded?dom.controls.Reason_Plans.field_dispcn:''}}
+                    <br />  
+                    {{dom.loaded?dom.controls.Reason_Plans.field_dispen:''}}
+                </label>
+	            <div class="col-sm-8 align-self-center ">
+	                <input type="text" class="form-control eform-input" id="input-reason-plan"
+                         :value="dom.loaded?dom.controls.Reason_Plans.fmdt_value:''"
+                         :readonly="dom.loaded?isReadonly(dom.controls.Reason_Plans.field_editctrl):false" />                     
+	            </div>
+            </div>
+       
+            <div class="form-group row">
+                <label for="input-work-comence" class="col-sm-4 col-form-label">
+                    {{dom.loaded?dom.controls.Work_CommenceDate.field_dispcn:''}}
+                    <br />  
+                    {{dom.loaded?dom.controls.Work_CommenceDate.field_dispen:''}}
+                </label>
+	            <div class="col-sm-8 align-self-center ">
+	                <input type="text" class="form-control eform-input" id="input-work-comence"
+                         :value="dom.loaded?dom.controls.Work_CommenceDate.fmdt_value:'' |fmtDate "
+                         :readonly="dom.loaded?isReadonly(dom.controls.Work_CommenceDate.field_editctrl):false" />                     
+	            </div>
+            </div>
+
+            <div class="form-group row">
+                <label for="input-work-duration" class="col-sm-4 col-form-label">
+                    {{dom.loaded?dom.controls.Work_Duration.field_dispcn:''}}
+                    <br />  
+                    {{dom.loaded?dom.controls.Work_Duration.field_dispen:''}}
+                </label>
+                <label for="input-work-dateform" class="col-sm-1 col-form-label col-form-label-sm">
+                    {{dom.loaded?dom.controls.Work_DateFrom.field_dispcn:''}}
+                    <br />  
+                    {{dom.loaded?dom.controls.Work_DateFrom.field_dispen:''}}
+                </label>            
+	            <div class="col-sm-2 align-self-center ">
+	                <input type="text" class="form-control eform-input form-control-sm" id="input-work-datefrom"
+                         :value="dom.loaded?dom.controls.Work_DateFrom.fmdt_value:'' | fmtDate"
+                         :readonly="dom.loaded?isReadonly(dom.controls.Work_DateFrom.field_editctrl):false" />                     
+	            </div>
+                <div class="col-sm-1 align-self-center">
+	                <input type="text" class="form-control eform-input form-control-sm" id="input-work-timefrom"
+                         :value="dom.loaded?dom.controls.Work_TimeFrom.fmdt_value:''"
+                         :readonly="dom.loaded?isReadonly(dom.controls.Work_TimeFrom.field_editctrl):false" />                     
+	            </div>
+                <label for="input-work-dateTo" class="col-sm-1 col-form-label col-form-label-sm">
+                    {{dom.loaded?dom.controls.Work_DateTo.field_dispcn:''}}
+                    <br />  
+                    {{dom.loaded?dom.controls.Work_DateTo.field_dispen:''}}
+                </label>  
+                <div class="col-sm-2 align-self-center ">
+	                <input type="text" class="form-control eform-input form-control-sm" id="input-work-dateto"
+                         :value="dom.loaded?dom.controls.Work_DateTo.fmdt_value:'' | fmtDate"
+                         :readonly="dom.loaded?isReadonly(dom.controls.Work_DateTo.field_editctrl):false" />                     
+	            </div>
+                <div class="col-sm-1 align-self-center ">
+	                <input type="text" class="form-control eform-input form-control-sm" id="input-work-timeto"
+                         :value="dom.loaded?dom.controls.Work_TimeTo.fmdt_value:''"
+                         :readonly="dom.loaded?isReadonly(dom.controls.Work_TimeTo.field_editctrl):false" />                     
+	            </div>
+            </div>
+        
+            <div class="form-group row">
+                <label for="input-workers" class="col-sm-4 col-form-label">
+                    {{dom.loaded?dom.controls.Workers_Number.field_dispcn:''}}
+                    <br />  
+                    {{dom.loaded?dom.controls.Workers_Number.field_dispen:''}}
+                </label>
+	            <div class="col-sm-8 align-self-center ">
+	                <input type="text" class="form-control eform-input" id="input-workers"
+                         :value="dom.loaded?dom.controls.Workers_Number.fmdt_value:''"
+                         :readonly="dom.loaded?isReadonly(dom.controls.Workers_Number.field_editctrl):false" />                     
+	            </div>
+            </div>
+         </div>
+        <br />
+        
+        <!-- border box 2 -->
+        <div style="border:1px solid black; padding:0.5rem;">
+            <div class="row">
+                <div class="col-4">
+                    {{dom.loaded?dom.controls.Tenant_Contactor.field_dispen:''}}
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col-4">
+                     <input type="text" class="form-control eform-input" id="input-tc-authperson"
+                         :value="dom.loaded?dom.controls.TenC_AuthorPerson.fmdt_value:''"
+                         :readonly="dom.loaded?isReadonly(dom.controls.TenC_AuthorPerson.field_editctrl):false" />            
+                </div>
+                <div class="col-4">                           
+                </div>
+                <div class="col-4 text-center">
+                     <input type="text" class="form-control eform-input" id="input-tc-authdate"
+                         :value="dom.loaded?dom.controls.TenC_AuthorDate.fmdt_value:'' | fmtDate"
+                         :readonly="dom.loaded?isReadonly(dom.controls.TenC_AuthorDate.field_editctrl):false" />            
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col-4 text-center">
+                    {{dom.loaded?dom.controls.TenC_AuthorPerson.field_dispcn:''}}<br/>
+                    {{dom.loaded?dom.controls.TenC_AuthorPerson.field_dispen:''}}
+                </div>
+                <div class="col-4 text-center">
+                   
+                </div>
+                <div class="col-4 text-center">
+                    {{dom.loaded?dom.controls.TenC_AuthorDate.field_dispcn:''}}<br/>
+                    {{dom.loaded?dom.controls.TenC_AuthorDate.field_dispen:''}}
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col-4">
+                    {{dom.loaded?dom.controls.Tenant.field_dispcn:''}} <br/>
+                    {{dom.loaded?dom.controls.Tenant.field_dispen:''}} 
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col-4">
+                     <input type="text" class="form-control eform-input" id="input-ten-authperson"
+                         :value="dom.loaded?dom.controls.Ten_AuthorPerson.fmdt_value:''"
+                         :readonly="dom.loaded?isReadonly(dom.controls.Ten_AuthorPerson.field_editctrl):false" />            
+                </div>
+                <div class="col-4">                     
+                </div>
+                <div class="col-4">
+                     <input type="text" class="form-control eform-input" id="input-ten-authdate" 
+                         :value="dom.loaded?dom.controls.Ten_AuthorDate.fmdt_value:'' | fmtDate"
+                         :readonly="dom.loaded?isReadonly(dom.controls.Ten_AuthorDate.field_editctrl):false" />            
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col-4 text-center">
+                    {{dom.loaded?dom.controls.Ten_AuthorPerson.field_dispcn:''}}<br/>
+                    {{dom.loaded?dom.controls.Ten_AuthorPerson.field_dispen:''}}
+                </div>
+                <div class="col-4 text-center">                  
+                </div>
+                <div class="col-4 text-center">
+                    {{dom.loaded?dom.controls.Ten_AuthorDate.field_dispcn:''}}<br/>
+                    {{dom.loaded?dom.controls.Ten_AuthorDate.field_dispen:''}}
+                </div>
+            </div>
+        </div>
+        <br />
+
+        <!-- border box 3-->
+        <div style="border:1px solid black; padding:0.5rem;">
+            <div class="row justify-content-center">                   
+                <div class="col-3 text-center ls-2">核准人</div>
+                <div class="w-100"></div>
+                <div class="col-3 text-center"><span class="bb">APPROVAL</span></div>
+            </div>
+
+            <!-- Office user input-->
+            <div class="row" id="office-user">
+                <div class="col-12">
+                    <table class="table table-bordered table-sm">               
+                        <thead>
+                            <tr>
+                                <th style="width:25%">Operation</th>
+                                <th style="width:15%">Last Update By</th>
+                                <th style="width:25%">Remarks</th>
+                                <th class="reject" style="width:15%" v-if="!hideReject">Reject By</th>
+                                <th class="reject" style="width:20%" v-if="!hideReject">Reject Reason</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr v-for="item in dom.flowinfo">
+                                <td>{{item.oper_curseq==item.fwde_seq?'*':'&nbsp'}}{{item.fwde_name}}</td>
+                                <td>{{item.fmfw_updateby}}/{{item.fmfw_updatedate|fmtDate('m')}}</td>                            
+                                <!-- 这里有点复杂，如果再有条件的话，则放到函数里去。-->
+                                <td><input type="text" class="form-control form-control-sm eform-input-noborder" :alt="item.fwde_id" :value="item.fmfw_remarks" :readonly="dom.privilege[0]?dom.privilege[0].oper_save=='Y'?item.oper_curseq==item.fwde_seq?false:true:true:true" /></td>
+                                <td class="reject" v-if="!hideReject">{{item.fmfw_rejectby}}/{{item.fmfw_rejectdate|fmtDate('m')}}</td>
+                                <td class="reject" v-if="!hideReject">{{item.fmfw_rejectreason}}</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>        
+            </div>
+        </div>
+
+        <!-- attachments -->
+        <div class="row">
+            <div class="col-6">
+                <ul class="list-group">
+                  <li class="list-group-item" v-for="item in dom.atchs"><a :href="item.Fmat_FileUrl">{{item.Fmat_FileName}}</a></li>          
+                </ul>
+            </div>
+        </div>
+
+        <!-- footer -->
+        <div class="row mb-2">
+            <div class="col-12" v-html="dom.htmls.FORM_FOOTER_HTML"></div>
+        </div>     
+        
+        <div class="row mb-5">            
+        </div>
+        
+        <!-- command -->
+        <div class="row fixed-bottom text-right bg-light" v-if="paras.from!='def'" id="cmds">
+            <div class="offset-6 mb-2">
+            </div>
+            <div class="col-sm-5 mt-2 mb-2">
+                <a class="btn btn-secondary" :href="'../eoper.aspx?pidx='+ paras.pidx">Close</a>
+                <button class="btn btn-warning" v-on:click="html2pdf($event)">Print PDF</button>
+                <button class="btn btn-primary" v-on:click="save($event)" :disabled="dom.loaded && dom.privilege[0]?dom.privilege[0].oper_save=='N':false">Save</button>
+                <button class="btn btn-info" v-on:click="submit($event)" :disabled="dom.loaded && dom.privilege[0]?dom.privilege[0].oper_submit=='N':false">Submit</button>
+                <button class="btn btn-danger" data-toggle="modal" data-target="#modal-reject" v-on:click="preject" :disabled="dom.loaded && dom.privilege[0]?dom.privilege[0].oper_reject=='N':false">Reject</button>
+                <button class="btn btn-success" v-on:click="close($event)" :disabled="dom.loaded && dom.privilege[0]?dom.privilege[0].oper_finish=='N':false">Complete</button>
+            </div>            
+        </div>       
+
+        <!-- 驳回原因提示框 -->
+        <div class="modal" tabindex="-1" role="dialog" id="modal-reject">
+            <div class="modal-dialog" role="document">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title">Hint</h5>
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                            <span aria-hidden="true">&times;</span>
+                        </button>
+                    </div>
+                    <div class="modal-body">
+                        <div class="form-group">
+                            <label for="txt-reason">Please input a reason for rejection:</label>
+                            <textarea class="form-control" id="txt-reason" rows="3"></textarea>
+                        </div>
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                        <button type="button" class="btn btn-primary" id="btn-confirm">Confirm</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script type="text/javascript">
+        var vm = null;
+        $(document).ready(function () {
+            vm = new Vue({
+                el: "#vu-det",
+                data: {
+                    dom: {
+                        loaded: false,  // 是否已经加载完毕，加载controls对象有延迟，直接绑定会出错，所以加入此变量用来标识。                        
+                        privilege: [],  // 用于按钮权限操作控制（根据derek的设计，始终只有一条数据）
+                        flowinfo: [],   // get_eflow_info 过程返回 
+                        controls: {},   // 控件列表里有个field_editctrl字段，值定义如下， T:前台用户；S：staff; B:both ； N:disabled
+                        subctrls: {},   // 子表schema 
+                        subdata: {
+                            rows: []
+                        },    // 子表数据 
+                        atchs: [],
+                        htmls: {}       // v-html值绑定，用于header，content，footer
+                    },
+                    lang: "",
+                    paras: {
+                        fmtbid: 140000,        //常量
+                        fmtbcode: "FORM_E",    //常量
+                        formid: 0,
+                        operid: 0,
+                        fwdeseq: 0,
+                        loginname: "",
+                        groupname: "",
+                        refno: "",
+                        pidx: 0,        //跳转源当前页(eoper.aspx)，用户返回源时带出页码
+                        from: ""        //来源。 “def”表示定义页
+                    }
+                },
+                computed: {
+                    hideReject: function () {
+                        for (var i = 0; i < this.dom.flowinfo.length; i++) {
+                            if (this.dom.flowinfo[i].fmfw_rejectby) {
+                                return false;
+                            }
+                        }
+                        return true;
+                    }
+                },
+                filters: {                    
+                    fmtDate: function (v, m) {     //“日期”过滤器，字符串形式
+                        if (m) {
+                            return this.vm ? df(v, "yyyy-mm-dd hh:mi") : "";
+                        } else
+                            return this.vm ? df(v, "yyyy-mm-dd") : "";
+                    }
+                },
+                methods: {
+                    init: function () {
+                        this.paras.operid = qs(window.location.href, 'operid');
+                        this.paras.formid = qs(window.location.href, 'formid');
+                        this.paras.loginname = qs(window.location.href, 'loginname');
+                        this.paras.groupname = qs(window.location.href, 'groupname');
+                        this.paras.from = qs(window.location.href, 'from');
+                        this.paras.refno = qs(window.location.href, 'refno');
+                        this.paras.fwdeseq = qs(window.location.href, 'fwdeseq');
+                        this.paras.pidx = qs(window.location.href, 'pidx');
+                        this.lang = qs(window.location.href, 'lang');
+                        this.load();
+                    },
+                    timeout: function () {
+                        window.location.href = "../../98.html";
+                    },
+                    load: function () {                        
+                        var that = this;
+                        this.$http.post("../ajax.ashx?act=load", this.paras, { emulateJSON: true }).then(function (res) {
+                            if (res.body.err_code != 0) {
+                                if (res.body.err_code == -98) {
+                                    that.timeout();
+                                } else
+                                    alert(res.body.err_msg);
+                            } else {                               
+                                //这里需要把fields数组转换成哈希列表。注意：这里的“field_code”必须唯一。
+                                for (var i = 0; i < res.body.result.fields.length; i++) {
+                                    that.dom.controls[trim(res.body.result.fields[i].field_code)] = res.body.result.fields[i];
+                                }                               
+                                that.dom.htmls = res.body.result.defs[0];
+                                that.dom.flowinfo = res.body.result.flowinfo;
+                                that.dom.privilege = res.body.result.privilege;
+                                that.dom.atchs = res.body.result.atchs;
+                                that.dom.subctrls = that.hashing(res.body.result.subctrls, 'field_code');
+                                that.dom.subdata = res.body.result.subdata;
+                                for (var i = 0; i < res.body.result.subdata.rows.length; i++) {
+                                    that.dom.subdata.rows[i].cols = that.hashing(that.dom.subdata.rows[i].cols, "field_code");
+                                }
+                                that.dom.loaded = true;
+                            }
+                        }, function (err) {
+                            console.log(err);
+                        });
+                    },
+                    hashing: function (arr, key) {
+                        var hashed = {}
+                        for (var i = 0; i < arr.length; i++) {
+                            if (arr[i][key]) {
+                                hashed[arr[i][key]] = arr[i];
+                            }
+                        }
+                        return hashed;
+                    },
+                    save: function (e) {
+                        mask(".fixed-bottom", "on");
+                        e.target.disabled = true;
+                        var that = this;
+                        this.paras['remark'] = $("#office-user input[readonly!='readonly']").val();
+                        this.paras['fwdeid'] = $("#office-user input[readonly!='readonly']").attr('alt');
+
+                        this.$http.post("../ajax.ashx?act=save_140000", this.paras, { emulateJSON: true }).then(function (res) {
+                            if (res.body.err_code != 0) {
+                                if (res.body.err_code == -98) {
+                                    that.timeout();
+                                } else
+                                    alert(res.body.err_msg);
+                            } else {
+                                if (res.body.result) {
+                                    alert('Save success');
+                                    that.load();
+                                } else {
+                                    alert('Save failure');
+                                }
+                            }
+                            e.target.disabled = false;
+                            mask(".fixed-bottom", "off");
+                        }, function (err) {
+                            console.log(err);
+                            e.target.disabled = false;
+                            mask(".fixed-bottom", "off");
+                        });
+                    },
+                    submit: function (e) {
+                        mask(".fixed-bottom", "on");
+                        e.target.disabled = true;
+                        var that = this;
+                        this.paras['remark'] = $("#office-user input[readonly!='readonly']").val();
+                        this.paras['fwdeid'] = $("#office-user input[readonly!='readonly']").attr('alt');
+                        this.$http.post("../ajax.ashx?act=submit_processed_eform", this.paras, { emulateJSON: true }).then(function (res) {
+                            if (res.body.err_code != 0) {
+                                if (res.body.err_code == -98) {
+                                    that.timeout();
+                                } else
+                                    alert(res.body.err_msg);
+                            } else {
+                                if (res.body.result) {
+                                    alert('Approval success');
+                                    that.load();
+                                } else {
+                                    alert('Submit failure');
+                                }
+                            }
+                            e.target.disabled = false;
+                            mask(".fixed-bottom", "off");
+                        }, function (err) {
+                            console.log(err);
+                            e.target.disabled = false;
+                            mask(".fixed-bottom", "off");
+                        });
+                    },
+                    preject: function () {
+                        var that = this;
+                        $("#btn-confirm").off('click');
+                        $("#btn-confirm").on('click', function (e) {
+                            e.target.disabled = true;
+                            that.paras["reason"] = $("#txt-reason").val();
+                            that.$http.post("../ajax.ashx?act=reject_processed_eform", that.paras, { emulateJSON: true }).then(function (res) {
+                                if (res.body.err_code != 0) {
+                                    if (res.body.err_code == -98) {
+                                        that.timeout();
+                                    } else
+                                        alert(res.body.err_msg);
+                                } else {
+                                    if (res.body.result) {
+                                        alert('Reject success');
+                                        that.cleanup();
+                                        that.load();
+                                    } else {
+                                        alert('Reject failure');
+                                    }
+                                }
+                                e.target.disabled = false;
+                            }, function (err) {
+                                console.log(err);
+                                e.target.disabled = false;
+                            });
+                        });
+                    },
+                    close: function (e) {
+                        mask(".fixed-bottom", "on");
+                        e.target.disabled = true;
+                        var that = this;
+                        this.paras['remark'] = $("#office-user input[readonly!='readonly']").val();
+                        this.paras['fwdeid'] = $("#office-user input[readonly!='readonly']").attr('alt');
+                        this.$http.post("../ajax.ashx?act=close_processed_eform", this.paras, { emulateJSON: true }).then(function (res) {
+                            if (res.body.err_code != 0) {
+                                if (typeof (res.body.err_code) == "undefined" || res.body.err_code == -98) {
+                                    that.timeout();
+                                } else
+                                    alert(res.body.err_msg);
+                            } else {
+                                if (res.body.result) {
+                                    alert('Completed');
+                                    that.cleanup();
+                                    that.load();
+                                } else {
+                                    alert('Can not complete');
+                                }
+                            }
+                            e.target.disabled = false;
+                            mask(".fixed-bottom", "off");
+                        }, function (err) {
+                            console.log(err);
+                            e.target.disabled = false;
+                            mask(".fixed-bottom", "off");
+                        });
+                    },
+                    cleanup: function () {
+                        $("#modal-reject").modal('hide');
+                        $("#txt-reason").val("");
+                    },
+                    isReadonly: function (v) {
+                        if (v.indexOf('T') >= 0 || v.indexOf('N') >= 0) {
+                            return true;
+                        } else
+                            return false;
+                    },
+                    html2pdf: function (e) {
+                        var that = this;
+                        e.target.disabled = true;
+                        this.$http.post("../ajax.ashx?act=html2pdf", this.paras, { emulateJSON: true }).then(function (res) {
+                            if (res.body.err_code != 0) {
+                                if (typeof (res.body.err_code) == "undefined" || res.body.err_code == -98) {
+                                    that.timeout();
+                                } else
+                                    alert("[html2pdf] with error:\r\n" + res.body.err_msg);
+                            } else {
+                                if (res.body.result.vPath) {
+                                    window.open(res.body.result.vPath);
+                                }
+                            }
+                            e.target.disabled = false;
+                        });
+                    }
+                }
+            });
+            vm.init();
+        });
+    </script>
+</body>
+</html>
